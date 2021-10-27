@@ -1,5 +1,6 @@
 #Stage
 
+Deze repository zal mijn stage portfolio bevatten en zal gehost worden op github pages
 
 # Getting Started with Create React App
 
