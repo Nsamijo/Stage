@@ -6,7 +6,7 @@ import App from "./components/home/Home";
 
 ReactDOM.render(
     <React.StrictMode>
-      <BrowserRouter>
+      <BrowserRouter basename="/stage" forceRefresh={true} >
         <App/>
       </BrowserRouter>
     </React.StrictMode>,
