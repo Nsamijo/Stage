@@ -1,5 +1,5 @@
 import React from "react";
-import Navigation from "../Navigation";
+import Navigation from "../navigation/Navigation";
 import {Container, Row} from "react-bootstrap";
 import {Route, Switch} from "react-router-dom";
 import About from "../about/about";
