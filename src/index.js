@@ -6,7 +6,7 @@ import App from "./app";
 
 ReactDOM.render(
     <React.StrictMode>
-      <BrowserRouter basename="/stage" forceRefresh={true} >
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <App/>
       </BrowserRouter>
     </React.StrictMode>,
