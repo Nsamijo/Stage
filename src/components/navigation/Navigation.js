@@ -1,12 +1,10 @@
 import React from "react";
 import {Container, Navbar, Nav, NavDropdown} from "react-bootstrap";
-import {Route, Router, Switch} from "react-router-dom";
-import About from "../about/about";
 
 class Navigation extends React.Component {
     render() {
         return (
-            <Router history={this.state.history}>
+            <>
                 <Navbar bg="light" expand="lg">
                     <Container>
                         <Navbar.Brand href="/Stage">Portfolio Nathan K. Samijo</Navbar.Brand>
@@ -25,10 +23,7 @@ class Navigation extends React.Component {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-                <Switch>
-                    <Route path="/about" exact render={<About/>}/>
-                </Switch>
-            </Router>
+            </>
         );
     }
 }
