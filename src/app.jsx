@@ -26,6 +26,11 @@ function App() {
                                     <Nav.Link activeClassName="chosen">
                                         <Link
                                             to="/About"
+                                            style={{
+                                                color: 'inherit',
+                                                textDecoration: 'inherit',
+                                                display: 'contents'
+                                            }}
                                         >
                                             About
                                         </Link>
@@ -35,14 +40,16 @@ function App() {
                     </Container>
                 </Navbar>
                 {/*Navigation*/}
-                <div className="Content">
-                    <Route exact path="/">
-                        <Home/>
-                    </Route>
-                    <Route exact path="/About">
-                        <About/>
-                    </Route>
-                </div>
+                <Container>
+                    <div className="Content">
+                        <Route exact path="/">
+                            <Home/>
+                        </Route>
+                        <Route exact path="/About">
+                            <About/>
+                        </Route>
+                    </div>
+                </Container>
             </div>
         </Router>
     )
