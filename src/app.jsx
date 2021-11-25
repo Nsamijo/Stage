@@ -10,7 +10,7 @@ function App() {
                     <Navigation/>
                 <div className="Content">
                     <Switch>
-                        <Route path="/Stage/About">
+                        <Route path="/About">
                             <About/>
                         </Route>
                     </Switch>

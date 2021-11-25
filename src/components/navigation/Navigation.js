@@ -17,7 +17,7 @@ class Navigation extends React.Component {
                                     <NavDropdown.Item href="#action/3.3">Realiseren</NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.3">Professional Skills</NavDropdown.Item>
                                 </NavDropdown>
-                                <Nav.Link href="Stage/About" activeClassName="chosen">About</Nav.Link>
+                                <Nav.Link href="/About" activeClassName="chosen">About</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
