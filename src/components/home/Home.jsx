@@ -1,20 +1,17 @@
 import React from "react";
-import {Container} from "react-bootstrap";
 
 import './Home.css';
 
-class Home extends React.Component {
-  render () {
+const Home = () => {
     return (
-        <Container>
-            {/*<Switch>*/}
-            {/*  <Route path="/about">*/}
-            {/*    <About/>*/}
-            {/*  </Route>*/}
-            {/*</Switch>*/}
-        </Container>
+        <>
+        <div>
+            <h1>
+                Hello there!
+            </h1>
+        </div>
+        </>
     );
-  }
 }
 
 export default Home;
