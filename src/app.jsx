@@ -1,6 +1,6 @@
 import React from "react";
 import Navigation from "./components/navigation/Navigation";
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {HashRouter as Router, Switch, Route} from "react-router-dom";
 import About from "./components/about/about";
 
 function App() {
