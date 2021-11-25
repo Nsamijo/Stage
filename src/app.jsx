@@ -1,13 +1,22 @@
 import React from "react";
 import Navigation from "./components/navigation/Navigation";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import About from "./components/about/about";
 
 function App() {
     return (
-        <div className="App">
-            <header>
-                <Navigation/>
-            </header>
-        </div>
+        <Router>
+            <div className="App">
+                    <Navigation/>
+                <div className="Content">
+                    <Switch>
+                        <Route path="/Stage/About">
+                            <About/>
+                        </Route>
+                    </Switch>
+                </div>
+            </div>
+        </Router>
     )
 }
 
