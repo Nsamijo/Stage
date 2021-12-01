@@ -18,8 +18,6 @@ const Home = () => {
                     <li>Werkervaring op te doen</li>
                     <li>Tot nu toe opgedane kennis toe te passen</li>
                 </ul>
-                <br/>
-                <br/>
                 <h3>Stage Bedrijfsomschrijving Nathan K. Samijo</h3>
                 Ik heb gekozen om mijn stage te doen bij Albert Heijn op de afdeling Tech Labs met de focus op innovatie binnen de Albert Heijn. Albert Heijn is een Nederlandse supermarkt keten die inmiddels al ruim 130 jaar bestaat. Met meerdere vestigingen in landen, zoals België, Duitsland en zelfs Curaçao, kan gezegd worden dat Albert Heijn een internationaal bedrijf is.
                 <br/>
