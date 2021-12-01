@@ -13,7 +13,11 @@ const Home = () => {
                     <li>Stage</li>
                     <li>Minor</li>
                 </ol>
-                Voor gedurende 5 tot 6 maanden loop ik (Nathan K. Samijo) mee bij een door mij gekozen bedrijf. Tijdens mijn stage kan ik werkervaring opdoen en mijn tot nu toe opgedane kennis toepassen.
+                Voor gedurende 5 tot 6 maanden loop ik (Nathan K. Samijo) mee bij een door mij gekozen bedrijf. Stage bied mij de mogelijkheid aan om:
+                <ul>
+                    <li>Werkervaring op te doen</li>
+                    <li>Tot nu toe opgedane kennis toe te passen</li>
+                </ul>
                 <br/>
                 <br/>
                 <h3>Stage Bedrijfsomschrijving Nathan K. Samijo</h3>
