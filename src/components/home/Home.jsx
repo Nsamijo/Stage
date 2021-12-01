@@ -37,7 +37,7 @@ const Home = () => {
                     </dd>
                 </dl>
 
-                <h4>Stage Opdracht</h4>
+                <h3>Stage Opdracht</h3>
                 Tijdens mijn stage bij Albert Heijn draait het om het uitvoeren van een innovatieproject van A tot Z. Ik kan meedenken in het bedenken van nieuwe ideeën op basis van technologie en mag deze ook zelf live zetten. Dit doe ik samen in het team van ontwikkelaars. In overleg is onderzoek doen ook mogelijk (maximaal 2 dagen per week).
                 Mijn takenpakket bestaat o.a. uit het volgende werkzaamheden:
                 <ul>
