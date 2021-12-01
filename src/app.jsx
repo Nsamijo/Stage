@@ -8,6 +8,12 @@ function App() {
             <div className="App">
                 <Navigation/>
             </div>
+            <footer>
+                {/*TO DO: ADD FOOTER*/}
+                <div>
+                <br/>
+                </div>
+            </footer>
         </Router>
     )
 }
