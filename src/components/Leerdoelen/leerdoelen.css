@@ -1,0 +1,16 @@
+.carousel-inner {
+  display: flex;
+  height: 500px;
+}
+
+.btn {
+  height: 20px;
+}
+
+.carousel-item {
+  background-color: grey;
+}
+
+.span {
+  color: white;
+}
