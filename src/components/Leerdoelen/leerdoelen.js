@@ -1,5 +1,5 @@
 import React from "react";
-import {Button, Carousel, CarouselItem, Col, Nav, Row} from "react-bootstrap";
+import {Carousel, CarouselItem, Col, Nav, Row} from "react-bootstrap";
 
 import "./leerdoelen.css";
 
