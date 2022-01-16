@@ -27,21 +27,11 @@ const LeerdoelItem = (props) => {
                         </Offcanvas.Title>
                     </Offcanvas.Header>
                     <Offcanvas.Body>
-                        <Container>
-                        <h6>Bewijs volgens Stageplan</h6>
-                        <div>
-                            {props.bewijsStage}
-                        </div>
-                        <br/>
-                        <h6>Inleiding</h6>
-                        <div>
-                            {props.inleiding}
-                        </div>
-                        </Container>
+                        {props.bewijsComponent}
                     </Offcanvas.Body>
             </Offcanvas>
 
-            <Offcanvas show={reflect} onHide={reflectClose} placement={"bottom"} >
+            <Offcanvas show={reflect} onHide={reflectClose} placement={"top"} >
                 <Offcanvas.Header closeButton>
                     <Offcanvas.Title>Reflectie</Offcanvas.Title>
                 </Offcanvas.Header>
@@ -51,7 +41,7 @@ const LeerdoelItem = (props) => {
 
             </Offcanvas>
 
-            <Offcanvas show={feedback} onHide={feedbackClose} placement={"bottom"} >
+            <Offcanvas show={feedback} onHide={feedbackClose} placement={"top"} >
                 <Offcanvas.Header closeButton>
                     <Offcanvas.Title>Feedback</Offcanvas.Title>
                 </Offcanvas.Header>
@@ -60,26 +50,25 @@ const LeerdoelItem = (props) => {
                 </Offcanvas.Body>
 
             </Offcanvas>
-
-            <Container>
-                <Row>
-                    <h1>Beschrijving</h1>
+            <Row className="align-items-center ">
+                <Col lg={6}>
+                    <h2>Leerdoel</h2>
                     <div className="leerdoel">
-                        {props.leerdoel}
+                        {props.beschrijving}
                     </div>
-                </Row>
-                <Row className="buttonRow">
-                    <Col>
+                </Col>
+                <Col lg={6}>
+                    <div className="d-grid gap-2">
                         <Button variant="outline-dark" onClick={evidenceShow}>Bewijs</Button>
-                    </Col>
-                    <Col>
+                    </div>
+                    <div className="d-grid">
                         <Button variant="outline-dark" onClick={reflectShow}>Reflectie</Button>
-                    </Col>
-                    <Col>
+                    </div>
+                    <div className="d-grid">
                         <Button variant="outline-dark" onClick={feedbackShow}>Feedback</Button>
-                    </Col>
-                </Row>
-            </Container>
+                    </div>
+                </Col>
+            </Row>
         </Container>
     )
 }

@@ -1,6 +1,9 @@
 .carousel-inner {
   display: flex;
-  height: 500px;
+}
+
+.row {
+  height: auto !important;
 }
 
 .btn {

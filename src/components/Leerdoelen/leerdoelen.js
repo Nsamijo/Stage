@@ -3,7 +3,8 @@ import {Carousel, CarouselItem, Col, Nav, Row} from "react-bootstrap";
 
 import "./leerdoelen.css";
 import LeerdoelItem from "./leerdoel-item";
-import {analyse, manage} from "../../constants/content";
+import {advice, analyse, design, manage, realise, skills} from "../../constants/content";
+import Manage from "../leerdoelComponents/manage/manage";
 
 const Leerdoelen = () => {
     return (
@@ -34,27 +35,50 @@ const Leerdoelen = () => {
                 <Carousel id="leerdoelen" interval={null} controls={false} indicators={false} slide={false}>
                         <CarouselItem>
                             <LeerdoelItem
-                                leerdoel={manage.leerdoel}
-                                bewijsStage={manage.bewijsStageplan}
-                                inleiding={manage.inleiding}
+                                bewijsComponent={<Manage/>}
+                                beschrijving={manage.leerdoel}
                             />
                         </CarouselItem>
                         <CarouselItem>
-                            <LeerdoelItem leerdoel={analyse.leerdoel}/>
+                            <LeerdoelItem
+                                beschrijving={analyse.leerdoel1}
+                            />
+                            <br/>
+                            <LeerdoelItem
+                                beschrijving={analyse.leerdoel2}
+                            />
                         </CarouselItem>
                         <CarouselItem>
-                            <img className="d-block w-100" src="..." alt="Third slide"/>
+                            <LeerdoelItem
+                                beschrijving={advice.leerdoel}
+                            />
                         </CarouselItem>
                     <CarouselItem>
-                            <span>
-                                Hello World
-                            </span>
+                        <LeerdoelItem
+                            beschrijving={design.leerdoel1}
+                        />
+                        <br/>
+                        <LeerdoelItem
+                            beschrijving={design.leerdoel2}
+                        />
                     </CarouselItem>
                     <CarouselItem>
-                        <img className="d-block w-100" src="..." alt="Second slide"/>
+                        <LeerdoelItem
+                            beschrijving={realise.leerdoel1}
+                        />
+                        <br/>
+                        <LeerdoelItem
+                            beschrijving={realise.leerdoel2}
+                        />
                     </CarouselItem>
                     <CarouselItem>
-                        <img className="d-block w-100" src="..." alt="Third slide"/>
+                        <LeerdoelItem
+                            beschrijving={skills.leerdoel1}
+                        />
+                        <br/>
+                        <LeerdoelItem
+                            beschrijving={skills.leerdoel2}
+                        />
                     </CarouselItem>
                 </Carousel>
             </Col>
