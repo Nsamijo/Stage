@@ -8,9 +8,13 @@
 }
 
 .carousel-item {
-  background-color: grey;
+  background-color: white;
 }
 
 .span {
   color: white;
+}
+
+Nav.Link:active{
+  background-color: grey;
 }

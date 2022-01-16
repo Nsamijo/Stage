@@ -2,7 +2,8 @@ import React from "react";
 import {Carousel, CarouselItem, Col, Nav, Row} from "react-bootstrap";
 
 import "./leerdoelen.css";
-
+import LeerdoelItem from "./leerdoel-item";
+import {analyse, manage} from "../../constants/content";
 
 const Leerdoelen = () => {
     return (
@@ -30,14 +31,16 @@ const Leerdoelen = () => {
                 </Nav>
             </Col>
             <Col sm={12} lg={9}>
-                <Carousel id="leerdoelen" interval={null} controls={false} indicators={false}>
+                <Carousel id="leerdoelen" interval={null} controls={false} indicators={false} slide={false}>
                         <CarouselItem>
-                            <span>
-                                Hello World
-                            </span>
+                            <LeerdoelItem
+                                leerdoel={manage.leerdoel}
+                                bewijsStage={manage.bewijsStageplan}
+                                inleiding={manage.inleiding}
+                            />
                         </CarouselItem>
                         <CarouselItem>
-                            <img className="d-block w-100" src="..." alt="Second slide"/>
+                            <LeerdoelItem leerdoel={analyse.leerdoel}/>
                         </CarouselItem>
                         <CarouselItem>
                             <img className="d-block w-100" src="..." alt="Third slide"/>
