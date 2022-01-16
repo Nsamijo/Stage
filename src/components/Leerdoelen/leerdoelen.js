@@ -32,7 +32,7 @@ const Leerdoelen = () => {
                 </Nav>
             </Col>
             <Col sm={12} lg={9}>
-                <Carousel id="leerdoelen" interval={null} controls={false} indicators={false} slide={false}>
+                <Carousel id="leerdoelen" interval={null} controls={false} indicators={false} slide={false} touch={false}>
                         <CarouselItem>
                             <LeerdoelItem
                                 bewijsComponent={<Manage/>}
