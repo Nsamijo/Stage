@@ -1,5 +1,5 @@
 import React from "react";
-import {Carousel, CarouselItem, Col, Nav, Row} from "react-bootstrap";
+import {Carousel, CarouselItem, Col, Container, Nav, Row} from "react-bootstrap";
 
 import "./leerdoelen.css";
 import LeerdoelItem from "./leerdoel-item";
@@ -28,6 +28,9 @@ const Leerdoelen = () => {
                     </Nav.Item>
                     <Nav.Item >
                         <Nav.Link eventKey="skills" href="#leerdoelen"  data-slide-to="5">Professional Skills</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item >
+                        <Nav.Link eventKey="geheim" href="#leerdoelen"  data-slide-to="6">Stageovereenkomst*</Nav.Link>
                     </Nav.Item>
                 </Nav>
             </Col>
@@ -79,6 +82,14 @@ const Leerdoelen = () => {
                         <LeerdoelItem
                             beschrijving={skills.leerdoel2}
                         />
+                    </CarouselItem>
+                    <CarouselItem>
+                        <Container>
+                            Wegens geheimhoudingsovereenkomsten zullen bepaalde projecten/werkmethodes NIET/VAAG worden benadert. Alles in dit overzicht is gezet met uiterste goedkeuring van mijn Stagebegeleider: Leendert Ullersma
+                            <br/>
+                            <br/>
+                            Beschrijvingen die onder deze geheimhoudingsovereenkomsten zijn zullen worden voorzien van een *
+                        </Container>
                     </CarouselItem>
                 </Carousel>
             </Col>

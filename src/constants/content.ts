@@ -1,6 +1,6 @@
 export const manage = {
     leerdoel: "Ik wil na mijn stage in staat zijn om planmatig te werken.",
-    bewijsStageplan: "Het proces van een project documenteren. Hierbij wordt gedocumenteerd de gebruikte werkmethodiek en hoe ik deze heb gebruikt.",
+    bewijsStageplan: "Het proces van een project documenteren.",
     inleiding: "Om het proces van een project de documenteren zal eerst het werkmethodiek begrepen moeten worden. In Albert Heijn Tech Labs wordt er gebruik gemaakt van Lean variant: Lean Startup."
 }
 
