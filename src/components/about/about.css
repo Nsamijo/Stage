@@ -1,0 +1,11 @@
+.quote {
+    background-color: #f8f9fa;
+    border-left-style: solid !important;
+    border-left: black;
+
+    padding: 2rem
+}
+
+.highlight {
+    font-weight: bold;
+}

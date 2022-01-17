@@ -17,18 +17,6 @@ class Navigation extends React.Component {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav variant="tabs" className="me-auto">
-                                <Nav.Link eventKey="/Stage-Informatie" activeClassName="chosen">
-                                    <Link
-                                        to="/Stage-Informatie"
-                                        style={{
-                                            color: 'inherit',
-                                            textDecoration: 'inherit',
-                                            display: 'contents'
-                                        }}
-                                    >
-                                        Stage Informatie
-                                    </Link>
-                                </Nav.Link>
                                 <Nav.Link eventKey="/Leerdoelen" activeClassName="chosen">
                                     <Link
                                         to="/Leerdoelen"
@@ -50,7 +38,7 @@ class Navigation extends React.Component {
                                             display: 'contents'
                                         }}
                                     >
-                                        About
+                                        Algemene Informatie
                                     </Link>
                                 </Nav.Link>
                             </Nav>
@@ -60,9 +48,6 @@ class Navigation extends React.Component {
                 <Container className="content">
                         <Route exact path="/">
                             <Home/>
-                        </Route>
-                        <Route exact path="/Stage-Informatie">
-                            <h1>Coming Soon</h1>
                         </Route>
                         <Route exact path="/Leerdoelen">
                             <Leerdoelen/>
