@@ -11,6 +11,10 @@
     background-color: #343a40 !important;
 }
 
+.leerdoelGeneral {
+    padding: 2rem;
+}
+
 .leerdoel {
     padding: 2rem;
     font-family: monospace, monospace;
@@ -19,7 +23,7 @@
 }
 
 .offcanvas {
-    height: 70%;
+    height: 75%;
 }
 
 .canvasContainer {

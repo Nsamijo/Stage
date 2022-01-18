@@ -1,0 +1,12 @@
+.project {
+    background-color: #fff;
+}
+
+.start {
+    color: #fff;
+    background-color: aquamarine;
+}
+
+.vertical-timeline-element-icon {
+    box-shadow: 0 0 0 2px black, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%) !important;
+}

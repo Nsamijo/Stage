@@ -50,7 +50,7 @@ const LeerdoelItem = (props) => {
                 </Offcanvas.Body>
 
             </Offcanvas>
-            <Row className="align-items-center ">
+            <Row className="align-items-center leerdoelGeneral">
                 <Col lg={6}>
                     <h2>Leerdoel</h2>
                     <div className="leerdoel">
