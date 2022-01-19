@@ -1,6 +1,6 @@
 import {Accordion, Container, Row} from "react-bootstrap";
 import {manage} from "../../../constants/content";
-import Project from "./documentation/project-doc";
+import Project from "../_documentation/manage/project-doc";
 
 import './manage-leerdoel.css';
 

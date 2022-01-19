@@ -1,0 +1,29 @@
+.image {
+    width: 50rem;
+    height: 25rem;
+    object-fit: contain;
+}
+
+.image2 {
+    width: 50rem;
+    height: 15rem;
+    object-fit: contain;
+}
+
+.index {
+    width: 50rem;
+    height: 20rem;
+    object-fit: contain;
+}
+
+.styling {
+    width: 50rem;
+    height: 25rem;
+    object-fit: contain;
+}
+
+.team {
+    width: 50rem;
+    height: 30rem;
+    object-fit: contain;
+}
