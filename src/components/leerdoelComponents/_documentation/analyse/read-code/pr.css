@@ -1,10 +1,10 @@
-.photo {
+.first {
     width: 50rem;
     height: 25rem;
     object-fit: contain;
 }
 
-.photo2 {
+.second {
     width: 50rem;
     height: 15rem;
     object-fit: contain;

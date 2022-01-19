@@ -34,7 +34,7 @@ const PullRequest = () => {
                     <h3 className="vertical-timeline-element-title">Pull Request Geopened door Mede-Developer</h3>
                     <h6 className="vertical-timeline-element-subtitle">Github</h6>
                     <p>
-                        <img className={"photo"} src={PR} alt={"PR photo"}/>
+                        <img className={"first"} src={PR} alt={"PR"}/>
                     </p>
                     <p>
                         Na het doornemen van de Pull Request omschrijving wordt duidelijk:
@@ -59,7 +59,7 @@ const PullRequest = () => {
                             <li>De index pagina is aangepast om het nieuw component te tonen</li>
                         </ul>
                         <h5>Nieuwe documenten</h5>
-                        <img className={"photo2"} src={Added} alt={"Added files"}/>
+                        <img className={"second"} src={Added} alt={"Added files"}/>
                         <h5>Toevoeging aan Index pagina</h5>
                         <img className={"index"} src={Index} alt={"Index pagina"}/>
                     </p>
