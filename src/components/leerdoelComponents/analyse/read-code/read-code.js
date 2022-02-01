@@ -4,13 +4,9 @@ import PullRequest from "../../_documentation/analyse/read-code/pull-request";
 const ReadCode = () => {
     return (
         <Container>
-            <h5>Bewijs volgens Stageplan</h5>
-            <p>
-                Code van teamleden goedkeuren en deze documenteren door middel van screenshots.
-            </p>
             <h5>Uitwerking</h5>
             <p>
-                Voor functionaliteiten deel mogen uitmaken van de MVP moet deze worden goedgekeurd door anderen. Dit wordt ookwel een Pull Request genoemd.
+                Bij aanpassingen/updates van de  broncode van een applicatie binnen Albert Heijn moet deze eerst worden goedgekeurd door minimaal 2 mensen, waarvan 1 van ze een begeleider moet zijn. Zo een review wordt ook wel een Pull Request genoemd.
             </p>
             <h6>Pull Request</h6>
             <p>

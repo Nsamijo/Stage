@@ -6,6 +6,7 @@ import LeerdoelItem from "./leerdoel-item";
 import {advice, analyse, design, manage, realise, skills} from "../../constants/content";
 import Manage from "../leerdoelComponents/manage/manage";
 import ReadCode from "../leerdoelComponents/analyse/read-code/read-code";
+import Problem from "../leerdoelComponents/analyse/problem/problem";
 
 const Leerdoelen = () => {
     return (
@@ -50,6 +51,7 @@ const Leerdoelen = () => {
                             />
                             <br/>
                             <LeerdoelItem
+                                bewijsComponent={<Problem/>}
                                 beschrijving={analyse.leerdoel2}
                             />
                         </CarouselItem>

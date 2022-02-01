@@ -1,5 +1,4 @@
 import {Accordion, Container, Row} from "react-bootstrap";
-import {manage} from "../../../constants/content";
 import Project from "../_documentation/manage/project-doc";
 
 import './manage-leerdoel.css';
@@ -8,12 +7,6 @@ import './manage-leerdoel.css';
 const Manage = () => {
     return (
         <Container>
-            <Row>
-                <h5>Bewijs volgens Stageplan</h5>
-                <p>
-                    {manage.bewijsStageplan}
-                </p>
-            </Row>
             <Row>
                 <h5>Werkmethodiek</h5>
                 <p>
