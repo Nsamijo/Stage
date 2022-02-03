@@ -10,11 +10,11 @@ const LeerdoelItem = (props) => {
 
     const [reflect, setReflect] = useState(false);
     const reflectClose = () => {setReflect(false)};
-    const reflectShow = () => {setReflect(true)};
+    // const reflectShow = () => {setReflect(true)};
 
     const [feedback, setFeedback] = useState(false);
     const feedbackClose = () => {setFeedback(false)};
-    const feedbackShow = () => {setFeedback(true)};
+    // const feedbackShow = () => {setFeedback(true)};
 
     return (
         <Container>
@@ -61,12 +61,12 @@ const LeerdoelItem = (props) => {
                     <div className="d-grid gap-2">
                         <Button variant="outline-dark" onClick={evidenceShow}>Bewijs</Button>
                     </div>
-                    <div className="d-grid">
-                        <Button variant="outline-dark" onClick={reflectShow}>Reflectie</Button>
-                    </div>
-                    <div className="d-grid">
-                        <Button variant="outline-dark" onClick={feedbackShow}>Feedback</Button>
-                    </div>
+                    {/*<div className="d-grid">*/}
+                    {/*    <Button variant="outline-dark" onClick={reflectShow}>Reflectie</Button>*/}
+                    {/*</div>*/}
+                    {/*<div className="d-grid">*/}
+                    {/*    <Button variant="outline-dark" onClick={feedbackShow}>Feedback</Button>*/}
+                    {/*</div>*/}
                 </Col>
             </Row>
         </Container>

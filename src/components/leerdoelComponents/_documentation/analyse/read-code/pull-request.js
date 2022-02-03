@@ -22,8 +22,7 @@ const PullRequest = () => {
                     contentArrowStyle={{ borderRight: `7px solid  black`}}
                     iconStyle={{ background: `${white}`}}
                     icon={<AiOutlineFlag/>}
-                >
-                </VerticalTimelineElement>
+                />
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: `${white}`, border: 'solid'}}
