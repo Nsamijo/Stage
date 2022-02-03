@@ -8,7 +8,6 @@ const Manage = () => {
     return (
         <Container>
             <Row>
-                <h5>Werkmethodiek</h5>
                 <p>
                     Binnen AH Tech Labs wordt er gebruik gemaakt van:
                     <ul>

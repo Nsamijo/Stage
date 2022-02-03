@@ -6,14 +6,14 @@ const Problem = () => {
         <Container>
             <Row>
                 <p>
-                    Albert Heijn wilt voedselverspilling aanzienlijk verminderen en oogt de voedselverspilling te brengen naar 20 procent voor 2030. Voor dit doel zijn er enkele initiatieven genomen waaronder Dynamisch Afprijzen. Hierbij kreeg AH Tech Labs als vraagstuk:
+                    Albert Heijn wil zijn voedselverspilling verminderen en oogt deze omlaag te brengen naar 20 procent in het jaar 2030. Voor dit doel zijn er enkele initiatieven genomen waaronder Dynamisch Afprijzen. Hierbij kreeg AH Tech Labs als vraagstuk:
                 </p>
                 <p>
                     Hoe kan Albert Heijn zijn klanten, zo enthousiast mogelijk, over Dynamisch Afrpijzen laten weten?
                 </p>
             </Row>
             <Row>
-                <h5>Dynamisch Afprijzen Werking</h5>
+                <h5>Dynamisch Afprijzen Uitleg</h5>
                 <p>
                     Albert Heijn prijst momenteel in supermarkten alle producten af, met 35 procent, die hun houdbaarsheid datum naderen. Dynamisch Afprijzen bouwt hier verder op en houdt in:
                     <p>

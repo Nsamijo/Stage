@@ -76,10 +76,10 @@ const Project = () => {
                     <p>
                         Het team heeft gekozen om het project te noemen: Digitale Koopjeshoek. Het team bestaat uit:
                         <ul>
-                            <li>3 Backend Developers: verantwoordelijk voor de logica (Build.v. het ophalen van de dynamisch afgeprijsde producten uit de database) van de Digitale Koopjeshoek</li>
+                            <li>3 Backend Developers: verantwoordelijk voor de logica (b.v. het ophalen van de dynamisch afgeprijsde producten uit de database) van de Digitale Koopjeshoek</li>
                             <li>3 Frontend Developers: verantwoordelijk voor het maken van de gebruikersinterface</li>
                             <li>1 UX designer: verantwoordelijk voor het designen van de gebruikersinterface</li>
-                            <li>1 Business Analyst: verantwoordelijk voor alle business georienteerde zaken (Build.v. test inplannen)</li>
+                            <li>1 Business Analyst: verantwoordelijk voor alle business georienteerde zaken (b.v. contact houden met stakeholders)</li>
                         </ul>
                     </p>
                 </VerticalTimelineElement>
@@ -180,7 +180,7 @@ const Project = () => {
                     <h3 className="vertical-timeline-element-title">Interne Demo & Eerste Sprint</h3>
                     <h6 className="vertical-timeline-element-subtitle">Build</h6>
                     <p>
-                        Om de ene week, op de Woensdagen, vindt er een interen demonstratie plaats. Hierbij presenteert elk team zijn voortgang en wat er nog aan komt.
+                        Om de ene week, op de Woensdagen, vindt er een (interne) demonstratie plaats. Hierbij presenteert elk team zijn voortgang en wat er nog aan komt.
                     </p>
                     <p>
                         Vandaag is het einde van de eerste sprint. De sprint wordt geindigt met:
@@ -216,7 +216,7 @@ const Project = () => {
                             <li>Verzamelde feedback implementeren</li>
                             <li>Producteigenaar spreken over de voortgang en/of vragen om feedback</li>
                         </ul>
-                        Het project gaat nu van een "Build"-fase naar een "Measure"- en "Learn"-fase. De "Measure"- en "Learn"-fase duren minder lang als de
+                        Het project gaat nu van een "Build"-fase naar een "Measure"- en "Learn"-fase. De "Measure"- en "Learn"-fase hebben een kortere duur.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -229,7 +229,7 @@ const Project = () => {
                     <h3 className="vertical-timeline-element-title">Hackerguild AH</h3>
                     <h6 className="vertical-timeline-element-subtitle">Safety Test</h6>
                     <p>
-                        Voor een project live kan gaan op <a href={"https://www.ah.nl/"}>ah.nl</a> word het project getest op veiligheid. Hierbij moet de code en documentatie over het project (Build.v. services die worden gebruikt, etc.) worden ingeleverd bij de Hackersguild.
+                        Voor een project live kan gaan op <a href={"https://www.ah.nl/"}>ah.nl</a> word het project getest op veiligheid. Hierbij moet de code en documentatie over het project (b.v. services die worden gebruikt, etc.) worden ingeleverd bij de Hackersguild.
                     </p>
                     <p>
                         De Hackersguild voert een aantal veiligheids-testen uit. Indien het project 1 van de testen faalt zal deze worden afgekeurd. De feedback zal worden geleverd aan het team en gevraagd worden om aanpassingen te maken.
@@ -263,7 +263,7 @@ const Project = () => {
                     <h3 className="vertical-timeline-element-title">Laatste Feedback Implementeren</h3>
                     <h6 className="vertical-timeline-element-subtitle">Measure - Learn</h6>
                     <p>
-                        De laatste feedback komt binnen vanuit business. Deze is al uitgewerkt en moet worden meegenomen in de applicatie. Deze feedback gaat voornamelijk over de style en lettertype grote.
+                        De laatste feedback komt binnen vanuit business. Deze is al uitgewerkt en moet worden meegenomen in de applicatie. Deze feedback gaat voornamelijk over de stijl, lettertype en -grote.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -316,7 +316,7 @@ const Project = () => {
                 >
                     <h3 className="vertical-timeline-element-title">Mopinion</h3>
                     <p>
-                        Mopinion wordt toegevoegd aan Digitale Koopjeshoek. Hierbij kane een klant een beoordeling plaatsen over de Digitale Koopjeshoek.
+                        Mopinion wordt toegevoegd aan Digitale Koopjeshoek. Hierbij kan een klant een beoordeling plaatsen over de Digitale Koopjeshoek.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -333,7 +333,7 @@ const Project = () => {
                         De lancering is officieel! De stagaires die gewerkt hebben aan het project moeten op verschillende locaties, in supermarkten van Albert Heijn, het project promoten. Dit houdt in:
                         <ul>
                             <li>Uitdelen van flyers</li>
-                            <li>Voorlichting geven over de nieuwe feature van ah.nl</li>
+                            <li>Voorlichting geven over de nieuwe feature van ah.nl: De Digitale Koopjeshoek</li>
                         </ul>
                     </p>
                 </VerticalTimelineElement>
