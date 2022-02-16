@@ -4,7 +4,11 @@ import {Leerdoel4} from "../_documentation/advise/advise";
 export const Advise = () => {
     return (
         <Container>
-
+            <Row>
+                <p>
+                    Het bepalen van functionaliteiten gebeurt tijdens de brainstorm-sessies. (Gedaan bij Analyse Leerdoel 2)
+                </p>
+            </Row>
             <Row>
                 <Row>
                     <h5>Documentatie</h5>
