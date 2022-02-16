@@ -7,8 +7,10 @@ import {advice, analyse, design, manage, realise, skills} from "../../constants/
 import Manage from "../leerdoelComponents/manage/manage";
 import ReadCode from "../leerdoelComponents/analyse/read-code/read-code";
 import Problem from "../leerdoelComponents/analyse/problem/problem";
+import {Advise} from "../leerdoelComponents/advise/advise";
 
 const Leerdoelen = () => {
+
     return (
         <Row>
             <Col sm={12} lg={3}>
@@ -57,6 +59,7 @@ const Leerdoelen = () => {
                         </CarouselItem>
                         <CarouselItem>
                             <LeerdoelItem
+                                bewijsComponent={<Advise/>}
                                 beschrijving={advice.leerdoel}
                             />
                         </CarouselItem>

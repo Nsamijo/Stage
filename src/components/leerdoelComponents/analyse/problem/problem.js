@@ -7,17 +7,19 @@ const Problem = () => {
             <Row>
                 <p>
                     Albert Heijn wil zijn voedselverspilling verminderen en oogt deze omlaag te brengen naar 20 procent in het jaar 2030. Voor dit doel zijn er enkele initiatieven genomen waaronder Dynamisch Afprijzen. Hierbij kreeg AH Tech Labs als vraagstuk:
+                    <p><b>
+                        Hoe kan Albert Heijn zijn klanten, zo enthousiast mogelijk, over Dynamisch Afprijzen laten weten?
+                    </b>
+                    </p>
                 </p>
-                <p>
-                    Hoe kan Albert Heijn zijn klanten, zo enthousiast mogelijk, over Dynamisch Afrpijzen laten weten?
-                </p>
+
             </Row>
             <Row>
                 <h5>Dynamisch Afprijzen Uitleg</h5>
                 <p>
                     Albert Heijn prijst momenteel in supermarkten alle producten af, met 35 procent, die hun houdbaarsheid datum naderen. Dynamisch Afprijzen bouwt hier verder op en houdt in:
                     <p>
-                        Producten zullen een kortingspercentage krijgen die op basis van verschillende factoren (b.v. vraag, tijd, etc) zal toenemen. Afgeprijsde producten hebben een kortingspercentage van 25 procent en kan, afhankelijk van de factoren, oplopen tot 70 procent. Hierbij zou het aantrekkerlijk voor de klant moeten zijn om afgeprijsde producten te kopen.
+                        De normale afprijspercentage wordt nu dynamisch. Afhankelijk van factoren (zoals vraag, tijd, etc) loopt de afprijspercentage dynamisch op. De afprijspercentage begint met 25 procent en kan oplopen tot 70 procent. Albert Heijn redeneert dat (dynamisch) afgeprijsde producten hierdoor aantrekkelijker worden voor klanten.
                     </p>
                 </p>
             </Row>

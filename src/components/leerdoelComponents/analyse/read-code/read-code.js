@@ -4,7 +4,6 @@ import PullRequest from "../../_documentation/analyse/read-code/pull-request";
 const ReadCode = () => {
     return (
         <Container>
-            <h5>Uitwerking</h5>
             <p>
                 Bij aanpassingen/updates van de  broncode van een applicatie binnen Albert Heijn moet deze eerst worden goedgekeurd door minimaal 2 mensen, waarvan 1 van ze een begeleider moet zijn. Zo een review wordt ook wel een Pull Request genoemd.
             </p>

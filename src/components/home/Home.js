@@ -14,11 +14,11 @@ const Home = () => {
                 </div>
                 <br/>
                 <div>
-                    Voor mijn stage heb ik gekozen om bij <a href={"https://www.ah.nl/over-ah"}>Albert Heijn</a> te gaan. Hier zal ik stage lopen bij de afdeling: <a href={"https://www.ah.nl/technology/ah-tech-labs"}>AH Tech Labs</a>, deze valt onder de hoofd-afdeling: <a href={"https://www.ah.nl/technology"}>AH Technology</a>.
+                  Ik heb mijn stagetraject gelopen bij <a href={"https://www.ah.nl/over-ah"}>Albert Heijn</a>. Hier heb ik op de afdeling: <a href={"https://www.ah.nl/technology/ah-tech-labs"}>AH Tech Labs</a>, deze valt onder de hoofd-afdeling: <a href={"https://www.ah.nl/technology"}>AH Technology</a>.
                 </div>
                 <br/>
                 <div>
-                    Tijdens mijn stage heb ik gewerkt aan verschillende projecten. Waaronder <a href={"https://www.ah.nl/widgets/koopjeshoek"}>Digitale Koopjeshoek</a> die gebruikt maakt van Albert Heijn services om dynamisch afgeprijsde producten van een winkel te tonen.
+                    Tijdens mijn stage heb ik gewerkt aan verschillende projecten. Waaronder de <a href={"https://www.ah.nl/widgets/koopjeshoek"}>Digitale Koopjeshoek</a> die gebruikt maakt van Albert Heijn services om dynamisch afgeprijsde producten van een winkel te tonen.
                 </div>
             </Col>
             <Col lg={6} align="center">

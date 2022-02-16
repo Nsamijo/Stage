@@ -26,15 +26,15 @@ const Manage = () => {
                         </p>
                         <p>
                             <h6>Build</h6>
-                            Tijdens de "Build"-fase worden de minimale eisen van een product/applicatie bepaald ookwel Minimal Viable Product (MVP) genoemd. De ontwikkeling van de MVP start vrijwel meteen na zijn opstelling. De Producteigenaar kan vrijwel altijd wijzigingen makenn aan de  MVP.
+                            Tijdens de "Build"-fase worden de minimale eisen van een product/applicatie bepaald ookwel Minimal Viable Product (MVP) genoemd. De ontwikkeling van de MVP start vrijwel meteen na zijn opstelling. De Producteigenaar kan vrijwel altijd wijzigingen maken aan de  MVP.
                         </p>
                         <p>
                             <h6>Measure</h6>
-                            De eerste versie van de MVP is ontwikkelt en gaat meteen een testfase in. Hierbij wordt getest of het product voldoet aan de minimale eisen. De feedback/resultaten van een test wordt verzameld en gesorteert. In AH Tech Labs wordt onderander gesorteerd op b.v. design.
+                            De eerste versie van de MVP is ontwikkelt en gaat meteen een testfase in. Hierbij wordt getest of het product voldoet aan de minimale eisen. De feedback/resultaten van een test wordt verzameld en gesorteerd. In AH Tech Labs wordt onderander gesorteerd op b.v. design.
                         </p>
                         <p>
                             <h6>Learn</h6>
-                            De resultaten van de test(s) wordt uitgewerkt en geconcludeerd. Hierbij wordt b.v. geindentifieerd wat er niet werkt, wat beter kan, etc. Deze resultaten worden gebruikt als basis voor de volgende cyclus van de (Lean Startup) methodologie.
+                            De resultaten van de test(s) wordt uitgewerkt en geconcludeerd. Hierbij wordt b.v. geïdentificeerd wat er niet werkt, wat beter kan, etc. Deze resultaten worden gebruikt als basis voor de volgende cyclus van de (Lean Startup) methodologie.
                         </p>
                     </p>
                     <h5>Jira Software</h5>
