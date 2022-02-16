@@ -9,7 +9,7 @@ const ReadCode = () => {
             </p>
             <h6>Pull Request</h6>
             <p>
-                Het op de hoogte stellen van mede ontwikkelaars van de veranderingen en/of toevoegingen die zijn gemaakt. Na het opstellen van een Pull Request kunnen de veranderingen/toevoegingen worden nagekeken en besproken (feedback) worden door mede ontwikkelaars. Indien er feedback wordt geleverd is het mogelijk om aanpassingen te maken en deze mee te nemen in dezelfde Pull Request.
+                Het op de hoogte stellen van mede ontwikkelaars van de veranderingen en/of toevoegingen die zijn gemaakt. Na het opstellen van een Pull Request kunnen de veranderingen/toevoegingen worden nagekeken en besproken (feedback) door mede ontwikkelaars. Indien er feedback wordt geleverd is het mogelijk om aanpassingen te maken en deze mee te nemen in dezelfde Pull Request.
             </p>
             <Row>
                 <Row>
