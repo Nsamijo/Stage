@@ -90,7 +90,7 @@ export const Leerdoel4 = () => {
                     <br/>
                     <b>Nieuwe Prijs</b>
                     <br/>
-                    <img src={Price} alt={"Price Component"}/>
+                    <img className='voorraad' src={Price} alt={"Price Component"}/>
                 </p>
             </VerticalTimelineElement>
 
