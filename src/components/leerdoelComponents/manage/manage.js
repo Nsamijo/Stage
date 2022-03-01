@@ -12,19 +12,20 @@ const Manage = () => {
                 <p>
                     <h5>Manage and Control</h5>
                     <p>
-                        Dit leerdoel gaat over het beheren, monitoren en optimaliseren van de ontwikkeling, ingebruikname en gebruik van ICT-systemen
+                        Dit leerdoel gaat over het beheren, monitoren en optimaliseren van de ontwikkeling, ingebruikname en gebruik van ICT-systemen.
                     </p>
                 </p>
                 <p>
-                    Bij dit leerdoel is er gekozen het manier van werken bij stage te volgen met andere woorden: planmatig werken. Tech Labs maakt gebruik van de Lean-methode: Lean Start-up voor het beheren en opstellen van plannen en producteisen. De gemaakte plannen en eisen worden genoteerd in een Jira Bord.
+
+                    Bij dit leerdoel is er gekozen het standaard van het stagebedrijf te hanteren, dit standaard is een planmatige werkwijze. Tech Labs maakt gebruik van de Lean-methode: Lean Start-up voor het opstellen en beheren van plannen en producteisen. De gemaakte plannen en eisen worden genoteerd in een Jira scrumbord.
                 </p>
                 <p>
                     <h5>Beheren</h5>
                     <p>
-                        Elk project wordt opgesteld met een aantal plannen en afspraken. Hier gaat het om afspraken die worden vastgelegd in een norm. Een norm kan bijvoorbeeld zijn hoe lang iets mag duren, kwaliteiteisen, etc. Deze plannen en normen moeten in de gaten worden gehouden om zo het voortgang van een project te kunnen peilen. Oftewel er zal een werkmethodiek worden gebruikt om het project te beheren.
+                        Elk project wordt opgesteld met een aantal plannen en afspraken. Deze plannen en afspraken moeten in de gaten worden gehouden om zo het voortgang van een project te kunnen peilen. Oftewel er zal een werkmethodiek worden gebruikt om het project te beheren.
                     </p>
                     <p>
-                        In AH Tech Labs wordt er gebruikt van het Lean-methodologie: Lean Start-Up. Hiermee kan de afdeling bestaande klant- en bedrijfsuitdagingen oplossen met nieuwe, incrementele verbeteringen. Verder is de afdeling ook bezig met het innoveren, vinden en verbeteren van nieuwe business modellen voor de klanten. De Lean Start-Up methode is zeer efficient voor het innoveren en ontwikkelen van concepten, waarbij de nadruk ligt op snelle validatie van ideeën en continue klantcontact - <a href={"https://labs.ah.nl/"}>AH Tech Labs</a>
+                        In AH Tech Labs wordt er gebruikt van de Lean-methodologie: Lean Start-Up. Hiermee kan de afdeling bestaande klant- en bedrijfsuitdagingen oplossen met nieuwe, incrementele verbeteringen. Verder is de afdeling ook bezig met het innoveren, vinden en verbeteren van nieuwe business modellen voor klanten. De Lean Start-Up methode is zeer efficient voor het innoveren en ontwikkelen van concepten, waarbij de nadruk ligt op snelle validatie van ideeën en continue klantcontact - <a href={"https://labs.ah.nl/"}>AH Tech Labs</a>
                     </p>
                     <p>
                         <Lean/>
