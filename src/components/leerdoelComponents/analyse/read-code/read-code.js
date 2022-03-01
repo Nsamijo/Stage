@@ -1,17 +1,43 @@
 import {Accordion, Container, Row} from "react-bootstrap";
 import PullRequest from "../../_documentation/analyse/read-code/pull-request";
+import {Github} from "../_docs/documentation";
 
 const ReadCode = () => {
     return (
         <Container>
-            <p>
-                Bij aanpassingen/updates van de  broncode van een applicatie binnen Albert Heijn moet deze eerst worden goedgekeurd door minimaal 2 mensen, waarvan 1 van ze een begeleider moet zijn. Zo een review wordt ook wel een Pull Request genoemd.
-            </p>
-            <h6>Pull Request</h6>
-            <p>
-                Het op de hoogte stellen van mede ontwikkelaars van de veranderingen en/of toevoegingen die zijn gemaakt. Na het opstellen van een Pull Request kunnen de veranderingen/toevoegingen worden nagekeken en besproken (feedback) door mede ontwikkelaars. Indien er feedback wordt geleverd is het mogelijk om aanpassingen te maken en deze mee te nemen in dezelfde Pull Request.
-            </p>
             <Row>
+                <p>
+                    <h5>Analyseren</h5>
+                    <p>
+                        Dit leerdoel gaat over het analyseren van processen, producten en informatiestromen in hun onderlinge samenhang en context.
+                    </p>
+                </p>
+                <p>
+                    Bij dit leerdoel is er gekozen om de code (features) te analyseren. Hierbij gaat het om wat de code is en zijn toevoeging aan het project.
+                </p>
+                <p>
+                    <h5>Bedrijfs Context</h5>
+                    <p>
+                        Elke bedrijf dat code bezit moet deze makkelijk kunnen opslaan en beheren. AH Tech Labs gebruikt hiervoor de online oplossing Github.
+                    </p>
+                    <p>
+                        <Github/>
+                    </p>
+                    <p>
+                        Als een taak (feature) is afgerond word er eerst een Pull Request geopened om dit aan te geven. Een Pull Request is pas goedgekeurd als het voldoet aan de volgende eisen:
+                        <ul>
+                            <li>Goedkeuring van minimaal 2 mensen waarvan 1 een begeleider is</li>
+                            <li>Alle testen van Github Actions succesvol heeft doorlopen</li>
+                        </ul>
+                    </p>
+                </p>
+                <p>
+                    <h5>Leerdoel Behaald</h5>
+                    <p>
+                        Om dit leerdoel te behalen zijn een aantal Pull Request nagekeken waarvan 1 van deze is gedocumenteerd. In de documentatie zijn de conclusie en bijbehorend beeld materiaal meegenomen.
+                    </p>
+                </p>
+            </Row>
                 <Row>
                     <h5>Documentatie</h5>
                     <Accordion>
@@ -25,7 +51,6 @@ const ReadCode = () => {
                         </Accordion.Item>
                     </Accordion>
                 </Row>
-            </Row>
         </Container>
     )
 }

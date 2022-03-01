@@ -1,31 +1,38 @@
 import {Accordion, Container, Row} from "react-bootstrap";
 import {Leerdoel3} from "../../_documentation/analyse/leerdoel3/leerdoel3";
+import {DynamischAfprijzen, Probleemstelling} from "../_docs/documentation";
 
 const Problem = () => {
     return (
         <Container>
             <Row>
                 <p>
-                    Albert Heijn wil zijn voedselverspilling verminderen en oogt deze omlaag te brengen naar 20 procent in het jaar 2030. Voor dit doel zijn er enkele initiatieven genomen waaronder Dynamisch Afprijzen. Hierbij kreeg AH Tech Labs als vraagstuk:
-                    <p><b>
-                        Hoe kan Albert Heijn zijn klanten, zo enthousiast mogelijk, over Dynamisch Afprijzen laten weten?
-                    </b>
-                    </p>
-                </p>
-
-            </Row>
-            <Row>
-                <h5>Dynamisch Afprijzen Uitleg</h5>
-                <p>
-                    Albert Heijn prijst momenteel in supermarkten alle producten af, met 35 procent, die hun houdbaarsheid datum naderen. Dynamisch Afprijzen bouwt hier verder op en houdt in:
+                    <h5>Analyseren</h5>
                     <p>
-                        De normale afprijspercentage wordt nu dynamisch. Afhankelijk van factoren (zoals vraag, tijd, etc) loopt de afprijspercentage dynamisch op. De afprijspercentage begint met 25 procent en kan oplopen tot 70 procent. Albert Heijn redeneert dat (dynamisch) afgeprijsde producten hierdoor aantrekkelijker worden voor klanten.
+                        Dit leerdoel gaat over het analyseren van processen, producten en informatiestromen in hun onderlinge samenhang en context.
                     </p>
                 </p>
-            </Row>
-            <Row>
                 <p>
-                Aangezien de probleemstelling vrijwel compleet is aangeleverd is er gekozen om voor dit leerdoel de probleemuitwerking en resultaat van dien te documenteren.
+                    Bij dit leerdoel is er gekozen om de probleemanalyse. Hierbij zal er voor een ontvangen probleemstelling een probleemanalyse plaatsvinden. Deze probleemanalyse is gezamelijk uitgevoerd met mede-stagaires met behulp van de begeleiders van Tech Labs en bevat enkele individuele aspecten.
+                </p>
+                <p>
+                    <h5>Probleem Context</h5>
+                    Albert Heijn wil zijn voedselverspilling verminderen en oogt deze omlaag te brengen naar 20 procent in het jaar 2030. Voor dit doel zijn er enkele initiatieven genomen waaronder Dynamisch Afprijzen. Hierbij kreeg AH Tech Labs de volgende probleemstelling binnen:
+                </p>
+                <p>
+                    <Probleemstelling/>
+                </p>
+                <p>
+                    Om de probleemstelling te begrijpen zal er eerst informatie vergaart moeten worden over Dynamisch Afprijzen.
+                </p>
+                <p>
+                    <DynamischAfprijzen/>
+                </p>
+                <p>
+                    <h5>Leerdoel Bewijs</h5>
+                    <p>
+                        Om dit leerdoel te behalen is er meegedaan aan de probleemanalyses van de stageopdrachten. Van deze is er 1 gedocumenteerd. In de documentatie is een probleemanalyse met bijbehorende conclusies van zowel het individuele en gezamelijke gedeelte.
+                    </p>
                 </p>
             </Row>
             <Row>

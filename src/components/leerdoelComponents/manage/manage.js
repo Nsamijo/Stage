@@ -2,7 +2,7 @@ import {Accordion, Container, Row} from "react-bootstrap";
 import Project from "../_documentation/manage/project-doc";
 
 import './manage-leerdoel.css';
-import {Jira, Lean} from "./lean/lean";
+import {Jira, Lean} from "./_docs/lean";
 
 
 const Manage = () => {
@@ -41,6 +41,12 @@ const Manage = () => {
                         <p>
                             <Jira/>
                         </p>
+                    </p>
+                </p>
+                <p>
+                    <h5>Leerdoel Behaald</h5>
+                    <p>
+                        Voor dit leerdoel is het gebruik van de werkmethodologie (Lean Start-up) en Jira scrumbord gedocumenteerd. De documentatie bevat een tijdlijn van het eerste stageopdracht met de taken die zijn uitgevoerd.
                     </p>
                 </p>
             </Row>
