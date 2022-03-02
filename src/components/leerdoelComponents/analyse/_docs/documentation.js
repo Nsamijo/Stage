@@ -10,7 +10,7 @@ export const Github = () => {
             </Accordion.Header>
             <Accordion.Body>
                 <p>
-                Github is een online tool voor het gezamelijk ontwikkelen van code voor ontwikkelaars. De tool maakt het o.a. toe om code in te zien en feedback toe te voegen. In Tech Labs is er voornamelijk gebruik gemaak van de volgende functionaliteiten:
+                Github is een online tool voor het gezamelijk ontwikkelen van code voor ontwikkelaars. Deze tool maakt het mogelijk om code in te zien en feedback toe te voegen. Bij Tech Labs is er voornamelijk gebruik gemaakt van de volgende functionaliteiten:
                 </p>
                 <p>
                 <Row>
@@ -61,7 +61,7 @@ export const Github = () => {
                                         Een Pull Request is een formele aanvraag door een ontwikkelaar/developer om documenten in een Repository te veranderen (b.v. updaten). Hierbij kan de eigenaar van de Repository de veranderingen inzien, feedback leveren, veranderingen aanvragen en/of goedkeuren.
                                     </p>
                                     <p>
-                                        Als een Pull Request word goedgekeurd worden alle documenten aangepast volgens de wijzigingen in de Pull Request.
+                                        Als een Pull Request wordt goedgekeurd worden alle documenten aangepast volgens de wijzigingen in de Pull Request.
                                     </p>
                                 </Popover.Body>
                             </Popover>
@@ -82,7 +82,7 @@ export const Github = () => {
                                 </Popover.Header>
                                 <Popover.Body>
                                     <p>
-                                        Om ideeën (nieuwe features), feedback, taken en/of bugs te noteren in een Repository kan er gebruikt gemaakt worden van Github Issues. Een (Github) Issue wordt geplaats bij de desbetreffende Repository en kan door bevoegden worden gezien en opgepakt.
+                                        Om ideeën (nieuwe features), feedback, taken en/of bugs te noteren in een Repository kan er gebruik gemaakt worden van Github Issues. Een (Github) Issue wordt geplaatst bij de desbetreffende Repository en kan door bevoegden worden gezien en opgepakt.
                                     </p>
                                 </Popover.Body>
                             </Popover>
@@ -103,7 +103,7 @@ export const Github = () => {
                                 </Popover.Header>
                                 <Popover.Body>
                                     <p>
-                                        Github Actions ie een Continious Integration en Continuous Delivery platform dat toelaat om automatisch de code in een Repository te bouwen, testen en online zetten (deployen).
+                                        Github Actions is een Continiuous Integration en Continuous Delivery platform dat toelaat om automatisch de code in een Repository te bouwen, testen en online te zetten (deployen).
                                     </p>
                                 </Popover.Body>
                             </Popover>
@@ -143,22 +143,22 @@ export const DynamischAfprijzen = () => {
                 </Accordion.Header>
                 <Accordion.Body>
                     <p>
-                        Momenteel worden producten al afgeprijsd door Albert Heijn als deze hun verval-datum naderen. Deze afprijsing bedraagt 35 procent van de productsprijs. Echter merkt Albert Heijn dat deze niet genoeg is om hun voedselverspilling doel te behalen. En heeft besloten om een nieuwe afprijs methode te ontwikkelen.
+                        Momenteel worden producten al afgeprijsd door Albert Heijn als deze hun verval-datum naderen. Deze afprijzing bedraagt 35 procent van de productsprijs. Echter merkt Albert Heijn dat deze niet genoeg is om hun voedselverspilling doel te behalen. En heeft besloten om een nieuwe afprijs methode te ontwikkelen.
                     </p>
                     <p>
-                        De nieuwe afprijs methode bouwt verder op de oude met enkele wijzigingen en toevoegingen. Deze veranderingen zijn onder ander:
+                        De nieuwe afprijs methode bouwt verder op de oude met enkele wijzigingen en toevoegingen. Deze veranderingen zijn onder andere:
                         <ul>
                             <li>
-                                Wijzigingen: De afprijsing percentage is van 35 - naar 20 procent
+                                Wijzigingen: De afprijzing percentage bedraagt nu 20 procent inplaats van 35
                             </li>
                             <li>
                                 Toevoegingen:
                                 <ul>
                                     <li>
-                                       Oplopende kortingpercentage met een maximale afprijsing van 70 procent
+                                       Oplopende kortingpercentage met een maximale afprijzing van 70 procent
                                     </li>
                                     <li>
-                                        De kortingpercentage is afhankelijk van een aantal factoren zoals de tijd, verkoopaantal. (Niet alle factoren waren duidelijk)
+                                        Het kortingpercentage is afhankelijk van een aantal factoren zoals de tijd, verkoopaantal (Niet alle factoren waren bekend gemaakt)
                                     </li>
                                 </ul>
                             </li>

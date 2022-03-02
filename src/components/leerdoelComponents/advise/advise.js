@@ -6,7 +6,13 @@ export const Advise = () => {
         <Container>
             <Row>
                 <p>
-                    Het bepalen van functionaliteiten gebeurt tijdens de brainstorm-sessies. (Gedaan bij Analyse Leerdoel 2)
+                    <h5>Leerdoel</h5>
+                    <p>
+                        Dit leerdoel gaat over het adviseren van de inrichting van processen en/of informatie voor een nieuw te ontwikkelen, aan te schaffen of aan te passen bestaand ICT-systeem.
+                    </p>
+                </p>
+                <p>
+                    Tijdens de stage zijn er verschillende momenten geweest waar er adviezen nodig waren. De adviezen die aansluiten bij dit leerdoel vonden plaats tijdens de probleemanalyse. Deze adviezen gaan over de functionaliteiten die als individu zijn gegeven aan het team.
                 </p>
             </Row>
             <Row>
@@ -15,7 +21,7 @@ export const Advise = () => {
                     <Accordion>
                         <Accordion.Item eventKey="0">
                             <Accordion.Header>
-                                Advise on Functionality
+                                Advies over Functionaliteit
                             </Accordion.Header>
                             <Accordion.Body>
                                 <Leerdoel4/>

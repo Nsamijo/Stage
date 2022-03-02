@@ -82,12 +82,12 @@ const PullRequest = () => {
                     </p>
                     <p>
                         <h5>Document Nr. 2</h5>
-                        De document specificeert een component die , inderdaad, de stijl instructies gebruikt van de eerste document. Verder worden er fotos en namen weergegeven. Dit component is dus bedoelt om de teamleden te weergeven.
+                        De document specificeert een component die, inderdaad, de stijl instructies gebruikt van het eerste document. Verder worden er foto's en namen weergegeven. Dit component is dus bedoelt om de teamleden te weergeven.
                         <img className={"team"} src={Team} alt={"Added files"}/>
                     </p>
                     <p>
                         <h5>Conclusie</h5>
-                        De code ziet er goed uit. Geen fouten, geen opmerkingen. Hierdoor krijgt deze een goedkeuring van mij.
+                        De code ziet er goed uit. Geen fouten, geen opmerkingen. Hierdoor krijgt deze een goedkeuring vanuit mij.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

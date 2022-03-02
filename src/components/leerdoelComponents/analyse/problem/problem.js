@@ -13,11 +13,11 @@ const Problem = () => {
                     </p>
                 </p>
                 <p>
-                    Bij dit leerdoel is er gekozen om de probleemanalyse. Hierbij zal er voor een ontvangen probleemstelling een probleemanalyse plaatsvinden. Deze probleemanalyse is gezamelijk uitgevoerd met mede-stagaires met behulp van de begeleiders van Tech Labs en bevat enkele individuele aspecten.
+                    Bij dit leerdoel is er gekozen om de probleemanalyse van Tech Labs te beheersen. Deze probleemanalyse is gezamelijk uitgevoerd met mede-stagaires onder begeleiding vanuit AH Tech Labs en bevat enkele individuele aspecten.
                 </p>
                 <p>
                     <h5>Probleem Context</h5>
-                    Albert Heijn wil zijn voedselverspilling verminderen en oogt deze omlaag te brengen naar 20 procent in het jaar 2030. Voor dit doel zijn er enkele initiatieven genomen waaronder Dynamisch Afprijzen. Hierbij kreeg AH Tech Labs de volgende probleemstelling binnen:
+                    Albert Heijn wilt zijn voedselverspilling verminderen en oogt deze omlaag te brengen naar 20 procent in het jaar 2030. Voor dit doel zijn er enkele initiatieven genomen waaronder Dynamisch Afprijzen. Hierbij kreeg AH Tech Labs de volgende probleemstelling binnen:
                 </p>
                 <p>
                     <Probleemstelling/>

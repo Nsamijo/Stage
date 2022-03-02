@@ -46,7 +46,7 @@ export const Leerdoel3 = () => {
                             Individueel is er onderzoek gedaan naar hoe bedrijven adverteren naar de klanten toe. Hierbij stonden uit:
                             <ul>
                                 <li>Bol.com: heeft een speciale pagina voor aanbiedingen (outlet, tweedekans, etc.)</li>
-                                <li>Mediamarkt.nl: heeft een gehele aparte website voor alle tweedehandse/geretouneerde producten</li>
+                                <li>Mediamarkt.nl: heeft een gehele aparte website voor alle tweedehands/geretourneerde producten</li>
                             </ul>
                         </p>
                     </VerticalTimelineElement>
@@ -73,14 +73,14 @@ export const Leerdoel3 = () => {
                         <h3 className="vertical-timeline-element-title">Uitdagingen en/of Problemen</h3>
                         <h6 className="vertical-timeline-element-subtitle">Wat zijn mogelijke uitdagingen/problemen?</h6>
                         <p>
-                            Individueel wordt er gekeken welke uitdagingen/problemen kunnen voorkomen. Na het bedenken van uitdagingen/problemen stemt het team op de uitdagingen/problemen. Hierbij waren de grootste uitdagingen/problemen:
+                            Individueel wordt er gekeken welke uitdagingen/problemen voorkomen kunnen worden. Na het bedenken van mogelijke uitdagingen/problemen zijn ze gesorteerd op basis van grootte en moeilijkheidsgraad. Hierbij waren de grootste uitdagingen/problemen:
                             <ol>
-                                <li><b>Context:</b> Dynamisch Afprijzen voorraad is niet altijd accuraat. Oorzaak hiervan is de hoeveelheid data die verwerkt moet worden van de vele winkels.
+                                <li><b>Context:</b> De voorraad van de Koopjeshoek is niet altijd accuraat. Oorzaak hiervan is de hoeveelheid data die verwerkt moet worden vanuit de vele winkels.
                                     <ul>
                                         <li><b>Uitdaging:</b> Hoe kan dit getoond/verbeterd worden?</li>
                                     </ul>
                                 </li>
-                                <li><b>Context:</b> Dynamisch Afprijzen is winkel specifiek. Dit houd in dat afgeprijsde producten alleen te vinden zijn in de winkel waar de producten zijn afgeprijsd.
+                                <li><b>Context:</b> De Koopjeshoek is winkel specifiek. Dit houd in dat afgeprijsde producten alleen te vinden zijn in de winkel waar de producten zijn afgeprijsd.
                                     <ul>
                                         <li><b>Uitdaging:</b> Hoe moeten de afgeprijsde producten gepresenteerd worden?</li>
                                     </ul>
@@ -103,13 +103,13 @@ export const Leerdoel3 = () => {
                                 <li>
                                     Hoe kan een niet-accurate voorraad getoond/verbeterd worden?
                                     <ul>
-                                        <li>Bij elke product kan er een timer worden neer gezet, met de laatste update tijd</li>
-                                        <li>Een disclaimer die aangeeft dat de getoonde producten al niet meer op voorraad kunnen zijn</li>
+                                        <li>Bij elk product kan de laatste update tijd vermeld worden</li>
+                                        <li>Een disclaimer die aangeeft dat de producten in de Koopjeshoek niet meer op voorraad kunnen zijn</li>
                                     </ul>
                                 </li>
                                 <li>Hoe moeten de afgeprijsde producten getoond worden?
                                     <ul>
-                                        <li>Aangezien de afgeprijsde producten gebonden zijn aan een winkel is het logisch om deze te tonen per winkel. Hierbij kan dan de klant per winkel inzien wat is afgeprijsd, de klant zou dan zijn locatie kunnen invoeren en alle supermarkten, in een bepaald radius, zien die het Dynamisch Afprijzen al implementeren.</li>
+                                        <li>Aangezien de afgeprijsde producten gebonden zijn aan een winkel is het logisch om deze te tonen per winkel. Hierbij kan dan de klant per winkel inzien wat is afgeprijsd. De klant zou dan zijn locatie kunnen invoeren en alle supermarkten, in een bepaald radius, zien die een Koopjeshoek hebben</li>
                                     </ul>
                                 </li>
                             </ol>
@@ -142,7 +142,7 @@ export const Leerdoel3 = () => {
                             </ul>
                         </p>
                         <p>
-                            <b>Moeite (gesorteerd van moeilijk naar niet-moeilijk):</b>
+                            <b>Moeite (gesorteerd van moeilijk naar makkelijk):</b>
                             <ul>
                                 <li>Locatie van de klant ophalen</li>
                                 <li>Tonen van afgeprijsde producten per winkel</li>

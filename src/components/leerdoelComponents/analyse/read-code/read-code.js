@@ -13,7 +13,7 @@ const ReadCode = () => {
                     </p>
                 </p>
                 <p>
-                    Bij dit leerdoel is er gekozen om de code (features) te analyseren. Hierbij gaat het om wat de code is en zijn toevoeging aan het project.
+                    Bij dit leerdoel is er gekozen om de code (features)  ontwikkelt door een mede stagaire te analyseren. Bij de analyse moet duidelijk worden wat de code zal doen en of deze voldoet aan de kwaliteitseisen van Tech Labs.
                 </p>
                 <p>
                     <h5>Bedrijfs Context</h5>
@@ -24,6 +24,7 @@ const ReadCode = () => {
                         <Github/>
                     </p>
                     <p>
+                        <h6>Werkwijze</h6>
                         Als een taak (feature) is afgerond word er eerst een Pull Request geopened om dit aan te geven. Een Pull Request is pas goedgekeurd als het voldoet aan de volgende eisen:
                         <ul>
                             <li>Goedkeuring van minimaal 2 mensen waarvan 1 een begeleider is</li>
