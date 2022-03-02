@@ -8,6 +8,8 @@ import Manage from "../leerdoelComponents/manage/manage";
 import ReadCode from "../leerdoelComponents/analyse/read-code/read-code";
 import Problem from "../leerdoelComponents/analyse/problem/problem";
 import {Advise} from "../leerdoelComponents/advise/advise";
+import {ZelfStandig} from "../leerdoelComponents/pro-skills/self-work/work";
+import {Feedback} from "../leerdoelComponents/pro-skills/feedback/feedback";
 
 const Leerdoelen = () => {
 
@@ -83,10 +85,12 @@ const Leerdoelen = () => {
                     </CarouselItem>
                     <CarouselItem>
                         <LeerdoelItem
+                            bewijsComponent={<Feedback/>}
                             beschrijving={skills.leerdoel1}
                         />
                         <br/>
                         <LeerdoelItem
+                            bewijsComponent={<ZelfStandig/>}
                             beschrijving={skills.leerdoel2}
                         />
                     </CarouselItem>

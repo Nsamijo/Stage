@@ -14,6 +14,12 @@ export const Advise = () => {
                 <p>
                     Tijdens de stage zijn er verschillende momenten geweest waar er adviezen nodig waren. De adviezen die aansluiten bij dit leerdoel vonden plaats tijdens de probleemanalyse. Deze adviezen gaan over de functionaliteiten die als individu zijn gegeven aan het team.
                 </p>
+                <p>
+                    <h5>Leerdoel Bewijs</h5>
+                    <p>
+                        Voor dit leerdoel zijn de gegeven adviezen gedocumenteerd. De resultaten van de adviezen zijn als extra ook opgenomen in het bewijs materiaal.
+                    </p>
+                </p>
             </Row>
             <Row>
                 <Row>
