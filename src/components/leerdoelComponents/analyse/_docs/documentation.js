@@ -103,7 +103,7 @@ export const Github = () => {
                                 </Popover.Header>
                                 <Popover.Body>
                                     <p>
-                                        Github Actions is een Continiuous Integration en Continuous Delivery platform dat toelaat om automatisch de code in een Repository te bouwen, testen en online te zetten (deployen).
+                                        Github Actions is een Continuous Integration en Continuous Delivery platform dat toelaat om automatisch de code in een Repository te bouwen, testen en online te zetten (deployen).
                                     </p>
                                 </Popover.Body>
                             </Popover>

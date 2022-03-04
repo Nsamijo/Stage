@@ -10,6 +10,8 @@ import Problem from "../leerdoelComponents/analyse/problem/problem";
 import {Advise} from "../leerdoelComponents/advise/advise";
 import {ZelfStandig} from "../leerdoelComponents/pro-skills/self-work/work";
 import {Feedback} from "../leerdoelComponents/pro-skills/feedback/feedback";
+import {Quality} from "../leerdoelComponents/realise/quality/quality";
+import {CICD} from "../leerdoelComponents/realise/continiuous-integration/ci-cd";
 
 const Leerdoelen = () => {
 
@@ -76,10 +78,12 @@ const Leerdoelen = () => {
                     </CarouselItem>
                     <CarouselItem>
                         <LeerdoelItem
+                            bewijsComponent={<Quality/>}
                             beschrijving={realise.leerdoel1}
                         />
                         <br/>
                         <LeerdoelItem
+                            bewijsComponent={<CICD/>}
                             beschrijving={realise.leerdoel2}
                         />
                     </CarouselItem>

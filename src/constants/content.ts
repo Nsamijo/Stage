@@ -20,7 +20,7 @@ export const design = {
 
 export const realise = {
     leerdoel1: "Ik wil na mijn stage instaat zijn om software te realiseren die voldoet aan afgesproken eisen",
-    leerdoel2: "Ik wil na mijn stage instaat zijn om software live te zetten door Continuous Integration"
+    leerdoel2: "Ik wil na mijn stage instaat zijn om software live te zetten door Continuous Integration/Continuous Deployment"
 }
 
 export const skills = {
