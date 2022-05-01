@@ -1,6 +1,6 @@
 import {Accordion, Container, Row} from "react-bootstrap";
 import {Leerdoel3} from "../../_documentation/analyse/leerdoel3/leerdoel3";
-import {DynamischAfprijzen, Probleemstelling} from "../_docs/documentation";
+import {DynamischAfprijzen, Probleemstelling} from "../_docs/defenitions";
 
 const Problem = () => {
     return (

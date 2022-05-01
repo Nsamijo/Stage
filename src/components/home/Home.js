@@ -18,7 +18,7 @@ const Home = () => {
                 </div>
                 <br/>
                 <div>
-                    Tijdens mijn stage heb ik gewerkt aan verschillende projecten. Waaronder de <a href={"https://www.ah.nl/widgets/koopjeshoek"}>Digitale Koopjeshoek</a> die gebruik maakt van Albert Heijn services om dynamisch afgeprijsde producten van een winkel te tonen.
+                    Tijdens mijn stage heb ik gewerkt aan verschillende projecten. Waaronder de <a href={"https://www.ah.nl/widgets/koopjeshoek"}>Digitale Koopjeshoek</a> die gebruik maakt van Albert Heijn services xom dynamisch afgeprijsde producten van een winkel te tonen.
                 </div>
             </Col>
             <Col lg={6} align="center">

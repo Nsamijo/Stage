@@ -68,3 +68,18 @@ export const CI = () => {
         </Accordion>
     );
 }
+
+export const Actions = () => {
+    return (
+        <Accordion>
+            <Accordion.Item>
+            <Accordion.Header>
+                Github Actions
+            </Accordion.Header>
+            <Accordion.Body>
+                Github Actions is een Continuous Integration en Continuous Delivery platform dat toelaat om automatisch de code in een Repository te bouwen, testen en online te zetten (deployen). - <a target={"new"} href={"https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions"}>Github Actions</a>
+            </Accordion.Body>
+            </Accordion.Item>
+        </Accordion>
+    )
+};

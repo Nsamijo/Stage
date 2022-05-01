@@ -1,6 +1,6 @@
 import {Accordion, Container, Row} from "react-bootstrap";
 import PullRequest from "../../_documentation/analyse/read-code/pull-request";
-import {Github} from "../_docs/documentation";
+import {Github} from "../_docs/defenitions";
 
 const ReadCode = () => {
     return (
