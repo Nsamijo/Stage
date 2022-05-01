@@ -1,6 +1,6 @@
 import {Accordion, Container, Row} from "react-bootstrap";
-import {FeedbackUitleg} from "../_docs/documentatie";
-import {FeedbackTimeline} from "../../_documentation/pro-skills/docs";
+import {FeedbackUitleg} from "../_docs/definitie";
+import {FeedbackTimeline} from '../_docs/documentatie';
 
 export const Feedback = () => {
     return (

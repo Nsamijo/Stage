@@ -1,5 +1,5 @@
 import {Accordion, Container, Row} from "react-bootstrap";
-import {Aansturing} from "../../_documentation/pro-skills/docs";
+import {Aansturing} from "../_docs/documentatie";
 
 export const ZelfStandig = () => {
     return(
