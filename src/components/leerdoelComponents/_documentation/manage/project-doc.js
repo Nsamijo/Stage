@@ -28,6 +28,16 @@ const Project = () => {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: `${white}`, border: 'solid'}}
+                    contentArrowStyle={{ display: `none` }}
+                    iconStyle={{ display: 'none'}}
+                >
+                    <p>
+                        Wegens een geheimhoudings verklaring met de Albert Heijn kan het zijn dat er weinig tot geen  beeld materiaal aanwezig is bij de documentatie aanwezig. Ook is er hierdoor expres informatie weggelaten.
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: `${white}`, border: 'solid'}}
                     contentArrowStyle={{ borderRight: `7px solid black` }}
                     date="1 September 2021"
                     iconStyle={{ background: `${white}`}}
