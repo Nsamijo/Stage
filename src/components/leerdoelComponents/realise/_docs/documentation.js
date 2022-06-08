@@ -9,6 +9,7 @@ import './docs.css';
 import criteria from './img/criteria.png';
 import result from './img/resultaat.png';
 import pr from './img/pr.png';
+import actions from './img/github-actions.png';
 
 export const QualityDoc = () => {
     const white = 'rgb(255, 255, 255)';
@@ -108,6 +109,12 @@ export const CICDDocs = () => {
     const white = 'rgb(255, 255, 255)';
     return (
         <Container>
+            <p>
+                Bij AH Tech Labs is Continuous Intergration en Continuous Deployment geautomatiseerd met behulp van Github Actions. In Github Actions worden dit een "workflow" genoemd.
+            </p>
+            <p>
+                Om de leerdoel te behalen zijn de "workflows" van AH Tech Labs gebruikt. Voor de "workflows" zijn gebruikt is eerst gekeken naar wat elke workflow doet en hoe deze te gebruiken.
+            </p>
             <VerticalTimeline
                 layout={"1-column-left"}
                 lineColor={"grey"}
@@ -136,9 +143,36 @@ export const CICDDocs = () => {
                     icon={<GoGithubAction/>}
                 >
                     <h3 className="vertical-timeline-element-title">Github Actions</h3>
-                    <h6 className="vertical-timeline-element-subtitle">Continuous Integration and Continuous Deployment</h6>
+                    <h6 className="vertical-timeline-element-subtitle">Continuous Integration and Continuous Deployment in "Workflows"</h6>
                     <p>
-
+                        Een "workflow" wordt gebruikt om 1 actie automatisch uit te voeren. In AH Tech Labs worden de volgende "workflows" gebruikt:
+                        <p>
+                            <img src={actions} className={'jira'} alt={"Foto van AH Tech Labs workflows"}/>
+                        </p>
+                    </p>
+                    <p>
+                        Uit de bovenstaande foto kan gezien worden dat er 4 "workflows" zijn n.l.:
+                        <ul>
+                            <li>Create release</li>
+                            <li>Pull Request deployment</li>
+                            <li>Pull Request generic actions</li>
+                            <li>Release to production</li>
+                        </ul>
+                        Het kan zijn dat andere bedrijven dezelfde soorten "workflows" hebben maar andere titels voor deze hebben.
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: `${white}`, border: 'solid'}}
+                    contentArrowStyle={{ borderRight: `7px solid black` }}
+                    iconStyle={{ background: `${white}`}}
+                    icon={<HiOutlineClipboardList/>}
+                >
+                    <h3 className="vertical-timeline-element-title">Github Actions: Workflows</h3>
+                    <h6 className="vertical-timeline-element-subtitle">Hun functionaliteiten binnen AH Tech Labs</h6>
+                    <p>
+                        <h5>Create release</h5>
+                        Bij deze "workflow" wordt alle ontwikkelde code gepakt. Hierbij wordt de code geoptimaliseerd door een compiler en gereed gemaakt om online te gaan
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
