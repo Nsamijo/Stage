@@ -48,7 +48,7 @@ const PullRequest = () => {
                     <p>
                         Na het doornemen van de Pull Request omschrijving wordt duidelijk:
                         <ul>
-                            <li>De Mede-Developer heeft een component af van de website en wilt deze verandering doorvoeren</li>
+                            <li>De mede-stagaire heeft een component voor een website afgerond en wilt deze verandering doorvoeren</li>
                         </ul>
                     </p>
                 </VerticalTimelineElement>
@@ -65,7 +65,7 @@ const PullRequest = () => {
                         Bij het nakijken wordt duidelijk dat er 3 aanpassingen zijn:
                         <ul>
                             <li>Er zijn 2 nieuwe documenten toegevoegd</li>
-                            <li>De index pagina is aangepast om het nieuw component te tonen</li>
+                            <li>De index pagina is aangepast om het eerder genoemde component te tonen</li>
                         </ul>
                         <h5>Nieuwe documenten</h5>
                         <img className={"second"} src={Added} alt={"Added files"}/>
@@ -87,17 +87,17 @@ const PullRequest = () => {
                     </p>
                     <p>
                         <h5>Document Nr. 1</h5>
-                        De document bevat de stijlings instructies. Deze worden waarschijnlijk gebruikt in het ander nieuw document.
+                        Dit document bevat de stijl instructies. De stijl instructies worden gebruikt in een ander document.
                         <img className={"styling"} src={Styling} alt={"Added files"}/>
                     </p>
                     <p>
                         <h5>Document Nr. 2</h5>
-                        De document specificeert een component die, inderdaad, de stijl instructies gebruikt van het eerste document. Verder worden er foto's en namen weergegeven. Dit component is dus bedoelt om de teamleden te weergeven.
+                        Dit document bevat de stijl instructies zoals hierboven genoemd. Verder worden er foto's en namen weergegeven van teamleden van een ander team.
                         <img className={"team"} src={Team} alt={"Added files"}/>
                     </p>
                     <p>
                         <h5>Conclusie</h5>
-                        De code ziet er goed uit. Geen fouten, geen opmerkingen. Hierdoor krijgt deze een goedkeuring vanuit mij.
+                        De code ziet er goed uit. Geen fouten, geen opmerkingen. Hierdoor mijn goedkeuring hieraan.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

@@ -53,7 +53,7 @@ export const Leerdoel3 = () => {
                         <h3 className="vertical-timeline-element-title">Oplossingen Onderzoeken</h3>
                         <h6 className="vertical-timeline-element-subtitle">Hoe doen anderen het?</h6>
                         <p>
-                            Individueel is er onderzoek gedaan naar hoe bedrijven adverteren naar de klanten toe. Hierbij stonden uit:
+                            Individueel is er onderzoek gedaan naar hoe bedrijven adverteren. Uit het onderzoek kwam onder ander naar voren dat;
                             <ul>
                                 <li>Bol.com: heeft een speciale pagina voor aanbiedingen (outlet, tweedekans, etc.)</li>
                                 <li>Mediamarkt.nl: heeft een gehele aparte website voor alle tweedehands/geretourneerde producten</li>
@@ -83,7 +83,7 @@ export const Leerdoel3 = () => {
                         <h3 className="vertical-timeline-element-title">Uitdagingen en/of Problemen</h3>
                         <h6 className="vertical-timeline-element-subtitle">Wat zijn mogelijke uitdagingen/problemen?</h6>
                         <p>
-                            Individueel wordt er gekeken welke uitdagingen/problemen voorkomen kunnen worden. Na het bedenken van mogelijke uitdagingen/problemen zijn ze gesorteerd op basis van grootte en moeilijkheidsgraad. Hierbij waren de grootste uitdagingen/problemen:
+                            Individueel wordt er gekeken welke uitdagingen/problemen. Na het bedenken van mogelijke uitdagingen/problemen zijn ze gegroupeerd op basis van onderstaande indeling;
                             <ol>
                                 <li><b>Context:</b> De voorraad van de Koopjeshoek is niet altijd accuraat. Oorzaak hiervan is de hoeveelheid data die verwerkt moet worden vanuit de vele winkels.
                                     <ul>

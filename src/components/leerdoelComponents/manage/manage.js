@@ -17,12 +17,12 @@ const Manage = () => {
                 </p>
                 <p>
 
-                    Bij dit leerdoel is er gekozen het standaard van het stagebedrijf te hanteren, dit standaard is een planmatige werkwijze. Tech Labs maakt gebruik van de Lean-methode: Lean Start-up voor het opstellen en beheren van plannen en producteisen. De gemaakte plannen en eisen worden genoteerd in een Jira scrumbord.
+                    Bij dit leerdoel is er gekozen de standaard van het stagebedrijf te gebruiken. Onderdeel van het stagebedrijf, AH Tech Labs, werkt met een Lean Start-up methode om bestaande klant- en bedrijfsuitdagingen op te lossen met nieuwe, incrementele verbeteringen.
                 </p>
                 <p>
                     <h5>Beheren</h5>
                     <p>
-                        Elk project wordt opgesteld met een aantal plannen en afspraken. Deze plannen en afspraken moeten in de gaten worden gehouden om zo het voortgang van een project te kunnen peilen. Oftewel er zal een werkmethodiek worden gebruikt om het project te beheren.
+                        Elk project wordt opgesteld met een aantal plannen en afspraken op basis van tijdens een presentatie verkregen informatie. Tijdens de presentatie wordt de afdeling benoemd die producteigenaar is. Deze plannen en afspraken moeten in de gaten worden gehouden om zo het voortgang van een project te kunnen monitoren.
                     </p>
                     <p>
                         In AH Tech Labs wordt er gebruikt van de Lean-methodologie: Lean Start-Up. Hiermee kan de afdeling bestaande klant- en bedrijfsuitdagingen oplossen met nieuwe, incrementele verbeteringen. Verder is de afdeling ook bezig met het innoveren, vinden en verbeteren van nieuwe business modellen voor klanten. De Lean Start-Up methode is zeer efficient voor het innoveren en ontwikkelen van concepten, waarbij de nadruk ligt op snelle validatie van ideeën en continue klantcontact - <a href={"https://labs.ah.nl/"}>AH Tech Labs</a>

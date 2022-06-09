@@ -17,13 +17,13 @@ const Problem = () => {
                 </p>
                 <p>
                     <h5>Probleem Context</h5>
-                    Albert Heijn wilt zijn voedselverspilling verminderen en oogt deze omlaag te brengen naar 20 procent in het jaar 2030. Voor dit doel zijn er enkele initiatieven genomen waaronder Dynamisch Afprijzen. Hierbij kreeg AH Tech Labs de volgende probleemstelling binnen:
+                    Albert Heijn wil het percentage aan voedselverspilling met 20 procent verlaagd hebben in het jaar 2030. Eén van de intiatieven is Dynamisch Afprijzen. Bij AH Tech Labs kwam hiervoor de volgende probleemstelling binnen:
                 </p>
                 <p>
                     <Probleemstelling/>
                 </p>
                 <p>
-                    Om de probleemstelling te begrijpen zal er eerst informatie vergaart moeten worden over Dynamisch Afprijzen.
+                    Het team is gestart met het vergaren van informatie over wat verstaan wordt onder Dynamisch Afprijzen.
                 </p>
                 <p>
                     <DynamischAfprijzen/>

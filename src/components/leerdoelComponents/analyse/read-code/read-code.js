@@ -18,16 +18,16 @@ const ReadCode = () => {
                 <p>
                     <h5>Bedrijfs Context</h5>
                     <p>
-                        Elke bedrijf dat code bezit moet deze makkelijk kunnen opslaan en beheren. AH Tech Labs gebruikt hiervoor de online oplossing Github.
+                        Elk bedrijf dat code bezit moet deze makkelijk kunnen opslaan en beheren. AH Tech Labs gebruikt hiervoor de online oplossing Github.
                     </p>
                     <p>
                         <Github/>
                     </p>
                     <p>
                         <h6>Werkwijze</h6>
-                        Als een taak (feature) is afgerond word er eerst een Pull Request geopened om dit aan te geven. Een Pull Request is pas goedgekeurd als het voldoet aan de volgende eisen:
+                        Als een taak (feature) is afgerond word er eerst een Pull Request geopened om dit aan te geven. Een Pull Request wordt pas goedgekeurd als het voldoet aan de volgende eisen:
                         <ul>
-                            <li>Goedkeuring van minimaal 2 mensen waarvan 1 een begeleider is</li>
+                            <li>Goedkeuring van minimaal 2 mensen waarvan 1 een Tech Labs begeleider is</li>
                             <li>Alle testen van Github Actions succesvol heeft doorlopen</li>
                         </ul>
                     </p>
@@ -35,7 +35,7 @@ const ReadCode = () => {
                 <p>
                     <h5>Leerdoel Behaald</h5>
                     <p>
-                        Om dit leerdoel te behalen zijn een aantal Pull Request nagekeken waarvan 1 van deze is gedocumenteerd. In de documentatie zijn de conclusie en bijbehorend beeld materiaal meegenomen.
+                        Om dit leerdoel te behalen zijn een aantal Pull Request nagekeken waarvan onderstaand maar 1 beschreven wordt. In de beschrijving zijn de conclusie en bijbehorend beeld materiaal meegenomen.
                     </p>
                 </p>
             </Row>

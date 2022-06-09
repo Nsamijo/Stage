@@ -46,13 +46,13 @@ const Project = () => {
                     <h3 className="vertical-timeline-element-title">Project Kickoff</h3>
                     <h6 className="vertical-timeline-element-subtitle">AH Hoofdkantoor, Zaandam</h6>
                     <p>
-                        Presentatie door de product-eigenaar. Hierbij wordt de focus gelegt op de voedselverspilling binnen de Albert Heijn met als oplossing: Dynamisch Afprijzen.
+                        Presentatie door de producteigenaar. Hierbij wordt de focus gelegt op het voorkomen van voedselverspilling binnen de Albert Heijn met als oplossing: Dynamisch Afprijzen.
                     </p>
                     <p>
-                        Kern Dynamisch Afprijzen: De korting percentage van een product, die zal verlopen op die dag, verhogen naarmate de dag verloopt
+                        Dynamisch Afprijzen: De korting percentage van een product, die zal verlopen op die dag, verhogen naarmate de dag verloopt.
                     </p>
                     <p>
-                        Probleemstelling: Een webpagina maken die de Dynamisch Afgeprijsde producten toont per winkel
+                        Probleemstelling: Een webpagina maken die de Dynamisch Afgeprijsde producten toont per winkel.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -63,13 +63,13 @@ const Project = () => {
                     icon={<GoCommentDiscussion/>}
                 >
                     <h3 className="vertical-timeline-element-title">Brainstorm</h3>
-                    <h6 className="vertical-timeline-element-subtitle">Onderzoek van Minimale Eisen/Functionaliteit van het Product</h6>
+                    <h6 className="vertical-timeline-element-subtitle">Minimale Eisen/Functionaliteit van het Product</h6>
                     <p>
-                        Hierbij kwam grotendeels naar voren:
+                        Uitkomst:
                         <ul>
                             <li>Tonen van de korting</li>
                             <li>Disclaimer/Waarschuwing voorraad verschillen</li>
-                            <li>Het kunnen invoeren van een winkellocatie</li>
+                            <li>Het kunnen invoeren van een winkellocatie door de klant</li>
                         </ul>
                     </p>
                 </VerticalTimelineElement>
@@ -105,7 +105,7 @@ const Project = () => {
                     <h6 className="vertical-timeline-element-subtitle">Build</h6>
                     <p>
                         <ul>
-                            <li>Probleemstelling concreet neergezet</li>
+                            <li>Probleemstelling concreet bepaald</li>
                             <li>Minimale Eisen/Functionaliteit van het Product bepaald</li>
                             <li>Klanten ervaring in kaart gebracht voor in de winkel als online</li>
                         </ul>
@@ -125,7 +125,7 @@ const Project = () => {
                         Introductie gehad tot de Jira omgeving:
                         <ul>
                             <li>Taken neergezet</li>
-                            <li>Aan elke taak een Accepteer Criteria (eis) gekoppeld</li>
+                            <li>Aan elke taak een Acceptatie Eis gekoppeld</li>
                         </ul>
                         Ontwikkelingsomgeving opgezet:
                         <ul>
@@ -159,10 +159,10 @@ const Project = () => {
                     <h3 className="vertical-timeline-element-title">AH Tech Labs Template</h3>
                     <h6 className="vertical-timeline-element-subtitle">Build</h6>
                     <p>
-                        AH Tech Labs maakt gebruik van een template als deze features maakt voor ah.nl. Deze moet dus ook gebruik worden voor het project.
+                        Binnen Tech Labs wordt er gebruik gemaakt van een template ten behoeve van ontwikkelingen van features voor ah.nl. Dit template moesten we gedurende dit project gebruiken.
                     </p>
                     <p>
-                        Verder is vandaag de backend live gegaan en wordt beheerd door software: <a href={"https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/"}>Kubernetes</a>.
+                        Verder is vandaag de backend live gegaan en wordt beheerd door de software: <a href={"https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/"}>Kubernetes</a>.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -196,7 +196,7 @@ const Project = () => {
                         Vandaag is het einde van de eerste sprint. De sprint wordt geindigt met:
                         <ul>
                             <li>Sprintupdate: Jira bord aanpassen</li>
-                            <li>Retrospective: Reflectie op de afgelopen sprint op basis van een Glad-Sad-Mad systeem (Hierbij reflecteren teamleden over situaties die vallen onder die categorieën)</li>
+                            <li>Retrospective: Reflectie op de afgelopen sprint op basis van een Glad-Sad-Mad systeem (Hierbij reflecteren teamleden over situaties die vallen onder boverstaande categorieën)</li>
                         </ul>
                     </p>
                 </VerticalTimelineElement>
@@ -219,8 +219,8 @@ const Project = () => {
                         </ul>
                     </p>
                     <p>
-                        De afgelopen sprint wordt besproken met de Stagebegeleider. Hieruit kwam naar voren dat alle functionaliteiten af zijn en dat de focus nu zal zijn op het verfijnen van de functionaliteiten/website.
-                        Met verfijnen wordt verstaant:
+                        De afgelopen sprint wordt besproken met de Stagebegeleider. Hieruit kwam naar voren dat alle functionaliteiten af zijn en dat de focus zal liggen op het verfijnen van de functionaliteiten/website.
+                        Met verfijnen wordt verstaan:
                         <ul>
                             <li>Testen en feedback verzamelen</li>
                             <li>Verzamelde feedback implementeren</li>
@@ -239,7 +239,7 @@ const Project = () => {
                     <h3 className="vertical-timeline-element-title">Hackerguild AH</h3>
                     <h6 className="vertical-timeline-element-subtitle">Safety Test</h6>
                     <p>
-                        Voor een project live kan gaan op <a href={"https://www.ah.nl/"}>ah.nl</a> word het project getest op veiligheid. Hierbij moet de code en documentatie over het project (b.v. services die worden gebruikt, etc.) worden ingeleverd bij de Hackersguild.
+                        Voor een project live kan gaan op <a href={"https://www.ah.nl/"}>ah.nl</a> word het project getest op veiligheid. Hierbij moet de code en documentatie over het project (b.v. diensten die worden gebruikt, etc.) worden ingeleverd bij de Hackersguild.
                     </p>
                     <p>
                         De Hackersguild voert een aantal veiligheids-testen uit. Indien het project 1 van de testen faalt zal deze worden afgekeurd. De feedback zal worden geleverd aan het team en gevraagd worden om aanpassingen te maken.
