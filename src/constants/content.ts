@@ -24,6 +24,6 @@ export const realise = {
 }
 
 export const skills = {
-    leerdoel1: "Ik wil na mijn stage instaat zijn om feedback te ontvangen en geven",
+    leerdoel1: "Ik wil na mijn stage instaat zijn om feedback te ontvangen",
     leerdoel2: "Ik wil na mijn stage instaat zijn om zelfstandig taken op te pakken en af te ronden"
 }

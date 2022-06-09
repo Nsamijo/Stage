@@ -19,7 +19,7 @@ export const Feedback = () => {
                   <FeedbackUitleg/>
               </p>
               <p>
-                  Hier uit is de conclusie dat feedback een reactie is van derden op eigen acties of gedrag. Maar het belangrijkste zijnde dat feedback, zowel positief als negatief, gebruikt moet worden om te groeien. Met dit in het hoofd houden is de ontvangen stage feedback geanalyseerd en toegepast in de dagelijkse acties of gedrag
+                  Hier uit is de conclusie dat feedback een reactie is van derden op eigen acties of gedrag. Het belangrijkste is dat zowel positief als negatief feedback gebruikt moet worden om te kunnen groeien. Met dit in gedachte houdend heb ik de ontvangen feedback proberen toe te passen in mijn gedrag of acties.
               </p>
               <p>
                   <h5>Leerdoel Bewijs</h5>
