@@ -9,14 +9,7 @@ export const Advies = () => {
               </Accordion.Header>
               <Accordion.Body>
                   <p>
-                      Een advies is een mening of aanbeveling die wordt aangeboden als leidraad voor actie, gedrag, etc
-                  </p>
-                  <p>
-                      <a
-                          href={"https://www.dictionary.com/browse/advice"}
-                      >
-                          Collins English Dictionary, 2012
-                      </a>
+                      Een advies is een mening of aanbeveling.
                   </p>
               </Accordion.Body>
           </Accordion.Item>

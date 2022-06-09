@@ -24,7 +24,7 @@ export const Feedback = () => {
               <p>
                   <h5>Leerdoel Bewijs</h5>
                   <p>
-                      Voor dit leerdoel is gedurende de stage alle feedback verzameld en genoteerd. Ook is genoteerd de verandering die de feedback heeft opgebracht.
+                      Voor dit leerdoel is gedurende de stage de meest belangrijke feedback verzameld en genoteerd. Ook benoem ik hier de gedragsverandering die de feedback te weeg heeft gebracht.
                   </p>
               </p>
           </Row>

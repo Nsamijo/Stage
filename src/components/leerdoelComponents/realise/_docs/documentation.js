@@ -110,10 +110,10 @@ export const CICDDocs = () => {
     return (
         <Container>
             <p>
-                Bij AH Tech Labs is Continuous Intergration en Continuous Deployment geautomatiseerd met behulp van Github Actions. In Github Actions worden dit een workflow genoemd.
+                Bij AH Tech Labs is Continuous Intergration en Continuous Deployment geautomatiseerd met behulp van Github Actions. In Github Actions wordt dit een workflow genoemd.
             </p>
             <p>
-                Om de leerdoel te behalen zijn de workflows van AH Tech Labs gebruikt. Voor de workflows zijn gebruikt is eerst gekeken naar wat elke workflow doet en hoe deze te gebruiken.
+                Om de leerdoel te behalen zijn de workflows van AH Tech Labs gebruikt. Voor ik met de workflows aan het werk gegaan ben heb ik eerst gekeken naar wat elke workflow doe en hoe deze te gebruiken is.
             </p>
             <VerticalTimeline
                 layout={"1-column-left"}
@@ -185,7 +185,7 @@ export const CICDDocs = () => {
                     </p>
                     <p>
                         <h5>Pull Request generic actions</h5>
-                        Deze workflow maakt een melding aan bij Microsoft Teams over de Pull Request. In de melding staat een link naar de toebehorende Pull Request zodat deze makkelijk terug te vinden is voor het team. Deze workflow is, naar eigen mening, geen Continous Intergration noch Continuous Deployment gerelateerd. De mening is dat deze meer een communicatieve rol heeft.
+                        Deze workflow maakt een melding aan bij Microsoft Teams over de Pull Request. In de melding staat een link naar de toebehorende Pull Request zodat deze makkelijk terug te vinden is voor het team.
                     </p>
                     <p>
                         <h5>Release to production</h5>

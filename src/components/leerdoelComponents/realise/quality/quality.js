@@ -30,7 +30,7 @@ export const Quality = () => {
                           <li>Het ontwerp in Figma</li>
                           <li>Kwaliteitseisen van de taak (feature) vermeld in Jira (Manage en Control)</li>
                       </ul>
-                      Met de kwaliteitseisen duidelijk is er gewerkt aan de taken (features). Voor de documentatie zijn er foto's gemaakt van het ontwerp. Verder is ook de ontwikkelde code en resultaat bij het uitvoeren opgenomen in de documentatie.
+                      Nadat de kwaliteitseisen duidelijk vastgelegd waren kon er gewerkt worden aan de taken (features). In onderstaande documentatie zijn er foto's van de kwaliteitseisen en ontwikkelde code opgenomen.
                   </p>
               </p>
           </Row>

@@ -20,7 +20,7 @@ export const Leerdoel4 = () => {
                 iconStyle={{ display: 'none'}}
             >
                 <p>
-                    Wegens een geheimhoudings verklaring met de Albert Heijn kan het zijn dat er weinig tot geen  beeld materiaal aanwezig is bij de documentatie aanwezig. Ook is er hierdoor expres informatie weggelaten.
+                    Wegens een geheimhoudings verklaring met de Albert Heijn kan het zijn dat er weinig tot geen  beeld materiaal aanwezig is bij de documentatie. Ook kan het zijn dat informatie is weggelaten.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -42,7 +42,7 @@ export const Leerdoel4 = () => {
                     Tijdens de Brainstorm-sessie van de Digitale Koopjeshoek pleitte ik voor de volgende functionaliteiten:
                     <ul>
                         <li>Het aangeven van een afwijkende voorraad: De voorraad kan afwijken</li>
-                        <li>Het tonen van de afprijsingen: Klant ziet dan de nieuwe prijs van het product</li>
+                        <li>Het tonen van de afgeprijsde producten: Klant ziet dan de nieuwe prijs van het product</li>
                     </ul>
                 </p>
             </VerticalTimelineElement>
@@ -56,7 +56,7 @@ export const Leerdoel4 = () => {
                 <h3 className="vertical-timeline-element-title">Afwijkende Voorraad</h3>
                 <h6 className="vertical-timeline-element-subtitle">Redenering Functionaliteit</h6>
                 <p>
-                    <b>Oorzaak/Probleem:</b> Het verwerken van de data (afgeprijsde producten verkocht) per winkel duurt tussen de 10 en 60 minuten. Hierdoor kan het zijn dat afgeprijsde producten worden getoond die al zijn verkocht.
+                    <b>Oorzaak/Probleem:</b> Het verwerken van de data (afgeprijsde producten verkocht) per winkel duurt tussen de 10 en 60 minuten. Hierdoor kan het zijn dat afgeprijsde producten die getoond worden al zijn verkocht.
                     <br/>
                     <b>Redenering Functionaliteit</b>
                     <ul>

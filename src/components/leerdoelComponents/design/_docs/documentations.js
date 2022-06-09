@@ -67,7 +67,7 @@ export const Design = () => {
                         <img src={store} className={"images"} alt={"Overzicht van alle afgeprijsde producten"}/>
                     </p>
                     <p>
-                        <h5>Overzicht van een geselecteerd afgeprijsd product</h5>
+                        <h5>Overzicht van een geselecteerd product</h5>
                         <img src={product} className={"images"} alt={"Productoverzicht"}/>
                     </p>
                 </VerticalTimelineElement>

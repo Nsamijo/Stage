@@ -20,7 +20,7 @@ export const Ontwerpen = () => {
                         <h3>Leerdoel Ontwerpen 2</h3>
                         Ik wil na mijn stage instaat zijn om ontwerpkeuzes te motiveren/verduidelijken
                     </div>
-                    Van hieruit zal er van de afkortingen LDO1 en LDO2 gebruikt maken om de bovengenoemde leerdoelen te benoemen
+                    De volgende afkortingen LDO1 en LDO2 zullen in de rest van de tekst gebruikt worden bovengenoemde leerdoelen te benoemen.
                 </p>
                 <p>
                     <h5>Leerdoel</h5>
@@ -42,10 +42,11 @@ export const Ontwerpen = () => {
                 </p>
                 <p>
                     <h5>Leerdoel Bewijs</h5>
-                    Om dit leerdoel te behalen is er voor de Digitale Koopjeshoek een gebruikersinterface ontworpen. Dit ontwerp neemt de eisen en adviesen mee van de vorige leerdoelen.
+                    Om dit leerdoel te behalen is er voor de Digitale Koopjeshoek een gebruikersinterface ontworpen. Dit ontwerp neemt de eisen en adviesen mee van de vorige leerdoelen (Analyseren en Adviseren).
                 </p>
                 <p>
-                    In het bewijs is LDO2 verwerkt. Het bewijs van LDO2 zal de motivatie bevatten van het gebruikersinterface ontwerp. Voor de duidelijkheid zal dit aangegeven worden met <strong>[LDO2]</strong>
+
+                    In het bewijs is LDO2 verwerkt. Met LDO2 motiveer ik de look en feel van de gebruikersinterface. Voor de duidelijkheid zal dit aangegeven worden met <strong>[LDO2]</strong>
                 </p>
             </Row>
             <Row>

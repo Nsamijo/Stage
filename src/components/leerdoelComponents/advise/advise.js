@@ -13,7 +13,7 @@ export const Advise = () => {
                     </p>
                 </p>
                 <p>
-                    Tijdens de stage zijn er verschillende momenten geweest waar er adviezen nodig waren. De adviezen die aansluiten bij dit leerdoel vonden plaats tijdens de probleemanalyse. Deze adviezen gaan over de functionaliteiten die als individu zijn gegeven aan het team.
+                    Tijdens de stage zijn er verschillende momenten geweest waarop ik adviezen moest uitbrengen. De adviezen die aansluiten bij dit leerdoel vonden plaats tijdens de probleemanalyse. De adviezen hadden betrekking op de functionaliteit van de te ontwikkelen software.
                 </p>
                 <p>
                     Om de leerdoel beter te begrijpen is eerst gekeken naar de betekenis van het woord advies.
@@ -22,10 +22,10 @@ export const Advise = () => {
                     <Advies/>
                 </p>
                 <p>
-                    Als er gekeken wordt in het context van stage moeten er aanbevelingen gegeven worden omtrent onder andere:
+                    De meeste adviezen heb ik gegeven bij:
                     <ul>
-                        <li>De te ontwikkelen functionaliteiten</li>
-                        <li>Het ontwerp van de gebruikersinterface</li>
+                        <li>Het bepalen van de functionaliteiten</li>
+                        <li>Het bepalen van het ontwerp van de gebruikersinterface</li>
                     </ul>
                 </p>
                 <p>

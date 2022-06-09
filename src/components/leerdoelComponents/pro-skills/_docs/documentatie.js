@@ -28,7 +28,7 @@ export const Aansturing = () => {
                     iconStyle={{ display: 'none'}}
                 >
                     <p>
-                        Wegens een geheimhoudings verklaring met de Albert Heijn kan het zijn dat er weinig tot geen  beeld materiaal aanwezig is bij de documentatie aanwezig. Ook is er hierdoor expres informatie weggelaten.
+                        Wegens een geheimhoudings verklaring met de Albert Heijn kan het zijn dat er weinig tot geen beeld materiaal aanwezig is bij de documentatie. Ook kan het zijn dat informatie  is weggelaten.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -50,7 +50,7 @@ export const Aansturing = () => {
                        In Jira wordt er een scrumbord aangemaakt met de projectnaam, hier worden dan alle taken/features genoteerd. Elk teamlid heeft toegang tot de Jira-bord en kan zelf een taak oppakken.
                     </p>
                     <p>
-                        Wegens NDA redenen is er geen gehele foto van de Jira-bord beschikbaar
+                        Wegens een geheimhoudings verklaring is er geen gehele foto van de Jira-bord beschikbaar
                         <img src={jira} className={"standard"} alt={"Jira bord"}/>
                     </p>
                 </VerticalTimelineElement>
@@ -64,7 +64,7 @@ export const Aansturing = () => {
                     <h3 className="vertical-timeline-element-title">Taak Selecteren en Oppakken</h3>
                     <h6 className="vertical-timeline-element-subtitle">Aan de slag</h6>
                     <p>
-                        Om een taak te selecteren en uit te voeren is het mogelijk om jezelf toe te wijzen aan de taak. Verder heeft elk taak ook een "Melder", dit is een persoon verantwoordelijk om te kijken hoe de voortgang gaat en ook of de taak juist is uitgevoerd.
+                        Het was mogelijk om zelfstandig een taak op te pakken. Verder heeft elk taak ook een "Melder", dit is een persoon die de voortgang en de correcte uitvoering van de taak moet bewaken.
                     </p>
                     <p>
                         <img src={name} className={"standard"} alt={"Jira Overzicht"}/>
@@ -80,7 +80,7 @@ export const Aansturing = () => {
                     <h3 className="vertical-timeline-element-title">Taak Afgerond</h3>
                     <h6 className="vertical-timeline-element-subtitle">Wachten op goedkeuring</h6>
                     <p>
-                        Na het uitvoeren (code ontwikkelen, testen  en bugfixes) van een taak moet deze nagekeken worden door de "Melder". Om dit te doen krijgt de taak een "Gereed"-status (label).
+                        Om dit te doen moet de uitvoerder de taak "Gereed" melden.
                     </p>
                     <p>
                         <img src={ready} className={'standard'} alt={'Ready voorbeeld Jira'}/>
@@ -121,10 +121,10 @@ export const FeedbackTimeline = () => {
     return (
         <Container>
             <p>
-                Hier zal er verteld worden over de feedback die is ontvangen en wat met de feedback is gedaan. Verder is er ook gedocumenteerd welke feedback is gegeven. De documentatie is op basis van
+                Onderstaand wordt ingegaan op de ontvangen feedback.
             </p>
             <p>
-                De ontvangen feedback zal gaan over:
+                De ontvangen feedback heb ik onderverdeeld in:
                 <ul>
                     <li>De opgeleverde code: feedback over de kwaliteit van de code</li>
                     <li>Het gedrag tijdens de stage: feedback over handelingen/gewoontes die fijne en minder fijne gevoelens opleveren</li>
@@ -179,16 +179,16 @@ export const FeedbackTimeline = () => {
                         <h5>Feedback Reflectie</h5>
                         <p>
                             <p>"Please do not use magic numbers. Use better named variables"</p>
-                            In de code wordt op basis van een berekening de afstand tussen klant en winkel berekened. In de berekening is er net als in Wiskunde gebruik gemaakt van cijfers, x's en y's. Dit maakt het lezen moeilijker voor de ontwikkelaar die de code b.v. moet onderhouden. De feedback is daarom als volgt verandert:
+                            In de code wordt op basis van een berekening de afstand tussen klant en winkel berekened. In de berekening is er een wiskundige notatie gebruikt met name de letters x en y. Dit maakt het lezen moeilijker voor de ontwikkelaar die de code b.v. moet onderhouden. De feedback is daarom als volgt verandert:
                             <ol>
-                                <li>De constantes een omschrijvende naam geven. In dit geval is de naam gegeven: KmConstant. Dit is gedaan omdat het getal nodig is om de afstand te berekenen in kilometers</li>
-                                <li>Variables een omschrijvende naam te geven. In dit geval staat de x en y voor relatief de lengte-en breedtegraad. De x's en y's in de berekening zijn toen hernoemd naar longitude (lengtegraad) en latitude (breedtegraad).</li>
+                                <li>Er is gebruik gemaakt van een constante waarde voor het berekenen van de afstand tussen klant en winkel. Deze waarde heb ik: KmConstant genoemd.</li>
+                                <li>Variables een omschrijvende naam te geven. In dit geval staan de x en y voor respectievelijk de lengte-en breedtegraad. De x's en y's in de berekening zijn toen hernoemd naar longitude (lengtegraad) en latitude (breedtegraad).</li>
                             </ol>
                             <p>
                                 "I like the title of the Pull Request"
                             </p>
                             <p>
-                               Elke Pull Request heeft een titel en omschrijving. Hierbij is het gebruikelijk om een titel te geven kort aangeeft welke veranderingen/toevoegingen de Pull Request zal maken. De reden voor de positieve feedback was omdat in de omschrijving was toegevoegd wat de veranderingen zijn van de documenten zijn.
+                               Elke Pull Request heeft een titel en omschrijving. Hierbij is het gebruikelijk om een titel te gebruiken die in beknopte termen aangeeft welke veranderingen/toevoegingen de Pull Request zal maken. De reden voor de positieve feedback was omdat er in de omschrijving was aangegeven welke veranderingen in de documenten zouden worden doorgevoerd.
                             </p>
                         </p>
                         <p>
@@ -216,12 +216,14 @@ export const FeedbackTimeline = () => {
                     <h3 className="vertical-timeline-element-title">Feedback Gedrag Tijdens de Stage</h3>
                     <h6 className="vertical-timeline-element-subtitle">Ontvangen van stagebegeleider: Sophie Schoordijk</h6>
                     <p>
-                        De feedback wordt ontvangen wegens een miscommunicatie vanuit mijn kant. Hierbij had ik gemeld dat ik mijn schooldag, 1 dag per week waar de stagaire de ruimte heeft om deze te besteden aan school, zou over 2 dagen. Dit kwam echter over als: ik zal morgen een halve schooldag nemen.
+                        Ik heb feedback op de wijze waarop ik heb gecommuniceerd.
+                        Hierbij heb ik aan 1 van mijn stagebegeleiders het volgende meegedeeld: "Morgen neem ik een halve dag en de dag daarna de andere helft.".
+                        <br/>
+                        Wat ik probeerde te zeggen is dat ik mijn schooldag zou splitsen in 2 dagdelen waarbij 1 dagdeel zou gebruiken voor stage en 1 dagdeel voor school.
+                        <br/>
+                        Mijn mededeling kwam als volgt over: "Ik zal morgen een halve schooldag nemen". Gevolg hiervan is dat ik de volgende dag verwacht werd tijdens de dagelijkse standup en mijn afwezigheid gezien werd als een afspraak die ik niet was nagekomen.
                         <p>
-                            Hierdoor werd ik de volgende dag verwacht tijdens de dagelijkse standup en werd mijn afwezigheid gezien als een afspraak die ik niet ben nagekomen.
-                        </p>
-                        <p>
-                            De ontvangen feedback luidde als volg:
+                            De feedback luidde als volg:
                             <p>
                                 "Wees duidelijk met je communicatie. Goed dat je het mondelijk had gemeld, maar voor de volgende keer stuur ook een bericht. Het liefs 1 dag van tevoren melden hoe je je schooldag zal indelen."
                             </p>
@@ -229,7 +231,7 @@ export const FeedbackTimeline = () => {
                         <p>
                             <h5>Feedback Reflectie</h5>
                             <p>
-                                Door mondeling te zeggen kan het niet begrepen of verstaan worden. Hierdoor is het altijd goed om een bericht te sturen. Door van tevoren wat de intenties zijn zal ervoor zorgen dat de mede-stagaires en begeleiders weten wat ze de volgende dag kunnen verwachten qua b.v. aanwezigheid, etc.
+                                Ik heb onduidelijk gecommuniceerd. En ik heb niet gecontroleerd of mijn mededeling goed was overgekomen. Ook ben ik erop gewezen dat ik sommige onderwerpen via een bericht aan mijn teamleden moet mededelen. Door te werken aan mijn communicatie zowel mondeling als schriftelijk kunnen misverstanden voorkomen worden.
                             </p>
                         </p>
                         <p>
@@ -237,7 +239,7 @@ export const FeedbackTimeline = () => {
                             <p>
                                 Met behulp van de feedback is het volgende verandert:
                                 <p>
-                                    Elke dag voor mijn schooldag melde dat morgen mijn schooldag is. Hierbij voegde ik aantoe dat ik daarom niet aanwezig zal zijn. Ook is aangegeven wat ik die dag zal doen op omtrent school.
+                                    Ik gaf duidelijk aan wanneer ik naar school moest. Ik vertelde hierbij welke vakken ik zou volgen op school.
                                 </p>
                             </p>
                         </p>
