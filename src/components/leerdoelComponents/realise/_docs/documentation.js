@@ -45,7 +45,7 @@ export const QualityDoc = () => {
             <h3 className="vertical-timeline-element-title">Kwaliteitseisen Doornemen</h3>
             <h6 className="vertical-timeline-element-subtitle">Jira Criteria</h6>
             <p>
-                <p>Dit is een screenshot van de Jira criteria. Hieruit wordt duidelijk dat er een back nodig is die de logos toont van merken die meedoen (wegens NDA redenen mag niet gezegt worden waaraan de merken meedoen).</p>
+                <p>Dit is een screenshot van de Jira criteria. Hieruit wordt duidelijk dat er een back nodig is die de logos toont van merken die meedoen (wegens de geheimhoudings verklaring mag niet gezegt worden waaraan de merken meedoen).</p>
                 <img className={"jira"} src={criteria} alt={"Jira defenitions"}/>
             </p>
           </VerticalTimelineElement>
@@ -126,7 +126,7 @@ export const CICDDocs = () => {
                     iconStyle={{ display: 'none'}}
                 >
                     <p>
-                        Wegens een geheimhoudings verklaring met de Albert Heijn kan het zijn dat er weinig tot geen  beeld materiaal aanwezig is bij de documentatie aanwezig. Ook is er hierdoor expres informatie weggelaten.
+                        Wegens een geheimhoudings verklaring met de Albert Heijn kan het zijn dat er weinig tot geen beeld materiaal aanwezig is bij de documentatie. Ook kan het zijn dat informatie is weggelaten.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

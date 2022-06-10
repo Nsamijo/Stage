@@ -127,7 +127,8 @@ export const FeedbackTimeline = () => {
                 De ontvangen feedback heb ik onderverdeeld in:
                 <ul>
                     <li>De opgeleverde code: feedback over de kwaliteit van de code</li>
-                    <li>Het gedrag tijdens de stage: feedback over handelingen/gewoontes die fijne en minder fijne gevoelens opleveren</li>
+                    <li>Communicatie tijdens de stage: feedback over handelingen/gewoontes die fijne en minder fijne gevoelens opleveren</li>
+                    <li>Planning</li>
                 </ul>
             </p>
             <p>
@@ -144,7 +145,7 @@ export const FeedbackTimeline = () => {
                     iconStyle={{ display: 'none'}}
                 >
                     <p>
-                        Wegens een geheimhoudings verklaring met de Albert Heijn kan het zijn dat er weinig tot geen  beeld materiaal aanwezig is bij de documentatie aanwezig. Ook is er hierdoor expres informatie weggelaten.
+                        Wegens een geheimhoudings verklaring met de Albert Heijn kan het zijn dat er weinig tot geen beeld materiaal aanwezig is bij de documentatie. Ook kan het zijn dat informatie is weggelaten.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -213,10 +214,10 @@ export const FeedbackTimeline = () => {
                     contentArrowStyle={{ borderRight: `7px solid black` }}
                     iconStyle={{ background: `${white}`}}
                 >
-                    <h3 className="vertical-timeline-element-title">Feedback Gedrag Tijdens de Stage</h3>
+                    <h3 className="vertical-timeline-element-title">Feedback Communicatie Tijdens de Stage</h3>
                     <h6 className="vertical-timeline-element-subtitle">Ontvangen van stagebegeleider: Sophie Schoordijk</h6>
                     <p>
-                        Ik heb feedback op de wijze waarop ik heb gecommuniceerd.
+                        Ik heb feedback ontvangen op de wijze waarop ik heb gecommuniceerd.
                         Hierbij heb ik aan 1 van mijn stagebegeleiders het volgende meegedeeld: "Morgen neem ik een halve dag en de dag daarna de andere helft.".
                         <br/>
                         Wat ik probeerde te zeggen is dat ik mijn schooldag zou splitsen in 2 dagdelen waarbij 1 dagdeel zou gebruiken voor stage en 1 dagdeel voor school.
@@ -243,6 +244,21 @@ export const FeedbackTimeline = () => {
                                 </p>
                             </p>
                         </p>
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: `${white}`, border: 'solid'}}
+                    contentArrowStyle={{ borderRight: `7px solid black` }}
+                    iconStyle={{ background: `${white}`}}
+                >
+                    <h3 className="vertical-timeline-element-title">Feedback Planning</h3>
+                    <h6 className="vertical-timeline-element-subtitle">Ontvangen van begeleider: Leendert Ullersma</h6>
+                    <p>
+                        Ik heb feedback ontvangen over de planning van de door mij verrichte werkzaamheden.
+                    </p>
+                    <p>
+                        Ik had mijn taken (codes) niet altijd op tijd af. Het ontwikkelen van code had meer werk dat ik had ingeschat of ik liep tegen problemen aan. Ik heb ook verzuimd om dit op tijd aan te geven of hulp te vragen.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

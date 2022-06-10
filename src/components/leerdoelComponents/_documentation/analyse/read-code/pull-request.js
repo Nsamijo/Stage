@@ -30,7 +30,7 @@ const PullRequest = () => {
                     iconStyle={{ display: 'none'}}
                 >
                     <p>
-                        Wegens een geheimhoudings verklaring met de Albert Heijn kan het zijn dat er weinig tot geen  beeld materiaal aanwezig is bij de documentatie aanwezig. Ook is er hierdoor expres informatie weggelaten.
+                        Wegens een geheimhoudings verklaring met de Albert Heijn kan het zijn dat er weinig tot geen beeld materiaal aanwezig is bij de documentatie. Ook kan het zijn dat informatie is weggelaten.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

@@ -12,6 +12,9 @@ export const Feedback = () => {
                       Bij dit leerdoel gaat het over de skills die zijn opgedaan tijdens de stage
                   </p>
               </p>
+              <ul>
+                 <li>Planning</li>
+              </ul>
               <p>
                   Tijdens de stage is er feedback ontvangen van zowel de mede stagaires als begeleiders. Om beter de feedback te begrijpen is er gekeken naar wat het woord betekent en waar deze voor dient. Het volgende is er gevonden over feedback:
               </p>
