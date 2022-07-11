@@ -1,29 +1,29 @@
 .first {
-    width: 50rem;
+    width: 90%;
     height: 25rem;
     object-fit: contain;
 }
 
 .second {
-    width: 50rem;
+    width: 90%;
     height: 15rem;
     object-fit: contain;
 }
 
 .index {
-    width: 50rem;
+    width: 90%;
     height: 20rem;
     object-fit: contain;
 }
 
 .styling {
-    width: 50rem;
+    width: 90%;
     height: 25rem;
     object-fit: contain;
 }
 
 .team {
-    width: 50rem;
+    width: 90%;
     height: 30rem;
     object-fit: contain;
 }

@@ -96,8 +96,26 @@ const PullRequest = () => {
                         <img className={"team"} src={Team} alt={"Added files"}/>
                     </p>
                     <p>
+                        Bij de veranderingen is er opgelet op:
+                        <ul>
+                            <li>Structuur</li>
+                            <li>Leesbaarheid</li>
+                            <li>Netheid</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <h5>Veranderingen Mening</h5>
+                        De structuur van de code volgt alle regels van AH Tech Labs. De code is simpel opgesteld en kan makkelijk onderhouden worden. Voor netheid bij de code is gekeken of de code geen "console.log" bevat.<br/><br/>
+                        Een "console.log" wordt gebruikt door ontwikkelaars om fout-meldingen te weergeven in de browser. Voor een gebruiker heeft een "console.log" geen toegevoegde waarde.
+                        <br/>
+                        De code bevat geen "console.log". Met dit laatste voldoen de veranderingen aan alle eisen van AH Tech Labs
+                    </p>
+                    <p>
+
+                    </p>
+                    <p>
                         <h5>Conclusie</h5>
-                        De code ziet er goed uit. Geen fouten, geen opmerkingen. Hierdoor mijn goedkeuring hieraan.
+                        De code ziet er goed uit. Geen fouten, geen opmerkingen. Deze Pull Request krijgt mijn goedkeuring.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

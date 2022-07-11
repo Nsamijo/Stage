@@ -33,6 +33,26 @@ export const Leerdoel3 = () => {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: `${white}`, border: 'solid'}}
+                        contentArrowStyle={{ display: `none` }}
+                        iconStyle={{ display: 'none'}}
+                    >
+                        <p>
+                            Bij dit leerdoel is er gebruikt gemaakt van de probleemanalyse van AH Tech Labs. De probleemanalyse legt de nadruk op:
+                            <ul>
+                                <li>Hoe doen anderen (concurrenten/andere bedrijven) het?</li>
+                                <li>Wat gaat er goed op hun (andere bedrijven) manier?</li>
+                                <li>Wat gaat minder goed op hun (andere bedrijven) manier?</li>
+                                <li>Welke oplossingen zijn er?</li>
+                                <li>Welke valkuilen zijn er?</li>
+                            </ul>
+                        </p>
+                        <p>
+                            In de documentatie zal het gebruik van de probleemanalyse en de bevindingen beschreven worden.
+                        </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        contentStyle={{ background: `${white}`, border: 'solid'}}
                         contentArrowStyle={{ borderRight: `7px solid  black`}}
                         iconStyle={{ background: `${white}`}}
                         icon={<RiFolderReceivedLine/>}
@@ -53,11 +73,17 @@ export const Leerdoel3 = () => {
                         <h3 className="vertical-timeline-element-title">Oplossingen Onderzoeken</h3>
                         <h6 className="vertical-timeline-element-subtitle">Hoe doen anderen het?</h6>
                         <p>
-                            Individueel is er onderzoek gedaan naar hoe bedrijven adverteren. Uit het onderzoek kwam onder ander naar voren dat;
+                            Individueel is er onderzoek gedaan naar hoe bedrijven adverteren. Uit het onderzoek kwam naar voren;
                             <ul>
-                                <li>Bol.com: heeft een speciale pagina voor aanbiedingen (outlet, tweedekans, etc.)</li>
-                                <li>Mediamarkt.nl: heeft een gehele aparte website voor alle tweedehands/geretourneerde producten</li>
+                                <li>Bol.com: heeft een speciale pagina voor aanbiedingen (o.a de <a target={"new"} href={"https://www.bol.com/nl/nl/m/outlet/"}>Outlet</a>,)</li>
+                                <li>Mediamarkt.nl: heeft een gehele aparte website voor alle tweedehands/geretourneerde producten: <a target={"new"} href={"https://outlet.mediamarkt.nl/"}>Mediamarkt Outlet</a></li>
                             </ul>
+                        </p>
+                        <p>
+                            Bedrijven hebben een aparte pagina voor producten in de aanbiedingen. Albert Heijn hanteert ook deze werkwijze voor producten in de bonus.
+                        </p>
+                        <p>
+                            De andere leden van het team hadden ook het resultaat. Dit resultaat is als basis gebruikt voor het bedenken van de oplossing.
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
@@ -70,7 +96,7 @@ export const Leerdoel3 = () => {
                         <h3 className="vertical-timeline-element-title">Oplossing bepalen</h3>
                         <h6 className="vertical-timeline-element-subtitle">Basis van Oplossing</h6>
                         <p>
-                            Albert Heijn kan de klanten enthousiast maken over Dynamisch Afprijzen door alle afgeprijsde producten op een aparte pagina te tonen. Deze pagina zal dan deel zijn van ah.nl. De pagina kreeg de naam: De Digitale Koopjeshoek.
+                            Albert Heijn kan de klanten enthousiast maken over Dynamisch Afprijzen door alle afgeprijsde producten op een aparte pagina te tonen. Deze pagina zal dan deel zijn van ah.nl. <br/>De pagina kreeg de naam: De Digitale Koopjeshoek.
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
