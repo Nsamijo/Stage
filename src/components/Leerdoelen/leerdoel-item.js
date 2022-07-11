@@ -8,13 +8,10 @@ const LeerdoelItem = (props) => {
     const evidenceClose = () => {setEvidence(false)};
     const evidenceShow = () => {setEvidence(true)};
 
-    const [reflect, setReflect] = useState(false);
-    const reflectClose = () => {setReflect(false)};
-    // const reflectShow = () => {setReflect(true)};
 
     const [feedback, setFeedback] = useState(false);
     const feedbackClose = () => {setFeedback(false)};
-    // const feedbackShow = () => {setFeedback(true)};
+    const feedbackShow = () => {setFeedback(true)};
 
     return (
         <Container>
@@ -31,22 +28,23 @@ const LeerdoelItem = (props) => {
                     </Offcanvas.Body>
             </Offcanvas>
 
-            <Offcanvas show={reflect} onHide={reflectClose} placement={"top"} >
-                <Offcanvas.Header closeButton>
-                    <Offcanvas.Title>Reflectie</Offcanvas.Title>
-                </Offcanvas.Header>
-                <Offcanvas.Body>
-                    Hier komt al mijn bewijs terecht
-                </Offcanvas.Body>
-
-            </Offcanvas>
-
             <Offcanvas show={feedback} onHide={feedbackClose} placement={"top"} >
                 <Offcanvas.Header closeButton>
-                    <Offcanvas.Title>Feedback</Offcanvas.Title>
+                    <Offcanvas.Title>Feedback en Reflectie</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
-                    Hier komt al mijn bewijs terecht
+                    <Container>
+                        <Row>
+                            <h1>Feedback</h1>
+                            <div className={"leerdoel"}>
+                                {props.feedback}
+                            </div>
+                        </Row>
+                        <br/>
+                        <Row>
+                            <h1>Reflectie</h1>
+                        </Row>
+                    </Container>
                 </Offcanvas.Body>
 
             </Offcanvas>
@@ -61,12 +59,9 @@ const LeerdoelItem = (props) => {
                     <div className="d-grid gap-2">
                         <Button variant="outline-dark" onClick={evidenceShow}>Bewijs</Button>
                     </div>
-                    {/*<div className="d-grid">*/}
-                    {/*    <Button variant="outline-dark" onClick={reflectShow}>Reflectie</Button>*/}
-                    {/*</div>*/}
-                    {/*<div className="d-grid">*/}
-                    {/*    <Button variant="outline-dark" onClick={feedbackShow}>Feedback</Button>*/}
-                    {/*</div>*/}
+                    <div className="d-grid">
+                        <Button variant="outline-dark" onClick={feedbackShow}>Feedback en Reflectie</Button>
+                    </div>
                 </Col>
             </Row>
         </Container>

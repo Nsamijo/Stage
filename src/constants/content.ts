@@ -27,3 +27,33 @@ export const skills = {
     leerdoel1: "Ik wil na mijn stage instaat zijn om feedback te ontvangen",
     leerdoel2: "Ik wil na mijn stage instaat zijn om zelfstandig taken op te pakken en af te ronden"
 }
+
+export const feedback = {
+    leerdoel1: "Nathan heeft zich tijdens zijn stage goed kunnen houden\n" +
+        "aan het vastgestelde plan en meegedacht met de\n" +
+        "planning.",
+    leerdoel2: "Nathan heeft door middel van code reviews en 1-op-1\n" +
+        "samenwerken met anderen laten zien dat hij code van\n" +
+        "anderen goed kan begrijpen. Ook heeft hij laten zien dat\n" +
+        "hij hiervan leert en kan toepassen in zijn eigen code.",
+    leerdoel3: "Nathan heeft zich goed ingezet om mee te denken met\n" +
+        "een vraag/probleem en is in staat om het te analyseren",
+    leerdoel4: "Nathan denkt goed mee over functionaliteiten die bij een\n" +
+        "project horen en in hoeverre deze nodig zijn",
+    leerdoel5: "Nathan kan goed meedenken over hoe een bepaalde\n" +
+        "functionaliteit in een interface eruit moet komen te\n" +
+        "zien. ",
+    leerdoel6: "Nathan kan goed zijn keuzes motiveren en houdt\n" +
+        "rekening met ontwerp standaarden die binnen het\n" +
+        "bedrijf gelden",
+    leerdoel7: "Nathan is in staat om zelfstandig sofware op te leveren\n" +
+        "die voldoet aan de vastgestelde eisen",
+    leerdoel8: "Nathan heeft geleerd hoe wij CI/CD doen en kan de\n" +
+        "juiste handelingen doorvoeren die nodig zijn om\n" +
+        "software live te zetten",
+    leerdoel9: "We hebben tijdens de stage een aantal keer feedback\n" +
+        "gegeven. Nathan is ook zichtbaar aan de slag gegaan\n" +
+        "met de feedback die hij kreeg",
+    leerdoel10: "Nathan was aan het eind van zijn stage in staat om te\n" +
+        "zelfstandig taken op te pakken en voltooien"
+}
