@@ -45,6 +45,9 @@ export const Leerdoel4 = () => {
                         <li>Het tonen van de afgeprijsde producten: Klant ziet dan de nieuwe prijs van het product</li>
                     </ul>
                 </p>
+                <p>
+                    Voor mij waren dit de belangrijkste functionaliteiten die verwerkt moesten worden. Hieronder zal beschreven worden waarom.
+                </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -63,6 +66,26 @@ export const Leerdoel4 = () => {
                         <li>Verwachtings-management: de klant is op de hoogte van de afwijkende voorraad en hierdoor wordt de kans van teleurstelling vermindert</li>
                     </ul>
                 </p>
+                <p>
+                     Om teleurstelling bij de klant te voorkomen is het van belang om de voorraad afwijking te geven.
+                </p>
+                <p>
+                    <h5>Advies voor Disclaimer</h5>
+                    Het volgende advies uitte ik:
+                    <p>
+                        Het kan zijn dat een klant speciaal voor 1 afgeprijsde product naar een winkel reist. Als het gewenste product niet meer in voorraad is kan het zijn dat de klant teleurgesteld raakt. De klant kan dan bijvoorbeeld denken:
+                        <ul>
+                            <li>Verspilling van tijd: de klant is naar een Albert Heijn locatie gegaan die afwijkt van zijn voorkeuren, benzine kosten en/of reistijd</li>
+                        </ul>
+                        Deze teleurstelling kan de klant boos (geirriteerd) maken. Het kan dan zijn dat de klant dit uit op de medewerkers van de Albert Heijn. Dit moeten we absoluut niet hebben.
+                    </p>
+                    <p>
+                        Bij het zetten van een disclaimer is de klant dan bewust van de risico. Het nadeel is wel dat klanten dan denken: "Als er geen garantie is dat het product er is dan hoeft het niet meer". Hierdoor ontstaat wel de mogelijk dat het product niet verkocht wordt.
+                    </p>
+                    <p>
+
+                    </p>
+                </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -80,6 +103,20 @@ export const Leerdoel4 = () => {
                     <ul>
                         <li>Prijs: de klant ziet de korting en de nieuwe prijs. Hierdoor kan de klant meteen het verschil in prijs zien.</li>
                     </ul>
+                    <p>
+                        <h5>Advies voor Actuele Prijzen</h5>
+                        Het volgende advies uitte ik:
+                        <p>
+                            Voor een klant zijn afgeprijsde producten aantrekkelijk. Gekeken naar de producten in de bonus, van Albert Heijn, wordt daar de actie prijs getoond.
+                        </p>
+                        <p>
+                            Het tonen van de nieuwe prijs kan de klant meteen zien hoeveel deze bespaart.
+                        </p>
+                    </p>
+                    <br/>
+                    <strong>
+                        Veel teamleden hadden hetzelfde idee. Hier werd dit advies ge-uit als bevestiging van de adviezen van de andere teamleden.
+                    </strong>
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -92,14 +129,35 @@ export const Leerdoel4 = () => {
                 <h3 className="vertical-timeline-element-title">Functionaliteiten Verwerkt</h3>
                 <h6 className="vertical-timeline-element-subtitle">Realisatie Functionaliteiten</h6>
                 <p>
-                    Beide functionaliteiten zijn verwerkt in het eindproduct. Hierbij is een foto van elke functionaliteit gezet als bewijs:
+                    Beide functionaliteiten zijn verwerkt in het eindproduct. Hierbij is een foto van elke functionaliteit gezet als bewijs.
+                    <br/>
+                    Alle ontwerpen hieronder zijn ontworpen door de UX-designer van het team.
+                    <br/>
                     <br/>
                     <b>Afwijkende Voorraad</b>
                     <br/>
+                    De disclaimer zal boven de dynamisch afgeprijsde producten geplaats worden.
                     <img className='voorraad' src={Store} alt={"Disclaimer component"}/>
+                    <br/>
                     <br/>
                     <b>Nieuwe Prijs</b>
                     <br/>
+                    Elk dynamisch afgeprijsd product zal getoond worden met:
+                    <ol>
+                        <li>Productsinformatie (foto, titel en inhoud)</li>
+                        <li>
+                            Huidige kortingspercentage
+                        </li>
+                        <li>
+                            Nieuwe prijs
+                        </li>
+                        <li>
+                            Oude prijs
+                        </li>
+                        <li>
+                            Vervaldatum
+                        </li>
+                    </ol>
                     <img className='voorraad' src={Price} alt={"Price Component"}/>
                 </p>
             </VerticalTimelineElement>
