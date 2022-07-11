@@ -48,6 +48,54 @@ export const QualityDoc = () => {
                 <p>Dit is een screenshot van de Jira criteria. Hieruit wordt duidelijk dat er een back nodig is die de logos toont van merken die meedoen (wegens de geheimhoudings verklaring mag niet gezegt worden waaraan de merken meedoen).</p>
                 <img className={"jira"} src={criteria} alt={"Jira defenitions"}/>
             </p>
+              <p>
+                  <h5>Kwaliteitseisen</h5>
+                  <ol>
+                      <li>
+                          Een logo balk met participating brands (eventueel wit op kleur of witte balk toevoegen) met doorlink naar sharepoint van de brands (bedrijf)
+                      </li>
+                      <li>
+                          UX heeft nu gekozen voor "Our Clients" graag "Participating Brands" noemen
+                      </li>
+                      <li>
+                          Ook de logo Ahold European Solution toevoegen, daarna de logo van de brands
+                      </li>
+                      <li>
+                          Tekst onder participating brands toevoegen: + please click on the logo to get to the login of the sharepoint to find the details of your brand
+                      </li>
+                  </ol>
+                  <p>
+                      <h5>Uitwerking van de Kwaliteitseisen</h5>
+                      De kwaliteitseisen zijn in volgorde uitgewerkt en hieronder genoteerd.
+                      <ol>
+                          <li>
+                              Een balk die logos van bedrijven toont. Elk logo zal clickbaar/selecteerbaar zijn. Bij het clicken/selecteren van een logo zal de gebruiker naar de bedrijfs sharepoint door verwezen worden.
+                          </li>
+                          <li>
+                              De balk zal de titel: "Participating Brands" hebben
+                          </li>
+                          <li>
+                              De eerste logo zal die van Ahold Delhaize (moederbedrijf van ALbert Heijn) zijn, gevolgd door de logo's van de andere bedrijven.
+                          </li>
+                          <li>
+                              De volgende tekst zal onderaan de balk zijn: +please click on the logo to get to the login of the sharepoint to find the details of your brand
+                          </li>
+                      </ol>
+                  </p>
+              </p>
+              <p>
+                  <strong>Doel</strong>: het ontwikkelen van een component (balk/sectie) die de logo's van verschillende bedrijven toont.
+              </p>
+              <p>
+                  Voor deze taak is er gebruikt gemaakt van de volgende technologie:
+                  <ul>
+                      <li>Intellij IDEA: dit is de omgeving waarin geprogrammeerd is</li>
+                      <li>HTML & CSS: de programmeertalen die zijn gebruikt om de component te ontwikkelen</li>
+                      <li>
+                          Github: voor versie-controle en het intergreren van de code
+                      </li>
+                  </ul>
+              </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -68,14 +116,18 @@ export const QualityDoc = () => {
                   Deze documenten doen het volgende:
                   <ul>
                       <li>participating-brands.module.scss [styling]: zorgt voor het stylen van de balk</li>
-                      <li>participating-brands.tsx [component]: bevat de balk met de logos</li>
+                      <li>participating-brands.tsx [component]: bevat de balk met de logos en teksten</li>
                       <li>brandLogo.tsx [blauwdruk]: een interface voor het ophalen van de logos uit de database (CMS)</li>
                       <li>endpoint.ts [blauwdruk]: link toegevoegd vanwaar de logos moeten worden opgehaald</li>
                       <li>logo-ad.png [logo]: een logo van de AH</li>
                   </ul>
               </p>
               <p>
-                  Na een zelftest is er een Pull-Request aangemaakt om deze taak af te ronden.
+                  Na een zelftest is er een Pull-Request aangemaakt om deze taak af te ronden. Bij deze zelftest heb ik gelet op:
+                  <ul>
+                      <li>"Responsive" design/ontwikkeling: dit houdt in dat het component op elk schermgrootte werkt</li>
+                      <li>Bugs en breaks: hoe reageren al ontwikkelde componenten op de nieuwe functionaliteit; de toevoegingen mogen al aanwezige functionaliteit niet beinvloeden</li>
+                  </ul>
               </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -87,6 +139,9 @@ export const QualityDoc = () => {
           >
               <h3 className="vertical-timeline-element-title">Pull Request Aanmaken</h3>
               <h6 className="vertical-timeline-element-subtitle">Aanvraag op goedkeuring van derden</h6>
+              <p>
+                  Om de nieuwe funtionaliteit toe te voegen is er gebruik gemaakt van Github Pull Request. Na het goedkeuren van de Pull Request maakt Github automatisch aanpassingen en/of toevoegingen aan de documenten in de Github Repository.
+              </p>
               <p>
                   <img src={pr} className={"jira"} alt={"Pull Request Participating Brands"}/>
               </p>
