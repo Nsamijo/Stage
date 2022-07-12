@@ -29,3 +29,7 @@
 .canvasContainer {
     color: black;
 }
+
+.containerStyle{
+    border-bottom: double black;
+}

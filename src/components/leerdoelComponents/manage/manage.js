@@ -1,5 +1,6 @@
 import {Accordion, Container, Row} from "react-bootstrap";
 import Project from "../_documentation/manage/project-doc";
+import React from 'react';
 
 import './manage-leerdoel.css';
 import {Jira, Lean} from "./_docs/lean";

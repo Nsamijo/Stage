@@ -1,4 +1,5 @@
 import {Container} from "react-bootstrap";
+import React from 'react';
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
 import {AiOutlineCheckCircle, AiOutlineFlag} from "react-icons/ai";
 import {BiConversation} from "react-icons/bi";
@@ -87,7 +88,7 @@ const PullRequest = () => {
                     </p>
                     <p>
                         <h5>Document Nr. 1</h5>
-                        Dit document bevat de stijl instructies. De stijl instructies worden gebruikt in een ander document.
+                        Dit document bevat stijl instructies. De stijl instructies worden gebruikt in een ander document.
                         <img className={"styling"} src={Styling} alt={"Added files"}/>
                     </p>
                     <p>
@@ -98,6 +99,7 @@ const PullRequest = () => {
                     <p>
                         Bij de veranderingen is er opgelet op:
                         <ul>
+                            <li>Code Conventions van de (programmeer)taal</li>
                             <li>Structuur</li>
                             <li>Leesbaarheid</li>
                             <li>Netheid</li>
@@ -105,13 +107,16 @@ const PullRequest = () => {
                     </p>
                     <p>
                         <h5>Veranderingen Mening</h5>
-                        De structuur van de code volgt alle regels van AH Tech Labs. De code is simpel opgesteld en kan makkelijk onderhouden worden. Voor netheid bij de code is gekeken of de code geen "console.log" bevat.<br/><br/>
-                        Een "console.log" wordt gebruikt door ontwikkelaars om fout-meldingen te weergeven in de browser. Voor een gebruiker heeft een "console.log" geen toegevoegde waarde.
+                        <p>
+                            De ontwikkelde componenten voldoen aan alle code conventions van de taal. De code voldoet onder andere aan:
+                            <ul>
+                                <li>Logische benamingen van componenten en variabelen</li>
+                                <li>Benamingen van componenten in PascalCase</li>
+                            </ul>
+                        </p>
+                        De structuur van de code volgt alle regels van AH Tech Labs. De code is simpel opgesteld en kan makkelijk onderhouden worden. Voor netheid bij de code is gekeken of de code geen "console.log" bevat.
                         <br/>
                         De code bevat geen "console.log". Met dit laatste voldoen de veranderingen aan alle eisen van AH Tech Labs
-                    </p>
-                    <p>
-
                     </p>
                     <p>
                         <h5>Conclusie</h5>

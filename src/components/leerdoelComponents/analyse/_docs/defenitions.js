@@ -1,3 +1,4 @@
+import React from 'react';
 import {Accordion, Button, Col, OverlayTrigger, Popover, Row} from "react-bootstrap";
 
 export const Github = () => {

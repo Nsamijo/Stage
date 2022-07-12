@@ -1,4 +1,6 @@
 import {Accordion, Container, Row} from "react-bootstrap";
+import React from 'react';
+
 import {Leerdoel4} from "../_documentation/advise/advise";
 import {Advies} from "./_docs/documentation";
 

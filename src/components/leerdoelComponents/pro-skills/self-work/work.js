@@ -1,3 +1,4 @@
+import React from 'react';
 import {Accordion, Container, Row} from "react-bootstrap";
 import {Aansturing} from "../_docs/documentatie";
 

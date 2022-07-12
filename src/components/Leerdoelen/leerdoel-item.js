@@ -1,3 +1,4 @@
+import React from 'react';
 import {Button, Col, Container, Offcanvas, Row} from "react-bootstrap";
 import "./leerdoel.css";
 import {useState} from "react";
@@ -35,10 +36,12 @@ const LeerdoelItem = (props) => {
                 <Offcanvas.Body>
                     <Container>
                         <Row>
-                            <h1>Feedback</h1>
-                            <div className={"leerdoel"}>
-                                {props.feedback}
-                            </div>
+                            <Col>
+                                <h1>Feedback</h1>
+                                <div className={"leerdoel"}>
+                                    {props.feedback}
+                                </div>
+                            </Col>
                         </Row>
                         <br/>
                         <Row>

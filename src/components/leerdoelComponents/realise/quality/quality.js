@@ -1,3 +1,4 @@
+import React from 'react';
 import {Accordion, Container, Row} from "react-bootstrap";
 import {Figma} from "../_docs/definitions";
 import {QualityDoc} from "../_docs/documentation";

@@ -5,14 +5,14 @@ import "./leerdoelen.css";
 import LeerdoelItem from "./leerdoel-item";
 import {advice, analyse, manage, realise, skills, feedback} from "../../constants/content";
 import Manage from "../leerdoelComponents/manage/manage";
-import ReadCode from "../leerdoelComponents/analyse/read-code/read-code";
-import Problem from "../leerdoelComponents/analyse/problem/problem";
 import {Advise} from "../leerdoelComponents/advise/advise";
 import {ZelfStandig} from "../leerdoelComponents/pro-skills/self-work/work";
 import {Feedback} from "../leerdoelComponents/pro-skills/feedback/feedback";
 import {Quality} from "../leerdoelComponents/realise/quality/quality";
 import {CICD} from "../leerdoelComponents/realise/continiuous-integration/ci-cd";
 import {Ontwerpen} from "../leerdoelComponents/design/ui/ui";
+import ReadCode from "../leerdoelComponents/analyse/read-code/readPullRequest";
+import Problem from "../leerdoelComponents/analyse/problem/analyseProblem";
 
 const Leerdoelen = () => {
 
@@ -53,17 +53,9 @@ const Leerdoelen = () => {
                             />
                         </CarouselItem>
                         <CarouselItem>
-                            <LeerdoelItem
-                                bewijsComponent={<ReadCode/>}
-                                beschrijving={analyse.leerdoel1}
-                                feedback={feedback.leerdoel2}
-                            />
+                            <ReadCode/>
                             <br/>
-                            <LeerdoelItem
-                                bewijsComponent={<Problem/>}
-                                beschrijving={analyse.leerdoel2}
-                                feedback={feedback.leerdoel3}
-                            />
+                            <Problem/>
                         </CarouselItem>
                         <CarouselItem>
                             <LeerdoelItem

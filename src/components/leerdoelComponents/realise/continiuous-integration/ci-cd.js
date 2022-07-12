@@ -1,3 +1,4 @@
+import React from 'react';
 import {Accordion, Container, Row} from "react-bootstrap";
 import {Actions, CI} from "../_docs/definitions";
 import {CICDDocs} from "../_docs/documentation";

@@ -1,4 +1,5 @@
 import {Container} from "react-bootstrap";
+import React from 'react';
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
 import {AiOutlineFlag, AiOutlineFunction} from "react-icons/ai";
 import {FaFlagCheckered, FaPuzzlePiece} from "react-icons/fa";

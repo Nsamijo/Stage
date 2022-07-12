@@ -1,4 +1,5 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import React from 'react';
 import 'react-vertical-timeline-component/style.min.css';
 import {Container} from "react-bootstrap";
 import {AiOutlineFlag} from "react-icons/ai";

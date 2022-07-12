@@ -1,3 +1,4 @@
+import React from 'react';
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
 import {AiOutlineFlag} from "react-icons/ai";
 import {HiOutlineClipboardList} from "react-icons/hi";

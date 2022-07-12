@@ -1,3 +1,4 @@
+import React from 'react';
 import {Accordion, Container, Row} from "react-bootstrap";
 import "../../../Leerdoelen/leerdoel.css";
 import {Wireframe} from "../_docs/definitions";
