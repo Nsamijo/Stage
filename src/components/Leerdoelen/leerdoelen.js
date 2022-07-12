@@ -3,7 +3,7 @@ import {Carousel, CarouselItem, Col, Nav, Row} from "react-bootstrap";
 
 import "./leerdoelen.css";
 import LeerdoelItem from "./leerdoel-item";
-import {advice, manage, realise, skills, feedback} from "../../constants/content";
+import {manage, skills, feedback} from "../../constants/content";
 import Manage from "../leerdoelComponents/manage/manage";
 import {Advise} from "../leerdoelComponents/advise/advise";
 import {ZelfStandig} from "../leerdoelComponents/pro-skills/self-work/work";
@@ -58,27 +58,15 @@ const Leerdoelen = () => {
                             <Problem/>
                         </CarouselItem>
                         <CarouselItem>
-                            <LeerdoelItem
-                                bewijsComponent={<Advise/>}
-                                beschrijving={advice.leerdoel}
-                                feedback={feedback.leerdoel4}
-                            />
+                            <Advise/>
                         </CarouselItem>
                     <CarouselItem>
                         <Ontwerpen/>
                     </CarouselItem>
                     <CarouselItem>
-                        <LeerdoelItem
-                            bewijsComponent={<Quality/>}
-                            beschrijving={realise.leerdoel1}
-                            feedback={feedback.leerdoel7}
-                        />
+                        <Quality/>
                         <br/>
-                        <LeerdoelItem
-                            bewijsComponent={<CICD/>}
-                            beschrijving={realise.leerdoel2}
-                            feedback={feedback.leerdoel8}
-                        />
+                        <CICD/>
                     </CarouselItem>
                     <CarouselItem>
                         <LeerdoelItem

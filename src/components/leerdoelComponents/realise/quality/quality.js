@@ -2,16 +2,20 @@ import React from 'react';
 import {Accordion, Container, Row} from "react-bootstrap";
 import {Figma} from "../_docs/definitions";
 import {QualityDoc} from "../_docs/documentation";
+import {realise} from "../../../../constants/content";
 
 export const Quality = () => {
     return (
-      <Container>
+      <Container className={"containerStyle"}>
+          <Row>
+              <h2>Leerdoel: Realiseren</h2>
+              <div className="leerdoel">
+                  {realise.leerdoel1}
+              </div>
+          </Row>
           <Row>
               <p>
-                  <h5>Leerdoel</h5>
-                  <p>
-                      Dit leerdoel gaat over het realiseren van een (deel van een) ICT-systeem op basis van een ontwerp.
-                  </p>
+                  Dit leerdoel gaat over het realiseren van een (deel van een) ICT-systeem op basis van een ontwerp.
               </p>
               <p>
                   Voor elk applicatie van AH Tech Labs  wordt er eerst een design gemaakt door een UI-stagaire. Deze wordt dan gebruikt door de IT-stagaires als blauwdruk voor het ontwikkelen van onder andere de gebruikersinterface.
@@ -48,6 +52,20 @@ export const Quality = () => {
                   </Accordion.Item>
               </Accordion>
           </Row>
+          <br/>
+          <Row>
+              <h5>Feedback en Reflectie</h5>
+              <Accordion>
+                  <Accordion.Item eventKey="0">
+                      <Accordion.Header>
+                          Feedback en Reflectie
+                      </Accordion.Header>
+                      <Accordion.Body>
+                      </Accordion.Body>
+                  </Accordion.Item>
+              </Accordion>
+          </Row>
+          <br/>
       </Container>
     );
 }

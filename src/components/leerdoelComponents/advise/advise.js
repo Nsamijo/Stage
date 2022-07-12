@@ -3,13 +3,19 @@ import React from 'react';
 
 import {Leerdoel4} from "../_documentation/advise/advise";
 import {Advies} from "./_docs/documentation";
+import {advice} from "../../../constants/content";
 
 export const Advise = () => {
     return (
         <Container>
             <Row>
+            <h2>Leerdoel: Adviseren</h2>
+            <div className="leerdoel">
+                {advice.leerdoel}
+            </div>
+        </Row>
+            <Row>
                 <p>
-                    <h5>Leerdoel</h5>
                     <p>
                         Dit leerdoel gaat over het adviseren van de inrichting van processen en/of informatie voor een nieuw te ontwikkelen, aan te schaffen of aan te passen bestaand ICT-systeem.
                     </p>
@@ -29,6 +35,9 @@ export const Advise = () => {
                         <li>Het bepalen van de functionaliteiten</li>
                         <li>Het bepalen van het ontwerp van de gebruikersinterface</li>
                     </ul>
+                </p>
+                <p>
+                    Voor het komen op adviezen ben ik in gesprek gegaan met mijn oom, <a target={"new"} href={"https://www.linkedin.com/in/carl-leysner-8039467/"}>Carl Leysner</a> .
                 </p>
                 <p>
                     <h5>Leerdoel Bewijs</h5>

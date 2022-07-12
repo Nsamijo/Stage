@@ -2,16 +2,20 @@ import React from 'react';
 import {Accordion, Container, Row} from "react-bootstrap";
 import {Actions, CI} from "../_docs/definitions";
 import {CICDDocs} from "../_docs/documentation";
+import {realise} from "../../../../constants/content";
 
 export const CICD = () => {
     return (
         <Container>
             <Row>
+                <h2>Leerdoel: Realiseren</h2>
+                <div className="leerdoel">
+                    {realise.leerdoel2}
+                </div>
+            </Row>
+            <Row>
                 <p>
-                    <h5>Leerdoel</h5>
-                    <p>
-                        Dit leerdoel gaat over het realiseren van een (deel van een) ICT-systeem op basis van een ontwerp.
-                    </p>
+                    Dit leerdoel gaat over het realiseren van een (deel van een) ICT-systeem op basis van een ontwerp.
                 </p>
                 <p>
                     Tijdens de stage heb ik kennis gemaakt met Continuous Integration/Continiuous Deployment.
@@ -48,6 +52,20 @@ export const CICD = () => {
                     </Accordion.Item>
                 </Accordion>
             </Row>
+            <br/>
+            <Row>
+                <h5>Feedback en Reflectie</h5>
+                <Accordion>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>
+                            Feedback en Reflectie
+                        </Accordion.Header>
+                        <Accordion.Body>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
+            </Row>
+            <br/>
         </Container>
     );
 }
