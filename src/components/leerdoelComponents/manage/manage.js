@@ -81,13 +81,15 @@ const Manage = () => {
                         <Accordion.Body>
                             <Container>
                                 <Row>
-                                    <h2>Feedback Stagebegeleider</h2>
+                                    <h5>Feedback Stagebegeleider</h5>
                                     <div className={"leerdoel"}>
                                         {feedback.leerdoel1}
                                     </div>
                                 </Row>
                                 <Row>
-
+                                    <p>
+                                        Met dit leerdoel wilde ik de werkwijze binnen een bedrijf me eigen maken. De werkmethodiek die gehanteerd wordt begrijpen en kunnen gebruiken. Tijdens mijn stage bij AH Tech Labs heb ik geleerd om Lean Start-Up te gebruiken.
+                                    </p>
                                 </Row>
                             </Container>
                         </Accordion.Body>

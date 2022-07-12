@@ -2,7 +2,7 @@ import React from 'react';
 import {Accordion, Container, Row} from "react-bootstrap";
 import {Leerdoel3} from "../../_documentation/analyse/leerdoel3/leerdoel3";
 import {DynamischAfprijzen, Probleemstelling} from "../_docs/defenitions";
-import {analyse} from "../../../../constants/content";
+import {analyse, feedback} from "../../../../constants/content";
 
 const Problem = () => {
     return (
@@ -70,6 +70,18 @@ const Problem = () => {
                             Feedback en Reflectie
                         </Accordion.Header>
                         <Accordion.Body>
+                            <Row>
+                                <h5>Feedback Stagebegeleider</h5>
+                                <div className={"leerdoel"}>
+                                    {feedback.leerdoel3}
+                                </div>
+                            </Row>
+                            <Row>
+                                <h5>Reflectie</h5>
+                                <p>
+                                    Door te werken aan dit leerdoel wilde ik leren hoe een probleem naar een project kan worden omgezet.
+                                </p>
+                            </Row>
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>

@@ -2,7 +2,7 @@ import React from 'react';
 import {Accordion, Container, Row} from "react-bootstrap";
 import {FeedbackUitleg} from "../_docs/definitie";
 import {FeedbackTimeline} from '../_docs/documentatie';
-import {skills} from "../../../../constants/content";
+import {feedback, skills} from "../../../../constants/content";
 
 export const Feedback = () => {
     return (
@@ -60,6 +60,12 @@ export const Feedback = () => {
                           Feedback en Reflectie
                       </Accordion.Header>
                       <Accordion.Body>
+                          <Row>
+                              <h5>Feedback Stagebegeleider</h5>
+                              <div className={"leerdoel"}>
+                                  {feedback.leerdoel9}
+                              </div>
+                          </Row>
                       </Accordion.Body>
                   </Accordion.Item>
               </Accordion>

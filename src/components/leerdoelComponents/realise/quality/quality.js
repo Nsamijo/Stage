@@ -2,7 +2,7 @@ import React from 'react';
 import {Accordion, Container, Row} from "react-bootstrap";
 import {Figma} from "../_docs/definitions";
 import {QualityDoc} from "../_docs/documentation";
-import {realise} from "../../../../constants/content";
+import {feedback, realise} from "../../../../constants/content";
 
 export const Quality = () => {
     return (
@@ -61,6 +61,12 @@ export const Quality = () => {
                           Feedback en Reflectie
                       </Accordion.Header>
                       <Accordion.Body>
+                          <Row>
+                              <h5>Feedback Stagebegeleider</h5>
+                              <div className={"leerdoel"}>
+                                  {feedback.leerdoel7}
+                              </div>
+                          </Row>
                       </Accordion.Body>
                   </Accordion.Item>
               </Accordion>

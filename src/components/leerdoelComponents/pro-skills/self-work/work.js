@@ -1,7 +1,7 @@
 import React from 'react';
 import {Accordion, Container, Row} from "react-bootstrap";
 import {Aansturing} from "../_docs/documentatie";
-import {skills} from "../../../../constants/content";
+import {feedback, skills} from "../../../../constants/content";
 
 export const ZelfStandig = () => {
     return(
@@ -64,6 +64,12 @@ export const ZelfStandig = () => {
                           Feedback en Reflectie
                       </Accordion.Header>
                       <Accordion.Body>
+                          <Row>
+                              <h5>Feedback Stagebegeleider</h5>
+                              <div className={"leerdoel"}>
+                                  {feedback.leerdoel10}
+                              </div>
+                          </Row>
                       </Accordion.Body>
                   </Accordion.Item>
               </Accordion>

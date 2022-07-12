@@ -3,7 +3,7 @@ import React from 'react';
 
 import {Leerdoel4} from "../_documentation/advise/advise";
 import {Advies} from "./_docs/documentation";
-import {advice} from "../../../constants/content";
+import {advice, feedback} from "../../../constants/content";
 
 export const Advise = () => {
     return (
@@ -61,6 +61,32 @@ export const Advise = () => {
                     </Accordion>
                 </Row>
             </Row>
+            <br/>
+            <Row>
+                <h5>Feedback en Reflectie</h5>
+                <Accordion>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>
+                            Feedback en Reflectie
+                        </Accordion.Header>
+                        <Accordion.Body>
+                            <Row>
+                                <h5>Feedback Stagebegeleider</h5>
+                                <div className={"leerdoel"}>
+                                        {feedback.leerdoel4}
+                                </div>
+                            </Row>
+                            <Row>
+                                <h5>Reflectie</h5>
+                                <p>
+                                    Door te werken aan dit leerdoel wilde ik leren om te durven mijn mening omtrent programmeren/functionaliteiten te geven aan anderen
+                                </p>
+                            </Row>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
+            </Row>
+            <br/>
         </Container>
     )
 }

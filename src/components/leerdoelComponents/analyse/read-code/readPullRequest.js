@@ -2,7 +2,7 @@ import React from 'react';
 import {Accordion, Container, Row} from "react-bootstrap";
 import PullRequest from "../../_documentation/analyse/read-code/pull-request";
 import {Github} from "../_docs/defenitions";
-import {analyse} from "../../../../constants/content";
+import {analyse, feedback} from "../../../../constants/content";
 
 const ReadCode = () => {
     return (
@@ -111,6 +111,20 @@ const ReadCode = () => {
                             Feedback en Reflectie
                         </Accordion.Header>
                         <Accordion.Body>
+                            <Row>
+                                <h5>Feedback Stagebegeleider</h5>
+                                <div className={"leerdoel"}>
+                                    {feedback.leerdoel2}
+                                </div>
+                            </Row>
+                            <Row>
+                                <p>
+                                    <h5>Reflectie</h5>
+                                </p>
+                                <p>
+                                    Door te werken aan dit leerdoel wilde ik mijn technische inzicht en kennis uitbreiden.
+                                </p>
+                            </Row>
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>

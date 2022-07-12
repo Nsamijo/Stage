@@ -3,6 +3,7 @@ import {Accordion, Container, Row} from "react-bootstrap";
 import "../../../Leerdoelen/leerdoel.css";
 import {Wireframe} from "../_docs/definitions";
 import {Design} from "../_docs/documentations";
+import {feedback} from "../../../../constants/content";
 
 export const Ontwerpen = () => {
     return (
@@ -64,6 +65,42 @@ export const Ontwerpen = () => {
                 </Accordion>
             </Row>
             <br/>
+            <Row>
+                <h5>Feedback en Reflectie</h5>
+                <Accordion>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>
+                            Feedback en Reflectie
+                        </Accordion.Header>
+                        <Accordion.Body>
+                            <Row>
+                                <h5>Feedback Stagebegeleider LD01</h5>
+                                <div className={"leerdoel"}>
+                                    {feedback.leerdoel5}
+                                </div>
+                            </Row>
+                            <Row>
+                                <h5>Reflectie</h5>
+                                <p>
+                                    Door te werken aan dit leerdoel wilde ik leren hoe een goed gebruikersomgeving te ontwerpen.
+                                </p>
+                            </Row>
+                            <Row>
+                                <h5>Feedback Stagebegeleider LD02</h5>
+                                <div className={"leerdoel"}>
+                                    {feedback.leerdoel6}
+                                </div>
+                            </Row>
+                            <Row>
+                                <h5>Reflectie</h5>
+                                <p>
+                                    Door te werken aan dit leerdoel wilde ik mijn ontwerpkeuzes kunnen motiveren aan anderen.
+                                </p>
+                            </Row>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
+            </Row>
             <br/>
         </Container>
     )

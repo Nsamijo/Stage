@@ -2,7 +2,7 @@ import React from 'react';
 import {Accordion, Container, Row} from "react-bootstrap";
 import {Actions, CI} from "../_docs/definitions";
 import {CICDDocs} from "../_docs/documentation";
-import {realise} from "../../../../constants/content";
+import {feedback, realise} from "../../../../constants/content";
 
 export const CICD = () => {
     return (
@@ -61,6 +61,12 @@ export const CICD = () => {
                             Feedback en Reflectie
                         </Accordion.Header>
                         <Accordion.Body>
+                            <Row>
+                                <h5>Feedback Stagebegeleider</h5>
+                                <div className={"leerdoel"}>
+                                    {feedback.leerdoel8}
+                                </div>
+                            </Row>
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
