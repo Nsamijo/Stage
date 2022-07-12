@@ -37,7 +37,7 @@ export const Advise = () => {
                     </ul>
                 </p>
                 <p>
-                    Voor het komen op adviezen ben ik in gesprek gegaan met mijn oom, <a target={"new"} href={"https://www.linkedin.com/in/carl-leysner-8039467/"}>Carl Leysner</a> .
+                    Voor het komen op adviezen ben ik in gesprek gegaan met mijn oom, <a target={"new"} href={"https://www.linkedin.com/in/carl-leysner-8039467/"}>Carl Leysner</a>, en andere mede-stagaires.
                 </p>
                 <p>
                     <h5>Leerdoel Bewijs</h5>

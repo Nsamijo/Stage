@@ -1,10 +1,17 @@
 import React from 'react';
 import {Accordion, Container, Row} from "react-bootstrap";
 import {Aansturing} from "../_docs/documentatie";
+import {skills} from "../../../../constants/content";
 
 export const ZelfStandig = () => {
     return(
       <Container>
+          <Row>
+              <h2>Leerdoel: Professional Skills</h2>
+              <div className="leerdoel">
+                  {skills.leerdoel2}
+              </div>
+          </Row>
           <Row>
               <p>
                   <h5>Leerdoel</h5>
@@ -48,6 +55,20 @@ export const ZelfStandig = () => {
                   </Accordion.Item>
               </Accordion>
           </Row>
+          <br/>
+          <Row>
+              <h5>Feedback en Reflectie</h5>
+              <Accordion>
+                  <Accordion.Item eventKey="0">
+                      <Accordion.Header>
+                          Feedback en Reflectie
+                      </Accordion.Header>
+                      <Accordion.Body>
+                      </Accordion.Body>
+                  </Accordion.Item>
+              </Accordion>
+          </Row>
+          <br/>
       </Container>
     );
 }

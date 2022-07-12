@@ -9,10 +9,7 @@ export const Ontwerpen = () => {
         <Container>
             <Row>
                 <p>
-                    Dit onderwerp bevat 2 leerdoelen. Door de samenhang van deze leerdoelen is er gekozen om de documentatie te combineren.
-                </p>
-                <p>
-                    <h2>Leerdoelen</h2>
+                    <h2>Leerdoel: Ontwerpen</h2>
                     <div className="leerdoel">
                         <h3>Leerdoel Ontwerpen 1</h3>
                         Ik wil na mijn stage instaat zijn om de gebruikersinterface van een applicatie te ontwerpen
@@ -21,7 +18,10 @@ export const Ontwerpen = () => {
                         <h3>Leerdoel Ontwerpen 2</h3>
                         Ik wil na mijn stage instaat zijn om ontwerpkeuzes te motiveren/verduidelijken
                     </div>
-                    De volgende afkortingen LDO1 en LDO2 zullen in de rest van de tekst gebruikt worden bovengenoemde leerdoelen te benoemen.
+
+                    <p>
+                        Dit onderwerp bevat 2 leerdoelen. Door de samenhang van deze leerdoelen is er gekozen om de documentatie te combineren. De volgende afkortingen LDO1 en LDO2 zullen in de rest van de tekst gebruikt worden bovengenoemde leerdoelen te benoemen.
+                    </p>
                 </p>
                 <p>
                     <h5>Leerdoel</h5>

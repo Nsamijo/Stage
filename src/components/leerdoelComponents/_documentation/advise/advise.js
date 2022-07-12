@@ -26,6 +26,16 @@ export const Leerdoel4 = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
+                contentStyle={{ background: `${white}`, border: 'solid'}}
+                contentArrowStyle={{ display: `none` }}
+                iconStyle={{ display: 'none'}}
+            >
+                <p>
+                    De adviezen die zijn gedaan ontstonden uit gesprekken met mijn oom en mede-stagaires. In deze gesprekken kwam o.a. aan de bak waarom een functionaliteit belangrijk was, hoe deze het beste geimplementeerd kan worden en de toegevoegde waarde voor de klant.
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
                 contentArrowStyle={{ borderRight: `7px solid  black`}}
                 iconStyle={{ background: `${white}`}}
                 icon={<AiOutlineFlag/>}
@@ -87,6 +97,12 @@ export const Leerdoel4 = () => {
 
                     </p>
                 </p>
+                <p>
+                    <h5>Advies Oorsprong</h5>
+                    <p>
+                        In een gesprek met mijn genoemde oom kwam aan de orde de voorraad. Hierbij werd gevraagd of het mogelijk was of de afgeprijsde producten te reserveren zijn. Zo niet hoe zorg je ervoor dat klanten niet teleurgesteld raken? Voorstel: korte tekst die toelicht dat de voorraad afwijkt met andere woorden een disclaimer.
+                    </p>
+                </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -115,9 +131,15 @@ export const Leerdoel4 = () => {
                         </p>
                     </p>
                     <br/>
+                </p>
+                <p>
+                    <h5>Advies Oorsprong</h5>
                     <strong>
                         Veel teamleden hadden hetzelfde idee. Hier werd dit advies ge-uit als bevestiging van de adviezen van de andere teamleden.
                     </strong>
+                    <p>
+                        Als groep waren we het eens dat actie prijzen aantrekkelijk zijn voor klanten. Denkende aan bijvoorbeeld sales van kledingwinkels, Black Friday, Cyber Monday, etc.
+                    </p>
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

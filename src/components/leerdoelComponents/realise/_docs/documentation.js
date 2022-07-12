@@ -2,11 +2,12 @@ import React from 'react';
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
 import {AiOutlineFlag} from "react-icons/ai";
 import {HiOutlineClipboardList} from "react-icons/hi";
-import {FaFlagCheckered} from "react-icons/fa";
+import {FaFlagCheckered, FaTools} from "react-icons/fa";
 import {Container} from "react-bootstrap";
 import {GoGithubAction} from "react-icons/go";
 
 import './docs.css';
+import design from './img/balk.png';
 import criteria from './img/criteria.png';
 import result from './img/resultaat.png';
 import pr from './img/pr.png';
@@ -85,6 +86,11 @@ export const QualityDoc = () => {
                   </p>
               </p>
               <p>
+                  <h5>Ontwerp in Figma</h5>
+                  Na het doornemen van de kwaliteitseisen is gekeken naar het ontwerp in Figma. Uit het ontwerp blijkt dat de tekst is aangepast en locatie is verandert. Deze is nu geheel links onder de titel: "Participating Brands". Voor de zekerheid heb ik de UX-designer geraadpleegd over het ontwerp en zijn afwijking met de kwaliteitseisen. De UX-designer verzekerde dat het design goed was en dat de kwaliteitseisen in het Jira-bord niet geheel up-to-date waren.
+                  <img src={design} className={"jira"} alt={"Balk die gemaakt moest worden"}/>
+              </p>
+              <p>
                   <strong>Doel</strong>: het ontwikkelen van een component (balk/sectie) die de logo's van verschillende bedrijven toont.
               </p>
               <p>
@@ -148,6 +154,77 @@ export const QualityDoc = () => {
               </p>
               <p>
                   3 ontwikkelaars (waarvan 1 begeleider) keuren de code wijzigingen en toevoegingen goed. Taak en leerdoel succesvol behaald!
+              </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: `${white}`, border: 'solid'}}
+              contentArrowStyle={{ borderRight: `7px solid black` }}
+              iconStyle={{ background: `${white}`}}
+              icon={<FaTools/>}
+          >
+              <h3 className="vertical-timeline-element-title">Technologie en Tools</h3>
+              <h6 className="vertical-timeline-element-subtitle">Gebruikt voor Code Ontwikkeling</h6>
+              <p>
+                  Veel van de tools, technieken en talen waar ik mee te maken kreeg waren nieuw voor mij. Hieronder zal een overzicht volgen van de technologie die is gebruikt, wat deze zijn en hoe deze gebruikt worden. Tools, technieken en talen met een ster (*) zijn in andere leerdoelen uitgewerkt.
+              </p>
+              <p>
+                  <h4>Tools</h4>
+                  <ul>
+                      <li>
+                          Github(*)
+                          <ul>
+                              <li>
+                                  Github Repositories(*)
+                              </li>
+                              <li>
+                                  Github Pull Requests(*)
+                              </li>
+                              <li>
+                                  Github Issues(*)
+                              </li>
+                              <li>
+                                  Github Actions(*)
+                              </li>
+                          </ul>
+                      </li>
+                      <li>
+                          Jira-bord(*)
+                      </li>
+                      <li>
+                          Commandprompt: Een software programma die een ontwikkelaars toelaat om te communiceren met de operatie systeem of applicatie (<a target={"new"} href={"https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands"}>Windows Comamnds: Command-Line Shells</a>)
+                      </li>
+                      <li>
+                          Intellij IDEA: Een IDE (Integrated Development Environment) (Ontwikkelings Omgeving) die context-bewust is en toelaat ontwikkelingen te doen in Java en andere JVM (Java Virtual Machine) talen zoals Kotlin, Scala, etc. Intellij IDEA ondersteunt ook het ontwikkelen van web applicaties (<a target={"new"} href={"https://www.jetbrains.com/idea/features/"}>What is Intellij IDEA?</a>)
+                      </li>
+                  </ul>
+              </p>
+              <p>
+                  <h4>Technieken</h4>
+                  <li>
+                      Lean Start-Up(*)
+                  </li>
+                  <li>
+                      AH Template: Elk project van AH Tech Labs maakt gebruik van de AH Template. Dit template is een leeg web-pagina die toegang heeft tot de test-omgeving van ALbert Heijn. Hierdoor is het mogelijk om bijvoorbeeld test-date op te halen.
+                  </li>
+                  <li>
+                      React met Spring:
+                      <li>
+                          React: Dit is een Javascript libary voor het maken van gebruikersomgevingen ( <a target={"new"} href={"https://reactjs.org/"}>React</a> ).
+                      </li>
+                      <li>
+                          Spring: Het Spring Framework biedt een uitgebreid programmeer-en configuratiemodel voor moderne ,op Java gebaseerde, bedrijfsapplicaties ( <a target={"new"} href={"https://spring.io/projects/spring-framework"}>Spring Framework</a> ).
+                      </li>
+                  </li>
+              </p>
+              <p>
+                  <h4>(Programmeer) Talen</h4>
+                  <li>
+                      JavaScript: Een scripting/programmeer taal die ontwikkelaars toelaat om complexe functionaliteit in web paginas te implementeren ( <a target={"new"} href={"https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript"}>What is JavaSript</a> ).
+                  </li>
+                  <li>
+                      TypeScript: Een superset van JavaScript en is gemaakt om ontwikkeling in JavaScript te vergemakkelijken ( <a target={"new"} href={"https://docs.microsoft.com/en-us/shows/web-wednesday/what-is-typescript"}>What is TypeScript?</a> ).
+                  </li>
               </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

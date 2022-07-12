@@ -2,13 +2,19 @@ import React from 'react';
 import {Accordion, Container, Row} from "react-bootstrap";
 import {FeedbackUitleg} from "../_docs/definitie";
 import {FeedbackTimeline} from '../_docs/documentatie';
+import {skills} from "../../../../constants/content";
 
 export const Feedback = () => {
     return (
-      <Container>
+      <Container className={"containerStyle"}>
+          <Row>
+              <h2>Leerdoel: Professional Skills</h2>
+              <div className="leerdoel">
+                  {skills.leerdoel1}
+              </div>
+          </Row>
           <Row>
               <p>
-                  <h5>Leerdoel</h5>
                   <p>
                       Bij dit leerdoel gaat het over de skills die zijn opgedaan tijdens de stage
                   </p>
@@ -45,6 +51,20 @@ export const Feedback = () => {
                   </Accordion.Item>
               </Accordion>
           </Row>
+          <br/>
+          <Row>
+              <h5>Feedback en Reflectie</h5>
+              <Accordion>
+                  <Accordion.Item eventKey="0">
+                      <Accordion.Header>
+                          Feedback en Reflectie
+                      </Accordion.Header>
+                      <Accordion.Body>
+                      </Accordion.Body>
+                  </Accordion.Item>
+              </Accordion>
+          </Row>
+          <br/>
       </Container>
     );
 }

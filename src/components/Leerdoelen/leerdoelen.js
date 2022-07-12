@@ -2,8 +2,6 @@ import React from "react";
 import {Carousel, CarouselItem, Col, Nav, Row} from "react-bootstrap";
 
 import "./leerdoelen.css";
-import LeerdoelItem from "./leerdoel-item";
-import {manage, skills, feedback} from "../../constants/content";
 import Manage from "../leerdoelComponents/manage/manage";
 import {Advise} from "../leerdoelComponents/advise/advise";
 import {ZelfStandig} from "../leerdoelComponents/pro-skills/self-work/work";
@@ -45,21 +43,17 @@ const Leerdoelen = () => {
             </Col>
             <Col sm={12} lg={9}>
                 <Carousel id="leerdoelen" interval={null} controls={false} indicators={false} slide={false} touch={false}>
-                        <CarouselItem>
-                            <LeerdoelItem
-                                bewijsComponent={<Manage/>}
-                                beschrijving={manage.leerdoel}
-                                feedback={feedback.leerdoel1}
-                            />
-                        </CarouselItem>
-                        <CarouselItem>
-                            <ReadCode/>
-                            <br/>
-                            <Problem/>
-                        </CarouselItem>
-                        <CarouselItem>
-                            <Advise/>
-                        </CarouselItem>
+                    <CarouselItem>
+                        <Manage/>
+                    </CarouselItem>
+                    <CarouselItem>
+                        <ReadCode/>
+                        <br/>
+                        <Problem/>
+                    </CarouselItem>
+                    <CarouselItem>
+                        <Advise/>
+                    </CarouselItem>
                     <CarouselItem>
                         <Ontwerpen/>
                     </CarouselItem>
@@ -69,17 +63,9 @@ const Leerdoelen = () => {
                         <CICD/>
                     </CarouselItem>
                     <CarouselItem>
-                        <LeerdoelItem
-                            bewijsComponent={<Feedback/>}
-                            beschrijving={skills.leerdoel1}
-                            feedback={feedback.leerdoel9}
-                        />
+                        <Feedback/>
                         <br/>
-                        <LeerdoelItem
-                            bewijsComponent={<ZelfStandig/>}
-                            beschrijving={skills.leerdoel2}
-                            feedback={feedback.leerdoel10}
-                        />
+                        <ZelfStandig/>
                     </CarouselItem>
                 </Carousel>
             </Col>

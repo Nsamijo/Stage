@@ -4,14 +4,20 @@ import React from 'react';
 
 import './manage-leerdoel.css';
 import {Jira, Lean} from "./_docs/lean";
+import {feedback, manage} from "../../../constants/content";
 
 
 const Manage = () => {
     return (
         <Container>
             <Row>
+                <h2>Leerdoel: Manage and Control</h2>
+                <div className="leerdoel">
+                    {manage.leerdoel}
+                </div>
+            </Row>
+            <Row>
                 <p>
-                    <h5>Manage and Control</h5>
                     <p>
                         Dit leerdoel gaat over het beheren, monitoren en optimaliseren van de ontwikkeling, ingebruikname en gebruik van ICT-systemen.
                     </p>
@@ -64,6 +70,31 @@ const Manage = () => {
                     </Accordion.Item>
                 </Accordion>
             </Row>
+            <br/>
+            <Row>
+                <h5>Feedback en Reflectie</h5>
+                <Accordion>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>
+                            Feedback en Reflectie
+                        </Accordion.Header>
+                        <Accordion.Body>
+                            <Container>
+                                <Row>
+                                    <h2>Feedback Stagebegeleider</h2>
+                                    <div className={"leerdoel"}>
+                                        {feedback.leerdoel1}
+                                    </div>
+                                </Row>
+                                <Row>
+
+                                </Row>
+                            </Container>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
+            </Row>
+            <br/>
         </Container>
     )
 }

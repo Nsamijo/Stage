@@ -8,7 +8,7 @@ const Problem = () => {
     return (
         <Container>
             <Row>
-                <h2>Leerdoel</h2>
+                <h2>Leerdoel: Analyseren</h2>
                 <div className="leerdoel">
                     {analyse.leerdoel2}
                 </div>

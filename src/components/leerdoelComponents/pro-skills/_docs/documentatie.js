@@ -264,6 +264,90 @@ export const FeedbackTimeline = () => {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
+                    contentStyle={{ background: `${white}`, border: 'solid'}}
+                    contentArrowStyle={{ display: `none` }}
+                    iconStyle={{ display: 'none'}}
+                >
+                    <p>
+                        Wegens het tekort aan feedback in documentatie heeft de docent gevraag of ik meer feedback kan verzamelen. Dit heb ik gedaan door middel van een Google Form. Van de andere 14 stagaires hebben er 4 feedback gegeven. Deze feedback is hieronder genoteerd.
+                    </p>
+                    <p>
+                        De feedbackformulier die is uitgestuurd bevat 3 vragen. Deze vragen zijn:
+                        <ul>
+                            <li>
+                                Wat deed ik goed?
+                            </li>
+                            <li>
+                                Wat deed ik minder goed?
+                            </li>
+                            <li>
+                                Wat deed ik niet goed?
+                            </li>
+                        </ul>
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: `${white}`, border: 'solid'}}
+                    contentArrowStyle={{ borderRight: `7px solid black` }}
+                    iconStyle={{ background: `${white}`}}
+                >
+                    <h3 className="vertical-timeline-element-title">Feedback Stagaires</h3>
+                    <h6 className="vertical-timeline-element-subtitle">Ontvangen van Mede-Stagaire: Bora Meester, Feryllia Koulen, Tamara Theijsmeijer, Tjitte IJzebrand de Jong</h6>
+                    <p>
+                        <h5>Wat deed ik goed?</h5>
+                        <ul>
+                            <li>
+                                Bora: Samenwerken in teamverband
+                            </li>
+                            <li>
+                                Feryllia: Je was altijd bereid om een taak op te pakken en vroeg ook goed na als je niet een taak kreeg. Je was dus altijd bezig.
+                            </li>
+                            <li>
+                                Tamara: Goed communiceren, goed werk leveren
+                            </li>
+                            <li>
+                                Tjitte: Je ontwikkelde werkende / er goed uitziende producten
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        <h5>Wat deed ik minder goed?</h5>
+                        <ul>
+                            <li>
+                                Bora: Iets meer zelf onderzoek doen alvorens hulp te vragen
+                            </li>
+                            <li>
+                                Feryllia: Af en toe bleef je zelf te lang doorhameren op een taak in plaats van hulp vragen.
+                            </li>
+                            <li>
+                                Tamara: De communicatie was goed, maar kon misschien wat meer als het gaat om overleggen met het team
+                            </li>
+                            <li>
+                                Tjitte: Minder actieve speler in het team als de rest
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        <h5>Wat deed ik niet goed?</h5>
+                        <ul>
+                            <li>
+                                Bora: Nvt
+                            </li>
+                            <li>
+                                Feryllia: Je was soms niet nauwkeurig in je werk qua UI. Hiermee bedoel ik dan dat de website soms niet op de pixel van het design af kwam.
+                            </li>
+                            <li>
+                                Tamara: Kan me niks bedenken
+                            </li>
+                            <li>
+                                Tjitte: Communicatie over je situatie, als dat wat beter was geweest, was iedereen er op de hoogte als je er eens niet was
+                            </li>
+                        </ul>
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
                     contentArrowStyle={{ borderRight: `7px solid  black`}}
                     iconStyle={{ background: `${white}`}}
                     icon={<FaFlagCheckered/>}
