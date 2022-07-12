@@ -3,7 +3,7 @@ import {Carousel, CarouselItem, Col, Nav, Row} from "react-bootstrap";
 
 import "./leerdoelen.css";
 import LeerdoelItem from "./leerdoel-item";
-import {advice, analyse, manage, realise, skills, feedback} from "../../constants/content";
+import {advice, manage, realise, skills, feedback} from "../../constants/content";
 import Manage from "../leerdoelComponents/manage/manage";
 import {Advise} from "../leerdoelComponents/advise/advise";
 import {ZelfStandig} from "../leerdoelComponents/pro-skills/self-work/work";
