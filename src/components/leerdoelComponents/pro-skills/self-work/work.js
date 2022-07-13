@@ -80,6 +80,26 @@ export const ZelfStandig = () => {
                               <p>
                                   Met een vertraagde start op zelfstandigheid was ik bang dat ik dit leerdoel niet zou behalen. Maar gezien naar de vorderingen die ik heb gemaakt en de werk die ik heb geleverd ben ik toch trots op mezelf. Hierom geef ik mezelf een goede beoordeling.
                               </p>
+                              <p>
+                                  Ookal was ik pas later zelfaansturend vond ik mijn aanpak wel effectief. Wel had ik het volgende anders aangepakt:
+                                  <ul>
+                                      <li>
+                                          Gevraagd hoe ik het beste een taak kan oppakken en afronden: Vraag over hoe Jira-borden werken.
+                                      </li>
+                                  </ul>
+                              </p>
+                              <p>
+                                  Vanuit mijn mede-stagaires kreeg ik vaak de feedback dat bepaalde componenten niet pixel perfect waren. Hierdoor moest ik vaak aanpassingen in frontend componenten en/of stijlings aanbrengen.
+                                  <p>
+                                      Uit deze feedback kan geconcludeerd worden dat ik vaak niet nauwkeurig genoeg was met het maken en stijlen van componenten. Aan deze feedback is er gewerkt door bij het openen van Pull Requests vragen of de componenten en stijlen goed zitten.
+                                  </p>
+                              </p>
+                              <p>
+                                  De vordering die ik heb gemaakt is dat ik nu mezelf aan het werk kan zetten.
+                              </p>
+                              <p>
+                                  Deze vordering kan ik toepassen op school maar ook in mijn persoonlijk leven. Daarom zal ik deze meenemen in volgende uitdagingen/stages.
+                              </p>
                           </Row>
                       </Accordion.Body>
                   </Accordion.Item>
