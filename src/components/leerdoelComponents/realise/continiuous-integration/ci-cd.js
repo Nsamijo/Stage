@@ -86,6 +86,30 @@ export const CICD = () => {
                                     </ul>
                                     Deze inzet beoordeel ik als voldoende.
                                 </p>
+                                <p>
+                                    Tijdens de stage heb ik bij elke stap meegekeken voor het releasen van code dus bij Continuous Deployments en kon ik dit op een gegeven moment ook doen. Alleen miste ik aan het eind Continuous Intergration. Toen ik een stagebegeleider vroeg daarover vertelde deze mij dat ik daar al gebruik van had gemaakt.
+                                    <p>
+                                        Continuous Intergration werd bij elke Pull Request automatisch toegepast. Dit gebeurde bij de Github Actions die plaatsvonden bij zo een Pull Request. Maar ook het samenvoegen van code, Github Repository, valt onder Continuous Intergration.
+                                    </p>
+                                    <p>
+                                        Wat ik anders zou doen in mijn aanpak is de vraag eerder gesteld. Ook zou ik hebben gezegd waarom. Dit was namelijk aan het eind van mijn stage besproken.
+                                    </p>
+                                </p>
+                                <p>
+                                    De vorderingen die ik heb gemaakt zijn:
+                                    <ul>
+                                        <li>
+                                            Meer kennis over CI/CD en hoe deze toegepast kan worden
+                                        </li>
+                                        <li>
+                                            De tools die gebruikt kunnen worden voor CI/CD
+                                        </li>
+                                    </ul>
+                                    Met deze vorderingen ben ik instaat geweest om CI/CD te implementeren in dit verslag. Elke verandering wordt automatisch ingevoerd en live gezet. Ik ben zeer tevreden over de vorderingen.
+                                </p>
+                                <p>
+                                    Voor de toekomstige stage/werkplek neem ik de kennis en kunnen van CI/CD mee.
+                                </p>
                             </Row>
                         </Accordion.Body>
                     </Accordion.Item>
