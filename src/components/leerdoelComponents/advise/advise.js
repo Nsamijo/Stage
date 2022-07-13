@@ -85,7 +85,33 @@ export const Advise = () => {
                                     De adviezen die zijn gedaan kwamen voor grotendeels overeen met die van mede-stagaires. De adviezen die niet overkwamen heb ik besproken met mijn oom en dan mijn mede-stagaires. Hierdoor ben ik beter geworden in het discussieren en motiveren van functionaliteiten.
                                 </p>
                                 <p>
-                                    Het geven van adviezen gebeurd niet vaak genoeg. En bij momenten waar ik een advies mocht en kon uitten koos ik vaak om dit niet te doen. Hierbij geef ik mezelf een matige beoordeling
+                                    Het geven van adviezen gebeurde niet vaak genoeg. En bij momenten waar ik een advies mocht en kon uitten koos ik vaak om dit niet te doen. Hierbij geef ik mezelf een matige beoordeling
+                                </p>
+                                <p>
+                                    Het bespreken van adviezen was wel effectief en leverde inzichten die ik kon delen met het team. Alleen gebeurde dit niet vaak genoeg door de passieve houding die ik had.
+                                    <p>
+                                        Bij nader inzien had ik het volgende anders moeten doen:
+                                        <ul>
+                                            <li>
+                                                Actievere houding aannemen: meer mijn mening moeten uitten
+                                            </li>
+                                        </ul>
+                                    </p>
+                                </p>
+                                <p>
+                                    De vordering die ik heb gemaakt:
+                                    <ul>
+                                        <li>
+                                            Het discussieren van functionaliteiten met anderen
+                                        </li>
+                                    </ul>
+                                    Deze vordering heeft me geholpen om beter te communiceren met mijn mede-stagaires en familieleden. Daarom ben ik tevreden over deze bevordering.
+                                </p>
+                                <p>
+                                    Richting te toekomst neem ik mee het kunnen discussieren. Dit kan in verschillende gevallen gebruikt worden. Enkele gevallen zijn bepalen van functionaliteiten, bespreken van meningen, etc.
+                                </p>
+                                <p>
+                                    Bij een volgende stage zal ik een actievere houding aannemen en meer durven adviezen te geven.
                                 </p>
                             </Row>
                         </Accordion.Body>
