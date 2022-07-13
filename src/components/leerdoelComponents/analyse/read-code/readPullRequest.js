@@ -124,6 +124,75 @@ const ReadCode = () => {
                                 <p>
                                     Door te werken aan dit leerdoel wilde ik mijn technische inzicht en kennis uitbreiden.
                                 </p>
+                                <p>
+                                    Tijdens dit leerdoel heb ik meer kennis opgedaan van Github. Dit was in eerdere projecten, van de Hogeschool Rotterdam, gebruik maar niet als bij AH Tech Labs.
+                                    <p>
+                                        Verder heb ik ook 2 nieuwe programmeertalen geleerd. Deze programmeertalen zijn JavaScript en TypeScript.
+                                    </p>
+                                </p>
+                                <p>
+                                    Tegen het eind van mijn stage keurde ik vaak Pull Requests goed/af, afhankelijk als ze aan alle standaarden voldoen. En kon ik veel van de ontwikkelde functionaliteiten lezen en begrijpen. Wel had ik soms moeite om backend functionaliteiten te begrijpen.
+                                    <p>
+                                        Om dit te bereiken heb ik het volgende gedaan:
+                                        <ul>
+                                            <li>
+                                                Bij code die ik niet begreep, plaatste ik een opmerking. Deze opmerking was een variantie van: "Waarvoor dient dit?".
+                                                <ul>
+                                                    <li>
+                                                        Bij Pull Request waar dit niet kon las ik gewoon de code en benaderde dan de mede-stagaire/ontwikkelaar met de vraag: "Hoe werkt je code?"
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                De coderingsregels doorgenomen en gebruikt als uitgangspunten
+                                            </li>
+                                            <li>
+                                                Bij Pull Requests geopened bij mij waren er in het begin altijd opmerkingen. Deze opmerkingen waren vaak:
+                                                <ul>
+                                                    <li>
+                                                        Let op het structuur van je code.
+                                                    </li>
+                                                    <li>
+                                                        Vermijd herhalingen
+                                                    </li>
+                                                    <li>
+                                                        Geen console.log
+                                                    </li>
+                                                </ul>
+                                                Door te letten op mijn eigen structuur en dit te vergelijken met anderen kon ik mijn programmeerskills verbeteren. Hierdoor begon ik beter te worden in het lezen en programmeren van code.
+                                            </li>
+                                        </ul>
+                                    </p>
+                                </p>
+                                <p>
+                                    Ik beoordeel mijn inzet bij dit leerdoel als een voldoende.
+                                </p>
+                                <p>
+                                    De aanpak die ik heb gebruikt verbeterde mijn programmeerskills aanzienlijk. Deze kennis echter is alleen van de frontend/gebruikersomgeving. Voor de volgende stage zal ik meer aandacht besteden aan het programmeren voor de backend.
+                                </p>
+                                <p>
+                                    De vorderingen die zijn gemaakt zijn:
+                                    <ul>
+                                        <li>
+                                            Het kunnen lezen van code geschreven door anderen
+                                        </li>
+                                        <li>
+                                            Code beoordelen op basis van code standaarden
+                                        </li>
+                                        <li>
+                                            Beter programmeren door in mijn  eigen code de code standaarden te verwerken
+                                        </li>
+                                    </ul>
+                                </p>
+                                <p>
+                                    De vorderingen die ik heb gemaakt, zijn naar mijn mening, best groot. Ik ben beter geworden in het programmeren en het begrijpen van code.
+                                </p>
+                                <p>
+                                    Voor de toekomst zal ik meenemen het kunnen lezen en begrijpen van door andere geschreven code. Dit is heel handig als ik verder moet werken aan al bestaande applicaties/projecten.
+                                </p>
+                                <p>
+                                    Voor de volgende stage zal ik meer aandacht besteden aan de backend. Meer tijd en vragen stellen over hoe deze werkt.
+                                </p>
                             </Row>
                         </Accordion.Body>
                     </Accordion.Item>
