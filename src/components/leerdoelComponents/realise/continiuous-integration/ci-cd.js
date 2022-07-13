@@ -71,6 +71,21 @@ export const CICD = () => {
                                 <p>
                                     Er is gekozen om aan dit leerdoel te werken om een nieuw techniek te leren. Tijdens de eerste twee studiejaren op de Hogeschool Rotterdam zijn de termen Continuous Integration/Continuous Deployment vaak opgekomen in discussies. Ik wilde graag weten wat die inhield en hoe dit gebeurde.
                                 </p>
+                                <p>
+                                    Door te werken aan dit leerdoel weet ik nu meer over wat CI/CD inhoud en kan ik dit nu toepassen op andere projecten. Tijdens de stage had ik pas later door dat ik al CI/CD deed omdat dit om een goed maar subtiele manier is verwerkt in AH Tech Labs.
+                                </p>
+                                <p>
+                                    Voor dit leerdoel heb ik gedaan:
+                                    <ul>
+                                        <li>
+                                            De begrippen CI/CD doorgenomen. Verschillen en overeenkomsten doorgenomen
+                                        </li>
+                                        <li>
+                                            CI/CD gebruikt voor het live zetten van een applicatie
+                                        </li>
+                                    </ul>
+                                    Deze inzet beoordeel ik als voldoende.
+                                </p>
                             </Row>
                         </Accordion.Body>
                     </Accordion.Item>

@@ -81,6 +81,43 @@ const Problem = () => {
                                 <p>
                                     Door te werken aan dit leerdoel wilde ik leren hoe een probleem naar een project kan worden omgezet.
                                 </p>
+                                <p>
+                                    Tijdens de stage heb ik met elke project kunnen bijdragen door middel van de probleemanalyse. Ook hebben de probleemanalyses een beter begrip gegeven over het project en de applicatie die ontwikkelt moet worden.
+                                </p>
+                                <p>
+                                    Mijn inzet beoordeel als het volgende:
+                                    <ul>
+                                        <li>
+                                            Participatie bij probleemanalyse: voldoende, ik kon met met mede-stagaires het probleem bespreken en zo inzichten opdoen. Deze inzichten werden later besproken en/of bevestigt in gesprekken met mijn oom.
+                                        </li>
+                                        <li>
+                                            Gebruik van de probleemanalyse: matig, ik begreep niet zo goed wat het doel was van de probleemanalyse. Pas bij de laatste probleemanalyse kreeg ik de kern binnen: "Niet het wiel opnieuw uitvinden". Met andere woorden zijn er al oplossingen voor de problemen, zo ja wat zijn die en hoe kan dat, beter, geimplementeerd worden.
+                                        </li>
+                                    </ul>
+                                </p>
+                                <p>
+                                    Mijn aanpak van dit leerdoel was niet effectief. Door een passieve houding en het niet stellen van vragen had ik pas aan het eind door wat het doel was van de probleemanalyse.
+                                    <p>
+                                        Met deze inzicht zal ik de volgende keer een actievere houding aannemen en vragen stellen. Hierdoor kan ik beter de probleemanalyse toepassen.
+                                    </p>
+                                </p>
+                                <p>
+                                    Bij het werken aan dit leerdoel heb ik de volgende vordering gemaakt:
+                                    <ul>
+                                        <li>
+                                            Kijk eerst rond voor oplossingen op de problemen die er zijn. Vaak zijn er wel oplossingen aanwezig en kunnen deze beter geimplementeerd worden
+                                        </li>
+                                    </ul>
+                                </p>
+                                <p>
+                                    De vorderingen zijn naar mijn mening niet wat ze moeten zijn. Wel ben ik blij en trots op de vordering die ik heb gemaakt.
+                                </p>
+                                <p>
+                                    Voor de toekomst zal ik eerst rondkijken voor een al bestaand oplossing voor problemen. Dit kan bedrijven namelijk tijd en geld besparen.
+                                </p>
+                                <p>
+                                    Voor de volgende keer zal ik een actievere houding aannemen tijdens de probleemanalyses. En voor het gebruik van de probleemanalyse methode eerst vragen wat het doel is van deze.
+                                </p>
                             </Row>
                         </Accordion.Body>
                     </Accordion.Item>

@@ -70,6 +70,12 @@ export const Feedback = () => {
                               <p>
                                   Dit leerdoel is gekozen om te groeien in character door middel van de ontvangen feedback.
                               </p>
+                              <p>
+                                  Tijdens en na mijn stage heb ik feedback ontvangen over mijn gedrag. Ik ben nog steeds bezig om de feedback toe te passen.
+                              </p>
+                              <p>
+                                  Voor dit leerdoel heb ik pas later gevraagd om feedback van anderen. Ook het toepassen van deze feedback gaat niet zoals geplanned. om deze redenen geef ik mijn inzet een matige beoordeling.
+                              </p>
                           </Row>
                       </Accordion.Body>
                   </Accordion.Item>

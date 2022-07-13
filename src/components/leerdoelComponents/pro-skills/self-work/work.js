@@ -74,6 +74,12 @@ export const ZelfStandig = () => {
                               <p>
                                   Er is gekozen om aan dit leerdoel te werken om zelfstandig te zijn. In staat zijn om mezelf aan te sturen.
                               </p>
+                              <p>
+                                  In het begin van stage was het moeilijk om zelf een taak op te pakken en af te ronden. Dit kwam door de tekort aan kennis over de tools en programmeertalen. Na de eerste maand kon ik dit beter doen en na de tweede maand werkte ik geheel zelfstandig. Deze zelfstandigheid kwam door een betere begrip en kennis over de gebruikte tools en programmeertalen.
+                              </p>
+                              <p>
+                                  Met een vertraagde start op zelfstandigheid was ik bang dat ik dit leerdoel niet zou behalen. Maar gezien naar de vorderingen die ik heb gemaakt en de werk die ik heb geleverd ben ik toch trots op mezelf. Hierom geef ik mezelf een goede beoordeling.
+                              </p>
                           </Row>
                       </Accordion.Body>
                   </Accordion.Item>

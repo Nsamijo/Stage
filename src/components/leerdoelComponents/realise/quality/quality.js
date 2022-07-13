@@ -71,6 +71,32 @@ export const Quality = () => {
                               <p>
                                   Er is gekozen voor dit leerdoel om mijn programmeerskills te verbeteren. Als gevolg hiervan wordt de code die ik ontwikkel beter.
                               </p>
+                              <p>
+                                  Bij dit leerdoel is heeft de leerdoel analyseren bijgedragen. Door het begrijpen van anderen hun code ben ik een betere programmeur geworden. Verder heeft het werken aan dit leerdoel ervoor gezorgd:
+                                  <ul>
+                                      <li>
+                                          Het nauwkeurig lezen van de kwaliteitseisen en ook de ontwerpen
+                                      </li>
+                                      <li>
+                                          Leren en beheersen van nieuwe tools, technieken en talen
+                                      </li>
+                                  </ul>
+                              </p>
+                              <p>
+                                  De inzet bij dit leerdoel was:
+                                  <ul>
+                                      <li>
+                                          Doornemen, begrijpen en toepassen van kwaliteitseisen
+                                      </li>
+                                      <li>
+                                          Doornemen, begrijpen en toepassen van coderingsregels (code standaarden) van zowel de programmeertalen als AH Tech Labs
+                                      </li>
+                                      <li>
+                                          Het leren en beheersen van nieuwe technieken, talen en tools
+                                      </li>
+                                  </ul>
+                                  Door deze inzet is het mij gelukt om code op te leveren die voldeden aan de eisen en standaarden van AH Tech Labs. Hierom beoordeel ik mijn inzet als goed.
+                              </p>
                           </Row>
                       </Accordion.Body>
                   </Accordion.Item>

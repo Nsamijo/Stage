@@ -79,7 +79,13 @@ export const Advise = () => {
                             <Row>
                                 <h5>Reflectie</h5>
                                 <p>
-                                    Door te werken aan dit leerdoel wilde ik leren om te durven mijn mening omtrent programmeren/functionaliteiten te geven aan anderen
+                                    Door te werken aan dit leerdoel wilde ik leren om te durven mijn mening, omtrent potentiele functionaliteiten, te geven aan anderen
+                                </p>
+                                <p>
+                                    De adviezen die zijn gedaan kwamen voor grotendeels overeen met die van mede-stagaires. De adviezen die niet overkwamen heb ik besproken met mijn oom en dan mijn mede-stagaires. Hierdoor ben ik beter geworden in het discussieren en motiveren van functionaliteiten.
+                                </p>
+                                <p>
+                                    Het geven van adviezen gebeurd niet vaak genoeg. En bij momenten waar ik een advies mocht en kon uitten koos ik vaak om dit niet te doen. Hierbij geef ik mezelf een matige beoordeling
                                 </p>
                             </Row>
                         </Accordion.Body>

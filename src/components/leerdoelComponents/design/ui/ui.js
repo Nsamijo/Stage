@@ -84,6 +84,12 @@ export const Ontwerpen = () => {
                                 <p>
                                     Door te werken aan dit leerdoel wilde ik leren hoe een goed gebruikersomgeving te ontwerpen.
                                 </p>
+                                <p>
+                                    Dit doel heb ik naar mijn gevoel niet bereikt. De ontwerpen die zijn gemaakt zijn niet in dezelfde omgeving gemaakt als de UX-designers. Ook zijn deze van een lager kwaliteit.
+                                </p>
+                                <p>
+                                    De gebruikersomgeving heb ik niet getoond aan de UX-designers. Hierdoor heb ik mijn ontwerpskills niet kunnen verbeteren. Dit leerdoel beoordeel ik als onvoldoende.
+                                </p>
                             </Row>
                             <Row>
                                 <h5>Feedback Stagebegeleider LD02</h5>
@@ -95,6 +101,12 @@ export const Ontwerpen = () => {
                                 <h5>Reflectie</h5>
                                 <p>
                                     Door te werken aan dit leerdoel wilde ik mijn ontwerpkeuzes kunnen motiveren aan anderen.
+                                </p>
+                                <p>
+                                    Dit doel heb ik naar mijn gevoel niet bereikt. De ontwerpen heb ik niet kunnen bespreken met de UX-designer. Hierdoor kon ik de motivaties niet uitten.
+                                </p>
+                                <p>
+                                    De gebruikersomgeving heb ik niet getoond aan de UX-designers. Hierdoor heb ik mijn ontwerpen niet kunnene motiveren. Dit leerdoel beoordeel ik als onvoldoende.
                                 </p>
                             </Row>
                         </Accordion.Body>
