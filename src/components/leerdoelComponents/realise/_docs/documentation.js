@@ -209,12 +209,14 @@ export const QualityDoc = () => {
                   </li>
                   <li>
                       React met Spring:
-                      <li>
-                          React: Dit is een Javascript libary voor het maken van gebruikersomgevingen ( <a target={"new"} href={"https://reactjs.org/"}>React</a> ).
-                      </li>
-                      <li>
-                          Spring: Het Spring Framework biedt een uitgebreid programmeer-en configuratiemodel voor moderne ,op Java gebaseerde, bedrijfsapplicaties ( <a target={"new"} href={"https://spring.io/projects/spring-framework"}>Spring Framework</a> ).
-                      </li>
+                      <ul>
+                          <li>
+                              React: Dit is een Javascript libary voor het maken van gebruikersomgevingen ( <a target={"new"} href={"https://reactjs.org/"}>React</a> ).
+                          </li>
+                          <li>
+                              Spring: Het Spring Framework biedt een uitgebreid programmeer-en configuratiemodel voor moderne ,op Java gebaseerde, bedrijfsapplicaties ( <a target={"new"} href={"https://spring.io/projects/spring-framework"}>Spring Framework</a> ).
+                          </li>
+                      </ul>
                   </li>
               </p>
               <p>
