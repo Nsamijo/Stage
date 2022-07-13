@@ -76,6 +76,49 @@ export const Feedback = () => {
                               <p>
                                   Voor dit leerdoel heb ik pas later gevraagd om feedback van anderen. Ook het toepassen van deze feedback gaat niet zoals geplanned. om deze redenen geef ik mijn inzet een matige beoordeling.
                               </p>
+                              <p>
+                                  Mijn aanpak van dit leerdoel was niet effectief. De reden hiervoor is dat ik nog steeds niet klaar bent met het toepassen van de feedback.
+                                  <p>
+                                      Met deze inzicht zou ik het volgende anders doen:
+                                      <ul>
+                                          <li>
+                                              Meer uitleg vragen over de feedback. Wat wilt de persoon zien veranderen.
+                                          </li>
+                                      </ul>
+                                  </p>
+                              </p>
+                              <p>
+                                  De grootste feedback die ik heb gehad zijn de volgende:
+                                  <ul>
+                                      <li>
+                                          Mijn communicatie tegenover anderen/derden
+                                      </li>
+                                      <li>
+                                          Passieve houding
+                                      </li>
+                                  </ul>
+                                  Hieruit concludeer ik dat mijn houding en communicatieve skills verbeterd moeten worden. Met deze feedback ben ik begonnen aan het werken aan een actieve houding en beter communciceren naar anderen.
+                              </p>
+                              <p>
+                                  Vorderingen die ik heb gemaakt:
+                                  <ul>
+                                      <li>
+                                          Ik ben beter gaan communiceren naar anderen. Nu is het nog steeds niet geheel wat het moet zijn.
+                                      </li>
+                                      <li>
+                                          Een actievere houding aangenomen.
+                                      </li>
+                                  </ul>
+                              </p>
+                              <p>
+                                  Deze punten heb ik ontwikkelt omdat andere mede-stagaires vaak zochten naar mij. Vaak was ik bezig met een eigen taak maar had dit niet gecommuniceerd naar de team. Ook had ik een aantal gevallen waar ik mijn afwezigheid niet goed had gecommuniceerd.
+                              </p>
+                              <p>
+                                  In het vervolg zal ik beter communiceren naar anderen en ook een actievere houding.
+                              </p>
+                              <p>
+                                  Dit leerdoel is half bereikt. Om het feit dat mijn communicatieve skills niet zijn wat het meot zijn. Om dit te verbeteren zal ik op een ander stage moment vragen om communicatie trainingen om zo mijn communicatieve skills te verbeteren.
+                              </p>
                           </Row>
                       </Accordion.Body>
                   </Accordion.Item>
