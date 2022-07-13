@@ -67,6 +67,11 @@ export const Quality = () => {
                                   {feedback.leerdoel7}
                               </div>
                           </Row>
+                          <Row>
+                              <p>
+                                  Er is gekozen voor dit leerdoel om mijn programmeerskills te verbeteren. Als gevolg hiervan wordt de code die ik ontwikkel beter.
+                              </p>
+                          </Row>
                       </Accordion.Body>
                   </Accordion.Item>
               </Accordion>

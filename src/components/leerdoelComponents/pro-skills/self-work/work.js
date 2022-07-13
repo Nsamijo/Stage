@@ -70,6 +70,11 @@ export const ZelfStandig = () => {
                                   {feedback.leerdoel10}
                               </div>
                           </Row>
+                          <Row>
+                              <p>
+                                  Er is gekozen om aan dit leerdoel te werken om zelfstandig te zijn. In staat zijn om mezelf aan te sturen.
+                              </p>
+                          </Row>
                       </Accordion.Body>
                   </Accordion.Item>
               </Accordion>

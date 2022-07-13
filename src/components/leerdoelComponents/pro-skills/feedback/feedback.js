@@ -66,6 +66,11 @@ export const Feedback = () => {
                                   {feedback.leerdoel9}
                               </div>
                           </Row>
+                          <Row>
+                              <p>
+                                  Dit leerdoel is gekozen om te groeien in character door middel van de ontvangen feedback.
+                              </p>
+                          </Row>
                       </Accordion.Body>
                   </Accordion.Item>
               </Accordion>

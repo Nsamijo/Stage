@@ -67,6 +67,11 @@ export const CICD = () => {
                                     {feedback.leerdoel8}
                                 </div>
                             </Row>
+                            <Row>
+                                <p>
+                                    Er is gekozen om aan dit leerdoel te werken om een nieuw techniek te leren. Tijdens de eerste twee studiejaren op de Hogeschool Rotterdam zijn de termen Continuous Integration/Continuous Deployment vaak opgekomen in discussies. Ik wilde graag weten wat die inhield en hoe dit gebeurde.
+                                </p>
+                            </Row>
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
