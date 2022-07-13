@@ -86,9 +86,15 @@ export const Ontwerpen = () => {
                                 </p>
                                 <p>
                                     Dit doel heb ik naar mijn gevoel niet bereikt. De ontwerpen die zijn gemaakt zijn niet in dezelfde omgeving gemaakt als de UX-designers. Ook zijn deze van een lager kwaliteit.
+                                    <p>
+                                        Tijdens de stage heb ik als ontwikkelaar wel mijn mening en advies geuit over het ontwerp dat de UX-designer had. Helaas mocht ikzelf de veranderingen niet toepassen
+                                    </p>
                                 </p>
                                 <p>
                                     De gebruikersomgeving heb ik niet getoond aan de UX-designers. Hierdoor heb ik mijn ontwerpskills niet kunnen verbeteren. Dit leerdoel beoordeel ik als onvoldoende.
+                                </p>
+                                <p>
+                                    Door dit alles heb ik naar mijn mening geen vorderingen kunnen maken. Dit leerdoel heb ik daarom niet afgerond. Voor de volgende keer zal ik de verantwoordelijk voor ontwerpen op me nemen of vragen. Indien dit niet mogelijk is zal ik kijken of er een comprimie gevonden kan worden.
                                 </p>
                             </Row>
                             <Row>
@@ -107,6 +113,12 @@ export const Ontwerpen = () => {
                                 </p>
                                 <p>
                                     De gebruikersomgeving heb ik niet getoond aan de UX-designers. Hierdoor heb ik mijn ontwerpen niet kunnene motiveren. Dit leerdoel beoordeel ik als onvoldoende.
+                                    <p>
+                                        Wel heb ik als stagair het zeggen gehad over de gemaakte ontwerpen. En heb ik ook veranderingen kunnen aanvragen en/of kunnen voorstellen
+                                    </p>
+                                </p>
+                                <p>
+                                    Naar mijn mening heb ik geen vorderingen kunnen maken. Dit leerdoel heb ik daarom niet afgerond. Voor de volgende keer zal ik de verantwoordelijk voor ontwerpen op me nemen of vragen. Indien dit niet mogelijk is zal ik kijken of er een comprimie gevonden kan worden.
                                 </p>
                             </Row>
                         </Accordion.Body>
