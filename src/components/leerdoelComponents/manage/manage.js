@@ -90,6 +90,57 @@ const Manage = () => {
                                     <p>
                                         Met dit leerdoel wilde ik de werkwijze binnen een bedrijf me eigen maken. De werkmethodiek die gehanteerd wordt begrijpen en kunnen gebruiken. Tijdens mijn stage bij AH Tech Labs heb ik geleerd om Lean Start-Up te gebruiken.
                                     </p>
+                                    <p>
+                                        De Lean Start-Up had veel overeenkomsten met de werkmethodiek, Scrum, van de opleiding Informatica. Door de overeenkomsten was het makkelijk om te begrijpen en toe te passen. Zo lukte het om gedurende de stage mee te draaien met het inplannen van taken. In het begin ging het oppakken van taken wat minder, de reden hiervoor is dat ik niet wist hoe een Jira-bord werkte. Ook merkte ik dat ik moeite had met het bijhouden van de project voortgang.
+                                        <p>
+                                            Om dit te verbeteren heb ik pas later, bij het tweede project, vragen gesteld over het Jira-bord. Door het begrijpen van de Jira-bord werd ook het bijhouden van de project voortgang beter. Hierdoor kon ik het team beter ondersteunen en zelf taken oppakken.
+                                        </p>
+                                    </p>
+                                    <p>
+                                        Als ik terug kijk naar mijn aanpak en inzet van dit leerdoel geef ik mezelf een matige beoordeling. De redenen hiervoor zijn:
+                                        <ul>
+                                            <li>
+                                                De werkmethodiek verschilde niet veel van wat was aangeleerd op school. Het verschil was te merken in de tijd die besteedt werd aan het verzamelen van functionaliteit, ontwikkelen, testen en online zetten van de projecten (applicaties). De tijd die daaraan besteed is is aanzienlijk minder geweest.
+                                            </li>
+                                            <li>
+                                                Door niet te durven vragen vanaf het begin aan kon ik niet meteen meedraaien in het team.
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        Gekeken naar mijn aanpak van dit leerdoel zie ik ook de fouten die ik heb gemaak. Hetgene dat ik anders zou doen zijn:
+                                        <ul>
+                                            <li>
+                                                Stagebegeleider vragen voor uitleg over de Jira-borden
+                                            </li>
+                                            <li>
+                                                Teamleden gevraag over hoe ik het beste de voortgang kon bijhouden
+                                            </li>
+                                            <li>
+                                                Aantekeningen gemaakt van de projectmeetingen om de voortgang bij te houden
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        De volgende vorderingen heb ik moeten maken om goed bij te draaien in de projecten:
+                                        <ul>
+                                            <li>
+                                                Weten hoe de Jira-borden werken om zo het projectvoortgang te bewaren
+                                            </li>
+                                            <li>
+                                                Durven vragen om hulp
+                                            </li>
+                                        </ul>
+                                        <p>
+                                            Het is mij gelukt om deze vorderingen te maken door eerst mee te kijken met een stagebegeleider. En het toegeven van mijn tekort aan kennis. Toen de stagebegeleider vroeg of ik nogmaals uitleg wilde accepteerde ik deze.
+                                        </p>
+                                    </p>
+                                    <p>
+                                        De vorderingen die zijn gemaakt bevat 1 mijlpaal voor mij: het durven vragen om hulp. Nadat deze vordering kon ik aanzienlijke verbeteringen maken in zowel mijn projecthouding als mijn projectbijdrage. Deze vordering zal ik zeker meenemen tijdens mijn volgende stage.
+                                    </p>
+                                    <p>
+                                        Helaas ben ik nog niet geheel tevreden over de mate dat dit leerdoel is afgerond. Dit komt door de late begrip van de projecttool. Voor de volgende stage zal ik meer aandacht besteden aan het begrijpen van de gehanteerde projecttool.
+                                    </p>
                                 </Row>
                             </Container>
                         </Accordion.Body>
