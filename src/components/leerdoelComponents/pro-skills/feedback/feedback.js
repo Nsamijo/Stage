@@ -74,50 +74,62 @@ export const Feedback = () => {
                                   Tijdens en na mijn stage heb ik feedback ontvangen over mijn gedrag. Ik ben nog steeds bezig om de feedback toe te passen.
                               </p>
                               <p>
-                                  Voor dit leerdoel heb ik pas later gevraagd om feedback van anderen. Ook het toepassen van deze feedback gaat niet zoals geplanned. om deze redenen geef ik mijn inzet een matige beoordeling.
+                                  Voor dit leerdoel heb ik op advies van mijn stagebegeleider vrij recent feedback gevraagd bij een aantal mede-stagaires. De ontvangen feedback heb ik verwerkt in dit verslag.
                               </p>
                               <p>
-                                  Mijn aanpak van dit leerdoel was niet effectief. De reden hiervoor is dat ik nog steeds niet klaar bent met het toepassen van de feedback.
+                                  Mijn aanpak van dit leerdoel was niet effectief. Op basis van de ontvangen feedback ben ik tot de volgende conclusies gekomen:
+                                  <ul>
+                                      <li>
+                                          Communicatie is niet mijn sterkste punt. Ik zal hier veel meer aandacht en energie in moeten steken.
+                                      </li>
+                                      <li>
+                                          Ik moet eerder vragen stellen als ik iets niet weet of over twijfel. Gevolg van het te lang wachten van stellen van vragen is dat ik mijn deadlines niet haal of dat ik een product oplever wat niet aan de verwachtingen voldoet.
+                                      </li>
+                                      <li>
+                                          Ik zal actiever moeten deelnemen in teamsoverleggen en/of bij het werken in teams.
+                                      </li>
+                                      <li>
+                                          Ik zal een actievere houding aannemen.
+                                      </li>
+                                  </ul>
+                              </p>
+                              <p>
+                                  <h5>Reflectie</h5>
                                   <p>
-                                      Met deze inzicht zou ik het volgende anders doen:
-                                      <ul>
+                                      Voor mijzelf heb ik de 10 volgende punten op een rijtje gezet om de feedback te kunnen verwerken en te werken aan mijn eigen ontwikkeling:
+                                      <ol>
                                           <li>
-                                              Meer uitleg vragen over de feedback. Wat wilt de persoon zien veranderen.
+                                              Op tijd aanwezig zijn: het tijdig en duidelijk communiceren of ik wel of niet aanwezig zou zijn. Of het melden als ik te laat zal/zou zijn.
                                           </li>
-                                      </ul>
+                                          <li>
+                                              Werk attitude: op basis van de feedback is er weinig op te merken over mijn werk attitude.
+                                          </li>
+                                          <li>
+                                              Inspanning: ik doe mijn uiterste best om de opdrachten uit te voeren echter indien er onduidelijkheden zijn doe ik er te lang over om vragen te stellen.
+                                          </li>
+                                          <li>
+                                              Energie: op basis van de ontvangen feedback denk ik dat ik voldoende energie hebt getoond. Ik had mijn energie beter kunnen benutten door niet lang door te hammeren op een taak inplaats van hulp te vragen.
+                                          </li>
+                                          <li>
+                                              Bodylanguage: ik ben mij ervan bewust dat duidelijk merkbaar is dat ik moeite heb met feedback. Het duurt even voordat ik door heb dat ik niet aangevallen wordt als persoon maar dat men het beste met mij voor heeft.
+                                          </li>
+                                          <li>
+                                              Passie: ik wil alles zo goed mogelijk en zelfstandig doen. In teamverband kan dit negatief uitpakken.
+                                          </li>
+                                          <li>
+                                              Een extra stap zetten: ik ben mij ervan bewust naar aanleiding van deze stage en de feedback die ik heb ontvangen dat ik meer energie moet steken in mijn theoretische kennis. Dat ik mij open moet stellen voor feedback. Dat ik vragen moet durven stellen c.q. door moet blijven vragen om een goed beeld te krijgen van wat van mij verwacht wordt.
+                                          </li>
+                                          <li>
+                                              Voorbereid zijn: Om goed voorbereid te zijn moet ik mij inlezen in de materie en informatie opzoeken over de zaken waar ik nog weinig of niets van afweet. Dit is voor mij een aandachtspunt.
+                                          </li>
+                                          <li>
+                                              Openstaan voor coaching: ik verwijs hierbij naar aandachtspunt Bodylanguage. Om gecoached te kunnen worden zal ik oude gewoontes en gedrag moeten veranderen. Dit is een proces dat enige tijd zal duren.
+                                          </li>
+                                          <li>
+                                              Attitude: ik moet mij bewust zijn van de nut en de noodzaak om mij attitude te veranderen om mijn doelen te bereiken. Echter moet ik dan duidelijker doelen stellen.
+                                          </li>
+                                      </ol>
                                   </p>
-                              </p>
-                              <p>
-                                  De grootste feedback die ik heb gehad zijn de volgende:
-                                  <ul>
-                                      <li>
-                                          Mijn communicatie tegenover anderen/derden
-                                      </li>
-                                      <li>
-                                          Passieve houding
-                                      </li>
-                                  </ul>
-                                  Hieruit concludeer ik dat mijn houding en communicatieve skills verbeterd moeten worden. Met deze feedback ben ik begonnen aan het werken aan een actieve houding en beter communciceren naar anderen.
-                              </p>
-                              <p>
-                                  Vorderingen die ik heb gemaakt:
-                                  <ul>
-                                      <li>
-                                          Ik ben beter gaan communiceren naar anderen. Nu is het nog steeds niet geheel wat het moet zijn.
-                                      </li>
-                                      <li>
-                                          Een actievere houding aangenomen.
-                                      </li>
-                                  </ul>
-                              </p>
-                              <p>
-                                  Deze punten heb ik ontwikkelt omdat andere mede-stagaires vaak zochten naar mij. Vaak was ik bezig met een eigen taak maar had dit niet gecommuniceerd naar de team. Ook had ik een aantal gevallen waar ik mijn afwezigheid niet goed had gecommuniceerd.
-                              </p>
-                              <p>
-                                  In het vervolg zal ik beter communiceren naar anderen en ook een actievere houding.
-                              </p>
-                              <p>
-                                  Dit leerdoel is half bereikt. Om het feit dat mijn communicatieve skills niet zijn wat het meot zijn. Om dit te verbeteren zal ik op een ander stage moment vragen om communicatie trainingen om zo mijn communicatieve skills te verbeteren.
                               </p>
                           </Row>
                       </Accordion.Body>
