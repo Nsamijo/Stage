@@ -33,7 +33,7 @@ export const ZelfStandig = () => {
                   </ul>
               </p>
               <p>
-                  Tijdens de stage is er gewerkt in groepsverband (in teams). Er is gebruikt gemaakt van een werkmethodologgie en diverse online tool voor o.a. het beheren van projecten. Gedurende de stage moest ik ook zelfstandig te werk gaan. Ik moest zelfstandig mijn dag indelen (b.v. Pull Request door nemen en feedback leveren). Ik kon zelfstandig bepalen welke taken ik zou oppakken. Dit werd vastgelegd in Jira. Om de 2 weken werd er vergadert om de voortgang te bespreken. Na goedkeuring van de stagebegeleider wordt een taak genoteerd als afgehandelt.
+                  Tijdens de stage is er gewerkt in groepsverband (in teams). Er is gebruikt gemaakt van een werkmethodologie en diverse online tool voor o.a. het beheren van projecten. Gedurende de stage moest ik ook zelfstandig te werk gaan. Ik moest zelfstandig mijn dag indelen (b.v. Pull Request door nemen en feedback leveren). Ik kon zelfstandig bepalen welke taken ik zou oppakken. Dit werd vastgelegd in Jira. Om de 2 weken werd er vergadert om de voortgang te bespreken. Na goedkeuring van de stagebegeleider wordt een taak genoteerd als afgehandelt.
               </p>
               <p>
                   <h5>Leerdoel Bewijs</h5>
@@ -78,27 +78,16 @@ export const ZelfStandig = () => {
                                   In het begin van stage was het moeilijk om zelf een taak op te pakken en af te ronden. Dit kwam door de tekort aan kennis over de tools en programmeertalen. Na de eerste maand kon ik dit beter doen en na de tweede maand werkte ik geheel zelfstandig. Deze zelfstandigheid kwam door een betere begrip en kennis over de gebruikte tools en programmeertalen.
                               </p>
                               <p>
-                                  Met een vertraagde start op zelfstandigheid was ik bang dat ik dit leerdoel niet zou behalen. Maar gezien naar de vorderingen die ik heb gemaakt en de werk die ik heb geleverd ben ik toch trots op mezelf. Hierom geef ik mezelf een goede beoordeling.
+                                  Met een vertraagde start op zelfstandigheid was ik bang dat ik dit leerdoel niet zou behalen. Maar gezien de vorderingen die ik heb gemaakt en het werk dat ik heb opgeleverd ben ik tevreden. Hierom geef ik mezelf een voldoende.
                               </p>
                               <p>
-                                  Ookal was ik pas later zelfaansturend vond ik mijn aanpak wel effectief. Wel had ik het volgende anders aangepakt:
-                                  <ul>
-                                      <li>
-                                          Gevraagd hoe ik het beste een taak kan oppakken en afronden: Vraag over hoe Jira-borden werken.
-                                      </li>
-                                  </ul>
-                              </p>
-                              <p>
-                                  Vanuit mijn mede-stagaires kreeg ik vaak de feedback dat bepaalde componenten niet pixel perfect waren. Hierdoor moest ik vaak aanpassingen in frontend componenten en/of stijlings aanbrengen.
+                                  Vanuit mijn mede-stagaires kreeg ik vaak de feedback dat bepaalde componenten niet pixel perfect waren. Hierdoor moest ik geregeld in frontend componenten en/of stijlings aanpassingen aanbrengen.
                                   <p>
-                                      Uit deze feedback kan geconcludeerd worden dat ik vaak niet nauwkeurig genoeg was met het maken en stijlen van componenten. Aan deze feedback is er gewerkt door bij het openen van Pull Requests vragen of de componenten en stijlen goed zitten.
+                                      Uit deze feedback kan geconcludeerd worden dat ik nauwkeuriger moest zijn bij het verrichten van mijn werkzaamheden. Ik ben aan de slag gegaan met deze feedback door bij het openen van Pull Requests te vragen of de componenten en stijlen goed verwerkt waren.
                                   </p>
                               </p>
                               <p>
-                                  De vordering die ik heb gemaakt is dat ik nu mezelf aan het werk kan zetten.
-                              </p>
-                              <p>
-                                  Deze vordering kan ik toepassen op school maar ook in mijn persoonlijk leven. Daarom zal ik deze meenemen in volgende uitdagingen/stages.
+                                  Ik heb zoveel mogelijk getracht om naar aanleiding van deze stage en de feedback die ik ontvangen heb kritisch naar mezelf te kijken. Zie voorgaande 10 punten.
                               </p>
                           </Row>
                       </Accordion.Body>
