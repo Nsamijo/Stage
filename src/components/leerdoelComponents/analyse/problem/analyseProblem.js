@@ -1,5 +1,6 @@
 import React from 'react';
 import {Accordion, Container, Row} from "react-bootstrap";
+
 import {Leerdoel3} from "../../_documentation/analyse/leerdoel3/leerdoel3";
 import {DynamischAfprijzen, Probleemstelling} from "../_docs/defenitions";
 import {analyse, feedback} from "../../../../constants/content";
@@ -17,24 +18,24 @@ const Problem = () => {
                 <p>
                     <h5>Leerdoel Context</h5>
                     <p>
-                        Voor dit leerdoel is er meegedaan aan de probleemanalyses van de opdrachten gekregen van afdelingen of stakeholders. De probleemanalyse heeft als kern om al bestaande oplossingen te innoveren en implementeren. Door te kijken naar al bestaande oplossingen vermijd AH Tech Labs valkuilen. De ontwikkelingstijd wordt hierdoor ook vermindert.
+                        Voor dit leerdoel is er gebruik gemaakt van de probleemanalyses die zijn opgesteld op basis van de opdrachten die wij ontvingen van afdelingen of stakeholders. Bij de probleemanalyse wordt er gekeken naar bestaande oplossingen en hoe die ingezet kunnen worden om de doelstellingen van de afdelingen of stakeholders kan realiseren (het niet opnieuw uitvinden van de wiel). Door bestaande oplossingen te bestuderen wordt de ontwikkeltijd verkort en worden mogelijke valkuilen voorkomen.
                     </p>
                 </p>
                 <p>
-                    Bij dit leerdoel is er gekozen om de probleemanalyse van Tech Labs te beheersen. Deze probleemanalyse is gezamelijk uitgevoerd met mede-stagaires onder begeleiding vanuit AH Tech Labs en bevat enkele individuele aspecten.
+                    Wat ik heb geleerd is hoe een probleem geanalyseerd wordt door de medewerkers van AH Tech Labs. Ik heb problemen geanalyseerd met mede-stagaires onder begeleiding van medewerkers van AH Tech Labs.
                 </p>
                 <p>
-                    De uitwerkmethode is voor de probleemanalyse ontvangen van een stagebegeleider. Zowel de probleemstelling als informatie over Dynamisch Afprijzen is ontvangen van een AH stakeholder.
+                    Hoe er binnen AH Tech Labs probleemanalyse vorm wordt gegeven is ons uitgelegd door een stagebegeleider. Voor het specifieke project Dynamisch Afprijzen hebben we de probleemstelling en additionele informatie ontvangen van een AH stakeholder.
                 </p>
                 <p>
-                    <h5>Probleem Context</h5>
-                    Albert Heijn wil het percentage aan voedselverspilling met 20 procent verlaagd hebben in het jaar 2030. Eén van de intiatieven is Dynamisch Afprijzen. Bij AH Tech Labs kwam hiervoor de volgende probleemstelling binnen:
+                    <h5>Opdrachtformulering</h5>
+                    Albert Heijn wil het percentage aan voedselverspilling met 20 procent verlaagd hebben in het jaar 2030. Eén van de alternatieven om dit te realiseren is Dynamisch Afprijzen. Bij AH Tech Labs kwam hiervoor de volgende probleemstelling binnen:
                 </p>
                 <p>
                     <Probleemstelling/>
                 </p>
                 <p>
-                    Het team heeft de volgende informatie ontvangen over Dynamisch Afprijzen
+                    Het team heeft de volgende informatie ontvangen over Dynamisch Afprijzen.
                 </p>
                 <p>
                     <DynamischAfprijzen/>
@@ -42,7 +43,7 @@ const Problem = () => {
                 <p>
                     <h5>Documentatie Omschrijving</h5>
                     <p>
-                        De documentatie bevat wat ik heb gedaan tijdens de probleemanalyses. De resultaten van de probleemanalyses zijn in deze verwerkt.
+                        De documentatie bevat wat ik heb gedaan tijdens de probleemanalyse van de genoemde project. De resultaten van de probleemanalyses zijn in deze verwerkt.
                     </p>
                 </p>
             </Row>
@@ -82,24 +83,12 @@ const Problem = () => {
                                     Door te werken aan dit leerdoel wilde ik leren hoe een probleem naar een project kan worden omgezet.
                                 </p>
                                 <p>
-                                    Tijdens de stage heb ik met elke project kunnen bijdragen door middel van de probleemanalyse. Ook hebben de probleemanalyses een beter begrip gegeven over het project en de applicatie die ontwikkelt moet worden.
+                                    Tijdens de stage heb ik aan alle probleemanalyses meegedaan. Door deel te nemen aan de probleemanalysesessies heb ik meer inzicht gekregen in de projecten en de applicaties die daarvoor ontwikkelt moesten worden.
                                 </p>
                                 <p>
-                                    Mijn inzet beoordeel als het volgende:
-                                    <ul>
-                                        <li>
-                                            Participatie bij probleemanalyse: voldoende, ik kon met met mede-stagaires het probleem bespreken en zo inzichten opdoen. Deze inzichten werden later besproken en/of bevestigt in gesprekken met mijn oom.
-                                        </li>
-                                        <li>
-                                            Gebruik van de probleemanalyse: matig, ik begreep niet zo goed wat het doel was van de probleemanalyse. Pas bij de tweede probleemanalyse kreeg ik de kern binnen: "Niet het wiel opnieuw uitvinden". Met andere woorden zijn er al oplossingen voor de problemen, zo ja wat zijn die en hoe kan dat, beter, geimplementeerd worden.
-                                        </li>
-                                    </ul>
-                                </p>
-                                <p>
-                                    Mijn aanpak van dit leerdoel was niet effectief. Door een passieve houding en het niet stellen van vragen had ik later door wat het doel was van de probleemanalyse.
-                                    <p>
-                                        Met deze inzicht zal ik de volgende keer een actievere houding aannemen en vragen stellen. Hierdoor kan ik beter de probleemanalyse toepassen.
-                                    </p>
+                                    Mijn inzet beoordeel ik als  volgt:
+                                    <br/>
+                                    In het begin heb ik een passieve houding aangenomen. Ik durfde geen vragen te stellen. Hierdoor kreeg ik op een later moment inzicht op de doelstellingen van de probleemanalyses. Namelijk niet het wiel opnieuw uitvinden. Met andere woorden zijn er al oplossingen voor de problemen, zo ja wat zijn die en hoe kan dat, beter, geimplementeerd worden.
                                 </p>
                                 <p>
                                     De ontwikkeling die ik heb gemaakt is:
@@ -110,7 +99,15 @@ const Problem = () => {
                                     </ul>
                                 </p>
                                 <p>
-                                    De ontwikkelingen zijn naar mijn mening niet wat ze moeten zijn. Wel ben ik blij en trots op de vordering die ik heb gemaakt.
+                                    Leerpunten:
+                                    <ul>
+                                        <li>
+                                            Goed kijken wat er al beschikbaar is om tijd, geld en inzet te besparen
+                                        </li>
+                                        <li>
+                                            Een actievere houding aannemen tijdens de diverse overleggen. Hetgeen betekent vragen stellen en meer oog hebben voor het resultaat en doel van de oplossing.
+                                        </li>
+                                    </ul>
                                 </p>
                                 <p>
                                     Voor de toekomst zal ik eerst rondkijken voor een al bestaand oplossing voor problemen. Dit kan bedrijven namelijk tijd, moeite en geld besparen.

@@ -31,5 +31,6 @@
 }
 
 .containerStyle{
-    border-bottom: double black;
+    border-bottom: double grey;
+    border-bottom-width: 10px;
 }

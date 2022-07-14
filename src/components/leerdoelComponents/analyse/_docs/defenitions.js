@@ -144,7 +144,7 @@ export const DynamischAfprijzen = () => {
                 </Accordion.Header>
                 <Accordion.Body>
                     <p>
-                        Momenteel worden producten al afgeprijsd door Albert Heijn als deze hun verval-datum naderen. Deze afprijzing bedraagt 35 procent van de productsprijs. Echter merkt Albert Heijn dat deze niet genoeg is om hun voedselverspillings doel te behalen. Daarom is besloten om een nieuwe afprijs methodiek te ontwikkelen.
+                        Momenteel worden producten al afgeprijsd door Albert Heijn als deze hun tenminste houdbaarheids datum tot (t.h.t.) naderen. Deze afprijzing bedraagt 35 procent van de verkoopprijs. Echter merkt Albert Heijn dat deze afprijzing niet genoeg is om hun voedselverspillings doel te realiseren. Daarom is besloten om een nieuwe afprijs methodiek te ontwikkelen.
                     </p>
                     <p>
                         De nieuwe afprijs methode bouwt verder op de oude met enkele wijzigingen en toevoegingen. Deze veranderingen zijn onder andere:
