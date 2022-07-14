@@ -15,13 +15,30 @@ const ReadCode = () => {
             </Row>
             <Row>
                 <p>
-                    <h5>Analyseren</h5>
-                    <p>
-                        Dit leerdoel gaat over het analyseren van processen, producten en informatiestromen in hun onderlinge samenhang en context.
-                    </p>
+                    Dit leerdoel gaat over het analyseren van processen, producten en informatiestromen in hun onderlinge samenhang en context.
                 </p>
                 <p>
-                    Bij dit leerdoel is er gekozen om de code (features)  ontwikkelt door een mede stagaire te analyseren. Bij de analyse moet duidelijk worden wat de code zal doen en of deze voldoet aan de kwaliteitseisen van Tech Labs.
+                    <h5>Leerdoel Context</h5>
+                    <p>
+                        Bij dit leerdoel is er gekozen om de code (features)  ontwikkelt door een mede stagaire te analyseren. Bij de analyse moet duidelijk worden wat de code zal doen en of deze voldoet aan de kwaliteitseisen van Tech Labs.
+                    </p>
+                    <p>
+                        Voor dit leerdoel is er eerst gekeken hoe AH Tech Labs met applicatie (code) omgaat. Hoe veranderingen (updates) worden gedaan. De coderingsregels (code standaarden) die gehanteerd wordt door AH Tech Labs.
+                    </p>
+                    <p>
+                        AH Tech Labs beheert zijn code met behulp van de tool genaamd: Github. Voor het aanbrengen van veranderingen werd een functionaliteit van Github gebruikt; Pull Request. Verder werd duidelijk dat AH Tech Labs gebruik maakt van de coderingsregels van de gekozen project (programeer)taal en een aantal eigen standaarden. Deze standaarden heb ik onderverdeel in:
+                        <ul>
+                            <li>
+                                Leesbaarheid
+                            </li>
+                            <li>
+                                Netheid
+                            </li>
+                            <li>
+                                Programmeertaal structuur
+                            </li>
+                        </ul>
+                    </p>
                 </p>
                 <p>
                     <h5>Bedrijfs Context</h5>
@@ -83,9 +100,24 @@ const ReadCode = () => {
                     </p>
                 </p>
                 <p>
-                    <h5>Leerdoel Behaald</h5>
+                    <h5>Documentatie Omschrijving</h5>
                     <p>
-                        Om dit leerdoel te behalen zijn een aantal Pull Request nagekeken waarvan onderstaand maar 1 beschreven wordt. In de beschrijving zijn de conclusie en bijbehorend beeld materiaal meegenomen.
+                        Door onderzoek te doen naar de gebruikte tool kon ik wijzigingen (updates) goed-/afkeuren en doorvoeren. Deze wijzigingen moesten allemaal voldoen aan de coderingsregels van AH Tech Labs. Indien er wijzingingen waren die niet voldeden aan deze coderingsregels werd het volgende gedaan:
+                        <ul>
+                            <li>
+                                Opmerking met coderingsregel(s) die niet waren nagekomen
+                            </li>
+                            <li>
+                                Aanvraag voor wijziging
+                            </li>
+                            <li>
+                                Optioneel: suggestie van aanpassing die gemaakt moet worden
+                            </li>
+                        </ul>
+                        Pas als de wijzingingen voldeden aan alle coderingsregels konden ze worden doorgevoerd. Hiermee bewaard AH Tech Labs de kwaliteit van de code.
+                        <p>
+                            In de documentatie is een Pull Request meegenomen die voldoet aan alle eisen. Wegens de geheimshoudingsverklaring mocht een selectief aantal, door mij gekeurde, Pull Requests gebruikt worden.
+                        </p>
                     </p>
                 </p>
             </Row>
