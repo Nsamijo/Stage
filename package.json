@@ -6,7 +6,7 @@
     "@restart/ui": "^1.2.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.5",
-    "@testing-library/user-event": "^12.1.10",
+    "@testing-library/user-event": "^14.2.3",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.11.39",
     "@types/react": "^17.0.45",
