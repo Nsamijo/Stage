@@ -32,10 +32,16 @@ const Manage = () => {
                 <p>
                     <h5>Beheren</h5>
                     <p>
-                        Elk project wordt opgesteld met een aantal plannen en afspraken op basis van tijdens een presentatie verkregen informatie. Tijdens de presentatie wordt de afdeling benoemd die producteigenaar is. Deze plannen en afspraken moeten in de gaten worden gehouden om zo het voortgang van een project te kunnen monitoren.
+                        Elk project in AH Tech Labs begint met een presentatie. Deze presentatie wordt gegeven door een andere afdeling of stakeholder. De afdeling of stakeholder is de producteigenaar. De projecteigenaar is AH Tech Labs.
                     </p>
                     <p>
-                        In AH Tech Labs wordt er gebruikt van de Lean-methodologie: Lean Start-Up. Hiermee kan de afdeling bestaande klant- en bedrijfsuitdagingen oplossen met nieuwe, incrementele verbeteringen. Verder is de afdeling ook bezig met het innoveren, vinden en verbeteren van nieuwe business modellen voor klanten. De Lean Start-Up methode is zeer efficient voor het innoveren en ontwikkelen van concepten, waarbij de nadruk ligt op snelle validatie van ideeën en continue klantcontact - <a href={"https://labs.ah.nl/"}>AH Tech Labs</a>
+                        Na de presentatie vindt er een analyse van het probleem plaats. Op basis van deze analyse worden mogelijke oplossingen oogesteld. Op basis daarvan wordt ook het project vastgesteld met bijbehorende projectplannen.
+                    </p>
+                    <p>
+                        De plannen en afspraken worden opgenomen in het projectplan om gedurende het project te kunnen blijven monitoren.
+                    </p>
+                    <p>
+                        In AH Tech Labs wordt er gebruikt gemaak van de Lean-methodologie: Lean Start-Up. Hiermee kan de afdeling bestaande klant- en bedrijfsuitdagingen oplossen met verbeteringen. Verder is de afdeling ook bezig met het innoveren, vinden en verbeteren van nieuwe business modellen voor klanten. De Lean Start-Up methode is efficient voor het innoveren en ontwikkelen van concepten, waarbij de nadruk ligt op snelle validatie van ideeën en continue klantcontact - <a href={"https://labs.ah.nl/"}>AH Tech Labs</a>
                     </p>
                     <p>
                         <Lean/>
@@ -47,6 +53,18 @@ const Manage = () => {
                         </p>
                         <p>
                             Elk project in Tech Labs heeft een eigen scrumbord waarbij er taken (features) kunnen worden toegevoegd. Bij de taken kunnen er kwaliteiteisen worden toegevoegd.
+                        </p>
+                        <p>
+                            Indien een taak was afgerond gebeurt het volgende:
+                            <ol>
+                                <li>
+                                    Er wordt gekeken of de afgeronde taak voldoet aan de kwaliteitseisen
+                                </li>
+                                <li>
+                                    Als deze voldoet wordt deze in een aparte kolom, genaamd: "Done", geplaats
+                                </li>
+                            </ol>
+                            Door dit te doen was er een goed overzicht van taken die waren afgerond en die nog gedaan moesten worden.
                         </p>
                         <p>
                             <Jira/>
@@ -94,19 +112,21 @@ const Manage = () => {
                                         Met dit leerdoel wilde ik de werkwijze binnen een bedrijf me eigen maken. De werkmethodiek die gehanteerd wordt begrijpen en kunnen gebruiken. Tijdens mijn stage bij AH Tech Labs heb ik geleerd om Lean Start-Up te gebruiken.
                                     </p>
                                     <p>
-                                        De Lean Start-Up had veel overeenkomsten met de werkmethodiek, Scrum, van de opleiding Informatica. Door de overeenkomsten was het makkelijk om te begrijpen en toe te passen. Zo lukte het om gedurende de stage mee te draaien met het inplannen van taken. In het begin ging het oppakken van taken wat minder, de reden hiervoor is dat ik niet wist hoe een Jira-bord werkte. Ook merkte ik dat ik moeite had met het bijhouden van de project voortgang.
+                                        De Lean Start-Up had veel overeenkomsten met de werkmethodiek, Scrum, van de opleiding Informatica. Door de overeenkomsten was het begrijpen en toepassen minder uitdagend. Zo lukte het om gedurende de stage mee te draaien met het inplannen van taken.
+                                        <br/>
+                                        In het begin ging het oppakken van taken wat minder, de reden hiervoor is dat ik niet wist hoe een Jira-bord werkte. Hierdoor had ik moeite met het bijhouden van de project voortgang. Dit kwam omdat ik onvoldoende kennis had van de werking van de Jira-bord.
                                         <p>
-                                            Om dit te verbeteren heb ik pas later, bij het tweede project, vragen gesteld over het Jira-bord. Door het begrijpen van de Jira-bord werd ook het bijhouden van de project voortgang beter. Hierdoor kon ik het team beter ondersteunen en zelf taken oppakken.
+                                            Om dit te verbeteren heb ik pas later, bij het tweede project, vragen gesteld over het Jira-bord en de werking daarvan. Door het begrijpen van de Jira-bord werd ook het bijhouden van de project voortgang beter. Hierdoor kon ik het team beter ondersteunen en zelf taken oppakken.
                                         </p>
                                     </p>
                                     <p>
                                         Als ik terug kijk naar mijn aanpak en inzet van dit leerdoel geef ik mezelf een matige beoordeling. De redenen hiervoor zijn:
                                         <ul>
                                             <li>
-                                                De werkmethodiek verschilde niet veel van wat was aangeleerd op school. Het verschil was te merken in de tijd die besteedt werd aan het verzamelen van functionaliteit, ontwikkelen, testen en online zetten van de projecten (applicaties). De tijd die daaraan besteed is is aanzienlijk minder geweest.
+                                                Ik kon meedenken met het plannen maar kon zelf de planning niet vaststellen en/of aanpassen.
                                             </li>
                                             <li>
-                                                Door niet te durven vragen vanaf het begin aan kon ik niet meteen meedraaien in het team.
+                                                Door niet te durven vragen vanaf het begin aan kon ik niet optimaal meehelpen met het inplannen in het team.
                                             </li>
                                         </ul>
                                     </p>

@@ -122,7 +122,7 @@ const Project = () => {
                             </ul>
                         </p>
                         <p>
-                            De functionaliteiten uit de brainstorm zijn verder uitgewerkt en een voorlopig ontwerp was gemaakt. Hiermee wwas het voor het team en voor de producteigenaar duidelijk wat er ontwikkelt zou worden.
+                            De functionaliteiten uit de brainstorm zijn verder uitgewerkt en een voorlopig ontwerp was gemaakt. Hiermee was het voor het team en voor de producteigenaar duidelijk wat er ontwikkelt zou worden.
                         </p>
                         <p>
                             Door de klanten ervaring in kaart te brengen is er een beter beeld gekregen van hoe de webpagina eruit zou moeten zien. Welke stappen deze zal moeten zetten om op de webpagina te komen en/of het kopen van een product.
@@ -141,7 +141,7 @@ const Project = () => {
                     <h6 className="vertical-timeline-element-subtitle">Build</h6>
                     <p>
                         <p>
-                            Voor het bewaren van de projectvoortgang is er gebruik gemaakt van de tool: Jira. Op deze dag kreeg het team een introductie tot de Jira opgeving. Het opstellen van taken en eisen.
+                            Voor het bewaren van de projectvoortgang is er gebruik gemaakt van de tool: Jira. Op deze dag kreeg het team een introductie tot de Jira omgeving. Het opstellen van taken en eisen.
                         </p>
                         Met deze informatie heeft het team toen:
                         <ul>
