@@ -46,7 +46,7 @@ export const Design = () => {
                     <h3 className="vertical-timeline-element-title">Ontwerp Maken</h3>
                     <h6 className="vertical-timeline-element-subtitle">Eisen van het ontwerp</h6>
                     <p>
-                        De eisen van de gebruikersinterface zijn:
+                        De eisen van de gebruikersomgeving ontwerp zijn:
                         <ul>
                             <li>
                                 De locatie van de klant ophalen: hiermee kan de afstand tussen klant en winkel bepaald worden
@@ -73,7 +73,7 @@ export const Design = () => {
                     // icon={<HiOutlineClipboardList/>}
                 >
                     <h3 className="vertical-timeline-element-title">Het Ontwerp</h3>
-                    <h6 className="vertical-timeline-element-subtitle">De gebruikersinterface in Wireframe.cc</h6>
+                    <h6 className="vertical-timeline-element-subtitle">De gebruikersomgeving in Wireframe.cc</h6>
                     <p>
                         <h5>Landingspagina van de klant</h5>
                         <strong>[LDO1]</strong>
@@ -92,10 +92,10 @@ export const Design = () => {
                                 Een klant zal deze pagina te zien krijgen als deze de Digitale Koopjeshoek bezoekt
                             </p>
                             <p>
-                                Een klant kan zijn adres invoeren in de zoekbalk. Dit is gedaan om te voldoen aan de cookiebeleid van Albert Heijn.
+                                Een klant kan zijn adres invoeren in de zoekbalk. Dit is gedaan om te voldoen aan het cookiebeleid van Albert Heijn.
                             </p>
                             <p>
-                                Na het invoeren van de klant worden de winkels getoond. De winkels zullen getoond worden op basis van afstand tussen klant, in afstand oplopend. De klant kan dit wijzigen door op de sorteer knop (knop met 2 driehoeken) te drukken. De sorteer knop zal de o.a. de volgende opties hebben:
+                                Na het invoeren van het adres/locatie worden de winkels in de omgeving getoond. De klant kan een keuze maken door op de sorteer knop (knop met 2 driehoeken) te drukken. De sorteer knop heeft de volgende opties:
                                 <ul>
                                     <li>
                                         Afstand oplopend
@@ -106,12 +106,12 @@ export const Design = () => {
                                 </ul>
                             </p>
                             <p>
-                                Het zal voor een klant niet mogelijk zijn om afgeprijsde producten op te zoeken. Deze keuze is gedaan wegende de limitaties van de Dynamisch Afprijzen dienst.
+                                Het zal voor een klant niet mogelijk zijn om afgeprijsde producten op te zoeken. Deze keuze is gedaan vanwege de beperkingen van de software Dynamisch Afprijzen.
                             </p>
                         </p>
                     </p>
                     <p>
-                        <h5>Overzicht van alle afgeprijsde producten van de geselecteerde winkel</h5>
+                        <h5>Productenoverzicht van alle afgeprijsde producten van de geselecteerde winkel</h5>
                         <strong>[LDO1]</strong>
                         <img src={store} className={"images"} alt={"Overzicht van alle afgeprijsde producten"}/>
                         <p>
@@ -127,11 +127,11 @@ export const Design = () => {
                                     Korting tonen van de afgeprijsde producten
                                 </li>
                                 <li>
-                                    Klant inlichten over de voorraad verschil
+                                    Klant inlichten over mogelijkheid dat afgeprijsde product niet meer beschikbaar kon zijn
                                 </li>
                             </ul>
                             <p>
-                                De klant komt op deze pagina na het invoeren van zijn locatie en het selecteren van een winkel.
+                               Een klant komt op deze pagina na het invoeren van zijn locatie en het selecteren van een winkel.
                             </p>
                             <p>
                                 <h6>Adresbalk</h6>
@@ -139,15 +139,15 @@ export const Design = () => {
                             </p>
                             <p>
                                 <h6>Disclaimer</h6>
-                                De disclaimer is meteen onder de adresbalk geplaats. De disclaimer bevat informatie over de voorraad verschil.
+                                De disclaimer is meteen onder de adresbalk geplaats. De disclaimer bevat informatie over de mogelijkheid dat het product niet meer beschikbaar kon zijn op de betreffende locatie.
                             </p>
                             <p>
                                 <h6>Sorteer knop</h6>
                                 De sorteer knop bevindt zicht naast de disclaimer. Deze knop zal de klant toelaten om de afgeprijsde producten te sorteren op kenmerken zoals kortingspercentage, etc.
                             </p>
                             <p>
-                                <h6>Afgeprijsd product</h6>
-                                Een afgeprijsd product wordt getoond met een:
+                                <h6>Afgeprijst product</h6>
+                                Een afgeprijst product wordt getoond met een:
                                 <ul>
                                     <li>Productfoto</li>
                                     <li>Huidig kortingpercentage op het product</li>
@@ -169,10 +169,10 @@ export const Design = () => {
                             Motivatie Ontwerp:
                             <ul>
                                 <li>
-                                    Korting tonen van de afgeprijsd product
+                                    Korting tonen van de gekozen afgeprijst product
                                 </li>
                                 <li>
-                                    Klant inlichten over de voorraad verschil
+                                    Klant inlichten over de mogelijkheid dat het product eventueel niet meer op voorraad is
                                 </li>
                                 <li>
                                     Klant informeren dat de korting alleen voor de geselecteerde winkel geldt
@@ -180,20 +180,20 @@ export const Design = () => {
                             </ul>
                         </p>
                         <p>
-                            De klant komt op deze pagina na het selecteren van een afgeprijsd product op de Overzicht-pagina.
+                            De klant komt op deze pagina na het selecteren van een afgeprijst product op de Productenoverzicht-pagina.
                         </p>
                         <p>
-                            Op dit pagina zal de klant zijn geselecteerde product zien. Om terug te gaan naar de Overzicht-pagina moet de Terug-knop ge-clicked worden.
+                            Op deze pagina kan de klant zijn geselecteert product zien. Om terug te gaan naar de Productenoverzicht-pagina moet de Terug-knop activeerd worden.
                         </p>
                         <p>
                             De pagina bevat verder:
                             <ul>
-                                <li>Een foto van het geselecteerd product</li>
+                                <li>Een foto van het geselecteert product</li>
                                 <li>Algemene product-informatie</li>
                                 <li>Prijs zonder korting</li>
                                 <li>Kortingpercentage</li>
                                 <li>Prijs met korting</li>
-                                <li>Informatie over de korting: de afprijsing is alleen geldig voor de geselecteerde winkel. Het is mogelijk dat het geselecteerd product al is verkocht.</li>
+                                <li>Informatie over de korting: de afprijsing is alleen geldig voor de geselecteerde winkel. Het is mogelijk dat het geselecteerde product niet meer op voorraad is.</li>
                             </ul>
                         </p>
                     </p>

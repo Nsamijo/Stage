@@ -69,34 +69,22 @@ export const CICD = () => {
                             </Row>
                             <Row>
                                 <p>
-                                    Er is gekozen om aan dit leerdoel te werken om een nieuw techniek te leren. Tijdens de eerste twee studiejaren op de Hogeschool Rotterdam zijn de termen Continuous Integration/Continuous Deployment vaak opgekomen in discussies. Ik wilde graag weten wat die inhield en hoe dit gebeurde.
+                                    Er is gekozen om aan dit leerdoel te werken om een nieuwe technieken te leren. Tijdens de eerste twee studiejaren op de Hogeschool Rotterdam zijn de termen Continuous Integration/Continuous Deployment vaak genoemd in discussies. Ik wilde graag weten hoe het in de praktijk aan toe ging.
                                 </p>
                                 <p>
-                                    Door te werken aan dit leerdoel weet ik nu meer over wat CI/CD inhoud en kan ik dit nu toepassen op andere projecten. Tijdens de stage had ik pas later door dat ik al CI/CD deed omdat dit om een goed maar subtiele manier is verwerkt in AH Tech Labs.
+                                    Door te werken aan dit leerdoel weet ik nu wat CI/CD inhoud en hoe deze toe te passen bij andere projecten. Tijdens de stage kwam ik erachter dat ik al CI/CD deed omdat dit op subtiele manier is verwerkt in de methodiek waarmee er AH Tech Labs gewerkt wordt.
                                 </p>
                                 <p>
-                                    Voor dit leerdoel heb ik gedaan:
-                                    <ul>
-                                        <li>
-                                            De begrippen CI/CD doorgenomen. Verschillen en overeenkomsten doorgenomen
-                                        </li>
-                                        <li>
-                                            CI/CD gebruikt voor het live zetten van een applicatie
-                                        </li>
-                                    </ul>
-                                    Deze inzet beoordeel ik als voldoende.
+                                    De begrippen CI/CD opgezocht. Ik heb mij ook verdiept in de verschillen en overeenkomsten van CI/CD. Daarnaast heb ik CI/CD gebruikt bij het online plaatsen van een applicatie.
                                 </p>
                                 <p>
-                                    Tijdens de stage heb ik bij elke stap meegekeken voor het releasen van code dus bij Continuous Deployments en kon ik dit op een gegeven moment ook doen. Alleen miste ik aan het eind Continuous Intergration. Toen ik een stagebegeleider vroeg daarover vertelde deze mij dat ik daar al gebruik van had gemaakt.
+                                    Tijdens de stage heb ik bij elke stap meegekeken hoe het releasen van updates plaatsvondt (dus bij Continuous Deployment). Op een gegeven moment heb ik nieuwe updates gereleased.
                                     <p>
                                         Continuous Intergration werd bij elke Pull Request automatisch toegepast. Dit gebeurde bij de Github Actions die plaatsvonden bij zo een Pull Request. Maar ook het samenvoegen van code, Github Repository, valt onder Continuous Intergration.
                                     </p>
-                                    <p>
-                                        Wat ik anders zou doen in mijn aanpak is de vraag eerder gesteld. Ook zou ik hebben gezegd waarom. Dit was namelijk aan het eind van mijn stage besproken.
-                                    </p>
                                 </p>
                                 <p>
-                                    De vorderingen die ik heb gemaakt zijn:
+                                    Wat ik heb geleerd:
                                     <ul>
                                         <li>
                                             Meer kennis over CI/CD en hoe deze toegepast kan worden
@@ -105,7 +93,7 @@ export const CICD = () => {
                                             De tools die gebruikt kunnen worden voor CI/CD
                                         </li>
                                     </ul>
-                                    Met deze vorderingen ben ik instaat geweest om CI/CD te implementeren in dit verslag. Elke verandering wordt automatisch ingevoerd en live gezet. Ik ben zeer tevreden over de vorderingen.
+                                    Op basis van het geleerde ben ik instaat geweest om CI/CD te gebruiken bij het maken van dit verslag. Elke verandering wordt automatisch ingevoerd en live gezet. Ik ben tevreden over het eindproduct.
                                 </p>
                                 <p>
                                     Voor de toekomstige stage/werkplek neem ik de kennis en kunnen van CI/CD mee.

@@ -47,11 +47,11 @@ export const QualityDoc = () => {
             <h3 className="vertical-timeline-element-title">Kwaliteitseisen Doornemen</h3>
             <h6 className="vertical-timeline-element-subtitle">Jira Criteria</h6>
             <p>
-                <p>Dit is een screenshot van de Jira criteria. Hieruit wordt duidelijk dat er een back nodig is die de logos toont van merken die meedoen (wegens de geheimhoudings verklaring mag niet gezegt worden waaraan de merken meedoen).</p>
+                <p>Dit is een screenshot van de Jira criteria. Hieruit wordt duidelijk dat er een balk nodig is die de logos toont van merken die meedoen (wegens de geheimhoudings verklaring mag niet gezegt worden waaraan de merken meedoen).</p>
                 <img className={"jira"} src={criteria} alt={"Jira defenitions"}/>
             </p>
               <p>
-                  <h5>Kwaliteitseisen</h5>
+                  <h5>Kwaliteitseisen (overgenomen uit bovenstaande foto)</h5>
                   <ol>
                       <li>
                           Een logo balk met participating brands (eventueel wit op kleur of witte balk toevoegen) met doorlink naar sharepoint van de brands (bedrijf)
@@ -71,7 +71,7 @@ export const QualityDoc = () => {
                       De kwaliteitseisen zijn in volgorde uitgewerkt en hieronder genoteerd.
                       <ol>
                           <li>
-                              Een balk die logos van bedrijven toont. Elk logo zal clickbaar/selecteerbaar zijn. Bij het clicken/selecteren van een logo zal de gebruiker naar de bedrijfs sharepoint door verwezen worden.
+                              Een balk die logos van bedrijven toont. Elk logo zal selecteerbaar zijn. Bij het clicken/selecteren van een logo zal de gebruiker naar de bedrijfs sharepoint door verwezen worden.
                           </li>
                           <li>
                               De balk zal de titel: "Participating Brands" hebben
@@ -87,14 +87,14 @@ export const QualityDoc = () => {
               </p>
               <p>
                   <h5>Ontwerp in Figma</h5>
-                  Na het doornemen van de kwaliteitseisen is gekeken naar het ontwerp in Figma. Uit het ontwerp blijkt dat de tekst is aangepast en locatie is verandert. Deze is nu geheel links onder de titel: "Participating Brands". Voor de zekerheid heb ik de UX-designer geraadpleegd over het ontwerp en zijn afwijking met de kwaliteitseisen. De UX-designer verzekerde dat het design goed was en dat de kwaliteitseisen in het Jira-bord niet geheel up-to-date waren.
+                  Na het doornemen van de kwaliteitseisen is gekeken naar het ontwerp in Figma. Ik heb geconstateerd dat de tekst is aangepast en locatie is verandert. De tekst stond geheel links onder de titel: "Participating Brands". Volgens de kwaliteitseisen moest deze tekst onder de logos komen te staan. Ik heb de UX-designer geraadpleegd en hem geinformeerd over de afwijking ten opzichte van de kwaliteitseisen. De UX-designer verzekerde mij dat het design goed was en dat de kwaliteitseisen in het Jira-bord niet geheel up-to-date waren.
                   <img src={design} className={"jira"} alt={"Balk die gemaakt moest worden"}/>
               </p>
               <p>
                   <strong>Doel</strong>: het ontwikkelen van een component (balk/sectie) die de logo's van verschillende bedrijven toont.
               </p>
               <p>
-                  Voor deze taak is er gebruikt gemaakt van de volgende technologie:
+                  Voor deze taak is er gebruikt gemaakt o.a. an de volgende technologieën:
                   <ul>
                       <li>Intellij IDEA: dit is de omgeving waarin geprogrammeerd is</li>
                       <li>HTML & CSS: de programmeertalen die zijn gebruikt om de component te ontwikkelen</li>
@@ -163,10 +163,10 @@ export const QualityDoc = () => {
               iconStyle={{ background: `${white}`}}
               icon={<FaTools/>}
           >
-              <h3 className="vertical-timeline-element-title">Technologie en Tools</h3>
+              <h3 className="vertical-timeline-element-title">technologieën en Tools</h3>
               <h6 className="vertical-timeline-element-subtitle">Gebruikt voor Code Ontwikkeling</h6>
               <p>
-                  Veel van de tools, technieken en talen waar ik mee te maken kreeg waren nieuw voor mij. Hieronder zal een overzicht volgen van de technologie die is gebruikt, wat deze zijn en hoe deze gebruikt worden. Tools, technieken en talen met een ster (*) zijn in andere leerdoelen uitgewerkt.
+                  Veel van de tools, technieken en talen waar ik mee te maken kreeg waren nieuw voor mij. Onderstaand een overzicht van de gebruikte technologieën. En hoe we deze gebruikt hebben. Tools, technieken en talen met een ster (*) zijn in andere leerdoelen verwerkt.
               </p>
               <p>
                   <h4>Tools</h4>
@@ -192,10 +192,10 @@ export const QualityDoc = () => {
                           Jira-bord(*)
                       </li>
                       <li>
-                          Commandprompt: Een software programma die een ontwikkelaars toelaat om te communiceren met de operatie systeem of applicatie (<a target={"new"} href={"https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands"}>Windows Comamnds: Command-Line Shells</a>)
+                          Commandprompt: Een software programma die ontwikkelaars instaat stelt om te communiceren met een besturingssysteem of applicatie (<a target={"new"} href={"https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands"}>Windows Comamnds: Command-Line Shells</a>)
                       </li>
                       <li>
-                          Intellij IDEA: Een IDE (Integrated Development Environment) (Ontwikkelings Omgeving) die context-bewust is en toelaat ontwikkelingen te doen in Java en andere JVM (Java Virtual Machine) talen zoals Kotlin, Scala, etc. Intellij IDEA ondersteunt ook het ontwikkelen van web applicaties (<a target={"new"} href={"https://www.jetbrains.com/idea/features/"}>What is Intellij IDEA?</a>)
+                          Intellij IDEA: Een IDE (Integrated Development Environment) (Ontwikkelings Omgeving) die "context-aware" is en toelaat ontwikkelingen te doen in Java en andere JVM (Java Virtual Machine) talen zoals Kotlin, Scala, etc. Intellij IDEA ondersteunt ook bij het ontwikkelen van web applicaties (<a target={"new"} href={"https://www.jetbrains.com/idea/features/"}>What is Intellij IDEA?</a>)
                       </li>
                   </ul>
               </p>
@@ -205,16 +205,16 @@ export const QualityDoc = () => {
                       Lean Start-Up(*)
                   </li>
                   <li>
-                      AH Template: Elk project van AH Tech Labs maakt gebruik van de AH Template. Dit template is een leeg web-pagina die toegang heeft tot de test-omgeving van ALbert Heijn. Hierdoor is het mogelijk om bijvoorbeeld test-date op te halen.
+                      AH Template: Elk project van AH Tech Labs maakt gebruik van de AH Template. Dit template is een leeg web-pagina die toegang heeft tot de test-omgeving van Albert Heijn. Hierdoor is het mogelijk om bijvoorbeeld test-data op te halen.
                   </li>
                   <li>
                       React met Spring:
                       <ul>
                           <li>
-                              React: Dit is een Javascript libary voor het maken van gebruikersomgevingen ( <a target={"new"} href={"https://reactjs.org/"}>React</a> ).
+                              React: Dit is een Javascript frontend libary voor het maken van gebruikersomgevingen ( <a target={"new"} href={"https://reactjs.org/"}>React</a> ).
                           </li>
                           <li>
-                              Spring: Het Spring Framework biedt een uitgebreid programmeer-en configuratiemodel voor moderne ,op Java gebaseerde, bedrijfsapplicaties ( <a target={"new"} href={"https://spring.io/projects/spring-framework"}>Spring Framework</a> ).
+                              Spring: Het Spring Framework biedt een uitgebreid programmeer-en configuratiemodel aan voor moderne ,op Java-gebaseerde, bedrijfsapplicaties ( <a target={"new"} href={"https://spring.io/projects/spring-framework"}>Spring Framework</a> ).
                           </li>
                       </ul>
                   </li>
@@ -222,7 +222,7 @@ export const QualityDoc = () => {
               <p>
                   <h4>(Programmeer) Talen</h4>
                   <li>
-                      JavaScript: Een scripting/programmeer taal die ontwikkelaars toelaat om complexe functionaliteit in web paginas te implementeren ( <a target={"new"} href={"https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript"}>What is JavaSript</a> ).
+                      JavaScript: Een scripting/programmeer taal die ontwikkelaars instaat stelt om complexe functionaliteit in web paginas te implementeren ( <a target={"new"} href={"https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript"}>What is JavaSript</a> ).
                   </li>
                   <li>
                       TypeScript: Een superset van JavaScript en is gemaakt om ontwikkeling in JavaScript te vergemakkelijken ( <a target={"new"} href={"https://docs.microsoft.com/en-us/shows/web-wednesday/what-is-typescript"}>What is TypeScript?</a> ).
@@ -307,14 +307,14 @@ export const CICDDocs = () => {
                     <h6 className="vertical-timeline-element-subtitle">Hun functionaliteiten binnen AH Tech Labs</h6>
                     <p>
                         <h5>Create release</h5>
-                        Bij deze workflow wordt de code omgezet tot applicatie. Hierbij wordt de code geoptimaliseerd door een programma (compiler) en gereed gemaakt om online te gaan. Bij het maken van een release moet een versie nummer toegevoegd worden. Deze workflow valt onder Continuous Deployment.
+                        Bij deze workflow wordt de code gecompileerd tot een applicatie. Hierbij wordt de code geoptimaliseerd door een programma (compiler) en gereed gemaakt om online geplaats te worden. Bij het maken van een release moet een versie nummer toegevoegd worden. Deze workflow valt onder Continuous Deployment.
                     </p>
                     <p>
                         <h5>Pull Request deployment</h5>
                         Bij deze wordt de Pull Request doorgenomen. Hierbij gebeurt onder ander het volgende:
                         <ul>
                             <li>Een Label toegevoegd: deze label is afhankelijk van de omschrijving. Een label kan bijvoorbeeld zijn "Fix"</li>
-                            <li>Code controle: Een controle om te zien of de code voldoet aan de programmeerregels van de taal. Indien er fouten zijn wordt er automatisch feedback gezet</li>
+                            <li>Code controle: Een controle om te zien of de code voldoet aan de programmeerregels van de gehanteerde programmeertaal. Indien er fouten zijn wordt deze automatisch gedetecteerd.</li>
                         </ul>
                         Deze workflow valt dus onder Continuous Intergration.
                     </p>
@@ -337,12 +337,12 @@ export const CICDDocs = () => {
                     <h3 className="vertical-timeline-element-title">Github Actions in Actie</h3>
                     <h6 className="vertical-timeline-element-subtitle">Workflows gebruiken</h6>
                     <p>
-                        Van alle workflows worden er 2 handmatisch uitgevoerd, deze zijn namelijk:
+                        Van alle workflows worden er 2 handmatig uitgevoerd, deze zijn:
                         <ul>
-                            <li>"Release to production": Dit is gedaan om ervoor te zorgen dat de klant geen releases ontvangen met bugs.</li>
-                            <li>
+<                           li>
                                 "Create Release": Dit is gedaan om ervoor te zorgen dat er geen tot weinig bugs (fouten) terecht komen bij de klant(en)
                             </li>
+                            <li>"Release to production": Dit is gedaan om ervoor te zorgen dat de klant geen releases ontvangen met bugs.</li>
                         </ul>
                     </p>
                     <p>
@@ -355,10 +355,10 @@ export const CICDDocs = () => {
                                 Met het openen van een  Pull Request wordt automatisch gebruik gemaakt van 2 workflows (Pull Request deployment, Pull Request generic actions) voor Continuous Intergration.
                             </li>
                             <li>
-                                Na de goedkeuring van de Pull Request wordt de code wijzigingen toegevoegd.
+                                Na de goedkeuring van de Pull Request worden de code wijzigingen doorgevoerd.
                             </li>
                             <li>
-                                De volgende stap is om een release aan te maken. Hierbij wordt een versie nummer toegevoegd (b.v. v1.1.0), deze nummer is afhankelijk van de aantal iteraties die er zijn van het project. De workflow "Create a release" wordt gebruikt. De laatste Continuous Intergration stap
+                                De volgende stap is om een release aan te maken. Hierbij wordt een versie nummer toegevoegd (b.v. v1.1.0), deze nummer is afhankelijk van de aantal iteraties die er zijn van het project/applicatie. De workflow "Create a release" wordt gebruikt. De laatste Continuous Intergration stap.
                             </li>
                             <li>
                                 Na het succesvol maken van een release kan deze online gezet worden. Hierbij wordt de laatste workflow "Release to production" gebruikt. De laaste en enige Continuous Deployment workflow.
@@ -376,13 +376,10 @@ export const CICDDocs = () => {
                     <h3 className="vertical-timeline-element-title">Continous Intergration en Continuous Deployment Reflectie</h3>
                     <h6 className="vertical-timeline-element-subtitle">Geleerd en indruk</h6>
                     <p>
-                        De workflows die automatisch worden uitgevoerd wordt nauwelijks opgemerkt. Natuurlijk zijn de labels en feedback te zien. Alleen gebeurt dit op een zodanige wijze dat niet eens gemerkt wordt dat het onder Continuous Intergration valt. Het maken en online zetten van een release is nu zo simpel dat zelfs een klant van de ALbert Heijn met minimale uitleg zou kunnen doen.
+                        De workflows die automatisch worden uitgevoerd wordt nauwelijks opgemerkt. Natuurlijk zijn de labels en feedback te zien. Alleen gebeurt dit op een zodanige wijze dat niet eens gemerkt wordt dat het onder Continuous Intergration valt.
                     </p>
                     <p>
-                        De kennis die is opgedaan gaat meer over het opstellen van een workflow. Nu is de kennis aanwezig om een eigen workflow te maken en zelf te bepalen wat deze moet doen. Bij zo een workflow moeten alle stappen voor b.v. online zetten specifiek neergezet worden.
-                    </p>
-                    <p>
-                        Met deze kennis ben ik aan de slag gegaan aan mijn eigen workflow voor dit verslag en is het mij gelukt. Om een indruk te geven hoe ingewikkeld een workflow is zeg ik u dit: "Het duurde mij 3 weken voor mijn workflow voor deployment van mijn website werkte"
+                        De kennis die is opgedaan gaat meer over het opstellen van een workflow. Nu is de kennis aanwezig om een eigen workflow te maken en zelf te bepalen wat deze moet doen. Bij zo een workflow moeten alle processtappen voor b.v. online zetten van applicaties specifiek benoemd worden.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

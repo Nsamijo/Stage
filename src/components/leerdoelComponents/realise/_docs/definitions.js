@@ -10,15 +10,12 @@ export const Figma = () => {
               </Accordion.Header>
               <Accordion.Body>
                   <p>
-                      Figma is een online grafische design applicatie. Met als grootste factor het live samenwerken aan hetzelfde project/design/document.
-                  </p>
-                  <p>
-                      <a
-                          href={"https://www.figma.com/about/"}
-                          target={"new"}
-                      >
-                          Figma
-                      </a>
+                      Figma is een cloud gebaseerde design applicatie. Met als kenmerk dat teamleden live kunnen samenwerken aan hetzelfde project/design/document (<a
+                      href={"https://www.figma.com/about/"}
+                      target={"new"}
+                  >
+                      Figma
+                  </a>).
                   </p>
               </Accordion.Body>
           </Accordion.Item>

@@ -18,7 +18,7 @@ export const Quality = () => {
                   Dit leerdoel gaat over het realiseren van een (deel van een) ICT-systeem op basis van een ontwerp.
               </p>
               <p>
-                  Voor elk applicatie van AH Tech Labs  wordt er eerst een design gemaakt door een UI-stagaire. Deze wordt dan gebruikt door de IT-stagaires als blauwdruk voor het ontwikkelen van onder andere de gebruikersinterface.
+                  Voor elk applicatie van AH Tech Labs wordt er eerst een ontwerp gemaakt door een UX-stagaire. Deze wordt dan gebruikt door de IT-stagaires als blauwdruk voor het ontwikkelen van onder andere de gebruikersomgeving en database.
               </p>
               <p>
                   In AH Tech Labs is er gebruik gemaakt van de online tool: Figma.
@@ -33,9 +33,9 @@ export const Quality = () => {
                       Voor dit leerdoel is er eerst gezocht naar wat de kwaliteitseisen zijn. Deze zijn onder andere:
                       <ul>
                           <li>Het ontwerp in Figma</li>
-                          <li>Kwaliteitseisen van de taak (feature) vermeld in Jira (Manage en Control)</li>
+                          <li>Kwaliteitseisen van de taak (feature) vermeld in het Jira-bord (Manage en Control)</li>
                       </ul>
-                      Nadat de kwaliteitseisen duidelijk vastgelegd waren kon er gewerkt worden aan de taken (features). In onderstaande documentatie zijn er foto's van de kwaliteitseisen en ontwikkelde code opgenomen.
+                      Nadat de kwaliteitseisen duidelijk vastgelegd waren kon er gewerkt worden aan de taken (features). In onderstaande documentatie zijn er foto's van de kwaliteitseisen en ontwikkelde coderegels opgenomen.
                   </p>
               </p>
           </Row>
@@ -69,16 +69,16 @@ export const Quality = () => {
                           </Row>
                           <Row>
                               <p>
-                                  Er is gekozen voor dit leerdoel om mijn programmeerskills te verbeteren.
+                                   Ik heb gekozen voor dit leerdoel om mijn programmeerskills te verbeteren.
                               </p>
                               <p>
-                                  Bij dit leerdoel heeft de leerdoel analyseren bijgedragen. Door het kunnen lezen en begrijpen van door anderen ontwikkelde coderegels ben ik beter in staat zelf coderegels te schrijven. Verder heeft het werken aan dit leerdoel ervoor gezorgd:
+                                  Bij dit leerdoel heeft de leerdoel analyseren bijgedragen. Door het kunnen lezen en begrijpen van door anderen ontwikkelde coderegels ben ik beter in staat zelf coderegels te schrijven. Verder heeft het werken aan dit leerdoel bijgedragen aan:
                                   <ul>
                                       <li>
-                                          Het lezen, begrijpen en vertalen van kwaliteitseisen en ontwerpen
+                                          Het lezen, begrijpen en vertalen van kwaliteitseisen en ontwerpen van functionaliteiten.
                                       </li>
                                       <li>
-                                          Leren, beheersen en gebruiken van nieuwe tools, technieken en talen
+                                          Het leren, beheersen en gebruiken van nieuwe tools, technieken en programmeertalen.
                                       </li>
                                   </ul>
                               </p>
@@ -86,43 +86,43 @@ export const Quality = () => {
                                   De inzet bij dit leerdoel was:
                                   <ul>
                                       <li>
-                                          Lezen, begrijpen en toepassen van kwaliteitseisen en ontwerpen
+                                          Het lezen, begrijpen en toepassen van kwaliteitseisen en ontwerpen
                                       </li>
                                       <li>
-                                          Lezen, begrijpen en toepassen van coderingsregels (code standaarden) van zowel de programmeertalen als AH Tech Labs
+                                          Het lezen, begrijpen en toepassen van coderingsregels (code standaarden) van zowel de programmeertalen als AH Tech Labs
                                       </li>
                                       <li>
-                                          Het leren, beheersen en gebruiken van nieuwe technieken, talen en tools
+                                          Het leren, beheersen en gebruiken van nieuwe technieken, programmeertalen en tools
                                       </li>
                                   </ul>
                                   Het is mij gelukt om coderegels op te leveren die voldoen aan de eisen en standaarden van AH Tech Labs.
                               </p>
                               <p>
-                                      Van de tools, technieken en talen zal/zou ik hergebruiken:
+                                      Van de tools, technieken en programmeertalen zou ik in de toekomst eventueel gebruik maken vann:
                                       <ul>
                                           <li>
                                               Github en alle genoemde functionaliteiten: Voor het toepassen van CI/CD
                                           </li>
                                           <li>
-                                              Jira-borden: Voor het beheren van de projectvoortgang, ookal duurde het een tijdje voor ik door had hoe deze werkte.
+                                              Jira-borden: Voor het beheren van de projectvoortgang.
                                           </li>
                                           <li>
                                               Commandprompt: Deze gebruikte ik al voor ik begon met mijn stage. En zal deze ook na mijn stage gebruiken. Voor het o.a. bouwen, pushen en releasen van code/applicaties
                                           </li>
                                           <li>
-                                              Intellij IDEA: Deze gebruikte ik ook voor mijn stage. Deze zal ik ook gebruiken na mijn stage. Intellij IDEA is een prettige ontwikkelings omgeving die tevens ook veel functionaliteiten levert waaronder: contextuele problemen aangeven, auto correcties, etc.
+                                              Intellij IDEA: Deze gebruikte ik ook voor mijn stage. Deze zal ik ook gebruiken na mijn stage. Intellij IDEA is een prettige ontwikkeling omgeving die ook veel functionaliteiten levert waaronder: contextuele problemen aangeven, auto correcties, etc.
                                           </li>
                                           <li>
                                               Lean Start-Up: Deze werkmethodiek zou ik hanteren als er een product/applicatie ontwikkelt moet worden voor een startup bedrijf.
                                           </li>
                                           <li>
-                                              React: Een goed framework dat het ontwikkelen van de frontend bevordert. Dit is ook gebruikt voor dit verslag (website).
+                                              React: Een goed framework dat het ontwikkelen van de frontend vergemakkelijkt. Dit is ook gebruikt voor dit verslag (website).
                                           </li>
                                           <li>
                                               JavaScript: Voor frontend ontwikkeling is JavaScript praktisch verplicht.
                                           </li>
                                           <li>
-                                              TypeScript: Levert meer functionaliteiten dan JavaScript en is ook makkelijker in gebruik.
+                                              TypeScript: Heeft additionele functionaliteiten op JavaScript en is daardoor makkelijker in gebruik.
                                           </li>
                                       </ul>
 
@@ -157,7 +157,7 @@ export const Quality = () => {
                                           Het leren en gebruiken van nieuwe tools, technieken en talen.
                                       </li>
                                   </ul>
-                                  Deze vorderingen zijn onstaan door de tools, technieken en talen die ik heb moeten gebruiken en beheersen tijdens de stage. Deze zijn tot ontwikkeling gekomen om kwalitatieve code en werk te leveren.
+                                  Deze vorderingen zijn onstaan door de tools, technieken en talen die ik heb moeten leren, gebruiken en beheersen tijdens de stage.
                               </p>
                               <p>
                                   Ik zal al deze vorderingen meenemen in mijn volgende stage/werkvloer. Deze vorderingen zullen mij helpen om de standaarden, tools, technieken en talen van het bedrijf te beheersen.

@@ -26,7 +26,7 @@ export const Ontwerpen = () => {
                 </p>
                 <p>
                     <h5>Leerdoel</h5>
-                    Dit leerdoel zal gaan over het ontwerpen van (een deel van) software op basis van specificaties.
+                    Dit leerdoel zal gaan over het ontwerpen van (een deel van de) software op basis van specificaties.
                 </p>
                 <p>
                     Voor LDO1 is er gebruikt gemaakt van de online tool: wireframes.cc.
@@ -35,20 +35,20 @@ export const Ontwerpen = () => {
                     <Wireframe/>
                 </p>
                 <p>
-                    De keuze is gedaan om de volgende redenen:
+                    De keuze  voor Wireframes is gedaan om de volgende redenen:
                     <ul>
-                        <li>Laat toe simpele gebruikersinterfaces te ontwerpen</li>
-                        <li>Door een Link optie is het mogeljk om een website met meerdere paginas te simuleren</li>
-                        <li>Ontwerptijd te verminderen: in het team was er een UI-stagaire aanwezig die verantwoordelijk was voor het maken van de gebruikers interface</li>
+                        <li>Wireframes stelt je instaat simpele gebruikersomgevingen te ontwerpen</li>
+                        <li>Door de Link optie is het mogeljk om een website met meerdere pagina's te simuleren</li>
+                        <li>Bied mogelijkheden om in korte tijd een gebruikeromgeving ontwerp te ontwikkelen. Een voorbeeld hiervan heb ik gezien bij de UI-stagaire die verantwoordelijk was voor het maken van de gebruikersomgevingen</li>
                     </ul>
                 </p>
                 <p>
                     <h5>Leerdoel Bewijs</h5>
-                    Om dit leerdoel te behalen is er voor de Digitale Koopjeshoek een gebruikersinterface ontworpen. Dit ontwerp neemt de eisen en adviesen mee van de vorige leerdoelen (Analyseren en Adviseren).
+                    Om dit leerdoel te behalen is er voor de Digitale Koopjeshoek een gebruikersomgeving ontworpen. Bij het ontwikkelen van de omgeving is gebruik gemaakt van de eisen en adviezen van de vorige leerdoelen
                 </p>
                 <p>
 
-                    In het bewijs is LDO2 verwerkt. Met LDO2 motiveer ik de look en feel van de gebruikersinterface. Voor de duidelijkheid zal dit aangegeven worden met <strong>[LDO2]</strong>
+                    In het bewijs is LDO2 verwerkt. Met LDO2 motiveer ik de look en feel van de gebruikersomgeving. Voor de duidelijkheid zal dit aangegeven worden met <strong>[LDO2]</strong>
                 </p>
             </Row>
             <Row>
@@ -56,7 +56,7 @@ export const Ontwerpen = () => {
                 <Accordion>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>
-                            Gebruikersinterface Ontwerp en Motivatie
+                            Gebruikersomgeving Ontwerp en Motivatie
                         </Accordion.Header>
                         <Accordion.Body>
                             <Design/>
@@ -82,7 +82,7 @@ export const Ontwerpen = () => {
                             <Row>
                                 <h5>Reflectie</h5>
                                 <p>
-                                    Door te werken aan dit leerdoel wilde ik leren hoe een goed gebruikersomgeving te ontwerpen.
+                                    Door te werken aan dit leerdoel wilde ik leren hoe een goed gebruikersomgeving ontworpen moet worden.
                                 </p>
                                 <p>
                                     Dit leerdoel is naar mijn mening tijdens de stage onvoldoende aan bod gekomen. Mijn aandachtsgebied was voornamelijk gericht op applicatieontwikkeling.
@@ -103,19 +103,16 @@ export const Ontwerpen = () => {
                             <Row>
                                 <h5>Reflectie</h5>
                                 <p>
-                                    Door te werken aan dit leerdoel wilde ik mijn ontwerpkeuzes kunnen motiveren aan anderen.
+                                    Door te werken aan dit leerdoel wilde ik mijn ontwerpkeuzes kunnen motiveren.
                                 </p>
                                 <p>
                                     Tijdens mijn stage heb ik op verschillende momenten ontwerpkeuzes van de UX-designers besproken. Hierbij adviseerde en motiveerde ik veranderingen die voldeden aan de standaard van Albert Heijn.
                                 </p>
                                 <p>
-                                    De ontwikkeling die ik heb gemaakt is: het kunnen motiveren en adviseren van ontwerpkeuzes, die voldoen aan de bedrijfseisen, aan UX-designers. Hierin ontbreekt echter eigen ontwerpkeuzes motiveren.
+                                    De ontwikkeling die ik heb gemaakt is; het kunnen motiveren en adviseren van ontwerpkeuzes aan UX-designers, waarbij rekening wordt gehouden dat de ontwerpkeuzes moeten voldoen aan de bedrijfseisen.
                                 </p>
                                 <p>
-                                    In mijn verdere studie c.q. carriere neem ik mee het kunnen adviseren en motiveren van veranderingen voor ontwerpen gemaakt door derden en/of collegas.
-                                </p>
-                                <p>
-                                    Als ik voor dit leerdoel mijn eigen ontwerpenkeuzes had mogen motiveren en verduidelijken had ik dit leerdoel naar tevredenheid afgerond.
+                                    Als ik tijdens mijn stage mijn ontwerpkeuzes had mogen motiveren en verduidelijken had ik dit leerdoel naar tevredenheid afgerond.
                                 </p>
                             </Row>
                         </Accordion.Body>

@@ -10,7 +10,7 @@ export const Wireframe = () => {
                 </Accordion.Header>
                 <Accordion.Body>
                     <p>
-                        Wireframe.cc is een onlien tool die gebruikers toelaat om snel en simpel gebruikersinterfaces te ontwerpen.
+                        Wireframe.cc is een online tool die gebruikers instaat stelt om snel en simpel gebruikersomgeving te ontwerpen.
                     </p>
                     <p>
                         <a
