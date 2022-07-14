@@ -20,7 +20,7 @@ const ReadCode = () => {
                 <p>
                     <h5>Leerdoel Context</h5>
                     <p>
-                        Bij dit leerdoel is er gekozen om de code (features)  ontwikkelt door een mede stagaire te analyseren. Bij de analyse moet duidelijk worden wat de code zal doen en of deze voldoet aan de kwaliteitseisen van Tech Labs.
+                        Bij dit leerdoel is er gekozen om de code (features)  ontwikkelt door een mede stagaire te analyseren. Bij de analyse moet duidelijk worden wat de code zal doen en of deze voldoet aan de kwaliteitseisen van AH Tech Labs.
                     </p>
                     <p>
                         Voor dit leerdoel is er eerst gekeken hoe AH Tech Labs met applicatie (code) omgaat. Hoe veranderingen (updates) worden gedaan. De coderingsregels (code standaarden) die gehanteerd wordt door AH Tech Labs.
@@ -50,10 +50,10 @@ const ReadCode = () => {
                     </p>
                     <p>
                         <h6>Werkwijze</h6>
-                        Als een taak (feature) is afgerond word er eerst een Pull Request geopened om dit aan te geven. Een Pull Request wordt pas goedgekeurd als het voldoet aan de volgende eisen:
+                        Als een taak (feature) is afgerond wordt door de maker van de feature een Pull Request geopened. Als een Pull Request is geopened moet deze door minimaal 2 medewerkers worden opgepakt. Zij moeten de feature goedkeuren. De goedkeuring moet voldoen aan de volgende eisen:
                         <ul>
-                            <li>Goedkeuring van minimaal 2 mensen waarvan 1 een Tech Labs begeleider is</li>
-                            <li>Alle testen van Github Actions succesvol heeft doorlopen</li>
+                            <li>Goedkeuring van minimaal 2 mensen waarvan 1 een AH Tech Labs begeleider is. De goedkeuring is op basis van coderingsregels (code standaarden) en kwaliteitseisen</li>
+                            <li>Alle testen van Github Actions moeten succesvol doorlopen zijn</li>
                         </ul>
                     </p>
                     <p>
@@ -95,7 +95,13 @@ const ReadCode = () => {
                             </li>
                         </ol>
                         <p>
-                            Ontwikkelde code moet aan alle bovengenoemde standaarden voldoen. Indien 1 standaard niet is gehanteerd wordt de Pull Request niet goedgekeurd. Hierbij wordt dan een opmerking (feedback) en vraag voor aanpassing geplaats bij de Pull Request. De ontwikkelaar die de Pull Request kan dan de code aanpassen op basis van de feedback.
+                            Ontwikkelde code moet aan alle bovengenoemde code standaarden voldoen. Indien 1 standaard niet is gehanteerd wordt de Pull Request niet goedgekeurd. Hierbij wordt dan een opmerking (feedback) en vraag voor aanpassing geplaats bij de Pull Request. De ontwikkelaar die de Pull Request kan dan de code aanpassen op basis van de feedback.
+                        </p>
+                    </p>
+                    <p>
+                        <h5>Kwaliteitseisen</h5>
+                        <p>
+                            De kwaliteitseisen worden per feature bepaald. Deze kunnen onder ander betrekking hebben op de look en feel van de applicatie. Maar in het bijzonder de werking van de applicatie.
                         </p>
                     </p>
                 </p>
@@ -157,29 +163,40 @@ const ReadCode = () => {
                                     Door te werken aan dit leerdoel wilde ik mijn technische inzicht en kennis uitbreiden.
                                 </p>
                                 <p>
-                                    Tijdens dit leerdoel heb ik meer kennis opgedaan van Github. Dit was in eerdere projecten, van de Hogeschool Rotterdam, gebruik maar niet als bij AH Tech Labs.
+                                    Tijdens dit leerdoel heb ik meer kennis opgedaan van Github. Dit was in eerdere projecten, van de Hogeschool Rotterdam, gebruik maar niet als bij AH Tech Labs. Bij AH Tech Labs heb ik van de volledige functionaliteit van Github gebruik kunnen maken, denk hierbij aan:
+                                    <ul>
+                                        <li>
+                                            Github Actions
+                                        </li>
+                                        <li>
+                                            Github Pull Requests
+                                        </li>
+                                        <li>
+                                            Github Issues
+                                        </li>
+                                    </ul>
                                     <p>
                                         Verder heb ik ook 2 nieuwe programmeertalen geleerd. Deze programmeertalen zijn JavaScript en TypeScript.
                                     </p>
                                 </p>
                                 <p>
-                                    Tegen het eind van mijn stage keurde ik vaak Pull Requests goed/af, afhankelijk als ze aan alle standaarden voldoen. En kon ik veel van de ontwikkelde functionaliteiten lezen en begrijpen. Wel had ik soms moeite om backend functionaliteiten te begrijpen.
+                                    Tegen het eind van mijn stage keurde ik Pull Requests goed of af, afhankelijk van het voldoen aan de standaarden. Ik heb nieuwe functionaliteiten beoordeeld op hun werking en het voldoen van de code standaarden. Ik merkte dat ik moeite had met voornamelijk backend functionaliteiten.
                                     <p>
-                                        Om dit te bereiken heb ik het volgende gedaan:
+                                        Om hierin verbetering in aan te brengen heb ik de volgende stappen ondernomen:
                                         <ul>
                                             <li>
-                                                Bij code die ik niet begreep, plaatste ik een opmerking. Deze opmerking was een variantie van: "Waarvoor dient dit?".
+                                                Bij code die ik niet begreep, plaatste ik een opmerking of een vraag. De vraag was meestal een W-vraag.
                                                 <ul>
                                                     <li>
-                                                        Bij Pull Request waar dit niet kon las ik gewoon de code en benaderde dan de mede-stagaire/ontwikkelaar met de vraag: "Hoe werkt je code?"
+                                                        Bij Pull Requesten waar dit niet kon las ik gewoon de code en benaderde dan de mede-stagaire/ontwikkelaar met de vraag: "Hoe werkt je code?"
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                De coderingsregels doorgenomen en gebruikt als uitgangspunten
+                                                De coderingsregels doorgenomen en gebruikt als aanleiding voor het leren van de programmeertaal.
                                             </li>
                                             <li>
-                                                Bij Pull Requests geopened bij mij waren er in het begin altijd opmerkingen. Deze opmerkingen waren vaak:
+                                                Op de door mij geopende Pull Requesten ontving ik de volgende opmerkingen:
                                                 <ul>
                                                     <li>
                                                         Let op het structuur van je code.
@@ -191,7 +208,7 @@ const ReadCode = () => {
                                                         Geen console.log
                                                     </li>
                                                 </ul>
-                                                Door te letten op mijn eigen structuur en dit te vergelijken met anderen kon ik mijn programmeerskills verbeteren. Hierdoor begon ik beter te worden in het lezen en programmeren van code.
+                                                Door extra aandacht te besteden aan de structuur van de door mij ontwikkelde code en deze te vergelijken met anderen ontwikkelde code heb ik mijn programmeerskills kunnen verbeteren. Dit heeft mij ook instaat gesteld om beter te kunnen programmeren en codes van anderen te lezen.
                                             </li>
                                         </ul>
                                     </p>
@@ -200,10 +217,10 @@ const ReadCode = () => {
                                     Ik beoordeel mijn inzet bij dit leerdoel als een voldoende.
                                 </p>
                                 <p>
-                                    De aanpak die ik heb gebruikt verbeterde mijn programmeerskills aanzienlijk. Deze kennis echter is alleen van de frontend/gebruikersomgeving. Voor de volgende stage zal ik meer aandacht besteden aan het programmeren voor de backend.
+                                    Deze kennis is voornamelijk toegespits geweest op de frontend/gebruikersomgeving.
                                 </p>
                                 <p>
-                                    De vorderingen die zijn gemaakt zijn:
+                                    Ik heb het volgende geleerd:
                                     <ul>
                                         <li>
                                             Het kunnen lezen van code geschreven door anderen
@@ -212,18 +229,15 @@ const ReadCode = () => {
                                             Code beoordelen op basis van code standaarden
                                         </li>
                                         <li>
-                                            Beter programmeren door in mijn  eigen code de code standaarden te verwerken
+                                            Beter programmeren door in mijn eigen code de code standaarden te verwerken
                                         </li>
                                     </ul>
                                 </p>
                                 <p>
-                                    De vorderingen die ik heb gemaakt, zijn naar mijn mening, best groot. Ik ben beter geworden in het programmeren en het begrijpen van code.
+                                    De vorderingen die ik heb gemaakt, zijn naar mijn mening, best groot. Ik heb veel geleerd tijdens mijn stage met name op het vlak van programmeren en het begrijpen van code van (reeds) ontwikkelde features.
                                 </p>
                                 <p>
                                     Voor de toekomst zal ik meenemen het kunnen lezen en begrijpen van door andere geschreven code. Dit is heel handig als ik verder moet werken aan al bestaande applicaties/projecten.
-                                </p>
-                                <p>
-                                    Voor de volgende stage zal ik meer aandacht besteden aan de backend. Meer tijd en vragen stellen over hoe deze werkt.
                                 </p>
                             </Row>
                         </Accordion.Body>

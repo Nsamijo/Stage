@@ -126,43 +126,40 @@ const Manage = () => {
                                                 Ik kon meedenken met het plannen maar kon zelf de planning niet vaststellen en/of aanpassen.
                                             </li>
                                             <li>
-                                                Door niet te durven vragen vanaf het begin aan kon ik niet optimaal meehelpen met het inplannen in het team.
+                                                Door niet te durven vragen vanaf het begin aan kon ik de voortgang van het project niet in de gaten houden. Hetgeen betekent dat ik mijn collegas moest vragen wat mijn taken waren.
                                             </li>
                                         </ul>
                                     </p>
                                     <p>
-                                        Gekeken naar mijn aanpak van dit leerdoel zie ik ook de fouten die ik heb gemaak. Hetgene dat ik anders zou doen zijn:
+                                        Gekeken naar mijn aanpak van dit leerdoel zie ik de volgende verbeterpunten:
                                         <ul>
                                             <li>
-                                                Stagebegeleider vragen voor uitleg over de Jira-borden
+                                                Stagebegeleider eerder om uitleg hebben gevraagd over het gebruik van de Jira-borden
                                             </li>
                                             <li>
-                                                Teamleden gevraag over hoe ik het beste de voortgang kon bijhouden
+                                                Teamleden vragen hoe ik het beste de voortgang kon bijhouden
                                             </li>
                                             <li>
-                                                Aantekeningen gemaakt van de projectmeetingen om de voortgang bij te houden
+                                                Notities maken van de projectmeetingen om de voortgang bij te houden en het bijhouden van een stagelogboek
                                             </li>
                                         </ul>
                                     </p>
                                     <p>
-                                        De volgende vorderingen heb ik moeten maken om goed bij te draaien in de projecten:
+                                        Ontwikkelingen die ik doorgemaakt om goed mee te kunnen draaien in de projecten:
                                         <ul>
                                             <li>
-                                                Weten hoe de Jira-borden werken om zo het projectvoortgang te bewaren
+                                                Weten hoe de Jira-borden werken om zo het projectvoortgang te bewaken
                                             </li>
                                             <li>
-                                                Durven vragen om hulp
+                                                Het vragen om hulp
                                             </li>
                                         </ul>
                                         <p>
-                                            Het is mij gelukt om deze vorderingen te maken door eerst mee te kijken met een stagebegeleider. En het toegeven van mijn tekort aan kennis. Toen de stagebegeleider vroeg of ik nogmaals uitleg wilde accepteerde ik deze.
+                                            Voor wat betreft de Jira-borden heb ik moeten toegeven aan mijn stagebegeleider dat ik kennis te kort kwam. Hij heeft mij nogmaals uitleg gegeven over het gebruik en werking van de Jira-borden.
                                         </p>
                                     </p>
                                     <p>
-                                        De vorderingen die zijn gemaakt bevat 1 mijlpaal voor mij: het durven vragen om hulp. Nadat deze vordering kon ik aanzienlijke verbeteringen maken in zowel mijn projecthouding als mijn projectbijdrage. Deze vordering zal ik zeker meenemen tijdens mijn volgende stage.
-                                    </p>
-                                    <p>
-                                        Helaas ben ik nog niet geheel tevreden over de mate dat dit leerdoel is afgerond. Dit komt door de late begrip van de projecttool. Voor de volgende stage zal ik meer aandacht besteden aan het begrijpen van de gehanteerde projecttool.
+                                        Belangrijkste aandachtspunt voor mij: het erkennen van gebrek aan kennis en het durven vragen om hulp. Nadat ik mij hiervan bewust was is mijn houding in het project verandert en vond ik mijn bijdrage aan de voortgang van het project stukken beter. Dit is een belangrijke aandachtspunt gedurende mijn verdere studie c.q. mijn verdere carriere.
                                     </p>
                                 </Row>
                             </Container>
