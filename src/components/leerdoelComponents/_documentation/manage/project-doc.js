@@ -25,7 +25,7 @@ const Project = () => {
             <p>Een project duurt ongeveer 8 weken (4 sprints)</p>
             <h4>Sprint-duur:</h4>
             <p>2 weken</p>
-            <VerticalTimeline lineColor={"grey"}>
+            <VerticalTimeline lineColor={"grey"} layout={"1-element-left"}>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: `${white}`, border: 'solid'}}
@@ -47,13 +47,13 @@ const Project = () => {
                     <h3 className="vertical-timeline-element-title">Project Kickoff</h3>
                     <h6 className="vertical-timeline-element-subtitle">AH Hoofdkantoor, Zaandam</h6>
                     <p>
-                        Presentatie door de producteigenaar. Hierbij wordt de focus gelegt op het voorkomen van voedselverspilling binnen de Albert Heijn met als oplossing: Dynamisch Afprijzen.
+                        Op deze dag kregen de stagaires van AH Tech Labs een presentatie verzorgt door de producteigenaar. Hierbij wordt de focus gelegt op het voorkomen van voedselverspilling binnen de Albert Heijn met als oplossing: Dynamisch Afprijzen.
                     </p>
                     <p>
                         Dynamisch Afprijzen: De korting percentage van een product, die zal verlopen op die dag, verhogen naarmate de dag verloopt.
                     </p>
                     <p>
-                        Probleemstelling: Een webpagina maken die de Dynamisch Afgeprijsde producten toont per winkel.
+                        Probleemstelling: Hoe kan Albert Heijn zijn klanten, zo enthousiast mogelijk, over Dynamisch Afprijzen laten weten?
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -66,7 +66,10 @@ const Project = () => {
                     <h3 className="vertical-timeline-element-title">Brainstorm</h3>
                     <h6 className="vertical-timeline-element-subtitle">Minimale Eisen/Functionaliteit van het Product</h6>
                     <p>
-                        Uitkomst:
+                        Om de oplossing te bepalen is er een Brainstorm (oftewel probleemanalyse) plaatsgevonden. In deze analyse was het centraal om eerst te kijken naar al bestaande oplossingen en ook het bepalen van belangrijke functionaliteiten. Deze functionaliteiten moesten de klanten motiveren om de afgeprijsde producten te kopen.
+                    </p>
+                    <p>
+                        De belangrijke functionaliteiten die het team aan het eind bepaalde waren:
                         <ul>
                             <li>Tonen van de korting</li>
                             <li>Disclaimer/Waarschuwing voorraad verschillen</li>
@@ -106,10 +109,24 @@ const Project = () => {
                     <h6 className="vertical-timeline-element-subtitle">Build</h6>
                     <p>
                         <ul>
-                            <li>Probleemstelling concreet bepaald</li>
+                            <li>Oplossing bepaald</li>
                             <li>Minimale Eisen/Functionaliteit van het Product bepaald</li>
                             <li>Klanten ervaring in kaart gebracht voor in de winkel als online</li>
                         </ul>
+                        <p>
+                            De oplossing die is gekozen is een webpagina. De reden voor deze keuze was:
+                            <ul>
+                                <li>
+                                    Het kunnen toevoegen aan ah.nl als webpagina. Door dit te doen kan de klant zien dat de webpagina niet de klant probeert op te lichten.
+                                </li>
+                            </ul>
+                        </p>
+                        <p>
+                            De functionaliteiten uit de brainstorm zijn verder uitgewerkt en een voorlopig ontwerp was gemaakt. Hiermee wwas het voor het team en voor de producteigenaar duidelijk wat er ontwikkelt zou worden.
+                        </p>
+                        <p>
+                            Door de klanten ervaring in kaart te brengen is er een beter beeld gekregen van hoe de webpagina eruit zou moeten zien. Welke stappen deze zal moeten zetten om op de webpagina te komen en/of het kopen van een product.
+                        </p>
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -123,15 +140,21 @@ const Project = () => {
                     <h3 className="vertical-timeline-element-title">Opzetten van Ontwikkelingsomgeving</h3>
                     <h6 className="vertical-timeline-element-subtitle">Build</h6>
                     <p>
-                        Introductie gehad tot de Jira omgeving:
+                        <p>
+                            Voor het bewaren van de projectvoortgang is er gebruik gemaakt van de tool: Jira. Op deze dag kreeg het team een introductie tot de Jira opgeving. Het opstellen van taken en eisen.
+                        </p>
+                        Met deze informatie heeft het team toen:
                         <ul>
                             <li>Taken neergezet</li>
                             <li>Aan elke taak een Acceptatie Eis gekoppeld</li>
                         </ul>
-                        Ontwikkelingsomgeving opgezet:
+                        <p>
+                            Voor er gewerkt kon worden aan de taken kregen de IT-stagaires eerst een introductie tot de ontwikkelings omgeving van AH Tech Labs.
+                        </p>
+                        Om te beginnen met ontwikkelen werd het volgende gedaan:
                         <ul>
-                            <li>Installeren van de IDE (Integrated Development Environment)</li>
-                            <li>installeren van de gekozen programmeertaal: (Springboot) Java</li>
+                            <li>Installeren en opzetten van de IDE (Integrated Development Environment)</li>
+                            <li>installeren van de gekozen programmeertaal: (React en Spring) Java (Uitleg te vinden over deze talen in Leerdoel: Realiseren)</li>
                         </ul>
                     </p>
                 </VerticalTimelineElement>
@@ -146,7 +169,10 @@ const Project = () => {
                     <h3 className="vertical-timeline-element-title">Albert Heijn Omgeving</h3>
                     <h6 className="vertical-timeline-element-subtitle">Build</h6>
                     <p>
-                        Introductie en uitleg over de API protocol die gevolgt moet worden om data te krijgen van Albert Heijn
+                        Introductie en uitleg over de API protocol die gevolgt moet worden om data te krijgen van Albert Heijn. Met andere woorden voor er data van Albert Heijn Databases verkregen kon worden moest er eerst een authenticatie plaatsvinden.
+                        <p>
+                            Verder maakte het team ook kennis met de AH Template. Dit template is een standaard webpagina die kan worden toegevoegd aan ah.nl. Dit template wordt voornamelijk gebruikt bij AH Tech Labs als er gekozen wordt om een webpagina te ontwikkelen.
+                        </p>
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

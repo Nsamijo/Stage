@@ -22,9 +22,12 @@ const Manage = () => {
                         Dit leerdoel gaat over het beheren, monitoren en optimaliseren van de ontwikkeling, ingebruikname en gebruik van ICT-systemen.
                     </p>
                 </p>
+                <h5>Leerdoel Context</h5>
                 <p>
-
-                    Bij dit leerdoel is er gekozen de standaard van het stagebedrijf te gebruiken. Onderdeel van het stagebedrijf, AH Tech Labs, werkt met een Lean Start-up methode om bestaande klant- en bedrijfsuitdagingen op te lossen met nieuwe, incrementele verbeteringen.
+                    Bij dit leerdoel is er gewerkt aan het beheersen van de werkmethodologie, Lean Start-Up, van AH Tech Labs. Er is onderzoek gedaan naar wat Lean Start-up inhoudt. De tool, Jira-bord, die AH Tech Labs gebruikt om de project voortgang te bewaren en beheren.
+                </p>
+                <p>
+                    Om dit te kunnen doen is er eerst gekeken hoe AH Tech Labs de projecten beheert. De werkwijze die gehanteert wordt. Vervolgens is er gekeken naar hoe de project voortgang bewaard wordt.
                 </p>
                 <p>
                     <h5>Beheren</h5>
@@ -51,9 +54,9 @@ const Manage = () => {
                     </p>
                 </p>
                 <p>
-                    <h5>Leerdoel Behaald</h5>
+                    <h5>Documentatie Omschrijving</h5>
                     <p>
-                        Voor dit leerdoel is het gebruik van de werkmethodologie (Lean Start-up) en Jira scrumbord gedocumenteerd. De documentatie bevat een tijdlijn van het eerste stageopdracht met de taken die zijn uitgevoerd.
+                        Door onderzoek te doen naar de gebruikte werkmethode en tool kon ik de voortgang van projecten bewaren en beheren. In de documentatie is een project voortgang opgenomen. Hierin is verwerkt evenementen, meetings en mijlpalen van het project.
                     </p>
                 </p>
             </Row>
