@@ -112,7 +112,7 @@ export const Ontwerpen = () => {
                                     De ontwikkeling die ik heb gemaakt is: het kunnen motiveren en adviseren van ontwerpkeuzes, die voldoen aan de bedrijfseisen, aan UX-designers. Hierin ontbreekt echter eigen ontwerpkeuzes motiveren.
                                 </p>
                                 <p>
-                                    In mijn verdere studie c.q. carriere neem ik mee het kunnen adviseren en motiveren van veranderingen voor ontwerpen van derden en collegas.
+                                    In mijn verdere studie c.q. carriere neem ik mee het kunnen adviseren en motiveren van veranderingen voor ontwerpen gemaakt door derden en/of collegas.
                                 </p>
                                 <p>
                                     Als ik voor dit leerdoel mijn eigen ontwerpenkeuzes had mogen motiveren en verduidelijken had ik dit leerdoel naar tevredenheid afgerond.

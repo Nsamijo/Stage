@@ -25,7 +25,7 @@ export const Quality = () => {
                   <Figma/>
               </p>
               <p>
-                  Tijdens de stage is er voornamelijk gebruik gemaak van de wireframe functionaliteit. Deze functionaliteit liet de UI-stagaire toe om voor verschillende apparaten (mobiel, ipad/tablets en laptops) ontwerpen te maken.
+                  Tijdens de stage is er gebruik gemaak van de volledige functionaliteit van Figma. Een van deze functionaliteiten is: Wireframes. Deze functionaliteit liet de UX-stagaire toe om voor verschillende apparaten (namelijk mobiel, ipad/tablets en laptops) ontwerpen te maken.
               </p>
               <p>
                   <h5>Leerdoel Bewijs</h5>
@@ -69,16 +69,16 @@ export const Quality = () => {
                           </Row>
                           <Row>
                               <p>
-                                  Er is gekozen voor dit leerdoel om mijn programmeerskills te verbeteren. Als gevolg hiervan wordt de code die ik ontwikkel beter.
+                                  Er is gekozen voor dit leerdoel om mijn programmeerskills te verbeteren.
                               </p>
                               <p>
-                                  Bij dit leerdoel is heeft de leerdoel analyseren bijgedragen. Door het begrijpen van anderen hun code ben ik een betere programmeur geworden. Verder heeft het werken aan dit leerdoel ervoor gezorgd:
+                                  Bij dit leerdoel heeft de leerdoel analyseren bijgedragen. Door het kunnen lezen en begrijpen van door anderen ontwikkelde coderegels ben ik beter in staat zelf coderegels te schrijven. Verder heeft het werken aan dit leerdoel ervoor gezorgd:
                                   <ul>
                                       <li>
-                                          Het nauwkeurig lezen van de kwaliteitseisen en ook de ontwerpen
+                                          Het lezen, begrijpen en vertalen van kwaliteitseisen en ontwerpen
                                       </li>
                                       <li>
-                                          Leren en beheersen van nieuwe tools, technieken en talen
+                                          Leren, beheersen en gebruiken van nieuwe tools, technieken en talen
                                       </li>
                                   </ul>
                               </p>
@@ -86,16 +86,16 @@ export const Quality = () => {
                                   De inzet bij dit leerdoel was:
                                   <ul>
                                       <li>
-                                          Doornemen, begrijpen en toepassen van kwaliteitseisen
+                                          Lezen, begrijpen en toepassen van kwaliteitseisen en ontwerpen
                                       </li>
                                       <li>
-                                          Doornemen, begrijpen en toepassen van coderingsregels (code standaarden) van zowel de programmeertalen als AH Tech Labs
+                                          Lezen, begrijpen en toepassen van coderingsregels (code standaarden) van zowel de programmeertalen als AH Tech Labs
                                       </li>
                                       <li>
-                                          Het leren en beheersen van nieuwe technieken, talen en tools
+                                          Het leren, beheersen en gebruiken van nieuwe technieken, talen en tools
                                       </li>
                                   </ul>
-                                  Door deze inzet is het mij gelukt om code op te leveren die voldeden aan de eisen en standaarden van AH Tech Labs. Hierom beoordeel ik mijn inzet als goed.
+                                  Het is mij gelukt om coderegels op te leveren die voldoen aan de eisen en standaarden van AH Tech Labs.
                               </p>
                               <p>
                                       Van de tools, technieken en talen zal/zou ik hergebruiken:
@@ -110,13 +110,13 @@ export const Quality = () => {
                                               Commandprompt: Deze gebruikte ik al voor ik begon met mijn stage. En zal deze ook na mijn stage gebruiken. Voor het o.a. bouwen, pushen en releasen van code/applicaties
                                           </li>
                                           <li>
-                                              Intellij IDEA: Deze gebruikte ik ook voor ik begon met mijn stage. Deze zal ik ook zeker gebruiken na mijn stage. Intellij IDEA is een prettige ontwikkelings omgeving die tevens ook veel functionaliteiten levert waaronder: contextuele problemen aangeven, auto correctie, etc.
+                                              Intellij IDEA: Deze gebruikte ik ook voor mijn stage. Deze zal ik ook gebruiken na mijn stage. Intellij IDEA is een prettige ontwikkelings omgeving die tevens ook veel functionaliteiten levert waaronder: contextuele problemen aangeven, auto correcties, etc.
                                           </li>
                                           <li>
                                               Lean Start-Up: Deze werkmethodiek zou ik hanteren als er een product/applicatie ontwikkelt moet worden voor een startup bedrijf.
                                           </li>
                                           <li>
-                                              React: Een goed framework dat het ontwikkelen van de frontend bevordert. Dit is ook gebruikt voor dit verslag (website)
+                                              React: Een goed framework dat het ontwikkelen van de frontend bevordert. Dit is ook gebruikt voor dit verslag (website).
                                           </li>
                                           <li>
                                               JavaScript: Voor frontend ontwikkeling is JavaScript praktisch verplicht.
