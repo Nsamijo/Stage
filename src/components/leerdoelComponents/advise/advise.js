@@ -51,7 +51,7 @@ export const Advise = () => {
                     <Advies/>
                 </p>
                 <p>
-                    Voor het komen op adviezen ben ik in gesprek gegaan met mijn oom, <a target={"new"} href={"https://www.linkedin.com/in/carl-leysner-8039467/"}>Carl Leysner</a>, en andere mede-stagaires.
+                    Voor het komen op adviezen ben ik in gesprek gegaan met derden en andere mede-stagaires.
                 </p>
             </Row>
             <Row>
@@ -87,21 +87,21 @@ export const Advise = () => {
                             <Row>
                                 <h5>Reflectie</h5>
                                 <p>
-                                    Door te werken aan dit leerdoel wilde ik leren om te durven mijn mening, omtrent potentiele functionaliteiten, te geven aan anderen
+                                    Door te werken aan dit leerdoel wilde ik leren om te durven mijn mening, omtrent potentiele functionaliteiten, te geven.
                                 </p>
                                 <p>
-                                    De adviezen die zijn gedaan kwamen voor grotendeels overeen met die van mede-stagaires. De adviezen die niet overkwamen heb ik besproken met mijn oom en dan mijn mede-stagaires. Hierdoor ben ik beter geworden in het discussieren en motiveren van functionaliteiten.
+                                    De adviezen die zijn gedaan kwamen voor grotendeels overeen met die van mede-stagaires. Op basis van gesprekken met derden over de stageopdrachten zijn er adviezen tot stand gekomen die ik kon bespreken met mijn mede-stagaires. De gesprekken met derden hebben mij geholpen in het discussieren en motiveren van functionaliteiten zoals ik die bedacht had.
                                 </p>
                                 <p>
-                                    Het geven van adviezen gebeurde niet vaak genoeg. En bij momenten waar ik een advies mocht en kon uitten koos ik vaak om dit niet te doen. Hierbij geef ik mezelf een matige beoordeling
+                                    In het begin van mijn stageperiode heb ik me terughoudend opgesteld.
                                 </p>
                                 <p>
-                                    Het bespreken van adviezen was wel effectief en leverde inzichten die ik kon delen met het team. Alleen gebeurde dit niet vaak genoeg door de passieve houding die ik had.
+                                    Het bespreken van adviezen was wel effectief en leverde inzichten die ik kon delen met het team. Alleen gebeurde dit niet vaak genoeg in de beginperiode van mijn stage (door de passieve houding die ik had).
                                     <p>
                                         Bij nader inzien had ik het volgende anders moeten doen:
                                         <ul>
                                             <li>
-                                                Actievere houding aannemen: meer mijn mening moeten uitten
+                                                Actievere houding aannemen: meer mijn mening moeten geven
                                             </li>
                                         </ul>
                                     </p>
@@ -113,13 +113,10 @@ export const Advise = () => {
                                             Het discussieren van functionaliteiten met anderen
                                         </li>
                                     </ul>
-                                    Deze vordering heeft me geholpen om beter te communiceren met mijn mede-stagaires en familieleden. Daarom ben ik tevreden over deze bevordering.
+                                    Deze vordering heeft me geholpen om beter te communiceren met mijn mede-stagaires en derden.
                                 </p>
                                 <p>
-                                    Richting te toekomst neem ik mee het kunnen discussieren. Dit kan in verschillende gevallen gebruikt worden. Enkele gevallen zijn bepalen van functionaliteiten, bespreken van meningen, etc.
-                                </p>
-                                <p>
-                                    Bij een volgende stage zal ik een actievere houding aannemen en meer durven adviezen te geven.
+                                    Richting de toekomst neem ik mee het kunnen discussieren en motiveren. Ik zal in de toekomst aandacht moeten besteden en alert moeten zijn op het participeren in teamverband.
                                 </p>
                             </Row>
                         </Accordion.Body>

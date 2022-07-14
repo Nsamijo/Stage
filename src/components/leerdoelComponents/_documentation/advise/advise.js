@@ -31,7 +31,7 @@ export const Leerdoel4 = () => {
                 iconStyle={{ display: 'none'}}
             >
                 <p>
-                    De adviezen die zijn gedaan ontstonden uit gesprekken met mijn oom en mede-stagaires. In deze gesprekken kwam o.a. aan de bak waarom een functionaliteit belangrijk was, hoe deze het beste geimplementeerd kan worden en de toegevoegde waarde voor de klant.
+                    De adviezen die zijn gedaan ontstonden uit gesprekken met derden en mede-stagaires. In deze gesprekken werd o.a. besproken waarom een functionaliteit belangrijk was, hoe deze het beste geimplementeerd kan worden en de toegevoegde waarde van de functionaliteit voor de klant.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

@@ -85,16 +85,13 @@ export const Ontwerpen = () => {
                                     Door te werken aan dit leerdoel wilde ik leren hoe een goed gebruikersomgeving te ontwerpen.
                                 </p>
                                 <p>
-                                    Dit doel heb ik naar mijn gevoel niet bereikt. De ontwerpen die zijn gemaakt zijn niet in dezelfde omgeving gemaakt als de UX-designers. Ook zijn deze van een lager kwaliteit.
+                                    Dit leerdoel is naar mijn mening tijdens de stage onvoldoende aan bod gekomen. Mijn aandachtsgebied was voornamelijk gericht op applicatieontwikkeling.
                                     <p>
-                                        Tijdens de stage heb ik als ontwikkelaar wel mijn mening en advies geuit over het ontwerp dat de UX-designer had. Helaas mocht ikzelf de veranderingen niet toepassen
+                                        Tijdens de stage heb ik als ontwikkelaar wel mijn mening en advies gegeven over het ontwerp dat de UX-designer had.
                                     </p>
                                 </p>
                                 <p>
-                                    De gebruikersomgeving heb ik niet getoond aan de UX-designers. Hierdoor heb ik mijn ontwerpskills niet kunnen verbeteren. Dit leerdoel beoordeel ik als onvoldoende.
-                                </p>
-                                <p>
-                                    Door dit alles heb ik naar mijn mening geen vorderingen kunnen maken. Dit leerdoel heb ik daarom niet afgerond. Voor de volgende keer zal ik de verantwoordelijk voor ontwerpen op me nemen of vragen. Indien dit niet mogelijk is zal ik kijken of er een comprimie gevonden kan worden.
+                                    Door dit alles heb ik naar mijn mening geen vorderingen kunnen maken. Dit leerdoel heb ik daarom niet naar tevredenheid afgerond.
                                 </p>
                             </Row>
                             <Row>
@@ -109,16 +106,16 @@ export const Ontwerpen = () => {
                                     Door te werken aan dit leerdoel wilde ik mijn ontwerpkeuzes kunnen motiveren aan anderen.
                                 </p>
                                 <p>
-                                    Dit doel heb ik naar mijn gevoel niet bereikt. De ontwerpen heb ik niet kunnen bespreken met de UX-designer. Hierdoor kon ik de motivaties niet uitten.
+                                    Tijdens mijn stage heb ik op verschillende momenten ontwerpkeuzes van de UX-designers besproken. Hierbij adviseerde en motiveerde ik veranderingen die voldeden aan de standaard van Albert Heijn.
                                 </p>
                                 <p>
-                                    De gebruikersomgeving heb ik niet getoond aan de UX-designers. Hierdoor heb ik mijn ontwerpen niet kunnene motiveren. Dit leerdoel beoordeel ik als onvoldoende.
-                                    <p>
-                                        Wel heb ik als stagair het zeggen gehad over de gemaakte ontwerpen. En heb ik ook veranderingen kunnen aanvragen en/of kunnen voorstellen
-                                    </p>
+                                    De ontwikkeling die ik heb gemaakt is: het kunnen motiveren en adviseren van ontwerpkeuzes, die voldoen aan de bedrijfseisen, aan UX-designers. Hierin ontbreekt echter eigen ontwerpkeuzes motiveren.
                                 </p>
                                 <p>
-                                    Naar mijn mening heb ik geen vorderingen kunnen maken. Dit leerdoel heb ik daarom niet afgerond. Voor de volgende keer zal ik de verantwoordelijk voor ontwerpen op me nemen of vragen. Indien dit niet mogelijk is zal ik kijken of er een comprimie gevonden kan worden.
+                                    In mijn verdere studie c.q. carriere neem ik mee het kunnen adviseren en motiveren van veranderingen voor ontwerpen van derden en collegas.
+                                </p>
+                                <p>
+                                    Als ik voor dit leerdoel mijn eigen ontwerpenkeuzes had mogen motiveren en verduidelijken had ik dit leerdoel naar tevredenheid afgerond.
                                 </p>
                             </Row>
                         </Accordion.Body>
