@@ -21,7 +21,28 @@ export const Advise = () => {
                     </p>
                 </p>
                 <p>
-                    Tijdens de stage zijn er verschillende momenten geweest waarop ik adviezen moest uitbrengen. De adviezen die aansluiten bij dit leerdoel vonden plaats tijdens de probleemanalyse. De adviezen hadden betrekking op de functionaliteit van de te ontwikkelen software.
+                    <h5>Leerdoel Context</h5>
+                    <p>
+                        Dit leerdoel gaat over het kunnen adviseren van functionaliteiten. Voornamelijk adviseren van functionaliteiten voor ontwikkeling. De adviezen die zijn uitgebracht vonden plaats tijdens:
+                        <ul>
+                            <li>
+                                Probleemanalyses
+                            </li>
+                            <li>
+                                Het opstellen van projectplannen
+                            </li>
+                            <li>
+                                Het opstellen van kwaliteitseisen voor functionaliteiten
+                            </li>
+                            <li>
+                                Het ontwerpen van de gebruikersomgeving. Deze adviezen zijn gegeven aan de UX-designer en niet zelf geimplementeerd.
+                            </li>
+                        </ul>
+                            probleemanalyses en het opstellen van projectplannen.
+                    </p>
+                </p>
+                <p>
+                    Tijdens de stage zijn er verschillende momenten geweest waarop ik adviezen heb uitgebracht. De adviezen die aansluiten bij dit leerdoel vonden plaats tijdens de probleemanalyse. De adviezen hebben betrekking op de functionaliteit van de te ontwikkelen software.
                 </p>
                 <p>
                     Om de leerdoel beter te begrijpen is eerst gekeken naar de betekenis van het woord advies.
@@ -30,20 +51,7 @@ export const Advise = () => {
                     <Advies/>
                 </p>
                 <p>
-                    De meeste adviezen heb ik gegeven bij:
-                    <ul>
-                        <li>Het bepalen van de functionaliteiten</li>
-                        <li>Het bepalen van het ontwerp van de gebruikersinterface</li>
-                    </ul>
-                </p>
-                <p>
                     Voor het komen op adviezen ben ik in gesprek gegaan met mijn oom, <a target={"new"} href={"https://www.linkedin.com/in/carl-leysner-8039467/"}>Carl Leysner</a>, en andere mede-stagaires.
-                </p>
-                <p>
-                    <h5>Leerdoel Bewijs</h5>
-                    <p>
-                        Voor dit leerdoel zijn de gegeven adviezen gedocumenteerd. De adviezen die zijn opgenomen in de documentatie vonden plaats tijdens de probleemanalyse. De resultaten van de adviezen zijn als extra opgenomen in het bewijs materiaal.
-                    </p>
                 </p>
             </Row>
             <Row>
