@@ -69,5 +69,4 @@ const Leerdoelen = () => {
         </Row>
     )
 }
-
 export default Leerdoelen
