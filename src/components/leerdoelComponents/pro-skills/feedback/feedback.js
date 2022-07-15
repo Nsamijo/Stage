@@ -32,7 +32,7 @@ export const Feedback = () => {
                   Hier uit is de conclusie dat feedback een reactie is van derden op eigen acties of gedrag. Het belangrijkste is dat zowel positief als negatief feedback gebruikt moet worden om te kunnen groeien. Met dit in gedachte houdend heb ik de ontvangen feedback proberen toe te passen in mijn gedrag of acties.
               </p>
               <p>
-                  <h5>Leerdoel Bewijs</h5>
+                  <h5>Documentatie Omschrijving</h5>
                   <p>
                       Voor dit leerdoel is gedurende de stage de meest belangrijke feedback verzameld en genoteerd. Ook benoem ik hier de gedragsverandering die de feedback te weeg heeft gebracht.
                   </p>

@@ -28,7 +28,7 @@ export const Quality = () => {
                   Tijdens de stage is er gebruik gemaak van de volledige functionaliteit van Figma. Een van deze functionaliteiten is: Wireframes. Deze functionaliteit liet de UX-stagaire toe om voor verschillende apparaten (namelijk mobiel, ipad/tablets en laptops) ontwerpen te maken.
               </p>
               <p>
-                  <h5>Leerdoel Bewijs</h5>
+                  <h5>Documentatie Omschrijving</h5>
                   <p>
                       Voor dit leerdoel is er eerst gezocht naar wat de kwaliteitseisen zijn. Deze zijn onder andere:
                       <ul>

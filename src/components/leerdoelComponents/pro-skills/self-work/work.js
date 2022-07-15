@@ -36,9 +36,9 @@ export const ZelfStandig = () => {
                   Tijdens de stage is er gewerkt in groepsverband (in teams). Er is gebruikt gemaakt van een werkmethodologie en diverse online tool voor o.a. het beheren van projecten. Gedurende de stage moest ik ook zelfstandig te werk gaan. Ik moest zelfstandig mijn dag indelen (b.v. Pull Request door nemen en feedback leveren). Ik kon zelfstandig bepalen welke taken ik zou oppakken. Dit werd vastgelegd in Jira. Om de 2 weken werd er vergadert om de voortgang te bespreken. Na goedkeuring van de stagebegeleider wordt een taak genoteerd als afgehandelt.
               </p>
               <p>
-                  <h5>Leerdoel Bewijs</h5>
+                  <h5>Documentatie Omschrijving</h5>
                   <p>
-                      In de documentatie is een voorbeeld opgenomen van het zelfstandig werken.
+                      In de documentatie is een voorbeeld opgenomen van het zelfstandig werken. Hierbij is meegenomen de tools, technieken en programmeertalen die zijn gebruikt om coderingsregels te leveren die voldoen aan de bedrijfseisen.
                   </p>
               </p>
           </Row>

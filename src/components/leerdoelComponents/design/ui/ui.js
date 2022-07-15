@@ -43,7 +43,7 @@ export const Ontwerpen = () => {
                     </ul>
                 </p>
                 <p>
-                    <h5>Leerdoel Bewijs</h5>
+                    <h5>Documentatie Omschrijving</h5>
                     Om dit leerdoel te behalen is er voor de Digitale Koopjeshoek een gebruikersomgeving ontworpen. Bij het ontwikkelen van de omgeving is gebruik gemaakt van de eisen en adviezen van de vorige leerdoelen
                 </p>
                 <p>
