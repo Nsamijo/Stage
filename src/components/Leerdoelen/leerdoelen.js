@@ -17,7 +17,7 @@ const Leerdoelen = () => {
     return (
         <Row>
             <Col sm={12} lg={3}>
-                <Nav variant="pills" id={"selection"} className="flex-column" defaultActiveKey="manage">
+                <Nav variant="pills" className="flex-column" defaultActiveKey="manage">
                     <Nav.Item>
                         <Nav.Link eventKey="manage" href="#leerdoelen" data-slide-to="0">Manage and Control</Nav.Link>
                     </Nav.Item>
@@ -39,7 +39,7 @@ const Leerdoelen = () => {
                 </Nav>
             </Col>
             <Col sm={12} lg={9}>
-                <Carousel id="leerdoelen" interval={null} controls={false} indicators={false} slide={false} touch={false}>
+                <Carousel id={"leerdoelen"} interval={null} controls={false} indicators={false} slide={false} touch={false}>
                     <CarouselItem>
                         <Manage/>
                     </CarouselItem>
