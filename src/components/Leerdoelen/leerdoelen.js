@@ -36,9 +36,6 @@ const Leerdoelen = () => {
                     <Nav.Item >
                         <Nav.Link eventKey="skills" href="#leerdoelen"  data-slide-to="5">Professional Skills</Nav.Link>
                     </Nav.Item>
-                    {/*<Nav.Item >
-                        <Nav.Link eventKey="geheim" href="#leerdoelen"  data-slide-to="6">Stageovereenkomst*</Nav.Link>
-                    </Nav.Item>*/}
                 </Nav>
             </Col>
             <Col sm={12} lg={9}>
