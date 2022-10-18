@@ -18,6 +18,7 @@ function Bijlage() {
                         </Row>
                         <Row>
                             <iframe
+                                title={"Adviesdocument Bedrijfsbegeleider"}
                                 className={'pdf'}
                                 src={'./advies.pdf'}
                             >
