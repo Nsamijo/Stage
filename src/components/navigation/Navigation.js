@@ -6,6 +6,7 @@ import About from "../about/about";
 
 import "./navigation.css";
 import Leerdoelen from "../Leerdoelen/leerdoelen";
+import Bijlage from "../bijlage/bijlage";
 
 class Navigation extends React.Component {
     render() {
@@ -27,6 +28,18 @@ class Navigation extends React.Component {
                                         }}
                                     >
                                         Leerdoelen
+                                    </Link>
+                                </Nav.Link>
+                                <Nav.Link eventKey="/Bijlage" activeClassName="chosen">
+                                    <Link
+                                        to="/Bijlage"
+                                        style={{
+                                            color: 'inherit',
+                                            textDecoration: 'inherit',
+                                            display: 'contents'
+                                        }}
+                                    >
+                                        Bijlage
                                     </Link>
                                 </Nav.Link>
                                 <Nav.Link eventKey="/About" activeClassName="chosen">
@@ -51,6 +64,9 @@ class Navigation extends React.Component {
                         </Route>
                         <Route exact path="/Leerdoelen">
                             <Leerdoelen/>
+                        </Route>
+                        <Route exact path={"/Bijlage"}>
+                            <Bijlage/>
                         </Route>
                         <Route exact path="/About">
                             <About/>
