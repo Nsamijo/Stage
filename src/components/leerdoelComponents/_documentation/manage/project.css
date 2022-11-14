@@ -10,3 +10,22 @@
 .vertical-timeline-element-icon {
     box-shadow: 0 0 0 2px black, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%) !important;
 }
+
+table {
+    border: 2px solid black;
+    width: 100%;
+    height: auto;
+}
+
+th {
+    border-right: 1px solid grey;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+td {
+    padding: 5px;
+    text-align: left;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+}

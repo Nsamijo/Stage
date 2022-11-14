@@ -1,5 +1,5 @@
 import {Accordion, Container, Row} from "react-bootstrap";
-import Project from "../_documentation/manage/project-doc";
+import {Project, ProjectDeelname} from "../_documentation/manage/project-doc";
 import React from 'react';
 
 import './manage-leerdoel.css';
@@ -87,6 +87,14 @@ const Manage = () => {
                         </Accordion.Header>
                         <Accordion.Body>
                             <Project/>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey={"1"}>
+                        <Accordion.Header>
+                            Project Documentatie (Participatie)
+                        </Accordion.Header>
+                        <Accordion.Body>
+                            <ProjectDeelname/>
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>

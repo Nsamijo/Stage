@@ -5,7 +5,7 @@ import {Container} from "react-bootstrap";
 import {AiOutlineFlag} from "react-icons/ai";
 import {FaFlagCheckered} from "react-icons/fa";
 import {GoCommentDiscussion, GoSettings} from "react-icons/go";
-import {GrWorkshop} from "react-icons/gr";
+import {GrPlan, GrWorkshop} from "react-icons/gr";
 import {BsListCheck, BsListTask} from "react-icons/bs";
 import {BiCommentDetail, BiConversation} from "react-icons/bi";
 import {CgTemplate} from "react-icons/cg";
@@ -386,4 +386,171 @@ const Project = () => {
     )
 }
 
-export default Project;
+const ProjectDeelname = () => {
+
+    const white = 'rgb(255, 255, 255)';
+    return (
+        <Container className="project">
+            <h2>Projectduur:</h2>
+            <p>Een project duurt ongeveer 8 weken (4 sprints)</p>
+            <h4>Sprint-duur:</h4>
+            <p>2 weken</p>
+            <VerticalTimeline lineColor={"grey"} layout={"1-element-left"}>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: `${white}`, border: 'solid'}}
+                    contentArrowStyle={{ display: `none` }}
+                    iconStyle={{ display: 'none'}}
+                >
+                    <p>
+                        Wegens een geheimhoudings verklaring met de Albert Heijn kan het zijn dat er weinig tot geen beeld materiaal aanwezig is bij de documentatie. Ook kan het zijn dat informatie is weggelaten.
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: `${white}`, border: 'solid'}}
+                    contentArrowStyle={{ borderRight: `7px solid  black`}}
+                    iconStyle={{ background: `${white}`}}
+                    icon={<GrPlan/>}
+                >
+                    <h3 className="vertical-timeline-element-title">De Planning</h3>
+                    <h6 className="vertical-timeline-element-subtitle">Planning AH Techlabs 2021 - 2022</h6>
+                    <p>
+                        De planning van AH Techlabs voor de Digital Koopjeshoek was als volg:
+                        <table>
+                            <tr>
+                                <th>
+                                    Planning
+                                </th>
+                                <th>
+                                    Verwijzing in Project Documentatie (Timeline)
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Probleem presentatie
+                                </td>
+                                <td>
+                                    Project Kickoff
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Oplossing Bepalen
+                                </td>
+                                <td>
+                                    Brainstorm
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                   Teams bepalen
+                                </td>
+                                <td>
+                                    Officiële Start Project
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Functionaliteiten en eisen van de oplossing vaststellen
+                                </td>
+                                <td>
+                                    Probleem, Eisen en Functionaliteiten
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Werkomgeving opzetten
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Opzetten van Ontwikkelingsomgeving
+                                        </li>
+                                        <li>
+                                            Albert Heijn Omgeving
+                                        </li>
+                                        <li>
+                                            AH Tech Labs Template
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Ontwikkelen en Voortgang beheren
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            Voortgang Gesprek
+                                        </li>
+                                        <li>
+                                            Interne Demo & Eerste Sprint
+                                        </li>
+                                        <li>
+                                            Einde Tweede Sprint
+                                        </li>
+                                        <li>
+                                            Einde Derde Sprint
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                   Veiligheidstest
+                                </td>
+                                <td>
+                                    Hackerguild AH
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Applicatie release/lancering
+                                </td>
+                                <td>
+                                    Digitale Koopjeshoek Live
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Feedback verzamelen en doornemen
+                                </td>
+                                <td>
+                                    Mopinion
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Feedback Implementeren
+                                </td>
+                                <td>
+                                    Laatste Feedback Implementeren
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Oplevering applicatie
+                                </td>
+                                <td>
+                                    Digitale Koopjeshoek Afronden
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Promotie
+                                </td>
+                                <td>
+                                    Promotie Digitale Koopjeshoek
+                                </td>
+                            </tr>
+                        </table>
+                    </p>
+                </VerticalTimelineElement>
+            </VerticalTimeline>
+        </Container>
+    )
+}
+
+export {Project, ProjectDeelname};
