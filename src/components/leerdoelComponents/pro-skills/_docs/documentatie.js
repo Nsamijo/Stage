@@ -6,13 +6,20 @@ import {FaFlagCheckered, FaWrench} from "react-icons/fa";
 import {HiOutlineClipboardList} from "react-icons/hi";
 import {MdDoneOutline} from "react-icons/md";
 import {CgSandClock} from "react-icons/cg";
+import {VscFeedback} from "react-icons/vsc";
 
 import jira from './img/jira.png';
 import name from './img/toewijzing.png';
 import ready from './img/gereed.png';
 import done from '../../realise/_docs/img/criteria.png'
 
+import Feryllia from './img/feryllia.png';
+import Bora from './img/bora.png';
+import Tamara from './img/tamara.png';
+import Tjitte from './img/tjitte.png';
+
 import './docs.css';
+
 
 export const Aansturing = () => {
     const white = 'rgb(255, 255, 255)';
@@ -355,4 +362,97 @@ export const FeedbackTimeline = () => {
             </VerticalTimeline>
         </Container>
     );
+}
+
+export const BijlageFeedback = () => {
+    const white = 'rgb(255, 255, 255)';
+    return (
+        <Container>
+            <VerticalTimeline
+                layout={"1-column-left"}
+                lineColor={"grey"}
+            >
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentArrowStyle={{ borderRight: `7px solid  black`}}
+                    iconStyle={{ background: `${white}`}}
+                    icon={<AiOutlineFlag/>}
+                />
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: `${white}`, border: 'solid'}}
+                    contentArrowStyle={{ borderRight: `7px solid black` }}
+                    iconStyle={{ background: `${white}`}}
+                    icon={<VscFeedback/>}
+                >
+                    <h3 className="vertical-timeline-element-title">Feedback Confirmatie</h3>
+                    <h6 className="vertical-timeline-element-subtitle">Ontvangen van mede-stagaire: Bora Meester</h6>
+                    <p>
+                        <img
+                            className={"feedback"}
+                            src={Bora}
+                            alt={"Feedback Confirmatie Email van Bora Meester"}
+                        />
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: `${white}`, border: 'solid'}}
+                    contentArrowStyle={{ borderRight: `7px solid black` }}
+                    iconStyle={{ background: `${white}`}}
+                    icon={<VscFeedback/>}
+                >
+                    <h3 className="vertical-timeline-element-title">Feedback Confirmatie</h3>
+                    <h6 className="vertical-timeline-element-subtitle">Ontvangen van mede-stagaire: Feryllia Koulen</h6>
+                    <p>
+                        <img
+                            className={"feedback"}
+                            src={Feryllia}
+                            alt={"Feedback Confirmatie Email van Feryllia Koulen"}
+                        />
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: `${white}`, border: 'solid'}}
+                    contentArrowStyle={{ borderRight: `7px solid black` }}
+                    iconStyle={{ background: `${white}`}}
+                    icon={<VscFeedback/>}
+                >
+                    <h3 className="vertical-timeline-element-title">Feedback Confirmatie</h3>
+                    <h6 className="vertical-timeline-element-subtitle">Ontvangen van mede-stagaire: Tamara Michelle Theijsmeijer</h6>
+                    <p>
+                        <img
+                            className={"feedback"}
+                            src={Tamara}
+                            alt={"Feedback Confirmatie Email van Tamara Michelle Theijsmeijer"}
+                        />
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: `${white}`, border: 'solid'}}
+                    contentArrowStyle={{ borderRight: `7px solid black` }}
+                    iconStyle={{ background: `${white}`}}
+                    icon={<VscFeedback/>}
+                >
+                    <h3 className="vertical-timeline-element-title">Feedback Confirmatie</h3>
+                    <h6 className="vertical-timeline-element-subtitle">Ontvangen van mede-stagaire: Tjitte IJzebrand de Jong</h6>
+                    <p>
+                        <img
+                            className={"feedback"}
+                            src={Tjitte}
+                            alt={"Feedback Confirmatie Email van Tjitte IJzebrand de Jong"}
+                        />
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentArrowStyle={{ borderRight: `7px solid  black`}}
+                    iconStyle={{ background: `${white}`}}
+                    icon={<FaFlagCheckered/>}
+                />
+            </VerticalTimeline>
+        </Container>
+    )
 }

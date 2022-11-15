@@ -1,7 +1,7 @@
 import React from 'react';
 import {Accordion, Container, Row} from "react-bootstrap";
 import {FeedbackUitleg} from "../_docs/definitie";
-import {FeedbackTimeline} from '../_docs/documentatie';
+import {BijlageFeedback, FeedbackTimeline} from '../_docs/documentatie';
 import {feedback, skills} from "../../../../constants/content";
 
 export const Feedback = () => {
@@ -53,7 +53,7 @@ export const Feedback = () => {
           </Row>
           <br/>
           <Row>
-              <h5>Feedback en Reflectie</h5>
+              <h5>Feedback, Bijlage(s) en Reflectie</h5>
               <Accordion>
                   <Accordion.Item eventKey="0">
                       <Accordion.Header>
@@ -134,6 +134,16 @@ export const Feedback = () => {
                           </Row>
                       </Accordion.Body>
                   </Accordion.Item>
+              </Accordion>
+          </Row>
+          <Row>
+              <Accordion>
+                  <Accordion.Header>
+                      Bijlage(s) Feedback
+                  </Accordion.Header>
+                  <Accordion.Body>
+                      <BijlageFeedback/>
+                  </Accordion.Body>
               </Accordion>
           </Row>
           <br/>
