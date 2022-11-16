@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "/Stage/static/media/team.111468ba.png"
   },
   {
-    "revision": "b7a7d479bc61def4f3e2ee3cfb68acde",
+    "revision": "742d1375c4b9d476c3314c9d700533a9",
     "url": "/Stage/index.html"
   }
 ];
