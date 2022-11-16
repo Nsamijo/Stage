@@ -13,13 +13,8 @@ export const Ontwerpen = () => {
                     <h2>Leerdoel: Ontwerpen</h2>
                     <div className="leerdoel">
                         <h3>Leerdoel Ontwerpen 1</h3>
-                        Ik wil na mijn stage instaat zijn om de gebruikersinterface van een applicatie te ontwerpen
+                        Ik wil na mijn stage instaat zijn om de gebruikersinterface van een applicatie te ontwerpen. Ik wil na mijn stage ook instaat zijn om mijn ontwerpkeuzes te motiveren/verduidelijken
                     </div>
-                    <div className="leerdoel">
-                        <h3>Leerdoel Ontwerpen 2</h3>
-                        Ik wil na mijn stage instaat zijn om ontwerpkeuzes te motiveren/verduidelijken
-                    </div>
-
                     <p>
                         Dit onderwerp bevat 2 leerdoelen. Door de samenhang van deze leerdoelen is er gekozen om de documentatie te combineren. De volgende afkortingen LDO1 en LDO2 zullen in de rest van de tekst gebruikt worden bovengenoemde leerdoelen te benoemen.
                     </p>
@@ -29,7 +24,7 @@ export const Ontwerpen = () => {
                     Dit leerdoel zal gaan over het ontwerpen van (een deel van de) software op basis van specificaties.
                 </p>
                 <p>
-                    Voor LDO1 is er gebruikt gemaakt van de online tool: wireframes.cc.
+                    Voor dit leerdoel is er gebruikt gemaakt van de online tool: wireframes.cc.
                 </p>
                 <p>
                     <Wireframe/>
@@ -45,10 +40,6 @@ export const Ontwerpen = () => {
                 <p>
                     <h5>Documentatie Omschrijving</h5>
                     Om dit leerdoel te behalen is er voor de Digitale Koopjeshoek een gebruikersomgeving ontworpen. Bij het ontwikkelen van de omgeving is gebruik gemaakt van de eisen en adviezen van de vorige leerdoelen
-                </p>
-                <p>
-
-                    In het bewijs is LDO2 verwerkt. Met LDO2 motiveer ik de look en feel van de gebruikersomgeving. Voor de duidelijkheid zal dit aangegeven worden met <strong>[LDO2]</strong>
                 </p>
             </Row>
             <Row>

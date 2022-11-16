@@ -8,8 +8,9 @@ import store from "./_img/allproducts.png";
 import product from "./_img/product.png";
 
 import './_documentation.css';
-import {AiOutlineFlag} from "react-icons/ai";
+import {AiOutlineFileDone, AiOutlineFlag} from "react-icons/ai";
 import {FaFlagCheckered} from "react-icons/fa";
+import {MdOutlineDeveloperBoard} from "react-icons/md";
 
 export const Design = () => {
     const white = 'rgb(255, 255, 255)';
@@ -41,7 +42,7 @@ export const Design = () => {
                     contentStyle={{ background: `${white}`, border: 'solid'}}
                     contentArrowStyle={{ borderRight: `7px solid black` }}
                     iconStyle={{ background: `${white}`}}
-                    // icon={<HiOutlineClipboardList/>}
+                    icon={<MdOutlineDeveloperBoard/>}
                 >
                     <h3 className="vertical-timeline-element-title">Ontwerp Maken</h3>
                     <h6 className="vertical-timeline-element-subtitle">Eisen van het ontwerp</h6>
@@ -70,17 +71,13 @@ export const Design = () => {
                     contentStyle={{ background: `${white}`, border: 'solid'}}
                     contentArrowStyle={{ borderRight: `7px solid black` }}
                     iconStyle={{ background: `${white}`}}
-                    // icon={<HiOutlineClipboardList/>}
+                    icon={<AiOutlineFileDone/>}
                 >
                     <h3 className="vertical-timeline-element-title">Het Ontwerp</h3>
                     <h6 className="vertical-timeline-element-subtitle">De gebruikersomgeving in Wireframe.cc</h6>
                     <p>
                         <h5>Landingspagina van de klant</h5>
-                        <strong>[LDO1]</strong>
                         <img src={landing} className={"images"} alt={"De eerste pagina die de klant ziet"}/>
-                        <p>
-                            <strong>[LDO2]</strong>
-                        </p>
                         <p>
                             Motivatie ontwerp:
                             <ul>
@@ -112,11 +109,7 @@ export const Design = () => {
                     </p>
                     <p>
                         <h5>Productenoverzicht van alle afgeprijsde producten van de geselecteerde winkel</h5>
-                        <strong>[LDO1]</strong>
                         <img src={store} className={"images"} alt={"Overzicht van alle afgeprijsde producten"}/>
-                        <p>
-                            <strong>[LDO2]</strong>
-                        </p>
                         <p>
                             Motivatie Ontwerp:
                             <ul>
@@ -160,11 +153,7 @@ export const Design = () => {
                     </p>
                     <p>
                         <h5>Overzicht van een geselecteerd product</h5>
-                        <strong>[LDO1]</strong>
                         <img src={product} className={"images"} alt={"Productoverzicht"}/>
-                        <p>
-                            <strong>[LD02]</strong>
-                        </p>
                         <p>
                             Motivatie Ontwerp:
                             <ul>
