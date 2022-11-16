@@ -203,7 +203,7 @@ export const Leerdoel3 = () => {
                         iconStyle={{ background: `${white}`}}
                         icon={<BsFillPersonFill/>}
                     >
-                        <h3 className="vertical-timeline-element-title">Individuele Bijdrage</h3>
+                        <h3 className="vertical-timeline-element-title">Individueel</h3>
                         <h6 className="vertical-timeline-element-subtitle">Wat ik heb gedaan tijdens de Probleemanalyse</h6>
                         <br/>
                         <table>
@@ -321,19 +321,21 @@ export const Leerdoel3 = () => {
                                         Bij deze stap is als groep gekeken naar hoe de uitdagingen, uit de vorige stap, opgelost/vermeden kunnen worden. Het doel was om oplossingen te schrijven voor de uitdagingen en vervolgens te stemmen op de, naar eigen mening, beste oplossing. Elke mede-stagaire mocht 3 keer stemmen op een oplossing.
                                     </p>
                                     <p>
-                                        In deze stap heb ik maar 1 oplossing kunnen bedenken. Deze oplossing was:
-                                        <p>
+                                        In deze stap heb ik 2 oplossing kunnen bedenken. Deze oplossing was:
+                                        <ul>
+                                            <li>
                                             Een disclaimer die aangeeft dat de producten in de Digitale Koopjeshoek niet meer op voorraad kunnen zijn. Met als motivatie: hiermee kan er teleurstelling bij de klant voorkomen worden.
-                                        </p>
+                                            </li>
+                                            <li>
+                                                De actuele prijs van het afgeprijsd product. Hierbij ziet de klant eerst de prijs (met korting) gevolgd door de oude prijs van het product. Mijn motivatie hiervoor was: de klant kan zien hoeveel geld hij/zij bespaart.
+                                            </li>
+                                        </ul>
                                     </p>
                                     <p>
-                                        Ik stemde vervolgens op mijn eigen oplossing. En mijn andere 2 stemmen zette ik op:
+                                        Ik stemde vervolgens op mijn eigen oplossingen. Mijn laatste stem zette ik op:
                                         <ul>
                                             <li>
                                                 Bij elk product kan de laatste update tijd vermeld worden.
-                                            </li>
-                                            <li>
-                                                Aangezien de afgeprijsde producten gebonden zijn aan een winkel is het logisch om deze te tonen per winkel. Hierbij kan dan de klant per winkel inzien wat is afgeprijsd. De klant zou dan zijn locatie kunnen invoeren en alle supermarkten, in een bepaald radius, zien die een Digitale Koopjeshoek hebben.
                                             </li>
                                         </ul>
                                     </p>

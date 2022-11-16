@@ -1,5 +1,5 @@
 import {Accordion, Container, Row} from "react-bootstrap";
-import {Project, ProjectDeelname} from "../_documentation/manage/project-doc";
+import {Project} from "../_documentation/manage/project-doc";
 import React from 'react';
 
 import './manage-leerdoel.css';
@@ -74,7 +74,7 @@ const Manage = () => {
                 <p>
                     <h5>Documentatie Omschrijving</h5>
                     <p>
-                        Door onderzoek te doen naar de gebruikte werkmethode en tool kon ik de voortgang van projecten bewaren en beheren. In de documentatie is een project voortgang opgenomen. Hierin is verwerkt evenementen, meetings en mijlpalen van het project.
+                        Door onderzoek te doen naar de gebruikte werkmethode en tool kon ik de voortgang van projecten bewaren en beheren. In de documentatie is een project voortgang opgenomen. Hierin is verwerkt evenementen, meetings en mijlpalen van het project. Ook is verwerkt wat ik heb gedaan in deze periode.
                     </p>
                 </p>
             </Row>
@@ -87,14 +87,6 @@ const Manage = () => {
                         </Accordion.Header>
                         <Accordion.Body>
                             <Project/>
-                        </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey={"1"}>
-                        <Accordion.Header>
-                            Project Documentatie (Participatie)
-                        </Accordion.Header>
-                        <Accordion.Body>
-                            <ProjectDeelname/>
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>

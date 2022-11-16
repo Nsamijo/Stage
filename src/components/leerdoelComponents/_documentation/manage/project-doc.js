@@ -5,7 +5,7 @@ import {Container} from "react-bootstrap";
 import {AiOutlineFlag} from "react-icons/ai";
 import {FaFlagCheckered} from "react-icons/fa";
 import {GoCommentDiscussion, GoSettings} from "react-icons/go";
-import {GrPlan, GrWorkshop} from "react-icons/gr";
+import {GrWorkshop} from "react-icons/gr";
 import {BsListCheck, BsListTask} from "react-icons/bs";
 import {BiCommentDetail, BiConversation} from "react-icons/bi";
 import {CgTemplate} from "react-icons/cg";
@@ -55,6 +55,12 @@ const Project = () => {
                     <p>
                         Probleemstelling: Hoe kan Albert Heijn zijn klanten, zo enthousiast mogelijk, over Dynamisch Afprijzen laten weten?
                     </p>
+                    <p>
+                        <h4>Individueel</h4>
+                        <p>
+                            Tijdens de presentatie heb ik een met aandacht geluisterd en genoteerd. Deze is verder uitgewerkt in Leerdoel 3: Analyse.
+                        </p>
+                    </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -76,6 +82,12 @@ const Project = () => {
                             <li>Het kunnen invoeren van een winkellocatie door de klant</li>
                         </ul>
                     </p>
+                    <p>
+                        <h4>Individueel</h4>
+                        <p>
+                            Tijdens de Brainstorm heb ik een semi-actieve houding aangenomen. Tijdens de Brainstorm heb ik potentiële functionaliteiten kunnen adviseren. Tegen het eind van de Brainstorm had ik echter een passieve houding en heb hierbij niet veel bijgedragen.
+                        </p>
+                    </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -96,6 +108,12 @@ const Project = () => {
                             <li>1 Business Analyst: verantwoordelijk voor alle business georienteerde zaken (b.v. contact houden met stakeholders)</li>
                         </ul>
                     </p>
+                    <p>
+                        <h4>Individueel</h4>
+                        <p>
+                            Ik werd hier ingedeeld in de Backend groep. Dit houdt in dat 2 mede-stagaires en ik verantwoordelijk zijn voor het ontwikkelen van de functionaliteiten.
+                        </p>
+                    </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -106,7 +124,7 @@ const Project = () => {
                     icon={<BsListTask/>}
                 >
                     <h3 className="vertical-timeline-element-title">Probleem, Eisen en Functionaliteiten</h3>
-                    <h6 className="vertical-timeline-element-subtitle">Build</h6>
+                    <h6 className="vertical-timeline-element-subtitle">Resultaten van de Brainstorm</h6>
                     <p>
                         <ul>
                             <li>Oplossing bepaald</li>
@@ -127,6 +145,42 @@ const Project = () => {
                         <p>
                             Door de klanten ervaring in kaart te brengen is er een beter beeld gekregen van hoe de webpagina eruit zou moeten zien. Welke stappen deze zal moeten zetten om op de webpagina te komen en/of het kopen van een product.
                         </p>
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: `${white}`, border: 'solid'}}
+                    contentArrowStyle={{ display: `none` }}
+                    iconStyle={{ display: 'none'}}
+                >
+                    <p>
+                        De 3 volgende events zullen gaan over het opzetten van de ontwikkelingsomgeving, kennismaking met de Albert Heijn omgeving en met als laatst de AH Techlabs template.
+                    </p>
+                    <p>
+                        In deze events heb ik geleerd over de/het:
+                        <ul>
+                            <li>
+                                Beheren van taken met Jira
+                            </li>
+                            <li>
+                                Gebruikte programmeertalen: Javascript/Typescript en (Springboot)Java
+                            </li>
+                            <li>
+                                Gebruikte frontend library: React
+                            </li>
+                            <li>
+                                Ontwikkelingsomgeving: Intellij IDE
+                            </li>
+                            <li>
+                                Programmeerregels van AH Techlabs en Albert Heijn
+                            </li>
+                            <li>
+                                Template voor het ontwikkelen van applicatie voor Albert Heijn
+                            </li>
+                            <li>
+                                Protocol voor het ophalen/opslaan van data
+                            </li>
+                        </ul>
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -157,6 +211,15 @@ const Project = () => {
                             <li>installeren van de gekozen programmeertaal: (React en Spring) Java (Uitleg te vinden over deze talen in Leerdoel: Realiseren)</li>
                         </ul>
                     </p>
+                    <p>
+                        <h4>Individueel</h4>
+                        <p>
+                            Ik heb hier meegekeken met het team. Het team heeft de taken neergezet in Jira en toen mij kort uitgelegd hoe ik zelf een taak kan oppakken.
+                        </p>
+                        <p>
+                            Verder heb ik, onder begeleiding van de stagebegeleiders, de Intellij IDE en programmeertalen (Javascript/Typescript en Java) geinstalleerd. Ook is er uitleg ontvangen over de (Spring)Java.
+                        </p>
+                    </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -183,13 +246,34 @@ const Project = () => {
                     iconStyle={{ background: `${white}`}}
                     icon={<CgTemplate/>}
                 >
-                    <h3 className="vertical-timeline-element-title">AH Tech Labs Template</h3>
+                    <h3 className="vertical-timeline-element-title">AH Techlabs Template</h3>
                     <h6 className="vertical-timeline-element-subtitle">Build</h6>
                     <p>
                         Binnen Tech Labs wordt er gebruik gemaakt van een template ten behoeve van ontwikkelingen van features voor ah.nl. Dit template moesten we gedurende dit project gebruiken.
                     </p>
                     <p>
                         Verder is vandaag de backend live gegaan en wordt beheerd door de software: <a href={"https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/"}>Kubernetes</a>.
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: `${white}`, border: 'solid'}}
+                    contentArrowStyle={{ display: `none` }}
+                    iconStyle={{ display: 'none'}}
+                >
+                    <p>
+                        Na de introductie ben ik aan de slag gegaan met de taken die stonden in de Jira
+                    </p>
+                    <p>
+                        Voor de eerste sprint had ik de volgende taken opgepakt/afgemaakt:
+                        <ul>
+                            <li>
+                                Het bepalen van de afstand tussen klant en winkel. De afstand wordt berekent met de Haversine formule. Na het opleveren van deze functionaliteit stapte ik over naar de Frontend. Dit deed ik wegens een gebrek aan kennis.
+                            </li>
+                            <li>
+                                Na de overstap begon ik te werken aan een locatie-component. In dit component toont het adres van de geselecteerde winkel. Wanneer een klant klikt op dit component wordt de klant terug gebracht naar de vorige scherm (Homescreen).
+                            </li>
+                        </ul>
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -204,6 +288,9 @@ const Project = () => {
                     <h6 className="vertical-timeline-element-subtitle">Build</h6>
                     <p>
                         De voortgang van het project wordt besproken met de Stagebegeleider/Producteigenaar.
+                    </p>
+                    <p>
+                        Er werd hier een korte demo gegeven over de ontwikkelde componenten en functionaliteiten. Verder is er gekeken naar de voortgang in de Jira.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -224,6 +311,54 @@ const Project = () => {
                         <ul>
                             <li>Sprintupdate: Jira bord aanpassen</li>
                             <li>Retrospective: Reflectie op de afgelopen sprint op basis van een Glad-Sad-Mad systeem (Hierbij reflecteren teamleden over situaties die vallen onder boverstaande categorieën)</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <h4>
+                            Individueel
+                        </h4>
+                        <p>
+                            Ik doe mee met de sprintupdate en retrospective. Tijdens de sprintupdate doe ik het volgende:
+                            <ul>
+                                <li>
+                                    Lever de Locatie-component op. Deze wordt na de oplevering getest door mede-stagaires en stagebegeleiders
+                                </li>
+                                <li>
+                                    Stel de vraag aan het team welke taak ik kan oppakken. Hierbij wordt aan mij toegewezen het maken van de banner.
+                                </li>
+                            </ul>
+                        </p>
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: `${white}`, border: 'solid'}}
+                    contentArrowStyle={{ display: `none` }}
+                    iconStyle={{ display: 'none'}}
+                >
+                    <p>
+                        Gedurende de tweede sprint werkte ik aan o.a.de volgende componenten:
+                        <ul>
+                            <li>
+                                De Banner
+                            </li>
+                            <li>
+                                Productweergave
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        Verder deed ik ook het volgende:
+                        <ul>
+                            <li>
+                                Bugfixes doen aan verschillende Frontend componenten waaronder de Locatie component
+                            </li>
+                            <li>
+                                Doornemen en beoordelen van verschillende Pull Requests
+                            </li>
+                            <li>
+                                Codeveranderingen (fixes) maken aan verschillende in Pull Request(s)
+                            </li>
                         </ul>
                     </p>
                 </VerticalTimelineElement>
@@ -254,6 +389,12 @@ const Project = () => {
                             <li>Producteigenaar spreken over de voortgang en/of vragen om feedback</li>
                         </ul>
                         Het project gaat nu van een "Build"-fase naar een "Measure"- en "Learn"-fase. De "Measure"- en "Learn"-fase hebben een kortere duur.
+                    </p>
+                    <p>
+                        <h4>Individueel</h4>
+                        <p>
+                            In de retrospective heb ik een passieve houding. Bij het bespreken wordt duidelijk dat alleen nog bugfixes en de Hackerguild Safety Test moet.
+                        </p>
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -302,6 +443,12 @@ const Project = () => {
                     <p>
                         De laatste feedback komt binnen vanuit business. Deze is al uitgewerkt en moet worden meegenomen in de applicatie. Deze feedback gaat voornamelijk over de stijl, lettertype en -grote.
                     </p>
+                    <p>
+                        <h4>Individueel</h4>
+                        <p>
+                            Ik help mee met de bugfixes. En voor aanpassingen aan verschillende componenten waaronder de Disclaimer en Banner. Verder ga ik door met het doornemen en beoordelen van Pull Requests.
+                        </p>
+                    </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -320,7 +467,7 @@ const Project = () => {
                         Digitale Koopjeshoek is vrijwel af. Hierbij wordt gemeld dat er binnenkort nieuwe projecten zullen plaatsvinden.
                     </p>
                     <p>
-                        De Retrospective vindt weer plaats.
+                        Er vindt weer een Retrospective plaats.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -334,13 +481,13 @@ const Project = () => {
                     <h3 className="vertical-timeline-element-title">Digitale Koopjeshoek Afronden</h3>
                     <h6 className="vertical-timeline-element-subtitle">Nieuw Project</h6>
                     <p>
-                        De test-resultaten zijn positief en de feedback is verwerkt. Vandaag is officieel het project af!
+                        De test-resultaten zijn positief en de feedback is verwerkt. Vandaag is het project officieel af!
                     </p>
                     <p>
-                        De demo in de winkel wordt uitgesteld wegens een vertraging bij het ander team.
+                        Om de klanten te informeren over de Digitale Koopjeshoek zullen mijn mede-stagaires en ik moeten staan in de winkel. Het doel is dan om de Digitale Koopjeshoek te promoten door klanten aan te spreken en flyers uit te delen. Deze flyers zijn ontworpen door de UX-designer <a href={"https://www.linkedin.com/in/thijskraan/"}>Thijs Kraan</a>.
                     </p>
                     <p>
-                        Deze prestatie wordt gevierd met presentaties over het nieuw projecten.
+                        De promotie in de winkel zal plaatsvinden zodra het andere stage team zijn opdracht oplevert. Om de oplevering te vieren en het ander team te motiveren zijn er presentaties gegeven. Deze presentaties gaan over de nieuwe projecten.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -353,7 +500,7 @@ const Project = () => {
                 >
                     <h3 className="vertical-timeline-element-title">Mopinion</h3>
                     <p>
-                        Mopinion wordt toegevoegd aan Digitale Koopjeshoek. Hierbij kan een klant een beoordeling plaatsen over de Digitale Koopjeshoek.
+                        Hierbij wordt ik gevraagd door mijn stagebegeleider om Mopinion toe te voegen aan de productenpagina van Digitale Koopjeshoek. Met Mopinion kunnen klanten hun ervaring delen met AH Techlabs.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -373,6 +520,17 @@ const Project = () => {
                             <li>Voorlichting geven over de nieuwe feature van ah.nl: De Digitale Koopjeshoek</li>
                         </ul>
                     </p>
+                    <p>
+                        Samen met een mede-stagaire heb ik 2 dagen promotie gedaan in verschillende Albert Heijn winkels. De promotie dagen en locatie zijn:
+                        <ul>
+                            <li>
+                                9 November 2021: Hilversum. Samen met Feryllia Koulen.
+                            </li>
+                            <li>
+                                10 November 2021: Amersfoort. Samen met Lucas Geisink.
+                            </li>
+                        </ul>
+                    </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -386,171 +544,4 @@ const Project = () => {
     )
 }
 
-const ProjectDeelname = () => {
-
-    const white = 'rgb(255, 255, 255)';
-    return (
-        <Container className="project">
-            <h2>Projectduur:</h2>
-            <p>Een project duurt ongeveer 8 weken (4 sprints)</p>
-            <h4>Sprint-duur:</h4>
-            <p>2 weken</p>
-            <VerticalTimeline lineColor={"grey"} layout={"1-element-left"}>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    contentStyle={{ background: `${white}`, border: 'solid'}}
-                    contentArrowStyle={{ display: `none` }}
-                    iconStyle={{ display: 'none'}}
-                >
-                    <p>
-                        Wegens een geheimhoudings verklaring met de Albert Heijn kan het zijn dat er weinig tot geen beeld materiaal aanwezig is bij de documentatie. Ook kan het zijn dat informatie is weggelaten.
-                    </p>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    contentStyle={{ background: `${white}`, border: 'solid'}}
-                    contentArrowStyle={{ borderRight: `7px solid  black`}}
-                    iconStyle={{ background: `${white}`}}
-                    icon={<GrPlan/>}
-                >
-                    <h3 className="vertical-timeline-element-title">De Planning</h3>
-                    <h6 className="vertical-timeline-element-subtitle">Planning AH Techlabs 2021 - 2022</h6>
-                    <p>
-                        De planning van AH Techlabs voor de Digital Koopjeshoek was als volg:
-                        <table>
-                            <tr>
-                                <th>
-                                    Planning
-                                </th>
-                                <th>
-                                    Verwijzing in Project Documentatie (Timeline)
-                                </th>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Probleem presentatie
-                                </td>
-                                <td>
-                                    Project Kickoff
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Oplossing Bepalen
-                                </td>
-                                <td>
-                                    Brainstorm
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                   Teams bepalen
-                                </td>
-                                <td>
-                                    Officiële Start Project
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Functionaliteiten en eisen van de oplossing vaststellen
-                                </td>
-                                <td>
-                                    Probleem, Eisen en Functionaliteiten
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Werkomgeving opzetten
-                                </td>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Opzetten van Ontwikkelingsomgeving
-                                        </li>
-                                        <li>
-                                            Albert Heijn Omgeving
-                                        </li>
-                                        <li>
-                                            AH Tech Labs Template
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Ontwikkelen en Voortgang beheren
-                                </td>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Voortgang Gesprek
-                                        </li>
-                                        <li>
-                                            Interne Demo & Eerste Sprint
-                                        </li>
-                                        <li>
-                                            Einde Tweede Sprint
-                                        </li>
-                                        <li>
-                                            Einde Derde Sprint
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                   Veiligheidstest
-                                </td>
-                                <td>
-                                    Hackerguild AH
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Applicatie release/lancering
-                                </td>
-                                <td>
-                                    Digitale Koopjeshoek Live
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Feedback verzamelen en doornemen
-                                </td>
-                                <td>
-                                    Mopinion
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Feedback Implementeren
-                                </td>
-                                <td>
-                                    Laatste Feedback Implementeren
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Oplevering applicatie
-                                </td>
-                                <td>
-                                    Digitale Koopjeshoek Afronden
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Promotie
-                                </td>
-                                <td>
-                                    Promotie Digitale Koopjeshoek
-                                </td>
-                            </tr>
-                        </table>
-                    </p>
-                </VerticalTimelineElement>
-            </VerticalTimeline>
-        </Container>
-    )
-}
-
-export {Project, ProjectDeelname};
+export {Project};
