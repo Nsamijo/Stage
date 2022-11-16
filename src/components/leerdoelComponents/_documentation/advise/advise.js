@@ -3,10 +3,14 @@ import React from 'react';
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
 import {AiOutlineFlag, AiOutlineFunction} from "react-icons/ai";
 import {FaFlagCheckered, FaPuzzlePiece} from "react-icons/fa";
+import {IoFootsteps} from "react-icons/io5";
+
 
 import Price from './Prijs.png';
 import Store from './voorraad.png';
 import './advise.css';
+
+
 
 
 export const Leerdoel4 = () => {
@@ -184,13 +188,50 @@ export const Leerdoel4 = () => {
                     <img className='voorraad' src={Price} alt={"Price Component"}/>
                 </p>
             </VerticalTimelineElement>
-
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentArrowStyle={{ borderRight: `7px solid  black`}}
                 iconStyle={{ background: `${white}`}}
                 icon={<FaFlagCheckered/>}
             />
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{ background: `${white}`, border: 'solid'}}
+                contentArrowStyle={{ borderRight: `7px solid black` }}
+                iconStyle={{ background: `${white}`}}
+                icon={<IoFootsteps/>}
+            >
+                <h3 className="vertical-timeline-element-title">In de Toekomst</h3>
+                <h6 className="vertical-timeline-element-subtitle">Hoe ik adviezen zal geven in de toekomst</h6>
+                <p>
+                    In het begin en tijdens mijn stage was ik instaat geweest om adviezen te bespreken (verder uitgewerkt in mijn reflectie).
+                </p>
+                <p>
+                    In mijn volgende stage zal ik mijn mening/advies over potentiële functionaliteiten delen. Hierbij zal ik de advies formuleren als:
+                    <ul>
+                        <li>
+                            "Ik vindt dat deze functionaliteit [functionaliteit] nodig is want [motivatie]"
+                        </li>
+                        <li>
+                            "Ik denk hierbij aan [functionaleit]"
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    In mijn volgende stage zal ik ook het volgende doen:
+                    <ul>
+                        <li>
+                            Actieve houding aannemen: mijn mening geven over bijvoorbeeld functionaliteit
+                        </li>
+                        <li>
+                            Het discussieren van functionaliteiten met anderen
+                        </li>
+                        <li>
+                            Motiveren: het motiveren van mijn mening over potentiële functionaliteit
+                        </li>
+                    </ul>
+                </p>
+            </VerticalTimelineElement>
         </VerticalTimeline>
     </Container>
     )
