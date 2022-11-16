@@ -8,6 +8,7 @@ import {FaFlagCheckered, FaMicroscope, FaPrescriptionBottleAlt} from "react-icon
 import {RiFolderReceivedLine} from "react-icons/ri";
 import {MdNoteAdd, MdReportProblem} from "react-icons/md";
 import {GiImpactPoint} from "react-icons/gi";
+import {BsFillPersonFill} from "react-icons/bs";
 
 export const Leerdoel3 = () => {
     const white = 'rgb(255, 255, 255)';
@@ -76,7 +77,7 @@ export const Leerdoel3 = () => {
                         <p>
                             Individueel is er onderzoek gedaan naar hoe bedrijven adverteren. Uit het onderzoek kwam naar voren;
                             <ul>
-                                <li>Bol.com: heeft een speciale pagina voor aanbiedingen (o.a de <a target={"new"} href={"https://www.bol.com/nl/nl/m/outlet/"}>Outlet</a>,)</li>
+                                <li>Bol.com: heeft een speciale pagina voor aanbiedingen (o.a de <a target={"new"} href={"https://www.bol.com/nl/nl/m/outlet/"}>Outlet</a>)</li>
                                 <li>Mediamarkt.nl: heeft een gehele aparte website voor alle tweedehands/geretourneerde producten: <a target={"new"} href={"https://outlet.mediamarkt.nl/"}>Mediamarkt Outlet</a></li>
                             </ul>
                         </p>
@@ -110,7 +111,7 @@ export const Leerdoel3 = () => {
                         <h3 className="vertical-timeline-element-title">Uitdagingen en/of Problemen</h3>
                         <h6 className="vertical-timeline-element-subtitle">Wat zijn mogelijke uitdagingen/problemen?</h6>
                         <p>
-                            Individueel wordt er gekeken welke uitdagingen/problemen. Na het bedenken van mogelijke uitdagingen/problemen zijn ze gegroupeerd op basis van onderstaande indeling;
+                            Individueel wordt er gekeken welke uitdagingen/problemen. Na het bedenken van mogelijke uitdagingen/problemen zijn ze gegroupeerd op basis van onderstaande indeling:
                             <ol>
                                 <li><b>Context:</b> De voorraad van de Koopjeshoek is niet altijd accuraat. Oorzaak hiervan is de hoeveelheid data die verwerkt moet worden vanuit de vele winkels.
                                     <ul>
@@ -194,6 +195,164 @@ export const Leerdoel3 = () => {
                             <li>Voorraad verschil</li>
                             <li>Korting tonen per product</li>
                         </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        contentStyle={{ background: `${white}`, border: 'solid'}}
+                        contentArrowStyle={{ borderRight: `7px solid black` }}
+                        iconStyle={{ background: `${white}`}}
+                        icon={<BsFillPersonFill/>}
+                    >
+                        <h3 className="vertical-timeline-element-title">Individuele Bijdrage</h3>
+                        <h6 className="vertical-timeline-element-subtitle">Wat ik heb gedaan tijdens de Probleemanalyse</h6>
+                        <br/>
+                        <table>
+                            <tr>
+                                <th>
+                                    Stap Probleemanalyse
+                                </th>
+                                <th>
+                                    Uitvoering Individueel
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Probleemstelling Ontvangen
+                                </td>
+                                <td>
+                                    <p>
+                                    Bij de presentatie van de probleemstelling heb ik met aandacht geluistert en notities gemaakt. De notities zijn:
+                                    <ul>
+                                        <li>
+                                            Probleemstelling: Hoe kan Albert Heijn zijn klanten, zo enthousiast mogelijk, over Dynamisch Afprijzen laten weten?
+                                        </li>
+                                        <li>
+                                            Steekwoorden:
+                                            <ul>
+                                                <li>
+                                                    Huidige afprijzing - 35%
+                                                </li>
+                                                <li>
+                                                    Dynamisch Afprijzen - 20% tot 70%
+                                                </li>
+                                                <li>
+                                                    Oplopende kortingspercentage
+                                                </li>
+                                                <li>
+                                                    Voedselverspilling voorkomen
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <br/>
+                                    De conclusie die ik hieruit trok was: De Albert Heijn wilt klanten laten weten over het Dynamisch Afprijzen. Voor de klant moet het duidelijk zijn dat de kortingspercentage oploopt tot 70%. Verder moet het voor de klant ook duidelijk worden dat Albert Heijn actief voedselverspilling probeert te voorkomen en de klant hierbij een bijdrage aan kan leveren.
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Oplossingen Onderzoeken
+                                </td>
+                                <td>
+                                    <p>
+                                        Bij deze stap is er individueel onderzocht hoe andere bedrijven omgaan met (voedsel)verspilling. Hiervoor had een ieder 15 minuten de tijd.
+                                    </p>
+                                    <p>
+                                        Hier is er gekeken naar hoe anderen, andere merken/winkels, het doen. Ik heb ervoor gekozen om te kijken naar hoe bol.com en mediamarkt tegen verspilling. Deze keuze is gemaakt omdat Albert Heijn een Voedsel & Technologie (Food & Tech) bedrijf.
+                                    </p>
+                                    <p>
+                                    De resultaten van het onderzoek zijn:
+                                    <ul>
+                                        <li>Bol.com: heeft een speciale pagina voor aanbiedingen (o.a de <a target={"new"} href={"https://www.bol.com/nl/nl/m/outlet/"}>Outlet</a>)</li>
+                                        <li>Mediamarkt.nl: heeft een gehele aparte website voor alle tweedehands/geretourneerde producten: <a target={"new"} href={"https://outlet.mediamarkt.nl/"}>Mediamarkt Outlet</a></li>
+                                    </ul>
+                                    </p>
+                                    <p>
+                                        Mijn conclusie: Gekeken naar de resultaten van het onderzoek kan de Albert Heijn het beste een aparte pagina maken.
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Oplossing Bepalen
+                                </td>
+                                <td>
+                                    <p>
+                                        Bij deze stap is een ieder samengekomen om de gevonden oplossingen te bespreken. Het doel hierbij is om te bepalen welke oplossing het beste past bij de Albert Heijn.
+                                    </p>
+                                    <p>
+                                        Bij dit gedeelte heb ik mijn resultaten besproken met de mede-stagaires en kwamen tot de conclusie dat onze onderzoeksresultaten overeenkwamen.
+                                    </p>
+                                    <p>
+                                        De oplossing is toen opgesteld, door het stageteam, als volgt:
+                                        <p>
+                                            Albert Heijn kan de klanten enthousiast maken over Dynamisch Afprijzen door alle afgeprijsde producten op een aparte pagina te tonen. Deze pagina zal dan deel zijn van ah.nl. Deze pagina zal de naam Digitale Koopjeshoek krijgen.
+                                        </p>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Uitdagingen en/of Problemen
+                                </td>
+                                <td>
+                                    <p>
+                                        Bij deze stap is als groep gekeken naar welke mogelijke uitdagingen konden opkomen. Hier ben ik in discussie gegaan met mijn mede-stagaires over de uitdagingen die zij hadden bedacht. Ik kon zelf geen uitdagingen bedenken.
+                                    </p>
+                                    <p>
+                                        De grootste uitdagingen waren:
+                                        <ul>
+                                            <li>
+                                                Hoe kan een niet-accurate voorraad getoond/verbeterd worden?
+                                            </li>
+                                            <li>
+                                                Hoe moeten de afgeprijsde producten getoond worden?
+                                            </li>
+                                        </ul>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Oplossingen voor Uitdagingen/Problemen
+                                </td>
+                                <td>
+                                    <p>
+                                        Bij deze stap is als groep gekeken naar hoe de uitdagingen, uit de vorige stap, opgelost/vermeden kunnen worden. Het doel was om oplossingen te schrijven voor de uitdagingen en vervolgens te stemmen op de, naar eigen mening, beste oplossing. Elke mede-stagaire mocht 3 keer stemmen op een oplossing.
+                                    </p>
+                                    <p>
+                                        In deze stap heb ik maar 1 oplossing kunnen bedenken. Deze oplossing was:
+                                        <p>
+                                            Een disclaimer die aangeeft dat de producten in de Digitale Koopjeshoek niet meer op voorraad kunnen zijn. Met als motivatie: hiermee kan er teleurstelling bij de klant voorkomen worden.
+                                        </p>
+                                    </p>
+                                    <p>
+                                        Ik stemde vervolgens op mijn eigen oplossing. En mijn andere 2 stemmen zette ik op:
+                                        <ul>
+                                            <li>
+                                                Bij elk product kan de laatste update tijd vermeld worden.
+                                            </li>
+                                            <li>
+                                                Aangezien de afgeprijsde producten gebonden zijn aan een winkel is het logisch om deze te tonen per winkel. Hierbij kan dan de klant per winkel inzien wat is afgeprijsd. De klant zou dan zijn locatie kunnen invoeren en alle supermarkten, in een bepaald radius, zien die een Digitale Koopjeshoek hebben.
+                                            </li>
+                                        </ul>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Impact en Moeite
+                                </td>
+                                <td>
+                                    <p>
+                                        Bij deze stap is als team bepaalt wat de impact en moeite zal zijn van elke oplossing.
+                                    </p>
+                                    <p>
+                                        Bij deze stap had ik echter een passieve houding aangenomen. De impact en moeite is bepaald door mijn mede-stagaires.
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
