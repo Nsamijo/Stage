@@ -12,15 +12,8 @@ export const Ontwerpen = () => {
                 <p>
                     <h2>Leerdoel: Ontwerpen</h2>
                     <div className="leerdoel">
-                        <h3>Leerdoel Ontwerpen 1</h3>
                         Ik wil na mijn stage instaat zijn om de gebruikersinterface van een applicatie te ontwerpen. Ik wil na mijn stage ook instaat zijn om mijn ontwerpkeuzes te motiveren/verduidelijken
                     </div>
-                    <p>
-                        Dit onderwerp bevat 2 leerdoelen. Door de samenhang van deze leerdoelen is er gekozen om de documentatie te combineren. De volgende afkortingen LDO1 en LDO2 zullen in de rest van de tekst gebruikt worden bovengenoemde leerdoelen te benoemen.
-                    </p>
-                </p>
-                <p>
-                    <h5>Leerdoel</h5>
                     Dit leerdoel zal gaan over het ontwerpen van (een deel van de) software op basis van specificaties.
                 </p>
                 <p>
@@ -65,9 +58,12 @@ export const Ontwerpen = () => {
                         </Accordion.Header>
                         <Accordion.Body>
                             <Row>
-                                <h5>Feedback Stagebegeleider LD01</h5>
+                                <h5>Feedback Stagebegeleider</h5>
                                 <div className={"leerdoel"}>
                                     {feedback.leerdoel5}
+                                </div>
+                                <div className={"leerdoel"}>
+                                    {feedback.leerdoel6}
                                 </div>
                             </Row>
                             <Row>
@@ -82,28 +78,13 @@ export const Ontwerpen = () => {
                                     </p>
                                 </p>
                                 <p>
-                                    Door dit alles heb ik naar mijn mening geen vorderingen kunnen maken. Dit leerdoel heb ik daarom niet naar tevredenheid afgerond.
-                                </p>
-                            </Row>
-                            <Row>
-                                <h5>Feedback Stagebegeleider LD02</h5>
-                                <div className={"leerdoel"}>
-                                    {feedback.leerdoel6}
-                                </div>
-                            </Row>
-                            <Row>
-                                <h5>Reflectie</h5>
-                                <p>
-                                    Door te werken aan dit leerdoel wilde ik mijn ontwerpkeuzes kunnen motiveren.
-                                </p>
-                                <p>
                                     Tijdens mijn stage heb ik op verschillende momenten ontwerpkeuzes van de UX-designers besproken. Hierbij adviseerde en motiveerde ik veranderingen die voldeden aan de standaard van Albert Heijn.
                                 </p>
                                 <p>
                                     De ontwikkeling die ik heb gemaakt is; het kunnen motiveren en adviseren van ontwerpkeuzes aan UX-designers, waarbij rekening wordt gehouden dat de ontwerpkeuzes moeten voldoen aan de bedrijfseisen.
                                 </p>
                                 <p>
-                                    Als ik tijdens mijn stage mijn ontwerpkeuzes had mogen motiveren en verduidelijken had ik dit leerdoel naar tevredenheid afgerond.
+                                    Door dit alles heb ik naar mijn mening geen vorderingen kunnen maken. Dit leerdoel heb ik daarom niet naar tevredenheid afgerond.
                                 </p>
                             </Row>
                         </Accordion.Body>
