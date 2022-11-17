@@ -7,7 +7,7 @@ import {feedback} from "../../../../constants/content";
 
 export const Ontwerpen = () => {
     return (
-        <Container>
+        <Container className={"containerStyle"}>
             <Row>
                 <p>
                     <h2>Leerdoel: Ontwerpen</h2>

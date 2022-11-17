@@ -11,6 +11,7 @@ import {CICD} from "../leerdoelComponents/realise/continiuous-integration/ci-cd"
 import {Ontwerpen} from "../leerdoelComponents/design/ui/ui";
 import ReadCode from "../leerdoelComponents/analyse/read-code/readPullRequest";
 import Problem from "../leerdoelComponents/analyse/problem/analyseProblem";
+import {Flowchart} from "../leerdoelComponents/design/flowchart/flowchart";
 
 const Leerdoelen = () => {
 
@@ -53,6 +54,8 @@ const Leerdoelen = () => {
                     </CarouselItem>
                     <CarouselItem>
                         <Ontwerpen/>
+                        <br/>
+                        <Flowchart/>
                     </CarouselItem>
                     <CarouselItem>
                         <Quality/>
