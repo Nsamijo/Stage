@@ -1,8 +1,5 @@
 .navigation {
-  position: relative;
-  top: 0;
-  z-index: 3;
-  width: 100%;
-  overflow: hidden;
-  height: 60px;
+
+  z-index: 999;
+  height: 7vh;
 }

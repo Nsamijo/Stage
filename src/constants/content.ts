@@ -15,7 +15,8 @@ export const advice = {
 
 export const design = {
     leerdoel1: "Ik wil na mijn stage instaat zijn om de gebruikersinterface van een applicatie te ontwerpen",
-    leerdoel2: "Ik wil na mijn stage instaat zijn om ontwerpkeuzes te motiveren/verduidelijken"
+    leerdoel2: "Ik wil na mijn stage instaat zijn om ontwerpkeuzes te motiveren/verduidelijken",
+    leerdoel3: "Ik wil na mijn stage instaat zijn om een stroomdiagram te maken van één of meerdere processen."
 }
 
 export const realise = {

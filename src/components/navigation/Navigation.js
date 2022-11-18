@@ -1,18 +1,16 @@
 import React from "react";
-import {Container, Navbar, Nav} from "react-bootstrap";
-import {Link, Route} from "react-router-dom";
-import Home from "../home/Home";
-import About from "../about/about";
+import {Navbar, Nav, Container} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 import "./navigation.css";
-import Leerdoelen from "../Leerdoelen/leerdoelen";
-import Bijlage from "../bijlage/bijlage";
 
 class Navigation extends React.Component {
     render() {
         return (
-            <>
-                <Navbar bg="light" expand="lg">
+            <Container
+                className={'navigation'}
+            >
+                <Navbar fixed={'top'} bg="light" expand="lg">
                     <Container>
                         <Navbar.Brand href="/Stage">Portfolio Nathan K. Samijo</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -58,21 +56,7 @@ class Navigation extends React.Component {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-                <Container className="content">
-                        <Route exact path="/">
-                            <Home/>
-                        </Route>
-                        <Route exact path="/Leerdoelen">
-                            <Leerdoelen/>
-                        </Route>
-                        <Route exact path={"/Bijlage"}>
-                            <Bijlage/>
-                        </Route>
-                        <Route exact path="/About">
-                            <About/>
-                        </Route>
-                </Container>
-            </>
+            </Container>
         );
     }
 }

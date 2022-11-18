@@ -17,8 +17,11 @@ const Leerdoelen = () => {
 
     return (
         <Row>
-            <Col sm={12} lg={3}>
-                <Nav variant="pills" className="flex-column" defaultActiveKey="manage">
+            <Col
+                sm={12}
+                lg={3}
+            >
+                <Nav variant="pills" className="flex-column leerdoel-navigation" defaultActiveKey="manage">
                     <Nav.Item>
                         <Nav.Link eventKey="manage" href="#leerdoelen" data-slide-to="0">Manage and Control</Nav.Link>
                     </Nav.Item>

@@ -21,3 +21,8 @@
 Nav.Link:active{
   background-color: grey;
 }
+
+.leerdoel-navigation {
+  z-index: 999;
+  position: fixed !important;
+}
