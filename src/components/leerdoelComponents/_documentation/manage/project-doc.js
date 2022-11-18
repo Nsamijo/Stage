@@ -58,7 +58,7 @@ const Project = () => {
                     <p>
                         <h4>Individueel</h4>
                         <p>
-                            Tijdens de presentatie heb ik een met aandacht geluisterd en genoteerd. Deze is verder uitgewerkt in Leerdoel 3: Analyse.
+                            Tijdens de presentatie heb ik notities gemaakt. Deze notities heb ik uitgewerkt in Leerdoel 3: Analyse
                         </p>
                     </p>
                 </VerticalTimelineElement>
@@ -85,7 +85,7 @@ const Project = () => {
                     <p>
                         <h4>Individueel</h4>
                         <p>
-                            Tijdens de Brainstorm heb ik een semi-actieve houding aangenomen. Tijdens de Brainstorm heb ik potentiële functionaliteiten kunnen adviseren. Tegen het eind van de Brainstorm had ik echter een passieve houding en heb hierbij niet veel bijgedragen.
+                           Tijdens de Brainstorm-sessie heb ik geadviseerd over mogelijke functionaliteiten. Bij het onderdeel Impact en Moeite, Leerdoel 3: Analyseren, heb ik een geringe bijdrage kunnen leveren omdat ik niet kon inschatten hoeveel tijd en moeite het zou kosten om een functionaliteit te realiseren.
                         </p>
                     </p>
                 </VerticalTimelineElement>
@@ -111,7 +111,7 @@ const Project = () => {
                     <p>
                         <h4>Individueel</h4>
                         <p>
-                            Ik werd hier ingedeeld in de Backend groep. Dit houdt in dat 2 mede-stagaires en ik verantwoordelijk zijn voor het ontwikkelen van de functionaliteiten.
+                            Ik werd hier ingedeeld in de Backend groep. Dit houdt in dat 2 mede-stagaires en ik verantwoordelijk waren voor het ontwikkelen van de functionaliteiten.
                         </p>
                     </p>
                 </VerticalTimelineElement>
@@ -154,10 +154,15 @@ const Project = () => {
                     iconStyle={{ display: 'none'}}
                 >
                     <p>
-                        De 3 volgende events zullen gaan over het opzetten van de ontwikkelingsomgeving, kennismaking met de Albert Heijn omgeving en met als laatst de AH Techlabs template.
+                        De volgende drie introductie momenten zullen gaan over:
+                        <ul>
+                            <li>Het opzetten van de ontwikkelingsomgeving</li>
+                            <li>Kennismaking met de Albert Heijn ICT-omgeving</li>
+                            <li>De AH Techlabs template</li>
+                        </ul>
                     </p>
                     <p>
-                        In deze events heb ik geleerd over de/het:
+                       Tijdens deze introductie momenten heb ik kennis opgedaan over de/het:
                         <ul>
                             <li>
                                 Beheren van taken met Jira
@@ -207,7 +212,7 @@ const Project = () => {
                         </p>
                         Om te beginnen met ontwikkelen werd het volgende gedaan:
                         <ul>
-                            <li>Installeren en opzetten van de IDE (Integrated Development Environment)</li>
+                            <li>Installeren en opzetten van de Intellij IDE (Integrated Development Environment)</li>
                             <li>installeren van de gekozen programmeertaal: (React en Spring) Java (Uitleg te vinden over deze talen in Leerdoel: Realiseren)</li>
                         </ul>
                     </p>
@@ -262,16 +267,16 @@ const Project = () => {
                     iconStyle={{ display: 'none'}}
                 >
                     <p>
-                        Na de introductie ben ik aan de slag gegaan met de taken die stonden in de Jira
+                        Na de introductie ben ik aan de slag gegaan met de taken die stonden in de Jira-omgeving
                     </p>
                     <p>
                         Voor de eerste sprint had ik de volgende taken opgepakt/afgemaakt:
                         <ul>
                             <li>
-                                Het bepalen van de afstand tussen klant en winkel. De afstand wordt berekent met de Haversine formule. Na het opleveren van deze functionaliteit stapte ik over naar de Frontend. Dit deed ik wegens een gebrek aan kennis.
+                                Het bepalen van de afstand tussen klant en winkel. De afstand wordt berekent met de Haversine formule. Na het opleveren van deze functionaliteit stapte ik over naar de Frontend.
                             </li>
                             <li>
-                                Na de overstap begon ik te werken aan een locatie-component. In dit component toont het adres van de geselecteerde winkel. Wanneer een klant klikt op dit component wordt de klant terug gebracht naar de vorige scherm (Homescreen).
+                                Na de overstap begon ik te werken aan het software onderdeel locatie-vermelding. Dit software onderdeel toont het adres van de, door de gebruiker, geselecteerde winkel. Het onderdeel zal op de (afgeprijsde) producten-pagina komen te staan. Wanneer een gebruiker de locatie-onderdeel koos werd deze teruggevoerd naar de landings-pagina.
                             </li>
                         </ul>
                     </p>
