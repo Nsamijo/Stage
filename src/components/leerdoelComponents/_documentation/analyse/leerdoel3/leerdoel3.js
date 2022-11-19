@@ -203,7 +203,7 @@ export const Leerdoel3 = () => {
                         iconStyle={{ background: `${white}`}}
                         icon={<BsFillPersonFill/>}
                     >
-                        <h3 className="vertical-timeline-element-title">Individueel</h3>
+                        <h3 className="vertical-timeline-element-title">Persoonlijke Bijdrage</h3>
                         <h6 className="vertical-timeline-element-subtitle">Wat ik heb gedaan tijdens de Probleemanalyse</h6>
                         <br/>
                         <table>
@@ -212,7 +212,7 @@ export const Leerdoel3 = () => {
                                     Stap Probleemanalyse
                                 </th>
                                 <th>
-                                    Uitvoering Individueel
+                                    Persoonlijke Bijdrage (Uitvoering)
                                 </th>
                             </tr>
                             <tr>
@@ -221,7 +221,7 @@ export const Leerdoel3 = () => {
                                 </td>
                                 <td>
                                     <p>
-                                    Bij de presentatie van de probleemstelling heb ik met aandacht geluistert en notities gemaakt. De notities zijn:
+                                    Bij de presentatie van de probleemstelling heb ik notities gemaakt. De notities zijn:
                                     <ul>
                                         <li>
                                             Probleemstelling: Hoe kan Albert Heijn zijn klanten, zo enthousiast mogelijk, over Dynamisch Afprijzen laten weten?
@@ -245,7 +245,7 @@ export const Leerdoel3 = () => {
                                         </li>
                                     </ul>
                                     <br/>
-                                    De conclusie die ik hieruit trok was: De Albert Heijn wilt klanten laten weten over het Dynamisch Afprijzen. Voor de klant moet het duidelijk zijn dat de kortingspercentage oploopt tot 70%. Verder moet het voor de klant ook duidelijk worden dat Albert Heijn actief voedselverspilling probeert te voorkomen en de klant hierbij een bijdrage aan kan leveren.
+                                    De conclusie die ik hieruit trok was: De Albert Heijn wilt consumenten informeren over het Dynamisch Afprijzen. Voor de klant moet het duidelijk zijn dat de kortingspercentage kan oplopen tot 70%. Verder moet het voor de consument duidelijk worden dat Albert Heijn actief voedselverspilling probeert voor te komen. En dat de consument hier een bijdrage aan kan leveren.
                                     </p>
                                 </td>
                             </tr>
@@ -255,10 +255,10 @@ export const Leerdoel3 = () => {
                                 </td>
                                 <td>
                                     <p>
-                                        Bij deze stap is er individueel onderzocht hoe andere bedrijven omgaan met (voedsel)verspilling. Hiervoor had een ieder 15 minuten de tijd.
+                                        Bij deze stap is er door een ieder onderzocht wat andere bedrijven doen tegen (voedsel)verspilling. Hiervoor had een ieder 15 minuten de tijd.
                                     </p>
                                     <p>
-                                        Hier is er gekeken naar hoe anderen, andere merken/winkels, het doen. Ik heb ervoor gekozen om te kijken naar hoe bol.com en mediamarkt tegen verspilling. Deze keuze is gemaakt omdat Albert Heijn een Voedsel & Technologie (Food & Tech) bedrijf.
+                                        Hier is er gekeken naar hoe andere merken/winkels het doen. Ik heb ervoor gekozen om te kijken naar hoe Bol.com en Mediamarkt tegen verspilling.
                                     </p>
                                     <p>
                                     De resultaten van het onderzoek zijn:
@@ -268,7 +268,7 @@ export const Leerdoel3 = () => {
                                     </ul>
                                     </p>
                                     <p>
-                                        Mijn conclusie: Gekeken naar de resultaten van het onderzoek kan de Albert Heijn het beste een aparte pagina maken.
+                                        Mijn conclusie: Op basis van mijn onderzoek naar hoe Bol.com en Mediamarkt omgaan met verspilling ben ik tot de conclusie gekomen dat een aparte software-oplossing (webpagina) zou moeten kiezen.
                                     </p>
                                 </td>
                             </tr>
@@ -281,12 +281,12 @@ export const Leerdoel3 = () => {
                                         Bij deze stap is een ieder samengekomen om de gevonden oplossingen te bespreken. Het doel hierbij is om te bepalen welke oplossing het beste past bij de Albert Heijn.
                                     </p>
                                     <p>
-                                        Bij dit gedeelte heb ik mijn resultaten besproken met de mede-stagaires en kwamen tot de conclusie dat onze onderzoeksresultaten overeenkwamen.
+                                        Wij kwamen tot de conclusie dat onze onderzoeksresultaten overeenkwamen.
                                     </p>
                                     <p>
-                                        De oplossing is toen opgesteld, door het stageteam, als volgt:
+                                        De oplossing werd als volgt geformuleert:
                                         <p>
-                                            Albert Heijn kan de klanten enthousiast maken over Dynamisch Afprijzen door alle afgeprijsde producten op een aparte pagina te tonen. Deze pagina zal dan deel zijn van ah.nl. Deze pagina zal de naam Digitale Koopjeshoek krijgen.
+                                            Albert Heijn kan de klanten enthousiast maken over Dynamisch Afprijzen door alle afgeprijsde producten op een aparte webpagina te tonen. Deze webpagina zal dan deel zijn van ah.nl. Deze webpagina zal de naam Digitale Koopjeshoek krijgen.
                                         </p>
                                     </p>
                                 </td>
@@ -321,7 +321,7 @@ export const Leerdoel3 = () => {
                                         Bij deze stap is als groep gekeken naar hoe de uitdagingen, uit de vorige stap, opgelost/vermeden kunnen worden. Het doel was om oplossingen te schrijven voor de uitdagingen en vervolgens te stemmen op de, naar eigen mening, beste oplossing. Elke mede-stagaire mocht 3 keer stemmen op een oplossing.
                                     </p>
                                     <p>
-                                        In deze stap heb ik 2 oplossing kunnen bedenken. Deze oplossing was:
+                                        In deze stap heb ik 2 oplossing kunnen bedenken. Deze oplossingen waren:
                                         <ul>
                                             <li>
                                             Een disclaimer die aangeeft dat de producten in de Digitale Koopjeshoek niet meer op voorraad kunnen zijn. Met als motivatie: hiermee kan er teleurstelling bij de klant voorkomen worden.
@@ -332,7 +332,7 @@ export const Leerdoel3 = () => {
                                         </ul>
                                     </p>
                                     <p>
-                                        Ik stemde vervolgens op mijn eigen oplossingen. Mijn laatste stem zette ik op:
+                                        Ik stemde vervolgens op mijn eigen oplossingen. Ik stemde ook op:
                                         <ul>
                                             <li>
                                                 Bij elk product kan de laatste update tijd vermeld worden.
@@ -350,7 +350,7 @@ export const Leerdoel3 = () => {
                                         Bij deze stap is als team bepaalt wat de impact en moeite zal zijn van elke oplossing.
                                     </p>
                                     <p>
-                                        Bij deze stap had ik echter een passieve houding aangenomen. De impact en moeite is bepaald door mijn mede-stagaires.
+                                        De impact en moeite is bepaald door mijn mede-stagaires.
                                     </p>
                                 </td>
                             </tr>

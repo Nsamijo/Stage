@@ -17,28 +17,41 @@ const Leerdoelen = () => {
 
     return (
         <Row>
+            <br/>
             <Col
                 sm={12}
                 lg={3}
             >
                 <Nav variant="pills" className="flex-column leerdoel-navigation" defaultActiveKey="manage">
                     <Nav.Item>
-                        <Nav.Link eventKey="manage" href="#leerdoelen" data-slide-to="0">Manage and Control</Nav.Link>
+                        <Nav.Link eventKey="manage" href="#leerdoelen" data-slide-to="0">Leerdoel 1: Manage and Control</Nav.Link>
                     </Nav.Item>
                     <Nav.Item  >
-                        <Nav.Link eventKey="analyse" href="#leerdoelen" data-slide-to="1">Analyseren</Nav.Link>
+                        <Nav.Link eventKey="analyse" href="#leerdoelen" data-slide-to="1">Leerdoel 2: Analyseren</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item  >
+                        <Nav.Link eventKey="analyse2" href="#leerdoelen" data-slide-to="2">Leerdoel 3: Analyseren</Nav.Link>
                     </Nav.Item>
                     <Nav.Item >
-                        <Nav.Link eventKey="advies" href="#leerdoelen"  data-slide-to="2">Adviseren</Nav.Link>
+                        <Nav.Link eventKey="advies" href="#leerdoelen"  data-slide-to="3">Leerdoel 4: Adviseren</Nav.Link>
                     </Nav.Item>
                     <Nav.Item >
-                        <Nav.Link eventKey="ontwerp" href="#leerdoelen"  data-slide-to="3">Ontwerpen</Nav.Link>
+                        <Nav.Link eventKey="ontwerp" href="#leerdoelen"  data-slide-to="4">Leerdoel 5: Ontwerpen</Nav.Link>
                     </Nav.Item>
                     <Nav.Item >
-                        <Nav.Link eventKey="realise" href="#leerdoelen"  data-slide-to="4">Realiseren</Nav.Link>
+                        <Nav.Link eventKey="ontwerp2" href="#leerdoelen"  data-slide-to="5">Leerdoel 6: Ontwerpen</Nav.Link>
                     </Nav.Item>
                     <Nav.Item >
-                        <Nav.Link eventKey="skills" href="#leerdoelen"  data-slide-to="5">Professional Skills</Nav.Link>
+                        <Nav.Link eventKey="realise" href="#leerdoelen"  data-slide-to="6">Leerdoel 7: Realiseren</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item >
+                        <Nav.Link eventKey="realise2" href="#leerdoelen"  data-slide-to="7">Leerdoel 8: Realiseren</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item >
+                        <Nav.Link eventKey="skills" href="#leerdoelen"  data-slide-to="8">Leerdoel 9: Professional Skills</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item >
+                        <Nav.Link eventKey="skills2" href="#leerdoelen"  data-slide-to="9">Leerdoel 10: Professional Skills</Nav.Link>
                     </Nav.Item>
                 </Nav>
             </Col>
@@ -49,7 +62,8 @@ const Leerdoelen = () => {
                     </CarouselItem>
                     <CarouselItem>
                         <ReadCode/>
-                        <br/>
+                    </CarouselItem>
+                    <CarouselItem>
                         <Problem/>
                     </CarouselItem>
                     <CarouselItem>
@@ -57,17 +71,20 @@ const Leerdoelen = () => {
                     </CarouselItem>
                     <CarouselItem>
                         <Ontwerpen/>
-                        <br/>
+                    </CarouselItem>
+                    <CarouselItem>
                         <Flowchart/>
                     </CarouselItem>
                     <CarouselItem>
                         <Quality/>
-                        <br/>
+                    </CarouselItem>
+                    <CarouselItem>
                         <CICD/>
                     </CarouselItem>
                     <CarouselItem>
                         <Feedback/>
-                        <br/>
+                    </CarouselItem>
+                    <CarouselItem>
                         <ZelfStandig/>
                     </CarouselItem>
                 </Carousel>

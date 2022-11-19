@@ -26,3 +26,9 @@ Nav.Link:active{
   z-index: 999;
   position: fixed !important;
 }
+
+@media  only screen and (max-device-width: 1200px) {
+  .leerdoel-navigation {
+    position: relative !important;
+  }
+}

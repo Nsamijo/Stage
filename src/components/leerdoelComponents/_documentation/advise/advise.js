@@ -204,16 +204,16 @@ export const Leerdoel4 = () => {
                 <h3 className="vertical-timeline-element-title">In de Toekomst</h3>
                 <h6 className="vertical-timeline-element-subtitle">Hoe ik adviezen zal geven in de toekomst</h6>
                 <p>
-                    In het begin en tijdens mijn stage was ik instaat geweest om adviezen te bespreken (verder uitgewerkt in mijn reflectie).
+                    Tijdens mijn stage ben ik instaat geweest om adviezen te bespreken (verder uitgewerkt in mijn reflectie).
                 </p>
                 <p>
-                    In mijn volgende stage zal ik mijn mening/advies over potentiële functionaliteiten delen. Hierbij zal ik de advies formuleren als:
+                    In mijn volgende stage zal ik meer mijn mening/advies delen over mogelijke functionaliteiten, oplossingen en/of uitdagingen. Hierbij zal ik de advies formuleren als:
                     <ul>
                         <li>
-                            "Ik vindt dat deze functionaliteit [functionaliteit] nodig is want [motivatie]"
+                            "Ik vindt dat [functionaliteit/oplossing/uitdaging] nodig is want [motivatie]"
                         </li>
                         <li>
-                            "Ik denk hierbij aan [functionaleit]"
+                            "Ik denk hierbij aan [functionaleit/oplossing/uitdaging]"
                         </li>
                     </ul>
                 </p>
@@ -221,7 +221,7 @@ export const Leerdoel4 = () => {
                     In mijn volgende stage zal ik ook het volgende doen:
                     <ul>
                         <li>
-                            Actieve houding aannemen: mijn mening geven over bijvoorbeeld functionaliteit
+                            Mijn mening geven over bijvoorbeeld functionaliteit
                         </li>
                         <li>
                             Het discussieren van functionaliteiten met anderen

@@ -2,29 +2,49 @@ import React from "react";
 import {Accordion, Container, Row} from "react-bootstrap";
 
 import {design} from "../../../../constants/content";
+import "../../../Leerdoelen/leerdoel.css";
+import {Flows} from "./docs";
 
 export const Flowchart = () => {
     return (
-        <Container className={'containerStyle'}>
+        <Container>
             <Row>
-                <h2>Leerdoel: Ontwerpen</h2>
-                <div className="leerdoel">
-                    {design.leerdoel3}
-                </div>
-            </Row>
-            <Row>
-                <h5>Leerdoel Context</h5>
                 <p>
+                    <h2>Leerdoel: Ontwerpen</h2>
+                    <div className="leerdoel">
+                        {design.leerdoel3}
+                    </div>
+                </p>
+                <p>
+                    <h5>Leerdoel Context</h5>
                     Voor dit leerdoel is er in opdracht van mijn stagebegeleider, W. Kleij, een stroomdiagram gemaakt van de Digitale Koopjeshoek. Met behulp van de procesvisualisatie wil ik de functie(s) van de Digitale Koopjeshoek verduidelijken.
+                </p>
+                <p>
+                    <Accordion>
+                        <Accordion.Item>
+                            <Accordion.Header>
+                                Stroomdiagram
+                            </Accordion.Header>
+                            <Accordion.Body>
+                                <p>
+                                    <p>
+                                        Een stroomdiagram is een diagram dat een proces, systeem of computeralgoritme weergeeft. Ze worden in meerdere vakgebieden gebruikt om vaak complexe processen te documenteren, bestuderen, plannen, verbeteren en communiceren, in duidelijke en gemakkelijk te begrijpen diagrammen <a href={'https://www.lucidchart.com/pages/nl/wat-is-een-stroomdiagram'}>(Wat is een stroomdiagram?, z.d.)</a>.
+                                    </p>
+                                    <p>
+                                        Stroomdiagrammen gebruiken rechthoeken, ovalen, ruiten en nog veel meer vormen om het soort stap aan te geven - en pijlen om de stroom en volgorde te bepalen. Dit kan gaan van eenvoudige, handmatige schema's tot uitgebreide, computergetekende diagrammen met verschillende stappen en routes. Van alle verschillende diagrammen, is de stroomdiagram een van de meest gebruikte diagrammen ter wereld, zowel in technische als niet-technische vakgebieden <a href={'https://www.lucidchart.com/pages/nl/wat-is-een-stroomdiagram'}>(Wat is een stroomdiagram?, z.d.)</a>.
+                                    </p>
+                                </p>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
                 </p>
             </Row>
             <Row>
-                <h5>Stroomdiagram</h5>
-            </Row>
-            <Row>
-                <h5>Documentatie Omschrijving</h5>
                 <p>
-                    Om dit leerdoel te behalen is er een stroomdiagram (schematische voorstelling) gemaakt van de Digitale Koopjeshoek.
+                    <h5>Documentatie Omschrijving</h5>
+                    <p>
+                        Om dit leerdoel te behalen is er een stroomdiagram gemaakt van de Digitale Koopjeshoek.
+                    </p>
                 </p>
             </Row>
             <Row>
@@ -35,7 +55,7 @@ export const Flowchart = () => {
                             Documentatie Flowchart
                         </Accordion.Header>
                         <Accordion.Body>
-
+                            <Flows/>
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
@@ -54,6 +74,8 @@ export const Flowchart = () => {
                     </Accordion.Item>
                 </Accordion>
             </Row>
+            <br/>
+            <br/>
         </Container>
     );
 }

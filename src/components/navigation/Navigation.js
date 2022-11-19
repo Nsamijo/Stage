@@ -13,7 +13,7 @@ class Navigation extends React.Component {
                 <Navbar fixed={'top'} bg="light" expand="lg">
                     <Container>
                         <Navbar.Brand href="/Stage">Portfolio Nathan K. Samijo</Navbar.Brand>
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav variant="tabs" className="me-auto">
                                 <Nav.Link eventKey="/Leerdoelen" activeClassName="chosen">

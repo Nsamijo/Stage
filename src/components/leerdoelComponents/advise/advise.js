@@ -107,8 +107,7 @@ export const Advise = () => {
                                 </p>
                                 <p>
                                     Het bespreken van adviezen was wel effectief en leverde inzichten die ik kon delen
-                                    met het team. Alleen gebeurde dit niet vaak genoeg in de beginperiode van mijn stage
-                                    (door de passieve houding die ik had).
+                                    met het team. Alleen gebeurde dit niet vaak genoeg in de beginperiode van mijn stage.
                                     <p>
                                         Bij nader inzien had ik het volgende anders moeten doen:
                                         <ul>
