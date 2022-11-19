@@ -204,30 +204,27 @@ export const Leerdoel4 = () => {
                 <h3 className="vertical-timeline-element-title">In de Toekomst</h3>
                 <h6 className="vertical-timeline-element-subtitle">Hoe ik adviezen zal geven in de toekomst</h6>
                 <p>
-                    Tijdens mijn stage ben ik instaat geweest om adviezen te bespreken (verder uitgewerkt in mijn reflectie).
+                    Tijdens mijn stage heb ik getracht/geprobeerd mijn adviezen te motiveren en te bespreken
                 </p>
                 <p>
-                    In mijn volgende stage zal ik meer mijn mening/advies delen over mogelijke functionaliteiten, oplossingen en/of uitdagingen. Hierbij zal ik de advies formuleren als:
+                    Wat ik heb geleerd:
                     <ul>
                         <li>
-                            "Ik vindt dat [functionaliteit/oplossing/uitdaging] nodig is want [motivatie]"
-                        </li>
-                        <li>
-                            "Ik denk hierbij aan [functionaleit/oplossing/uitdaging]"
+                            Ik zal in de toekomst mijn mening en advies duidelijker kenbaar maken door helder te motiveren. Dat zal ik doen door mijn motieven eerst goed uit te werken voor mezelf. En goed na te denken over de gebruikte woorden.
                         </li>
                     </ul>
                 </p>
                 <p>
-                    In mijn volgende stage zal ik ook het volgende doen:
+                    Voor mijn volgende stage zal ik het volgende doen:
                     <ul>
                         <li>
-                            Mijn mening geven over bijvoorbeeld functionaliteit
+                            Mijn mening over bijvoorbeeld functionaliteiten goed uitdenken en beschrijven
                         </li>
                         <li>
-                            Het discussieren van functionaliteiten met anderen
+                            Op basis daarvan de discussie met anderen aangaan en openstaan voor feedback
                         </li>
                         <li>
-                            Motiveren: het motiveren van mijn mening over potentiële functionaliteit
+                            Indien ik merk dat mijn motieven/mening niet goed overkomt zal ik vragen of ik duidelijk genoeg ben.
                         </li>
                     </ul>
                 </p>

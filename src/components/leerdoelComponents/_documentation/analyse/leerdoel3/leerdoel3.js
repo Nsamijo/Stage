@@ -268,7 +268,7 @@ export const Leerdoel3 = () => {
                                     </ul>
                                     </p>
                                     <p>
-                                        Mijn conclusie: Op basis van mijn onderzoek naar hoe Bol.com en Mediamarkt omgaan met verspilling ben ik tot de conclusie gekomen dat een aparte software-oplossing (webpagina) zou moeten kiezen.
+                                        Mijn conclusie: Op basis van mijn onderzoek naar hoe Bol.com en Mediamarkt omgaan met verspilling ben ik tot de conclusie gekomen dat Albert Heijn een aparte software-oplossing (webpagina) zou moeten kiezen.
                                     </p>
                                 </td>
                             </tr>
