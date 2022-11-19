@@ -3,6 +3,7 @@ import {Container} from "react-bootstrap";
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
 import {AiOutlineFlag} from "react-icons/ai";
 import {FaFlagCheckered} from "react-icons/fa";
+import {MdOutlineDeveloperBoard} from "react-icons/md";
 
 
 export const Flows = () => {
@@ -30,7 +31,18 @@ export const Flows = () => {
                     icon={<AiOutlineFlag/>}
                 />
 
-
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: `${white}`, border: 'solid'}}
+                    contentArrowStyle={{ borderRight: `7px solid black` }}
+                    iconStyle={{ background: `${white}`}}
+                    icon={<MdOutlineDeveloperBoard/>}
+                >
+                    <h3 className="vertical-timeline-element-title">Flowchart</h3>
+                    <h6 className="vertical-timeline-element-subtitle">Digitale Koopjeshoek</h6>
+                    <p>
+                    </p>
+                </VerticalTimelineElement>
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
