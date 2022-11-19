@@ -56,7 +56,7 @@ const Project = () => {
                         Probleemstelling: Hoe kan Albert Heijn zijn klanten, zo enthousiast mogelijk, over Dynamisch Afprijzen laten weten?
                     </p>
                     <p>
-                        <h4>Individueel</h4>
+                        <h4>Persoonlijke Bijdrage</h4>
                         <p>
                             Tijdens de presentatie heb ik notities gemaakt. Deze notities heb ik uitgewerkt in Leerdoel 3: Analyse
                         </p>
@@ -83,7 +83,7 @@ const Project = () => {
                         </ul>
                     </p>
                     <p>
-                        <h4>Individueel</h4>
+                        <h4>Persoonlijke Bijdrage</h4>
                         <p>
                            Tijdens de Brainstorm-sessie heb ik geadviseerd over mogelijke functionaliteiten. Bij het onderdeel Impact en Moeite, Leerdoel 3: Analyseren, heb ik een geringe bijdrage kunnen leveren omdat ik niet kon inschatten hoeveel tijd en moeite het zou kosten om een functionaliteit te realiseren.
                         </p>
@@ -109,7 +109,7 @@ const Project = () => {
                         </ul>
                     </p>
                     <p>
-                        <h4>Individueel</h4>
+                        <h4>Persoonlijke Bijdrage</h4>
                         <p>
                             Ik werd hier ingedeeld in de Backend groep. Dit houdt in dat 2 mede-stagaires en ik verantwoordelijk waren voor het ontwikkelen van de functionaliteiten.
                         </p>
@@ -217,12 +217,12 @@ const Project = () => {
                         </ul>
                     </p>
                     <p>
-                        <h4>Individueel</h4>
+                        <h4>Persoonlijke Bijdrage</h4>
                         <p>
-                            Ik heb hier meegekeken met het team. Het team heeft de taken neergezet in Jira en toen mij kort uitgelegd hoe ik zelf een taak kan oppakken.
+                            Ik heb hier meegekeken met het team. Het team heeft de taken neergezet in Jira en mij toen kort uitgelegd hoe ik zelf een taak kan oppakken.
                         </p>
                         <p>
-                            Verder heb ik, onder begeleiding van de stagebegeleiders, de Intellij IDE en programmeertalen (Javascript/Typescript en Java) geinstalleerd. Ook is er uitleg ontvangen over de (Spring)Java.
+                            Verder heb ik, onder begeleiding van de stagebegeleiders, de Intellij IDE en programmeertalen (Javascript/Typescript en Java) geïnstalleerd. Verder heb ik uitleg ontvangen over de inhoud en gebruik van (Spring) Java.
                         </p>
                     </p>
                 </VerticalTimelineElement>
@@ -276,7 +276,7 @@ const Project = () => {
                                 Het bepalen van de afstand tussen klant en winkel. De afstand wordt berekent met de Haversine formule. Na het opleveren van deze functionaliteit stapte ik over naar de Frontend.
                             </li>
                             <li>
-                                Na de overstap begon ik te werken aan het software onderdeel locatie-vermelding. Dit software onderdeel toont het adres van de, door de gebruiker, geselecteerde winkel. Het onderdeel zal op de (afgeprijsde) producten-pagina komen te staan. Wanneer een gebruiker de locatie-onderdeel koos werd deze teruggevoerd naar de landings-pagina.
+                                Na de overstap begon ik te werken aan het software onderdeel locatie-vermelding. Dit software onderdeel toont het adres van de, door de gebruiker, geselecteerde winkel. De gebruiker komt automatisch op de (afgeprijsde) producten-pagina. Indien er geen afgeprijsde producten zijn wordt een foutmelding gegenereerd. Wanneer de gebruiker de adres-onderdeel kiest komt deze weer terug op de landingspagina.
                             </li>
                         </ul>
                     </p>
@@ -320,16 +320,16 @@ const Project = () => {
                     </p>
                     <p>
                         <h4>
-                            Individueel
+                            Persoonlijke Bijdrage
                         </h4>
                         <p>
-                            Ik doe mee met de sprintupdate en retrospective. Tijdens de sprintupdate doe ik het volgende:
+                            Ik heb meegedaan met de sprintupdate en reflectiemoment. Tijdens de sprintupdate heb ik het volgende gedaan:
                             <ul>
                                 <li>
-                                    Lever de Locatie-component op. Deze wordt na de oplevering getest door mede-stagaires en stagebegeleiders
+                                    Locatie-component opgeleverd. Deze werd vervolgens getest en goedgekeurd door de mede-stagaires en stagebegeleiders.
                                 </li>
                                 <li>
-                                    Stel de vraag aan het team welke taak ik kan oppakken. Hierbij wordt aan mij toegewezen het maken van de banner.
+                                    Op de vraag welke taak ik hierna kon oppakken kreeg ik als antwoordt het maken van de Banner.
                                 </li>
                             </ul>
                         </p>
@@ -396,9 +396,9 @@ const Project = () => {
                         Het project gaat nu van een "Build"-fase naar een "Measure"- en "Learn"-fase. De "Measure"- en "Learn"-fase hebben een kortere duur.
                     </p>
                     <p>
-                        <h4>Individueel</h4>
+                        <h4>Persoonlijke Bijdrage</h4>
                         <p>
-                            In de retrospective heb ik een passieve houding. Bij het bespreken wordt duidelijk dat alleen nog bugfixes en de Hackerguild Safety Test moet.
+                            In de retrospective werd duidelijk dat er alleen nog bugfixes (fouten in de software die gecorrigeerd moeten worden) gedaan moeten worden. Ook moest de Hackerguild Safety Test uitgevoerd worden (zie vervolg).
                         </p>
                     </p>
                 </VerticalTimelineElement>
@@ -449,9 +449,9 @@ const Project = () => {
                         De laatste feedback komt binnen vanuit business. Deze is al uitgewerkt en moet worden meegenomen in de applicatie. Deze feedback gaat voornamelijk over de stijl, lettertype en -grote.
                     </p>
                     <p>
-                        <h4>Individueel</h4>
+                        <h4>Persoonlijke Bijdrage</h4>
                         <p>
-                            Ik help mee met de bugfixes. En voor aanpassingen aan verschillende componenten waaronder de Disclaimer en Banner. Verder ga ik door met het doornemen en beoordelen van Pull Requests.
+                            Ik heb bijdrage geleverd aan de bugfixes. Ook heb ik meegewerkt aan de Disclaimer, de Banner en diverse programma-componenten.
                         </p>
                     </p>
                 </VerticalTimelineElement>
