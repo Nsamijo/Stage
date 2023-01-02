@@ -73,16 +73,16 @@ export const Flowchart = () => {
                                 Door te werken aan dit leerdoel wilde ik leren om processen/algoritmes van een applicatie te visualiseren.
                             </p>
                             <p>
-                                Dit leerdoel is naar mijn mening tijdens mijn stage onvoldoende aan bod gekomen. Mijn aandachtsgebied was voornamelijk gericht op applicatieontwikkeling.
+                               Tijdens mijn stage heb ik me voornamelijk bezig gehouden met applicatieontwikkeling.
                             </p>
                             <p>
-                                Tijdens mijn stage heb ik op verschillende momenten uitleg gehad over de verschillende processen. Dit werd gedaan om de stagaires een beeld te geven over de applicatie. Het visualiseren van de algoritme werd gedaan als groep, maar voornamelijk door de UX-stagaire. Hierbij heb ik wel meegedacht, mijn mening en advies gegeven over de stroomdiagram.
+                                Er is op verschillende momenten uitleg gegeven over de processen. Dit werd gedaan om ons, als stagaires, een beeld te geven over de diverse applicaties. Het visualiseren van de algoritme werd gedaan als groep, maar voornamelijk door de UX-stagaires. Hierbij heb ik wel meegedacht, mijn mening en advies gegeven over de diverse handelingen die de gebruikers van de applicatie zouden kunnen uitvoeren.
                             </p>
                             <p>
                                 De ontwikkeling die ik heb gemaakt is; het kunnen meedenken, motiveren en adviseren van de flow van de applicatie, waarbij rekening wordt gehouden met al bestaande processen van het bedrijf (Albert Heijn).
                             </p>
                             <p>
-                                Door dit alles heb ik naar mijn mening geen vorderingen kunnen maken. Dit leerdoel heb ik daarom niet naar tevredenheid afgerond.
+                                Ik heb naar mijn mening weinig  input kunnen leveren omdat de UX-designers op dit vlak het voor-touw namen. Wij als niet UX-designers werden slechts gevraagd of wij akkoord gingen met de flowchart. Ik had graag de mogelijheid gehad om hier meer ervaring in op te doen.
                             </p>
                         </Accordion.Body>
                     </Accordion.Item>

@@ -32,7 +32,7 @@ export const Quality = () => {
                   <p>
                       Voor dit leerdoel is er eerst gezocht naar wat de kwaliteitseisen zijn. Deze zijn onder andere:
                       <ul>
-                          <li>Het ontwerp in Figma</li>
+                          <li>De ontwerpen in Figma</li>
                           <li>Kwaliteitseisen van de taak (feature) vermeld in het Jira-bord (Manage en Control)</li>
                       </ul>
                       Nadat de kwaliteitseisen duidelijk vastgelegd waren kon er gewerkt worden aan de taken (features). In onderstaande documentatie zijn er foto's van de kwaliteitseisen en ontwikkelde coderegels opgenomen.
