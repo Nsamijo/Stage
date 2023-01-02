@@ -90,6 +90,9 @@ export const Flows = () => {
                             </li>
                         </ol>
                     </p>
+                    <p>
+                        De bovengenoemde algoritme is als groep samengesteld.
+                    </p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement

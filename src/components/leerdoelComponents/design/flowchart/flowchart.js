@@ -70,13 +70,16 @@ export const Flowchart = () => {
                         </Accordion.Header>
                         <Accordion.Body>
                             <p>
-                                Door te werken aan dit leerdoel wilde ik leren om processen binnen een applicatie te visualiseren
+                                Door te werken aan dit leerdoel wilde ik leren om processen/algoritmes van een applicatie te visualiseren.
                             </p>
                             <p>
                                 Dit leerdoel is naar mijn mening tijdens mijn stage onvoldoende aan bod gekomen. Mijn aandachtsgebied was voornamelijk gericht op applicatieontwikkeling.
                             </p>
                             <p>
-                                Tijdens mijn stage heb ik op verschillende momenten uitleg gehad over de verschillende processen. Dit werd gedaan om de stagaires een beeld te geven over hoe de applicatie. Het maken van een stroomdiagram was niet een prioriteit aangezien de processen al ontwikkelt waren.
+                                Tijdens mijn stage heb ik op verschillende momenten uitleg gehad over de verschillende processen. Dit werd gedaan om de stagaires een beeld te geven over de applicatie. Het visualiseren van de algoritme werd gedaan als groep, maar voornamelijk door de UX-stagaire. Hierbij heb ik wel meegedacht, mijn mening en advies gegeven over de stroomdiagram.
+                            </p>
+                            <p>
+                                De ontwikkeling die ik heb gemaakt is; het kunnen meedenken, motiveren en adviseren van de flow van de applicatie, waarbij rekening wordt gehouden met al bestaande processen van het bedrijf (Albert Heijn).
                             </p>
                             <p>
                                 Door dit alles heb ik naar mijn mening geen vorderingen kunnen maken. Dit leerdoel heb ik daarom niet naar tevredenheid afgerond.
