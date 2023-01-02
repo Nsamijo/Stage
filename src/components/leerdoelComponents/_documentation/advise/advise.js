@@ -224,7 +224,7 @@ export const Leerdoel4 = () => {
                             Op basis daarvan de discussie met anderen aangaan en openstaan voor feedback
                         </li>
                         <li>
-                            Indien ik merk dat mijn motieven/mening niet goed overkomt zal ik vragen of ik duidelijk genoeg ben.
+                            Indien ik merk dat mijn motieven/mening niet goed overkomt zal ik vragen of ik duidelijk genoeg ben.0
                         </li>
                     </ul>
                 </p>

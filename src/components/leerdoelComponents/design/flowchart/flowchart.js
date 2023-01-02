@@ -66,10 +66,21 @@ export const Flowchart = () => {
                 <Accordion>
                     <Accordion.Item eventKey={"0"}>
                         <Accordion.Header>
-                            Feedback en Reflectie
+                            Reflectie
                         </Accordion.Header>
                         <Accordion.Body>
-
+                            <p>
+                                Door te werken aan dit leerdoel wilde ik leren om processen binnen een applicatie te visualiseren
+                            </p>
+                            <p>
+                                Dit leerdoel is naar mijn mening tijdens mijn stage onvoldoende aan bod gekomen. Mijn aandachtsgebied was voornamelijk gericht op applicatieontwikkeling.
+                            </p>
+                            <p>
+                                Tijdens mijn stage heb ik op verschillende momenten uitleg gehad over de verschillende processen. Dit werd gedaan om de stagaires een beeld te geven over hoe de applicatie. Het maken van een stroomdiagram was niet een prioriteit aangezien de processen al ontwikkelt waren.
+                            </p>
+                            <p>
+                                Door dit alles heb ik naar mijn mening geen vorderingen kunnen maken. Dit leerdoel heb ik daarom niet naar tevredenheid afgerond.
+                            </p>
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
